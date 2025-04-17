@@ -58,51 +58,51 @@ export default function CocktailsMenuPage() {
       id: 'achakkar',
       name: 'ACHAKKAR',
       ingredients: 'Bourbon Woodford Reserve, Purée de Fraise Maison, Citron, Mousse vegan',
-      price: 140,
+      price: 95,
       featured: true
     },
     {
       id: 'tangerino',
       name: 'TANGERINO',
       ingredients: 'Vodka Tito\'s, Liqueur de Coco, Purée de Mangue Maison, Ginger Soda',
-      price: 140,
+      price: 95,
       featured: true
     },
     {
       id: 'cap-spartel',
       name: 'CAP SPARTEL',
       ingredients: 'Gin Bombay Saphire, Liqueur de Pêche, Purée de Pêche Maison, Sirop de Lavande',
-      price: 140
+      price: 95
     },
     {
       id: 'hafa',
       name: 'HAFA',
       ingredients: 'Bacardi Blanc, Cachaça, Oleo-saccharum à la Banane Épicée, Sirop de Vin Blanc Infusé à la Pêche et à l\'Ananas Grillé, Banane Grillée Écrasée',
-      price: 140
+      price: 95
     },
     {
       id: 'malabata',
       name: 'MALABATA BEACH',
       ingredients: 'Vodka Tito\'s, Purée de Fruit de la Passion, Jus d\'Orange',
-      price: 140
+      price: 95
     },
     {
       id: 'kasbah',
       name: 'KASBAH',
       ingredients: 'Whisky Grants, Liqueur de Pommes, Jus de Pommes',
-      price: 140
+      price: 95
     },
     {
       id: 'rmilat',
       name: 'RMILAT',
       ingredients: 'Purée de Litchi, Menthe, Gin Bombay, Vermouth Rosé',
-      price: 140
+      price: 95
     },
     {
       id: 'perdicaris',
       name: 'PERDICARIS',
       ingredients: 'Tequila, Jus d\'Orange, Sirop de Grenadine, Liqueur d\'Orange',
-      price: 140
+      price: 95
     }
   ];
 

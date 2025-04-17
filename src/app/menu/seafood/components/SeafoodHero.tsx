@@ -4,7 +4,7 @@ import { useRef, useEffect, useState } from 'react';
 import Image from 'next/image';
 import { motion } from 'framer-motion';
 
-export default function CocktailMenuHero() {
+export default function SeafoodMenuHero() {
   const heroRef = useRef<HTMLDivElement>(null);
   const [isVisible, setIsVisible] = useState(false);
 
@@ -45,8 +45,8 @@ export default function CocktailMenuHero() {
       {/* Background image with overlay */}
       <div className="absolute inset-0">
         <Image
-          src="/cocktails.jpg"
-          alt="Elegant cocktails"
+          src="/seafood.jpg"
+          alt="Fresh seafood and oysters"
           layout="fill"
           objectFit="cover"
           className="opacity-70"
@@ -78,8 +78,8 @@ export default function CocktailMenuHero() {
           animate={isVisible ? { opacity: 1, y: 0 } : { opacity: 0, y: 30 }}
           transition={{ duration: 0.8, delay: 0.2 }}
         >
-          COCKTAILS<br></br>
-          & SOFT
+          SEAFOOD<br></br>
+          & OYSTERS
         </motion.h1>
 
         {/* Decorative line */}
@@ -97,8 +97,8 @@ export default function CocktailMenuHero() {
           animate={isVisible ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
           transition={{ duration: 0.8, delay: 0.6 }}
         >
-          Indulge in our curated selection of signature cocktails that blend Mediterranean 
-          inspiration with modern techniques.
+          Experience the exquisite flavors of the Mediterranean with our premium selection of 
+          fresh seafood and hand-selected oysters, prepared with culinary mastery.
         </motion.p>
 
         {/* Scroll indicator - Now clickable */}
@@ -119,7 +119,7 @@ export default function CocktailMenuHero() {
           aria-label="Scroll to next section"
         >
           <div className="flex flex-col items-center">
-            <span className="text-amber-200/60 text-sm tracking-widest mb-2 hover:text-amber-200 transition-colors">DISCOVER</span>
+            <span className="text-amber-200/60 text-sm tracking-widest mb-2 hover:text-amber-200 transition-colors">EXPLORE</span>
             <div className="w-px h-16 bg-gradient-to-b from-amber-200/60 to-transparent"></div>
           </div>
         </motion.div>

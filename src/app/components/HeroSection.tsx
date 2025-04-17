@@ -78,14 +78,21 @@ export default function HeroSection() {
 
       {/* Content Container */}
       <div className="relative z-10 flex flex-col justify-center items-center h-full text-center text-white px-4">
-        {/* Restaurant Name with elegant animation */}
+        {/* Restaurant Logo with elegant animation - replaced text with logo image */}
         <motion.div 
           initial={{ opacity: 0, y: -20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.2 }}
           className="mb-6"
         >
-          <h1 className="font-SweetSansProBold text-5xl md:text-7xl font-serif tracking-widest text-amber-50">TANGERINO</h1>
+          <Image 
+            src="/logo.png" 
+            alt="Tangerino Logo" 
+            width={300}
+            height={100}
+            className="mx-auto"
+            priority
+          />
         </motion.div>
 
         {/* Elegant ornamental divider */}

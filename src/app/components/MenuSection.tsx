@@ -53,7 +53,7 @@ export default function MenuCategorySection() {
       title: 'Champagne et Vins',
       description: 'Curated selection from celebrated Mediterranean vineyards',
       image: '/wines.jpg',
-      link: '/menu/wines'
+      link: '/menu/champagne'
     },
     {
       id: 'beers',

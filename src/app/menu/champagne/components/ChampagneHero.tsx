@@ -4,7 +4,7 @@ import { useRef, useEffect, useState } from 'react';
 import Image from 'next/image';
 import { motion } from 'framer-motion';
 
-export default function CocktailMenuHero() {
+export default function ChampagneVinsHero() {
   const heroRef = useRef<HTMLDivElement>(null);
   const [isVisible, setIsVisible] = useState(false);
 
@@ -45,8 +45,8 @@ export default function CocktailMenuHero() {
       {/* Background image with overlay */}
       <div className="absolute inset-0">
         <Image
-          src="/cocktails.jpg"
-          alt="Elegant cocktails"
+          src="/wines.jpg"
+          alt="Prestigious wines and champagnes"
           layout="fill"
           objectFit="cover"
           className="opacity-70"
@@ -73,13 +73,13 @@ export default function CocktailMenuHero() {
 
         {/* Title */}
         <motion.h1
-          className="font-SweetSansProBold text-5xl md:text-7xl font-serif tracking-wider text-amber-50 mb-6"
+          className="font-SweetSansProBold text-4xl md:text-7xl font-serif tracking-wider text-amber-50 mb-6"
           initial={{ opacity: 0, y: 30 }}
           animate={isVisible ? { opacity: 1, y: 0 } : { opacity: 0, y: 30 }}
           transition={{ duration: 0.8, delay: 0.2 }}
         >
-          COCKTAILS<br></br>
-          & SOFT
+          CHAMPAGNES<br></br>
+          & VINS
         </motion.h1>
 
         {/* Decorative line */}
@@ -92,13 +92,13 @@ export default function CocktailMenuHero() {
 
         {/* Description */}
         <motion.p
-          className="text-amber-100/90 max-w-xl text-lg font-light mx-auto mb-12"
+          className="text-amber-100/90 max-w-2xl text-lg font-light mx-auto mb-12"
           initial={{ opacity: 0, y: 20 }}
           animate={isVisible ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
           transition={{ duration: 0.8, delay: 0.6 }}
         >
-          Indulge in our curated selection of signature cocktails that blend Mediterranean 
-          inspiration with modern techniques.
+          Découvrez notre sélection exceptionnelle de champagnes prestigieux et de vins soigneusement choisis, 
+          alliant tradition viticole et excellence gustative pour accompagner vos moments privilégiés.
         </motion.p>
 
         {/* Scroll indicator - Now clickable */}
@@ -119,7 +119,7 @@ export default function CocktailMenuHero() {
           aria-label="Scroll to next section"
         >
           <div className="flex flex-col items-center">
-            <span className="text-amber-200/60 text-sm tracking-widest mb-2 hover:text-amber-200 transition-colors">DISCOVER</span>
+            <span className="text-amber-200/60 text-sm tracking-widest mb-2 hover:text-amber-200 transition-colors">DÉCOUVRIR</span>
             <div className="w-px h-16 bg-gradient-to-b from-amber-200/60 to-transparent"></div>
           </div>
         </motion.div>
