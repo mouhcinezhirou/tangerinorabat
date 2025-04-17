@@ -124,19 +124,6 @@ export default function CocktailMenuHero() {
           </div>
         </motion.div>
 
-        {/* Corner accents */}
-        <motion.div 
-          className="absolute top-8 left-8 w-16 h-16 border-t-2 border-l-2 border-amber-200/40"
-          initial={{ opacity: 0 }}
-          animate={isVisible ? { opacity: 1 } : { opacity: 0 }}
-          transition={{ duration: 1, delay: 0.3 }}
-        ></motion.div>
-        <motion.div 
-          className="absolute bottom-8 right-8 w-16 h-16 border-b-2 border-r-2 border-amber-200/40"
-          initial={{ opacity: 0 }}
-          animate={isVisible ? { opacity: 1 } : { opacity: 0 }}
-          transition={{ duration: 1, delay: 0.3 }}
-        ></motion.div>
       </div>
     </section>
   );
