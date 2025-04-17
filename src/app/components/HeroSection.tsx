@@ -3,7 +3,6 @@
 import Image from 'next/image';
 import { motion } from 'framer-motion';
 import { useEffect } from 'react';
-import Link from 'next/link';
 
 export default function HeroSection() {
   useEffect(() => {
