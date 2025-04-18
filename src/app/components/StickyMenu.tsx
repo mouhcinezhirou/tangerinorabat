@@ -9,7 +9,7 @@ const menuItems = [
   { id: 'cocktails', label: 'Cocktails & Soft', link: '/menu/cocktails' },
   { id: 'champagne', label: 'Champagne et Vins', link: '/menu/champagne' },
   { id: 'bieres', label: 'Bières & Spiritueux', link: '/menu/bieres' },
-  { id: 'huitres', label: 'Huîtres & Fruits de mer', link: '/menu/huitres' },
+  { id: 'huitres', label: 'Huîtres & Fruits de mer', link: '/menu/seafood' },
   { id: 'tapas', label: 'Tapas & Entrées', link: '/menu/tapas' },
   { id: 'tortillas', label: 'Tortillas et Fritures', link: '/menu/tortillas' },
   { id: 'cassolettes', label: 'Cassolettes', link: '/menu/cassolettes' },
