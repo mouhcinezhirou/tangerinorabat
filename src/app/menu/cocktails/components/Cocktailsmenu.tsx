@@ -10,6 +10,7 @@ type Cocktail = {
   ingredients: string;
   price?: number;
   featured?: boolean;
+  detailedDescription: string;
 };
 
 type MocktailItem = {
@@ -17,6 +18,7 @@ type MocktailItem = {
   name: string;
   ingredients: string;
   price: number;
+  detailedDescription: string;
 };
 
 type SoftDrink = {
@@ -25,11 +27,13 @@ type SoftDrink = {
   description?: string;
   options?: { name: string; price: number }[];
   price?: number;
+  detailedDescription?: string;
 };
 
 export default function CocktailsMenuPage() {
   const menuRef = useRef<HTMLDivElement>(null);
   const [isVisible, setIsVisible] = useState(false);
+  const [selectedItem, setSelectedItem] = useState<string | null>(null);
 
   useEffect(() => {
     const observer = new IntersectionObserver(
@@ -52,57 +56,65 @@ export default function CocktailsMenuPage() {
     };
   }, []);
 
-  // Cocktails data - added price of 140 Dhs for each cocktail
+  // Cocktails data with detailed descriptions
   const cocktails: Cocktail[] = [
     {
       id: 'achakkar',
       name: 'ACHAKKAR',
       ingredients: 'Bourbon Woodford Reserve, Purée de Fraise Maison, Citron, Mousse vegan',
       price: 95,
-      featured: true
+      featured: true,
+      detailedDescription: 'Our twist on the classic bourbon sour, featuring premium Woodford Reserve and a cloud of vegan foam that melts delicately. The housemade strawberry purée brings a sun-ripened sweetness that plays beautifully against the citrus bite.'
     },
     {
       id: 'tangerino',
       name: 'TANGERINO',
       ingredients: 'Vodka Tito\'s, Liqueur de Coco, Purée de Mangue Maison, Ginger Soda',
       price: 95,
-      featured: true
+      featured: true,
+      detailedDescription: 'A tropical sunset in a glass, where smooth Tito\'s vodka meets luscios coconut liqueur. Crowned with housemade mango purée and finished with a refreshing ginger soda sparkle that dances on your palate.'
     },
     {
       id: 'cap-spartel',
       name: 'CAP SPARTEL',
       ingredients: 'Gin Bombay Saphire, Liqueur de Pêche, Purée de Pêche Maison, Sirop de Lavande',
-      price: 95
+      price: 95,
+      detailedDescription: 'Inspired by the Cap Spartel lighthouse, this aromatic cocktail combines Bombay Sapphire\'s botanicals with summer peaches. A whisper of Provençal lavender syrup adds an elegant floral note to this coastal-inspired creation.'
     },
     {
       id: 'hafa',
       name: 'HAFA',
       ingredients: 'Bacardi Blanc, Cachaça, Oleo-saccharum à la Banane Épicée, Sirop de Vin Blanc Infusé à la Pêche et à l\'Ananas Grillé, Banane Grillée Écrasée',
-      price: 95
+      price: 95,
+      detailedDescription: 'A complex tropical journey featuring Caribbean spirits and house-made infusions. The spiced banana oleo-saccharum and grilled fruit wine syrup create a sophisticated balance of caramelized sweetness and exotic spice.'
     },
     {
       id: 'malabata',
       name: 'MALABATA BEACH',
       ingredients: 'Vodka Tito\'s, Purée de Fruit de la Passion, Jus d\'Orange',
-      price: 95
+      price: 95,
+      detailedDescription: 'Memories of sun-kissed beaches captured in a glass, where clean vodka meets tropical passion fruit purée. The fresh orange juice adds brightness and balance, creating a refreshing seaside escape.'
     },
     {
       id: 'kasbah',
       name: 'KASBAH',
       ingredients: 'Whisky Grants, Liqueur de Pommes, Jus de Pommes',
-      price: 95
+      price: 95,
+      detailedDescription: 'A spirited tribute to Moroccan hospitality, blending Scottish whisky with French apple liqueur. The fresh apple juice adds a crisp, orchard-fresh finish to this warming cocktail.'
     },
     {
       id: 'rmilat',
       name: 'RMILAT',
       ingredients: 'Purée de Litchi, Menthe, Gin Bombay, Vermouth Rosé',
-      price: 95
+      price: 95,
+      detailedDescription: 'An exotic take on the classic martini, where fragrant lychee purée meets London gin and rose vermouth. Fresh mint leaves add a refreshing herbal lift to this sophisticated sipper.'
     },
     {
       id: 'perdicaris',
       name: 'PERDICARIS',
       ingredients: 'Tequila, Jus d\'Orange, Sirop de Grenadine, Liqueur d\'Orange',
-      price: 95
+      price: 95,
+      detailedDescription: 'Named after Tangier\'s historic park, this vibrant cocktail layers agave tequila with citrus notes. The grenadine creates a beautiful sunset effect while adding a subtle pomegranate sweetness.'
     }
   ];
 
@@ -112,29 +124,32 @@ export default function CocktailsMenuPage() {
     { quantity: 10, price: 300 }
   ];
 
-  // Mocktails data
+  // Mocktails data with detailed descriptions
   const mocktails: MocktailItem[] = [
     {
       id: 'socco',
       name: 'SOCCO BREEZE',
       ingredients: 'Hibiscus, Jus d\'Orange, Citron, Sirop d\'Agave',
-      price: 90
+      price: 90,
+      detailedDescription: 'A vibrant non-alcoholic tribute to the Grand Socco square, featuring a deep crimson hibiscus infusion. The natural sweetness of agave pairs perfectly with citrus notes for a refreshing market-day companion.'
     },
     {
       id: 'mendoubia',
       name: 'MENDOUBIA SUNSET',
       ingredients: 'Orgeat, Citron, Aquafaba, Purée de Coco Maison',
-      price: 90
+      price: 90,
+      detailedDescription: 'Inspired by the gardens of Mendoubia, this creamy delight combines almond orgeat with tropical coconut. The aquafaba creates a silky texture that rivals any classic cocktail foam.'
     },
     {
       id: 'cervantes',
       name: 'CERVANTES COOLER',
       ingredients: 'Purée de Melon Maison, Sirop de Basilic, Citron',
-      price: 90
+      price: 90,
+      detailedDescription: 'A garden-fresh mocktail that celebrates the Mediterranean palate. Sweet cantaloupe purée meets aromatic basil syrup, finished with a bright citrus lift that evokes summer sidewalks.'
     }
   ];
 
-  // Soft drinks data
+  // Soft drinks data with detailed descriptions
   const softDrinks: SoftDrink[] = [
     {
       id: 'mineral-water',
@@ -145,38 +160,45 @@ export default function CocktailsMenuPage() {
         { name: 'Evian', price: 90 },
         { name: 'Evian Petillante', price: 90 },
         { name: 'Oulmès', price: 50 }
-      ]
+      ],
+      detailedDescription: 'A curated selection of premium waters from natural springs and mountain sources. From Morocco\'s Atlas Mountains to the French Alps, each bottle brings pure mineral refreshment to your table.'
     },
     {
       id: 'fresh-juice',
       name: 'ZUMO FRESCO',
       description: 'Jus frais Freshly squeezed juice',
-      price: 60
+      price: 60,
+      detailedDescription: 'Handcrafted juices pressed to order from the day\'s finest seasonal fruits. Our selection changes with the market\'s rhythm, ensuring peak flavor in every glass.'
     },
     {
       id: 'soda',
       name: 'SODA',
-      price: 50
+      price: 50,
+      detailedDescription: 'Classic soft drinks served ice-cold in vintage glass bottles. From cola to lemon-lime, these familiar favorites complement any meal perfectly.'
     },
     {
       id: 'red-bull',
       name: 'RED BULL',
-      price: 100
+      price: 100,
+      detailedDescription: 'The iconic energy drink that gives you wings. Served chilled with your choice of glass over ice or straight from the can.'
     },
     {
       id: 'ginger-ale',
       name: 'GINGER ALE TRIBUTE',
-      price: 100
+      price: 100,
+      detailedDescription: 'A premium ginger ale with real ginger root extract and natural botanicals. Its robust flavor profile makes it perfect as a mixer or enjoyed on its own.'
     },
     {
       id: 'coffee',
       name: 'CAFÉ',
-      price: 50
+      price: 50,
+      detailedDescription: 'Single-origin Arabica beans roasted locally and prepared to your preference. From rich espresso to creamy café au lait, each cup is crafted with expertise.'
     },
     {
       id: 'tea',
       name: 'TÉ',
-      price: 50
+      price: 50,
+      detailedDescription: 'A worldly selection of fine teas, from classic Moroccan mint to rare Chinese oolongs. Each variety is steeped to perfection and served with traditional accompaniments.'
     }
   ];
 
@@ -278,9 +300,35 @@ export default function CocktailsMenuPage() {
                   
                   <div className="w-10 h-px bg-amber-200/40 mb-4"></div>
                   
-                  <p className="text-amber-100/70 italic text-sm">
+                  <p className="text-amber-100/70 italic text-sm mb-4">
                     {cocktail.ingredients}
                   </p>
+
+                  {/* Details button and content */}
+                  <div className="mt-auto">
+                    <button
+                      onClick={() => setSelectedItem(selectedItem === cocktail.id ? null : cocktail.id)}
+                      className="text-amber-200/70 hover:text-amber-200 transition-colors duration-300 text-sm flex items-center"
+                    >
+                      <span>{selectedItem === cocktail.id ? 'Hide Details' : 'View Details'}</span>
+                      <motion.span
+                        animate={{ rotate: selectedItem === cocktail.id ? 180 : 0 }}
+                        className="ml-2"
+                      >
+                        ▼
+                      </motion.span>
+                    </button>
+                    
+                    <motion.div
+                      initial={false}
+                      animate={{ height: selectedItem === cocktail.id ? 'auto' : 0, opacity: selectedItem === cocktail.id ? 1 : 0 }}
+                      className="overflow-hidden"
+                    >
+                      <p className="text-amber-100/60 text-sm mt-3 pl-3 border-l-2 border-amber-200/20">
+                        {cocktail.detailedDescription}
+                      </p>
+                    </motion.div>
+                  </div>
                 </div>
                 
                 {/* Highlight effect */}
@@ -361,9 +409,35 @@ export default function CocktailsMenuPage() {
                   
                   <div className="w-10 h-px bg-amber-200/40 mb-4"></div>
                   
-                  <p className="text-amber-100/70 italic text-sm">
+                  <p className="text-amber-100/70 italic text-sm mb-4">
                     {mocktail.ingredients}
                   </p>
+
+                  {/* Details button and content */}
+                  <div className="mt-auto">
+                    <button
+                      onClick={() => setSelectedItem(selectedItem === mocktail.id ? null : mocktail.id)}
+                      className="text-amber-200/70 hover:text-amber-200 transition-colors duration-300 text-sm flex items-center"
+                    >
+                      <span>{selectedItem === mocktail.id ? 'Hide Details' : 'View Details'}</span>
+                      <motion.span
+                        animate={{ rotate: selectedItem === mocktail.id ? 180 : 0 }}
+                        className="ml-2"
+                      >
+                        ▼
+                      </motion.span>
+                    </button>
+                    
+                    <motion.div
+                      initial={false}
+                      animate={{ height: selectedItem === mocktail.id ? 'auto' : 0, opacity: selectedItem === mocktail.id ? 1 : 0 }}
+                      className="overflow-hidden"
+                    >
+                      <p className="text-amber-100/60 text-sm mt-3 pl-3 border-l-2 border-amber-200/20">
+                        {mocktail.detailedDescription}
+                      </p>
+                    </motion.div>
+                  </div>
                 </div>
                 
                 {/* Highlight effect */}
@@ -430,6 +504,34 @@ export default function CocktailsMenuPage() {
                           <span className="text-amber-200/80">{option.price} </span>
                         </div>
                       ))}
+                    </div>
+                  )}
+
+                  {/* Details button and content */}
+                  {drink.detailedDescription && (
+                    <div className="mt-auto pt-4">
+                      <button
+                        onClick={() => setSelectedItem(selectedItem === drink.id ? null : drink.id)}
+                        className="text-amber-200/70 hover:text-amber-200 transition-colors duration-300 text-sm flex items-center"
+                      >
+                        <span>{selectedItem === drink.id ? 'Hide Details' : 'View Details'}</span>
+                        <motion.span
+                          animate={{ rotate: selectedItem === drink.id ? 180 : 0 }}
+                          className="ml-2"
+                        >
+                          ▼
+                        </motion.span>
+                      </button>
+                      
+                      <motion.div
+                        initial={false}
+                        animate={{ height: selectedItem === drink.id ? 'auto' : 0, opacity: selectedItem === drink.id ? 1 : 0 }}
+                        className="overflow-hidden"
+                      >
+                        <p className="text-amber-100/60 text-sm mt-3 pl-3 border-l-2 border-amber-200/20">
+                          {drink.detailedDescription}
+                        </p>
+                      </motion.div>
                     </div>
                   )}
                 </div>

@@ -25,7 +25,10 @@ export default function MenuCategorySection() {
           setIsVisible(true);
         }
       },
-      { threshold: 0.1 }
+      { 
+        threshold: 0,  // Trigger immediately when any part of the element becomes visible
+        rootMargin: '100px 0px' // Trigger 100px before the element enters the viewport
+      }
     );
 
     if (menuRef.current) {

@@ -47,7 +47,7 @@ export default function HeroSection() {
         className="absolute inset-0 z-0"
       >
         <Image 
-          src="/bg.jpeg" 
+          src="/bg.jpg" 
           alt="Tangerino Restaurant Background" 
           layout="fill" 
           objectFit="cover" 

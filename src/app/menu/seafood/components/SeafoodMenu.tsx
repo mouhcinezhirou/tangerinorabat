@@ -10,6 +10,7 @@ type SeafoodItem = {
   description: string;
   price: number;
   featured?: boolean;
+  detailedDescription: string;
 };
 
 type OysterOption = {
@@ -18,11 +19,13 @@ type OysterOption = {
   description: string;
   price: number;
   featured?: boolean;
+  detailedDescription: string;
 };
 
 export default function SeafoodMenuPage() {
   const menuRef = useRef<HTMLDivElement>(null);
   const [isVisible, setIsVisible] = useState(false);
+  const [selectedItem, setSelectedItem] = useState<string | null>(null);
 
   useEffect(() => {
     const observer = new IntersectionObserver(
@@ -51,19 +54,22 @@ export default function SeafoodMenuPage() {
       id: 'oysters-6',
       name: 'OYSTERS (6 PIECES)',
       description: 'Fresh Mediterranean oysters served on ice with lemon and mignonette sauce',
-      price: 100
+      price: 100,
+      detailedDescription: 'Hand-selected from pristine Mediterranean waters, these briny delights are shucked to order. Each plump oyster carries the essence of the sea, paired with a delicate shallot-vinegar mignonette.'
     },
     {
       id: 'oysters-12',
       name: 'OYSTERS (12 PIECES)',
       description: 'A generous selection of our premium oysters with traditional accompaniments',
-      price: 180
+      price: 180,
+      detailedDescription: 'A luxurious dozen showcasing the finest daily catch from various Mediterranean regions. Served on a bed of crushed ice with house-made mignonette, fresh horseradish, and artisanal hot sauce.'
     },
     {
       id: 'grilled-oysters',
       name: 'MIBRASA GRILLED OYSTERS (6 PIECES)',
       description: 'Char-grilled oysters with herb butter and a touch of garlic, cooked in our Mibrasa oven',
-      price: 120
+      price: 120,
+      detailedDescription: 'These oysters undergo a smoky transformation in our Mibrasa oven, each kissed with herbed garlic butter. The gentle heat intensifies their natural brininess while adding a complex charred note.'
     }
   ];
 
@@ -73,28 +79,32 @@ export default function SeafoodMenuPage() {
       id: 'seafood-gratin',
       name: 'SEAFOOD GRATIN',
       description: 'A luxurious blend of fresh seafood baked with cream, white wine, and topped with golden breadcrumbs',
-      price: 130
+      price: 130,
+      detailedDescription: 'A decadent medley of shellfish and fish enveloped in a velvety white wine cream sauce. Baked until bubbling with a golden crust of parmesan and herb breadcrumbs that adds a delightful crunch.'
     },
     {
       id: 'mixed-ceviche',
       name: 'OYSTER, SHRIMP, AND OCTOPUS CEVICHE',
       description: 'Fresh seafood marinated in citrus juice with Mediterranean herbs, red onion, and avocado',
       price: 180,
-      featured: true
+      featured: true,
+      detailedDescription: 'A vibrant trilogy of sea treasures "cooked" in fresh citrus juices, infused with cilantro and red onion. Garnished with creamy avocado and crispy plantain chips for a perfect balance of flavors and textures.'
     },
     {
       id: 'red-shrimp',
       name: 'WILD RED SHRIMP',
       description: 'Succulent wild-caught red shrimp grilled on the Mibrasa barbecue, served with a rich homemade bisque',
       price: 190,
-      featured: true
+      featured: true,
+      detailedDescription: 'Prized Mediterranean red shrimp, grilled to perfection with their shells imparting intense flavor. Accompanied by a silky bisque crafted from the roasted heads, infused with saffron and fennel.'
     },
     {
       id: 'lobster',
       name: 'SLICED LOBSTER',
       description: 'Premium lobster tail delicately sliced and arranged, accompanied by an aromatic bisque served in a shot glass',
       price: 420,
-      featured: true
+      featured: true,
+      detailedDescription: 'Cold-water lobster tail, precisely sliced and fanned to showcase its tender, pearly flesh. Served alongside an intense lobster bisque reduction, enhanced with cognac and fresh herbs for an unforgettable taste experience.'
     }
   ];
 
@@ -135,7 +145,6 @@ export default function SeafoodMenuPage() {
     <section ref={menuRef} className="py-20 bg-[#3e4c52] text-amber-50 relative">
       {/* Background elements */}
       <div className="absolute inset-0 opacity-10">
-        <div className="h-full w-full bg-[url('/texture.png')] bg-repeat opacity-10"></div>
       </div>
       
       {/* Section Title */}
@@ -194,9 +203,35 @@ export default function SeafoodMenuPage() {
                   
                   <div className="w-10 h-px bg-amber-200/40 mb-4"></div>
                   
-                  <p className="text-amber-100/70 italic text-sm">
+                  <p className="text-amber-100/70 italic text-sm mb-4">
                     {oyster.description}
                   </p>
+
+                  {/* Details button and content */}
+                  <div className="mt-auto">
+                    <button
+                      onClick={() => setSelectedItem(selectedItem === oyster.id ? null : oyster.id)}
+                      className="text-amber-200/70 hover:text-amber-200 transition-colors duration-300 text-sm flex items-center"
+                    >
+                      <span>{selectedItem === oyster.id ? 'Hide Details' : 'View Details'}</span>
+                      <motion.span
+                        animate={{ rotate: selectedItem === oyster.id ? 180 : 0 }}
+                        className="ml-2"
+                      >
+                        ▼
+                      </motion.span>
+                    </button>
+                    
+                    <motion.div
+                      initial={false}
+                      animate={{ height: selectedItem === oyster.id ? 'auto' : 0, opacity: selectedItem === oyster.id ? 1 : 0 }}
+                      className="overflow-hidden"
+                    >
+                      <p className="text-amber-100/60 text-sm mt-3 pl-3 border-l-2 border-amber-200/20">
+                        {oyster.detailedDescription}
+                      </p>
+                    </motion.div>
+                  </div>
                 </div>
                 
                 {/* Highlight effect */}
@@ -251,9 +286,35 @@ export default function SeafoodMenuPage() {
                   
                   <div className="w-10 h-px bg-amber-200/40 mb-4"></div>
                   
-                  <p className="text-amber-100/70 italic text-sm">
+                  <p className="text-amber-100/70 italic text-sm mb-4">
                     {item.description}
                   </p>
+
+                  {/* Details button and content */}
+                  <div className="mt-auto">
+                    <button
+                      onClick={() => setSelectedItem(selectedItem === item.id ? null : item.id)}
+                      className="text-amber-200/70 hover:text-amber-200 transition-colors duration-300 text-sm flex items-center"
+                    >
+                      <span>{selectedItem === item.id ? 'Hide Details' : 'View Details'}</span>
+                      <motion.span
+                        animate={{ rotate: selectedItem === item.id ? 180 : 0 }}
+                        className="ml-2"
+                      >
+                        ▼
+                      </motion.span>
+                    </button>
+                    
+                    <motion.div
+                      initial={false}
+                      animate={{ height: selectedItem === item.id ? 'auto' : 0, opacity: selectedItem === item.id ? 1 : 0 }}
+                      className="overflow-hidden"
+                    >
+                      <p className="text-amber-100/60 text-sm mt-3 pl-3 border-l-2 border-amber-200/20">
+                        {item.detailedDescription}
+                      </p>
+                    </motion.div>
+                  </div>
                 </div>
                 
                 {/* Highlight effect */}
