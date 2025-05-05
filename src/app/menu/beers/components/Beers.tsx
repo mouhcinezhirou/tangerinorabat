@@ -32,14 +32,14 @@ export default function BeerSpiritsMenuPage() {
   const menuData = {
     beers: [
       { name: 'Corelli Lager', price: 35 },
-      { name: 'Mahou Original', price: 50 },
       { name: 'San Miguel', price: 45 },
-      { name: 'San Miguel Fresca', price: 55 },
       { name: 'San Miguel Sans Alcool', price: 45 },
-      { name: 'Leffe Blonde', price: 65 },
-      { name: 'Budweiser', price: 60 },
+      { name: 'Mahou Original', price: 50 },
       { name: 'Casablanca', price: 50 },
-      { name: 'Smirnoff Ice', price: 60 }
+      { name: 'San Miguel Fresca', price: 55 },
+      { name: 'Budweiser', price: 60 },
+      { name: 'Smirnoff Ice', price: 60 },
+      { name: 'Leffe Blonde', price: 65 }
     ],
     aperitifs: [
       { name: 'Pastis', price: 70 },

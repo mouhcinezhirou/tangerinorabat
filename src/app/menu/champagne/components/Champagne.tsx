@@ -33,9 +33,9 @@ export default function ChampagneWineMenuPage() {
     { name: 'Laurent Perrier Brut', price: 1200 },
     { name: 'Laurent Perrier Rosé', price: 2400 },
     { name: 'Laurent Perrier Blanc de Blancs', price: 2500 },
+    { name: 'Ruinart Blanc de Blanc', price: 3300 },
     { name: 'Dom Perignon Brut', price: 6000 },
-    { name: 'Dom Perignon Rosé', price: 15000 },
-    { name: 'Ruinart Blanc de Blanc', price: 3300 }
+    { name: 'Dom Perignon Rosé', price: 15000 }
   ];
 
   // Moroccan wines data
@@ -44,8 +44,8 @@ export default function ChampagneWineMenuPage() {
       { name: 'Beauvallon', bottle: 280, half: '-', glass: 70 },
       { name: 'Médaillon', bottle: 280, half: 150, glass: 70 },
       { name: 'S de Siroua', bottle: 300, half: '-', glass: '-' },
-      { name: 'Aït Souala', bottle: 320, half: '-', glass: '-' },
       { name: 'CB Signature', bottle: 310, half: '-', glass: '-' },
+      { name: 'Aït Souala', bottle: 320, half: '-', glass: '-' },
       { name: 'CB Initiales', bottle: 390, half: '-', glass: '-' },
       { name: 'Chateau Roslane', bottle: 520, half: '-', glass: '-' }
     ],
@@ -60,33 +60,33 @@ export default function ChampagneWineMenuPage() {
       { name: 'Tandem', bottle: 520, half: '-', glass: '-' }
     ],
     rose: [
+      { name: 'Boulaouane', bottle: 180, half: '-', glass: '-' },
       { name: 'Médaillon', bottle: 280, half: 150, glass: 70 },
-      { name: 'S de Siroua', bottle: 300, half: '-', glass: '-' },
       { name: 'Médaillon', bottle: 280, half: '-', glass: '-' },
-      { name: 'Aït Souala', bottle: 320, half: '-', glass: '-' },
-      { name: 'Boulaouane', bottle: 180, half: '-', glass: '-' }
+      { name: 'S de Siroua', bottle: 300, half: '-', glass: '-' },
+      { name: 'Aït Souala', bottle: 320, half: '-', glass: '-' }
     ]
   };
 
   // World wines data
   const worldWines = {
     white: [
-      { name: 'Màrqués de Caceres', bottle: 280, glass: 80 },
       { name: 'Sangre de Toro', bottle: 270, glass: '-' },
       { name: 'Viña Esmeralda', bottle: 270, glass: '-' },
+      { name: 'Màrqués de Caceres', bottle: 280, glass: 80 },
       { name: 'Les Abeilles Colombo', bottle: 290, glass: '-' },
       { name: 'Bourgogne Chardonnay Rodet', bottle: 450, glass: '-' },
       { name: 'Chablis Tremblay', bottle: 480, glass: '-' },
-      { name: 'Sancerre', bottle: 590, glass: '-' },
-      { name: 'Pouilly Fume', bottle: 540, glass: '-' }
+      { name: 'Pouilly Fume', bottle: 540, glass: '-' },
+      { name: 'Sancerre', bottle: 590, glass: '-' }
     ],
     red: [
       { name: 'La Vieille Ferme Ventoux', bottle: 290, glass: '-' },
       { name: 'Feur de Cazeau Bordeaux', bottle: 290, glass: 80 },
       { name: 'Sangre de Toro', bottle: 270, glass: '-' },
+      { name: 'Marqués de Câceres', bottle: 280, glass: 80 },
       { name: 'Hauts de Sainte Marie', bottle: 320, glass: '-' },
       { name: 'Abeilles Colombo Côtes de Rhône', bottle: 330, glass: '-' },
-      { name: 'Marqués de Câceres', bottle: 280, glass: 80 },
       { name: 'Tarapaca Reserva Carmenere', bottle: 390, glass: '-' },
       { name: 'La Celia Reserva Malbec', bottle: 420, glass: '-' },
       { name: 'Chianti Superiore', bottle: 460, glass: '-' },
