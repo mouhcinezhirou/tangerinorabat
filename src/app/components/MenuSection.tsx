@@ -46,71 +46,71 @@ export default function MenuCategorySection() {
   const menuCategories: MenuCategory[] = [
     {
       id: 'cocktails',
-      title: 'Cocktails & Soft',
-      description: 'Refreshing signature drinks with Mediterranean flair',
+      title: 'Cocktails & Softs',
+      description: 'Boissons signatures rafraîchissantes aux saveurs méditerranéennes',
       image: '/cocktails.jpg',
       link: '/menu/cocktails'
     },
     {
       id: 'wines',
       title: 'Champagne et Vins',
-      description: 'Curated selection from celebrated Mediterranean vineyards',
+      description: 'Sélection soignée des vignobles méditerranéens renommés',
       image: '/wines.jpg',
       link: '/menu/champagne'
     },
     {
       id: 'beers',
       title: 'Bières & Spiritueux',
-      description: 'Artisanal beers and premium spirits',
+      description: 'Bières artisanales et spiritueux de qualité supérieure',
       image: '/beers.jpg',
       link: '/menu/beers'
     },
     {
       id: 'seafood',
       title: 'Huîtres & Fruits de mer',
-      description: 'Fresh seafood treasures from coastal waters',
+      description: 'Trésors marins frais des eaux côtières',
       image: '/seafood.jpg',
       link: '/menu/seafood'
     },
     {
       id: 'tapas',
       title: 'Tapas & Entrées',
-      description: 'Small plates bursting with Mediterranean flavors',
+      description: 'Petites assiettes débordantes de saveurs méditerranéennes',
       image: '/tapas.jpg',
       link: '/menu/tapas'
     },
     {
       id: 'tortillas',
       title: 'Tortillas et Fritures',
-      description: 'Traditional Spanish omelets and crispy delights',
+      description: 'Omelettes espagnoles traditionnelles et délices croustillants',
       image: '/tortillas.jpg',
       link: '/menu/tortillas'
     },
     {
       id: 'cassolettes',
       title: 'Cassolettes',
-      description: 'Savory dishes served in traditional earthenware',
+      description: 'Plats savoureux servis dans des terrines traditionnelles',
       image: '/cassolettes.jpg',
       link: '/menu/cassolettes'
     },
     {
       id: 'paellas',
-      title: 'Paellas, Riz et Pates',
-      description: 'Traditional rice dishes and handmade pasta',
+      title: 'Paellas, Riz et Pâtes',
+      description: 'Plats traditionnels de riz et pâtes artisanales',
       image: '/paellas.jpg',
       link: '/menu/paellas'
     },
     {
       id: 'mains',
       title: 'Poissons & Viandes',
-      description: 'Perfectly prepared fish and meat entrées',
+      description: 'Poissons et viandes parfaitement préparés',
       image: '/mains.jpg',
-      link: '/menu/mains'
+      link: '/menu/poissons'
     },
     {
       id: 'desserts',
       title: 'Desserts',
-      description: 'Sweet finales to complete your culinary journey',
+      description: 'Douces conclusions pour compléter votre voyage culinaire',
       image: '/desserts.jpg',
       link: '/menu/desserts'
     }
@@ -152,18 +152,18 @@ export default function MenuCategorySection() {
         <div className="h-px w-24 bg-amber-200/40"></div>
       </div>
       
-      {/* Section Title */}
-      <motion.div 
-        className="text-center mb-16"
-        initial={{ opacity: 0, y: 20 }}
-        animate={isVisible ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
-        transition={{ duration: 0.8 }}
-      >
-        <h2 className="font-SweetSansProBold text-4xl md:text-5xl font-serif tracking-wider text-amber-50 mb-4">OUR MENU</h2>
-        <p className="text-amber-100/70 font-light max-w-2xl mx-auto">
-          A culinary journey through Mediterranean flavors, crafted with passion and the finest ingredients
-        </p>
-      </motion.div>
+{/* Section Title */}
+<motion.div 
+  className="text-center mb-16"
+  initial={{ opacity: 0, y: 20 }}
+  animate={isVisible ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
+  transition={{ duration: 0.8 }}
+>
+  <h2 className="font-SweetSansProBold text-4xl md:text-5xl font-serif tracking-wider text-amber-50 mb-4">NOTRE CARTE</h2>
+  <p className="text-amber-100/70 font-light max-w-2xl mx-auto">
+    Un voyage culinaire à travers les saveurs méditerranéennes, élaboré avec passion et les meilleurs ingrédients
+  </p>
+</motion.div>
       
       {/* Menu Category Cards */}
       <div className="container mx-auto px-4">
@@ -226,7 +226,7 @@ export default function MenuCategorySection() {
                       </p>
                       
                       <span className="inline-block bg-amber-700/80 hover:bg-amber-600 text-amber-50 py-2 px-6 text-sm uppercase tracking-wider border-b-2 border-amber-500/50 rounded transition-all duration-300 group-hover:translate-y-1 group-hover:shadow-lg">
-                        Discover
+                      Explorer
                       </span>
                     </div>
                   </div>

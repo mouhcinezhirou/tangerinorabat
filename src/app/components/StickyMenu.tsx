@@ -8,7 +8,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 const menuItems = [
   { id: 'cocktails', label: 'Cocktails & Soft', link: '/menu/cocktails' },
   { id: 'champagne', label: 'Champagne et Vins', link: '/menu/champagne' },
-  { id: 'bieres', label: 'Bières & Spiritueux', link: '/menu/bieres' },
+  { id: 'bieres', label: 'Bières & Spiritueux', link: '/menu/beers' },
   { id: 'huitres', label: 'Huîtres & Fruits de mer', link: '/menu/seafood' },
   { id: 'tapas', label: 'Tapas & Entrées', link: '/menu/tapas' },
   { id: 'tortillas', label: 'Tortillas et Fritures', link: '/menu/tortillas' },

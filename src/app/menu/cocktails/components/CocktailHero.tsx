@@ -97,8 +97,7 @@ export default function CocktailMenuHero() {
           animate={isVisible ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
           transition={{ duration: 0.8, delay: 0.6 }}
         >
-          Indulge in our curated selection of signature cocktails that blend Mediterranean 
-          inspiration with modern techniques.
+Laissez-vous tenter par notre sélection soignée de cocktails signatures alliant inspiration méditerranéenne et techniques modernes.
         </motion.p>
 
         {/* Scroll indicator - Now clickable */}

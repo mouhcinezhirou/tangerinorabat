@@ -4,7 +4,7 @@ import { useRef, useEffect, useState } from 'react';
 import Image from 'next/image';
 import { motion } from 'framer-motion';
 
-export default function SeafoodMenuHero() {
+export default function PaellasRizPatesHero() {
   const heroRef = useRef<HTMLDivElement>(null);
   const [isVisible, setIsVisible] = useState(false);
 
@@ -40,13 +40,13 @@ export default function SeafoodMenuHero() {
   return (
     <section 
       ref={heroRef} 
-      className="relative h-screen min-h-[600px] overflow-hidden bg-[#1c2326] text-amber-50"
+      className="relative h-screen min-h-[600px] overflow-hidden bg-[#2a2816] text-amber-50"
     >
       {/* Background image with overlay */}
       <div className="absolute inset-0">
         <Image
-          src="/seafood.jpg"
-          alt="Fresh seafood and oysters"
+          src="/paellas.jpg"
+          alt="Paellas, riz et pâtes méditerranéens"
           layout="fill"
           objectFit="cover"
           className="opacity-70"
@@ -78,8 +78,8 @@ export default function SeafoodMenuHero() {
           animate={isVisible ? { opacity: 1, y: 0 } : { opacity: 0, y: 30 }}
           transition={{ duration: 0.8, delay: 0.2 }}
         >
-          SEAFOOD<br></br>
-          & OYSTERS
+          PAELLAS<br></br>
+          RIZ ET PÂTES
         </motion.h1>
 
         {/* Decorative line */}
@@ -90,17 +90,18 @@ export default function SeafoodMenuHero() {
           transition={{ duration: 1, delay: 0.4 }}
         ></motion.div>
 
-        {/* Description */}
+        {/* Description in French */}
         <motion.p
           className="text-amber-100/90 max-w-xl text-lg font-light mx-auto mb-12"
           initial={{ opacity: 0, y: 20 }}
           animate={isVisible ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
           transition={{ duration: 0.8, delay: 0.6 }}
         >
-Découvrez les saveurs exquises de la Méditerranée avec notre sélection haut de gamme de fruits de mer frais et d'huîtres sélectionnées à la main, préparées avec maîtrise culinaire.
+          Des paellas valenciennes aux pâtes fraîches italiennes, explorez nos créations où le riz et les pâtes 
+          se parent des saveurs ensoleillées de la Méditerranée pour un voyage culinaire inoubliable.
         </motion.p>
 
-        {/* Scroll indicator - Now clickable */}
+        {/* Scroll indicator - Clickable */}
         <motion.div
           className="absolute bottom-16 left-1/2 transform -translate-x-1/2 cursor-pointer"
           initial={{ opacity: 0, y: -10 }}
@@ -115,10 +116,10 @@ Découvrez les saveurs exquises de la Méditerranée avec notre sélection haut 
           }}
           onClick={scrollToNextSection}
           role="button"
-          aria-label="Scroll to next section"
+          aria-label="Défiler vers la section suivante"
         >
           <div className="flex flex-col items-center">
-            <span className="text-amber-200/60 text-sm tracking-widest mb-2 hover:text-amber-200 transition-colors">EXPLORE</span>
+            <span className="text-amber-200/60 text-sm tracking-widest mb-2 hover:text-amber-200 transition-colors">DÉCOUVRIR</span>
             <div className="w-px h-16 bg-gradient-to-b from-amber-200/60 to-transparent"></div>
           </div>
         </motion.div>

@@ -139,7 +139,7 @@ export default function HeroSection() {
             href="#menu" 
             className="bg-[#3E4C52] hover:bg-[#5A7A8C] text-amber-50 py-3 px-10 transition-all duration-300 ease-in-out tracking-widest uppercase text-sm font-medium shadow-lg border border-[#4A5D65] hover:border-[#6D8FA0]"
           >
-            Discover Our Menu
+            Explorez notre menu
           </a>
         </motion.div>
 

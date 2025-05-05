@@ -115,35 +115,113 @@ export default function ChampagneWineMenuPage() {
     visible: {
       opacity: 1,
       transition: {
-        staggerChildren: 0.1
+        staggerChildren: 0.05
       }
     }
   };
 
   const itemVariants = {
-    hidden: { opacity: 0, y: 20 },
+    hidden: { opacity: 0, y: 10 },
     visible: {
       opacity: 1,
       y: 0,
       transition: {
-        duration: 0.5
+        duration: 0.3
       }
     }
   };
 
   const sectionVariants = {
-    hidden: { opacity: 0, y: 30 },
+    hidden: { opacity: 0, y: 20 },
     visible: {
       opacity: 1,
       y: 0,
       transition: {
-        duration: 0.8
+        duration: 0.6
       }
     }
   };
 
+  // Drink section component with optional columns and bottle/glass support
+  type DrinkItem = {
+    name: string;
+    price?: number;
+    bottle?: number | string;
+    half?: string | number;
+    glass?: string | number;
+  };
+
+  type DrinkSectionProps = {
+    title: string;
+    items: DrinkItem[];
+    hasBottle?: boolean;
+    hasHalf?: boolean;
+    className?: string;
+    columns?: number;
+  };
+
+  const DrinkSection = ({ title, items, hasBottle = false, hasHalf = false, className = "", columns = 1 }: DrinkSectionProps) => (
+    <motion.div
+      variants={sectionVariants}
+      initial="hidden"
+      animate={isVisible ? "visible" : "hidden"}
+      className={`bg-amber-900/10 backdrop-blur-sm rounded-lg p-5 border border-amber-200/10 ${className}`}
+    >
+      <h3 className="text-center font-SweetSansProBold text-2xl font-serif tracking-wider text-amber-100 mb-4">
+        {title}
+      </h3>
+      
+      <motion.div variants={containerVariants}>
+        {hasBottle && (
+          <div className={`grid ${hasHalf ? 'grid-cols-[2fr_0.5fr_0.5fr_0.5fr]' : 'grid-cols-[2fr_0.5fr_0.5fr]'} text-amber-100/80 font-light text-sm mb-2`}>
+            <div className="text-left"></div>
+            <div className="text-center">75cl</div>
+            {hasHalf && <div className="text-center">37.5cl</div>}
+            <div className="text-center">Verre</div>
+          </div>
+        )}
+        
+        <div className={`grid grid-cols-1 ${columns > 1 ? `md:grid-cols-${columns}` : ''} gap-3`}>
+          {items.map((item: DrinkItem, index: number) => (
+            <motion.div
+              key={index}
+              variants={itemVariants}
+              className={hasBottle 
+                ? `grid ${hasHalf ? 'grid-cols-[2fr_0.5fr_0.5fr_0.5fr]' : 'grid-cols-[2fr_0.5fr_0.5fr]'} py-2 border-b border-amber-200/10 group hover:bg-amber-200/5 transition-colors`
+                : "flex justify-between items-center py-2 border-b border-amber-200/10 group hover:bg-amber-200/5 transition-colors"
+              }
+            >
+              <span className="tracking-wider text-amber-100 group-hover:text-amber-200 transition-colors duration-300 pr-2 max-w-full">
+                {item.name}
+              </span>
+              
+              {hasBottle ? (
+                <>
+                  <span className="text-center text-amber-200/80 text-sm">{item.bottle}</span>
+                  {hasHalf && <span className="text-center text-amber-200/80 text-sm">{item.half}</span>}
+                  <span className="text-center text-amber-200/80 text-sm">{item.glass}</span>
+                </>
+              ) : (
+                <span className="text-amber-200/80 text-sm">{item.price}</span>
+              )}
+            </motion.div>
+          ))}
+        </div>
+      </motion.div>
+    </motion.div>
+  );
+
+  // Small decorative divider component
+  const SmallDivider = () => (
+    <div className="flex items-center justify-center my-10">
+      <div className="h-px w-10 bg-amber-200/30"></div>
+      <div className="mx-2 text-amber-200/50 text-xs">✦</div>
+      <div className="h-px w-10 bg-amber-200/30"></div>
+    </div>
+  );
+
   return (
-    <section ref={menuRef} className="py-20 bg-[#3e4c52] text-amber-50 relative">
+    <section ref={menuRef} className="py-16 bg-[#3e4c52] text-amber-50 relative">
       {/* Background elements */}
       <div className="absolute inset-0 opacity-10">
         <div className="h-full w-full bg-[url('/texture.png')] bg-repeat opacity-10"></div>
@@ -151,308 +229,118 @@ export default function ChampagneWineMenuPage() {
       
       {/* Section Title */}
       <motion.div 
-        className="text-center mb-16"
+        className="text-center mb-12"
         initial={{ opacity: 0, y: 20 }}
-        animate={isVisible ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
+        animate={{ opacity: 1, y: 0 }} /* Always animate in */
         transition={{ duration: 0.8 }}
       >
-        <h2 className="font-SweetSansProBold text-4xl md:text-5xl font-serif tracking-wider text-amber-50 mb-4">CHAMPAGNES & VINS</h2>
-        <div className="flex items-center justify-center mb-6">
+        <h2 className="font-SweetSansProBold text-4xl md:text-5xl font-serif tracking-wider text-amber-50 mb-3">CHAMPAGNES & VINS</h2>
+        <div className="flex items-center justify-center mb-4">
           <div className="h-px w-12 bg-amber-200/40"></div>
           <div className="mx-4 text-amber-200/60">✦</div>
           <div className="h-px w-12 bg-amber-200/40"></div>
         </div>
         <p className="text-amber-100/70 font-light max-w-2xl mx-auto">
-          Discover our curated selection of prestigious champagnes and exquisite wines from Morocco and around the world
+        Découvrez notre sélection soignée de champagnes prestigieux et de vins exquis du Maroc et du monde entier
         </p>
       </motion.div>
       
       {/* Menu content */}
       <div className="container mx-auto px-4">
         {/* CHAMPAGNES SECTION */}
+        <DrinkSection 
+          title="CHAMPAGNES" 
+          items={champagnes} 
+          className="mb-14"
+        />
+
+        <SmallDivider />
+
+        {/* MOROCCAN WINES SECTION */}
         <motion.div
           variants={sectionVariants}
           initial="hidden"
           animate={isVisible ? "visible" : "hidden"}
-          className="mb-20"
+          className="mb-14"
         >
-          <h3 className="text-center font-SweetSansProBold text-3xl font-serif tracking-wider text-amber-100 mb-10">
-            CHAMPAGNES
-          </h3>
-          
-          <motion.div
-            variants={containerVariants}
-            className="grid grid-cols-1 md:grid-cols-2 gap-8"
-          >
-            {champagnes.map((champagne, index) => (
-              <motion.div
-                key={index}
-                variants={itemVariants}
-                className="bg-amber-900/20 backdrop-blur-sm rounded-lg p-6 border border-amber-200/20 relative overflow-hidden group"
-              >
-                {/* Decorative elements */}
-                <div className="absolute top-3 left-3 w-6 h-6 border-t border-l border-amber-200/30"></div>
-                <div className="absolute bottom-3 right-3 w-6 h-6 border-b border-r border-amber-200/30"></div>
-                
-                {/* Content */}
-                <div className="relative z-10">
-                  <div className="flex justify-between items-center">
-                    <h3 className="font-SweetSansProBold text-lg font-serif tracking-wider text-amber-100">
-                      {champagne.name}
-                    </h3>
-                    <span className="text-amber-200 font-light">{champagne.price}</span>
-                  </div>
-                </div>
-                
-                {/* Highlight effect */}
-                <div className="absolute -inset-2 bg-gradient-to-tr from-amber-500/5 to-amber-300/10 opacity-0 group-hover:opacity-100 transform translate-y-full group-hover:translate-y-0 transition-all duration-700 rounded-lg"></div>
-              </motion.div>
-            ))}
-          </motion.div>
-        </motion.div>
-
-        {/* Elegant divider */}
-        <div className="flex items-center justify-center my-16">
-          <div className="h-px w-16 bg-amber-200/30"></div>
-          <div className="mx-3 text-amber-200/50">✦</div>
-          <div className="h-px w-16 bg-amber-200/30"></div>
-        </div>
-
-        {/* VINS MAROCAINS SECTION */}
-        <motion.div
-          variants={sectionVariants}
-          initial="hidden"
-          animate={isVisible ? "visible" : "hidden"}
-          className="mb-20"
-        >
-          <h3 className="text-center font-SweetSansProBold text-3xl font-serif tracking-wider text-amber-100 mb-10">
+          <h3 className="text-center font-SweetSansProBold text-3xl font-serif tracking-wider text-amber-100 mb-6">
             VINS MAROCAINS
           </h3>
           
-          {/* White Wines */}
-          <h4 className="text-center font-SweetSansProBold text-xl font-serif tracking-wider text-amber-100 mb-6">
-            BLANC
-          </h4>
-          <motion.div
-            variants={containerVariants}
-            className="overflow-x-auto mb-10"
-          >
-            <table className="w-full">
-              <thead>
-                <tr className="text-amber-100/80 font-light">
-                  <th className="py-2 px-4 text-left"></th>
-                  <th className="py-2 px-4 text-right">75cl</th>
-                  <th className="py-2 px-4 text-right">37.5cl</th>
-                  <th className="py-2 px-4 text-right">Verre</th>
-                </tr>
-              </thead>
-              <tbody>
-                {moroccanWines.white.map((wine, index) => (
-                  <motion.tr
-                    key={index}
-                    variants={itemVariants}
-                    className="border-b border-amber-200/10 hover:bg-amber-200/5 transition-colors"
-                  >
-                    <td className="py-3 px-4 text-amber-100">{wine.name}</td>
-                    <td className="py-3 px-4 text-right text-amber-200/80">{wine.bottle}</td>
-                    <td className="py-3 px-4 text-right text-amber-200/80">{wine.half}</td>
-                    <td className="py-3 px-4 text-right text-amber-200/80">{wine.glass}</td>
-                  </motion.tr>
-                ))}
-              </tbody>
-            </table>
-          </motion.div>
-
-          {/* Red Wines */}
-          <h4 className="text-center font-SweetSansProBold text-xl font-serif tracking-wider text-amber-100 mb-6">
-            ROUGES
-          </h4>
-          <motion.div
-            variants={containerVariants}
-            className="overflow-x-auto mb-10"
-          >
-            <table className="w-full">
-              <thead>
-                <tr className="text-amber-100/80 font-light">
-                  <th className="py-2 px-4 text-left"></th>
-                  <th className="py-2 px-4 text-right">75cl</th>
-                  <th className="py-2 px-4 text-right">37.5cl</th>
-                  <th className="py-2 px-4 text-right">Verre</th>
-                </tr>
-              </thead>
-              <tbody>
-                {moroccanWines.red.map((wine, index) => (
-                  <motion.tr
-                    key={index}
-                    variants={itemVariants}
-                    className="border-b border-amber-200/10 hover:bg-amber-200/5 transition-colors"
-                  >
-                    <td className="py-3 px-4 text-amber-100">{wine.name}</td>
-                    <td className="py-3 px-4 text-right text-amber-200/80">{wine.bottle}</td>
-                    <td className="py-3 px-4 text-right text-amber-200/80">{wine.half}</td>
-                    <td className="py-3 px-4 text-right text-amber-200/80">{wine.glass}</td>
-                  </motion.tr>
-                ))}
-              </tbody>
-            </table>
-          </motion.div>
-
-          {/* Rosé Wines */}
-          <h4 className="text-center font-SweetSansProBold text-xl font-serif tracking-wider text-amber-100 mb-6">
-            ROSÉ
-          </h4>
-          <motion.div
-            variants={containerVariants}
-            className="overflow-x-auto"
-          >
-            <table className="w-full">
-              <thead>
-                <tr className="text-amber-100/80 font-light">
-                  <th className="py-2 px-4 text-left"></th>
-                  <th className="py-2 px-4 text-right">75cl</th>
-                  <th className="py-2 px-4 text-right">37.5cl</th>
-                  <th className="py-2 px-4 text-right">Verre</th>
-                </tr>
-              </thead>
-              <tbody>
-                {moroccanWines.rose.map((wine, index) => (
-                  <motion.tr
-                    key={index}
-                    variants={itemVariants}
-                    className="border-b border-amber-200/10 hover:bg-amber-200/5 transition-colors"
-                  >
-                    <td className="py-3 px-4 text-amber-100">{wine.name}</td>
-                    <td className="py-3 px-4 text-right text-amber-200/80">{wine.bottle}</td>
-                    <td className="py-3 px-4 text-right text-amber-200/80">{wine.half}</td>
-                    <td className="py-3 px-4 text-right text-amber-200/80">{wine.glass}</td>
-                  </motion.tr>
-                ))}
-              </tbody>
-            </table>
-          </motion.div>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <DrinkSection 
+              title="BLANC" 
+              items={moroccanWines.white} 
+              hasBottle={true}
+              hasHalf={true}
+            />
+            
+            <DrinkSection 
+              title="ROUGE" 
+              items={moroccanWines.red} 
+              hasBottle={true}
+              hasHalf={true}
+            />
+            
+            <DrinkSection 
+              title="ROSÉ" 
+              items={moroccanWines.rose} 
+              hasBottle={true}
+              hasHalf={true}
+            />
+          </div>
         </motion.div>
 
-        {/* Elegant divider */}
-        <div className="flex items-center justify-center my-16">
-          <div className="h-px w-16 bg-amber-200/30"></div>
-          <div className="mx-3 text-amber-200/50">✦</div>
-          <div className="h-px w-16 bg-amber-200/30"></div>
-        </div>
+        <SmallDivider />
 
-        {/* VINS DU MONDE SECTION */}
+        {/* WORLD WINES SECTION */}
         <motion.div
           variants={sectionVariants}
           initial="hidden"
           animate={isVisible ? "visible" : "hidden"}
-          className="mb-20"
+          className="mb-14"
         >
-          <h3 className="text-center font-SweetSansProBold text-3xl font-serif tracking-wider text-amber-100 mb-10">
+          <h3 className="text-center font-SweetSansProBold text-3xl font-serif tracking-wider text-amber-100 mb-6">
             VINS DU MONDE
           </h3>
           
-          {/* White Wines */}
-          <h4 className="text-center font-SweetSansProBold text-xl font-serif tracking-wider text-amber-100 mb-6">
-            BLANC
-          </h4>
-          <motion.div
-            variants={containerVariants}
-            className="overflow-x-auto mb-10"
-          >
-            <table className="w-full">
-              <thead>
-                <tr className="text-amber-100/80 font-light">
-                  <th className="py-2 px-4 text-left"></th>
-                  <th className="py-2 px-4 text-right">75cl</th>
-                  <th className="py-2 px-4 text-right">Verre</th>
-                </tr>
-              </thead>
-              <tbody>
-                {worldWines.white.map((wine, index) => (
-                  <motion.tr
-                    key={index}
-                    variants={itemVariants}
-                    className="border-b border-amber-200/10 hover:bg-amber-200/5 transition-colors"
-                  >
-                    <td className="py-3 px-4 text-amber-100">{wine.name}</td>
-                    <td className="py-3 px-4 text-right text-amber-200/80">{wine.bottle}</td>
-                    <td className="py-3 px-4 text-right text-amber-200/80">{wine.glass}</td>
-                  </motion.tr>
-                ))}
-              </tbody>
-            </table>
-          </motion.div>
-
-          {/* Red Wines */}
-          <h4 className="text-center font-SweetSansProBold text-xl font-serif tracking-wider text-amber-100 mb-6">
-            ROUGE
-          </h4>
-          <motion.div
-            variants={containerVariants}
-            className="overflow-x-auto mb-10"
-          >
-            <table className="w-full">
-              <thead>
-                <tr className="text-amber-100/80 font-light">
-                  <th className="py-2 px-4 text-left"></th>
-                  <th className="py-2 px-4 text-right">75cl</th>
-                  <th className="py-2 px-4 text-right">Verre</th>
-                </tr>
-              </thead>
-              <tbody>
-                {worldWines.red.map((wine, index) => (
-                  <motion.tr
-                    key={index}
-                    variants={itemVariants}
-                    className="border-b border-amber-200/10 hover:bg-amber-200/5 transition-colors"
-                  >
-                    <td className="py-3 px-4 text-amber-100">{wine.name}</td>
-                    <td className="py-3 px-4 text-right text-amber-200/80">{wine.bottle}</td>
-                    <td className="py-3 px-4 text-right text-amber-200/80">{wine.glass}</td>
-                  </motion.tr>
-                ))}
-              </tbody>
-            </table>
-          </motion.div>
-
-          {/* Rosé Wines */}
-          <h4 className="text-center font-SweetSansProBold text-xl font-serif tracking-wider text-amber-100 mb-6">
-            ROSÉ
-          </h4>
-          <motion.div
-            variants={containerVariants}
-            className="overflow-x-auto"
-          >
-            <table className="w-full">
-              <thead>
-                <tr className="text-amber-100/80 font-light">
-                  <th className="py-2 px-4 text-left"></th>
-                  <th className="py-2 px-4 text-right">75cl</th>
-                  <th className="py-2 px-4 text-right">Verre</th>
-                </tr>
-              </thead>
-              <tbody>
-                {worldWines.rose.map((wine, index) => (
-                  <motion.tr
-                    key={index}
-                    variants={itemVariants}
-                    className="border-b border-amber-200/10 hover:bg-amber-200/5 transition-colors"
-                  >
-                    <td className="py-3 px-4 text-amber-100">{wine.name}</td>
-                    <td className="py-3 px-4 text-right text-amber-200/80">{wine.bottle}</td>
-                    <td className="py-3 px-4 text-right text-amber-200/80">{wine.glass}</td>
-                  </motion.tr>
-                ))}
-              </tbody>
-            </table>
-          </motion.div>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <DrinkSection 
+              title="BLANC" 
+              items={worldWines.white} 
+              hasBottle={true}
+            />
+            
+            <DrinkSection 
+              title="ROUGE" 
+              items={worldWines.red.slice(0, 10)} 
+              hasBottle={true}
+            />
+            
+            <DrinkSection 
+              title="ROSÉ" 
+              items={worldWines.rose} 
+              hasBottle={true}
+            />
+          </div>
+          
+          {/* Additional red wines since there are many */}
+          <div className="mt-6">
+            <DrinkSection 
+              title="ROUGE (PREMIUM)" 
+              items={worldWines.red.slice(10)} 
+              hasBottle={true}
+              columns={2}
+            />
+          </div>
         </motion.div>
       </div>
       
       {/* Elegant divider bottom */}
-      <div className="flex items-center justify-center mt-20">
-        <div className="h-px w-24 bg-amber-200/40"></div>
-        <div className="mx-4 text-amber-200/60">✦</div>
-        <div className="h-px w-24 bg-amber-200/40"></div>
+      <div className="flex items-center justify-center mt-12">
+        <div className="h-px w-16 bg-amber-200/40"></div>
+        <div className="mx-3 text-amber-200/60">✦</div>
+        <div className="h-px w-16 bg-amber-200/40"></div>
       </div>
     </section>
   );

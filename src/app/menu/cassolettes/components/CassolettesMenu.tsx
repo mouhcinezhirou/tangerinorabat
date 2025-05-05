@@ -15,14 +15,13 @@ interface MenuSection {
   items: MenuItem[];
 }
 
-const SeafoodMenuItem: React.FC<MenuItem & { onExpand: () => void, isExpanded: boolean, featured?: boolean }> = ({
+const CassoletteMenuItem: React.FC<MenuItem & { onExpand: () => void, isExpanded: boolean }> = ({
   name,
   description,
   price,
   detailedDescription,
   onExpand,
-  isExpanded,
-  featured
+  isExpanded
 }) => {
   const itemRef = useRef<HTMLDivElement>(null);
 
@@ -35,9 +34,7 @@ const SeafoodMenuItem: React.FC<MenuItem & { onExpand: () => void, isExpanded: b
   return (
     <motion.div
       ref={itemRef}
-      className={`bg-amber-900/20 backdrop-blur-sm rounded-lg p-6 border border-amber-200/20 relative overflow-hidden group ${
-        featured ? 'md:col-span-2' : ''
-      }`}
+      className="bg-amber-900/20 backdrop-blur-sm rounded-lg p-6 border border-amber-200/20 relative overflow-hidden group"
       whileHover={{ y: -4 }}
       initial={{ opacity: 0 }}
       whileInView={{ opacity: 1 }}
@@ -107,7 +104,7 @@ const SeafoodMenuItem: React.FC<MenuItem & { onExpand: () => void, isExpanded: b
   );
 };
 
-const SeafoodMenuSection: React.FC<MenuSection & { gridCols?: string }> = ({ title, items, gridCols = "grid-cols-1 md:grid-cols-2" }) => {
+const CassoletteMenuSection: React.FC<MenuSection> = ({ title, items }) => {
   const [expandedItem, setExpandedItem] = useState<number | null>(null);
 
   const handleExpand = (index: number) => {
@@ -126,14 +123,13 @@ const SeafoodMenuSection: React.FC<MenuSection & { gridCols?: string }> = ({ tit
         {title}
       </h3>
       
-      <div className={`grid ${gridCols} gap-8`}>
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
         {items.map((item, index) => (
-          <SeafoodMenuItem
+          <CassoletteMenuItem
             key={index}
             {...item}
             onExpand={() => handleExpand(index)}
             isExpanded={expandedItem === index}
-            featured={(item as any).featured}
           />
         ))}
       </div>
@@ -141,16 +137,7 @@ const SeafoodMenuSection: React.FC<MenuSection & { gridCols?: string }> = ({ tit
   );
 };
 
-// Elegant divider component to reduce repetition
-const ElegantDivider = () => (
-  <div className="flex items-center justify-center my-16">
-    <div className="h-px w-16 bg-amber-200/30"></div>
-    <div className="mx-3 text-amber-200/50">✦</div>
-    <div className="h-px w-16 bg-amber-200/30"></div>
-  </div>
-);
-
-export default function SeafoodMenuPage() {
+export default function CassolettesMenu() {
   const menuRef = useRef<HTMLElement | null>(null);
   const [isVisible, setIsVisible] = useState<boolean>(false);
 
@@ -176,61 +163,63 @@ export default function SeafoodMenuPage() {
   }, []);
 
   // All menu data in one place
-  const menuSections: (MenuSection & { gridCols?: string })[] = [
+  const menuSections: MenuSection[] = [
     {
-      title: 'HUÎTRES',
-      gridCols: "grid-cols-1 md:grid-cols-3",
+      title: 'CASSOLETTES DE LA MER',
       items: [
         {
-          name: 'HUÎTRES (6 PIÈCES)',
-          description: 'Huîtres fraîches de la Méditerranée servies sur glace avec citron et sauce mignonette',
-          price: 100,
-          detailedDescription: 'Sélectionnées à la main dans les eaux cristallines de la Méditerranée, ces délices iodés sont ouverts à la commande. Chaque huître charnue porte l\'essence de la mer, accompagnée d\'une délicate mignonette à l\'échalote et au vinaigre.'
+          name: 'ANGULAS D\'ESPAGNE',
+          description: 'Délicates civelles espagnoles cuites à l\'huile d\'olive, ail et piment doux',
+          price: 650,
+          detailedDescription: 'Ce mets d\'exception nous vient directement des côtes cantabriques d\'Espagne. Les angulas, ou civelles, sont préparées selon la tradition basque dans des cassolettes en terre cuite chauffées à haute température. Cuites avec une huile d\'olive extra vierge infusée à l\'ail et relevées d\'un soupçon de piment doux, elles révèlent leur texture unique et leur saveur marine délicate. Servies fumantes avec du pain croustillant pour en savourer chaque goutte.'
         },
         {
-          name: 'HUÎTRES (12 PIÈCES)',
-          description: 'Une généreuse sélection de nos huîtres premium avec accompagnements traditionnels',
+          name: 'CREVETTES SAUVAGES À L\'AIL ET PIMENT FORT',
+          description: 'Crevettes sauvages flambées dans une huile parfumée à l\'ail et au piment rouge',
           price: 180,
-          detailedDescription: 'Une douzaine luxueuse présentant les meilleures pêches quotidiennes de différentes régions méditerranéennes. Servies sur un lit de glace pilée avec mignonette maison, raifort frais et sauce piquante artisanale.'
+          detailedDescription: 'Nos crevettes sauvages pêchées en Méditerranée sont saisies dans une cassolette brûlante avec une huile d\'olive infusée à l\'ail frais et au piment rouge. Flambées au cognac pour caraméliser leurs sucs naturels, elles développent une profondeur de goût exceptionnelle. Le jus de cuisson épicé et parfumé est idéal pour être savouré avec notre pain maison croustillant. Un plat emblématique qui réveille les papilles et évoque instantanément les tavernes méditerranéennes.'
         },
         {
-          name: 'HUÎTRES GRILLÉES AU FOUR MIBRASA (6 PIÈCES)',
-          description: 'Huîtres grillées au beurre aux herbes et à l\'ail, cuites dans notre four Mibrasa',
+          name: 'PALOURDES À L\'AIL',
+          description: 'Palourdes fraîches ouvertes dans un bain d\'huile d\'olive, ail et persil',
           price: 120,
-          detailedDescription: 'Ces huîtres subissent une transformation fumée dans notre four Mibrasa, chacune caressée d\'un beurre à l\'ail et aux herbes. La chaleur douce intensifie leur iode naturelle tout en ajoutant une note grillée complexe.'
+          detailedDescription: 'Nos palourdes vivantes sont soigneusement sélectionnées chaque matin et cuites à la commande dans nos cassolettes traditionnelles en terre cuite. Elles s\'ouvrent délicatement dans un bain d\'huile d\'olive parfumée à l\'ail frais écrasé et au persil. Une touche de vin blanc et de jus de citron vient équilibrer leur saveur iodée naturelle. Un classique méditerranéen d\'une simplicité trompeuse, où la qualité exceptionnelle du produit est mise à l\'honneur.'
+        },
+        {
+          name: 'ESPADON À L\'AIL AVEC CREVETTES',
+          description: 'Médaillons d\'espadon frais et crevettes sautés à l\'ail et fines herbes',
+          price: 160,
+          detailedDescription: 'D\'élégants médaillons d\'espadon frais sont sautés rapidement avec des crevettes dans une huile infusée à l\'ail et au thym frais. Ce duo marin est servi dans une cassolette bouillonnante qui préserve toutes leurs saveurs. Une pointe de piment d\'Espelette, un filet de citron et quelques herbes fraîches viennent parfaire ce plat à la fois raffiné et généreux. L\'alliance parfaite de deux trésors de la Méditerranée, que le service en cassolette rend encore plus savoureux.'
+        },
+        {
+          name: 'ESPADON & PALOURDES À L\'AIL',
+          description: 'Harmonieuse combinaison d\'espadon tendre et de palourdes juteuses à l\'ail',
+          price: 160,
+          detailedDescription: 'Cette cassolette marie avec élégance la chair fondante de l\'espadon et la saveur iodée des palourdes. Les deux produits sont cuits séparément pour respecter leur texture, puis réunis dans une cassolette brûlante avec une huile parfumée à l\'ail, au persil et au citron. Le jus des palourdes imprègne délicatement l\'espadon, créant une symphonie de saveurs marines sublimée par la chaleur de la cassolette en terre cuite qui continue la cuisson à table.'
         }
       ]
     },
     {
-      title: 'FRUITS DE MER SIGNATURE',
+      title: 'CASSOLETTES DE LA TERRE',
       items: [
         {
-          name: 'GRATIN DE FRUITS DE MER',
-          description: 'Un mélange luxueux de fruits de mer frais cuits au four avec crème, vin blanc et chapelure dorée',
-          price: 130,
-          detailedDescription: 'Un assortiment décadent de crustacés et de poissons enveloppés dans une sauce veloutée à la crème et au vin blanc. Cuit au four jusqu\'à obtenir une croûte dorée de parmesan et de chapelure aux herbes qui ajoute un croustillant délicieux.'
-        },
-        {
-          name: 'CEVICHE D\'HUÎTRES, CREVETTES ET POULPE',
-          description: 'Fruits de mer frais marinés dans du jus d\'agrumes avec des herbes méditerranéennes, oignon rouge et avocat',
-          price: 180,
-          detailedDescription: 'Une trilogie vibrante de trésors marins "cuits" dans des jus d\'agrumes frais, infusés de coriandre et d\'oignon rouge. Garni d\'avocat crémeux et de chips de banane plantain croustillantes pour un équilibre parfait de saveurs et de textures.'
-        },
-        {
-          name: 'CREVETTES ROUGES SAUVAGES',
-          description: 'Succulentes crevettes rouges sauvages grillées au barbecue Mibrasa, servies avec une riche bisque maison',
-          price: 190,
-          detailedDescription: 'Les précieuses crevettes rouges méditerranéennes, grillées à la perfection avec leurs carapaces qui confèrent une saveur intense. Accompagnées d\'une bisque soyeuse élaborée à partir des têtes rôties, infusée au safran et au fenouil.'
-        },
-        {
-          name: 'HOMARD TRANCHÉ',
-          description: 'Queue de homard premium délicatement tranchée et disposée, accompagnée d\'une bisque aromatique servie dans un verre à shot',
-          price: 420,
-          detailedDescription: 'Queue de homard d\'eau froide, précisément tranchée et disposée en éventail pour mettre en valeur sa chair tendre et nacrée. Servie avec une réduction intense de bisque de homard, rehaussée de cognac et d\'herbes fraîches pour une expérience gustative inoubliable.'
+          name: 'CASSOLETTE DE CHAMPIGNONS',
+          description: 'Sélection de champignons sauvages et cultivés, ail confit et herbes fraîches',
+          price: 80,
+          detailedDescription: 'Notre cassolette réunit une collection de champignons soigneusement sélectionnés : cèpes, pleurotes, shiitakés et champignons de Paris. Ils sont sautés à feu vif puis mijotés lentement avec de l\'ail confit, du persil frais et une touche de crème. Une légère réduction de vin blanc et un filet d\'huile de truffe viennent parfaire ce plat terrestre aux saveurs profondes et réconfortantes. Servi bouillonnant, il libère des arômes boisés irrésistibles.'
         }
       ]
     }
   ];
+
+  // Elegant divider component to reduce repetition
+  const ElegantDivider = () => (
+    <div className="flex items-center justify-center my-16">
+      <div className="h-px w-16 bg-amber-200/30"></div>
+      <div className="mx-3 text-amber-200/50">✦</div>
+      <div className="h-px w-16 bg-amber-200/30"></div>
+    </div>
+  );
 
   return (
     <section ref={menuRef} className="py-20 bg-[#3e4c52] text-amber-50 relative">
@@ -244,14 +233,14 @@ export default function SeafoodMenuPage() {
         animate={isVisible ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
         transition={{ duration: 0.8 }}
       >
-        <h2 className="font-SweetSansProBold font-serif text-4xl md:text-5xl tracking-wider text-amber-50 mb-4">FRUITS DE MER & HUÎTRES</h2>
+        <h2 className="font-SweetSansProBold font-serif text-4xl md:text-5xl tracking-wider text-amber-50 mb-4">Cassolettes</h2>
         <div className="flex items-center justify-center mb-6">
           <div className="h-px w-12 bg-amber-200/40"></div>
           <div className="mx-4 text-amber-200/60">✦</div>
           <div className="h-px w-12 bg-amber-200/40"></div>
         </div>
         <p className="text-amber-100/70 font-light max-w-2xl mx-auto">
-          Laissez-vous tenter par notre sélection de fruits de mer frais et d'huîtres de première qualité provenant de la mer Méditerranée
+          Découvrez nos cassolettes servies fumantes, où les saveurs de la mer et de la terre sont sublimées par l'huile d'olive, l'ail et les fines herbes dans la pure tradition méditerranéenne
         </p>
       </motion.div>
       
@@ -259,11 +248,7 @@ export default function SeafoodMenuPage() {
       <div className="container mx-auto px-4">
         {menuSections.map((section, index) => (
           <div key={index}>
-            <SeafoodMenuSection
-              title={section.title}
-              items={section.items}
-              gridCols={section.gridCols}
-            />
+            <CassoletteMenuSection title={section.title} items={section.items} />
             {index < menuSections.length - 1 && <ElegantDivider />}
           </div>
         ))}
