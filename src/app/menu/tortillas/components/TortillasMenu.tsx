@@ -237,6 +237,24 @@ export default function OeufsFrituresMenu() {
           description: 'Généreuse sélection de poissons et fruits de mer frits à la perfection',
           price: 220,
           detailedDescription: 'Cette friture royale propose une sélection variée de poissons méditerranéens, calamars, crevettes et accras de morue, chacun enrobé d\'une panure spécifique qui sublime sa saveur naturelle. L\'assortiment est servi avec différentes sauces maison : aïoli, sauce tartare et sauce piquante pour satisfaire toutes les envies.'
+        },
+        {
+          name: 'CHANQUETES CON HUEVOS ROTOS',
+          description: 'Friture de petits poissons argentés accompagnée d\'œufs cassés à l\'espagnole',
+          price: 140,
+          detailedDescription: 'Une authentique spécialité andalouse, ces délicats poissons argentés sont légèrement enfarinés puis frits jusqu\'à obtenir une dorure parfaite. Ils sont servis sur des œufs cassés dont le jaune se répand délicieusement, créant une sauce naturelle rehaussée d\'un filet d\'huile d\'olive extra-vierge et d\'une pincée de piment doux. Un classique de la cuisine de bord de mer qui évoque instantanément les tavernes animées du sud de l\'Espagne.'
+        },
+        {
+          name: 'CHANQUETES ET ŒUFS CASSÉS SUR LE PLAT',
+          description: 'Délicats petits poissons argentés croustillants servis sur un lit d\'œufs fondants',
+          price: 140,
+          detailedDescription: 'Une spécialité méditerranéenne par excellence, nos chanquetes (petits poissons argentés) sont légèrement farinés puis frits jusqu\'à obtenir une texture parfaitement croustillante. Ils sont déposés sur un lit d\'œufs cassés cuits doucement, dont le jaune crémeux se mêle délicieusement aux saveurs marines. L\'ensemble est parsemé d\'herbes fraîches et accompagné d\'un filet d\'huile d\'olive vierge extra parfumée à l\'ail, créant une symphonie de textures et de saveurs qui évoque instantanément le littoral ensoleillé de la Méditerranée.'
+        },
+        {
+          name: 'CRISPY WHITEBAIT AVEC ŒUFS BRISÉS',
+          description: 'Blanchaille croustillante servie avec des œufs au plat délicatement cassés',
+          price: 140,
+          detailedDescription: 'Cette élégante interprétation franco-britannique marie la blanchaille (petits poissons argentés) à la croustillance irrésistible avec la délicatesse des œufs cassés. Les poissons sont enrobés d\'une fine panure aux herbes de Provence avant d\'être frits à la perfection, puis disposés autour d\'œufs au plat dont le jaune coulant crée une sauce onctueuse. Une touche de fleur de sel et de poivre fraîchement moulu complète ce plat qui allie brillamment les traditions culinaires méditerranéennes et britanniques.'
         }
       ]
     }
