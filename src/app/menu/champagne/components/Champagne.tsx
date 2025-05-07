@@ -81,10 +81,10 @@ export default function ChampagneWineMenuPage() {
       { name: 'Sancerre', bottle: 590, glass: '-' }
     ],
     red: [
-      { name: 'La Vieille Ferme Ventoux', bottle: 290, glass: '-' },
-      { name: 'Feur de Cazeau Bordeaux', bottle: 290, glass: 80 },
       { name: 'Sangre de Toro', bottle: 270, glass: '-' },
       { name: 'Marqués de Câceres', bottle: 280, glass: 80 },
+      { name: 'La Vieille Ferme Ventoux', bottle: 290, glass: '-' },
+      { name: 'Feur de Cazeau Bordeaux', bottle: 290, glass: 80 },
       { name: 'Hauts de Sainte Marie', bottle: 320, glass: '-' },
       { name: 'Abeilles Colombo Côtes de Rhône', bottle: 330, glass: '-' },
       { name: 'Tarapaca Reserva Carmenere', bottle: 390, glass: '-' },
@@ -313,24 +313,15 @@ export default function ChampagneWineMenuPage() {
             
             <DrinkSection 
               title="ROUGE" 
-              items={worldWines.red.slice(0, 10)} 
+              items={worldWines.red} 
               hasBottle={true}
+              columns={2}
             />
             
             <DrinkSection 
               title="ROSÉ" 
               items={worldWines.rose} 
               hasBottle={true}
-            />
-          </div>
-          
-          {/* Additional red wines since there are many */}
-          <div className="mt-6">
-            <DrinkSection 
-              title="ROUGE (PREMIUM)" 
-              items={worldWines.red.slice(10)} 
-              hasBottle={true}
-              columns={2}
             />
           </div>
         </motion.div>
