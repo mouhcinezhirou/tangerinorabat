@@ -178,9 +178,14 @@ const PaellasMenuSection: React.FC<MenuSection> = ({ title, items }) => {
       transition={{ duration: 0.8 }}
       className="mb-20"
     >
-      <h3 className="font-SweetSansProBold text-center font-serif text-3xl tracking-wider text-amber-100 mb-10">
-        {title}
-      </h3>
+      <div className="text-center mb-10">
+        <h3 className="font-SweetSansProBold font-serif text-3xl tracking-wider text-amber-100">
+          {title}
+        </h3>
+        {title === 'PAELLAS' && (
+          <p className="text-amber-100/70 text-sm mt-2">Prix par Personne</p>
+        )}
+      </div>
       
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
         {items.map((item, index) => (
@@ -227,7 +232,7 @@ export default function PaellasMenu() {
       title: 'PAELLAS',
       items: [
         {
-          name: 'PAELLA "A BANDA" AVEC SAUCE À L\'AIL',
+          name: 'PAELLA A BANDA',
           description: 'Riz safrané garni de délicats morceaux de poisson blanc mijoté dans un fumet marin parfumé',
           price: 120,
           forMinPersons: 2,
@@ -241,21 +246,21 @@ export default function PaellasMenu() {
           detailedDescription: 'Notre paella aux fruits de mer associe un riz bomba subtilement parfumé avec des calamars frais coupés en anneaux et des crevettes sauvages. Le tout est lentement mijoté dans un bouillon marin savamment épicé jusqu\'à formation de la délicieuse socarrat, cette croûte caramélisée qui fait tout le charme d\'une authentique paella.'
         },
         {
-          name: 'PAELLA À L\'ENCRE DE SEICHE ET CREVETTES',
+          name: 'PAELLA NEGRA',
           description: 'Riz noir intense infusé à l\'encre de seiche et garni de crevettes rosées au doux parfum iodé',
           price: 160,
           forMinPersons: 2,
           detailedDescription: 'Cette paella spectaculaire tire sa couleur noir d\'ébène de l\'encre de seiche qui apporte également une saveur marine profonde. Le riz crémeux contraste parfaitement avec la chair tendre des crevettes, le tout rehaussé d\'un filet d\'huile d\'olive infusée au citron et d\'un soupçon d\'ail.'
         },
         {
-          name: 'PAELLA DE PIEDS DE BOEUF ET DE POIS CHICHES FAÇON "HERGMA"',
-          description: 'Fusion méditerranéenne unissant la tradition espagnole aux saveurs nord-africaines du Hergma',
+          name: 'PAELLA FAÇON HERGMA',
+          description: 'Paella de pieds de boeuf et de pois chiches façon hergma. Fusion méditerranéenne unissant la tradition espagnole aux saveurs nord-africaines du hergma.',
           price: 150,
           forMinPersons: 2,
-          detailedDescription: 'Cette création originale marie l\'art de la paella espagnole avec les saveurs du traditionnel Hergma tunisien. Les pieds de bœuf, mijotés pendant des heures jusqu\'à fondre, se mêlent aux pois chiches onctueux et au riz parfumé aux épices douces pour une expérience gustative unique entre deux rives de la Méditerranée.'
+          detailedDescription: 'Cette création originale marie l\'art de la paella espagnole avec les saveurs du traditionnel Hergma marocaine. Les pieds de bœuf, mijotés pendant des heures jusqu\'à fondre, se mêlent aux pois chiches onctueux et au riz parfumé aux épices douces pour une expérience gustative unique entre deux rives de la Méditerranée.'
         },
         {
-          name: 'PAELLA AUX FRUITS DE MER (DÉCORTIQUÉS)',
+          name: 'PAELLA DEL SEÑORITOS',
           description: 'Généreux festin marin de crevettes, moules, calamars et palourdes sur lit de riz safrané',
           price: 220,
           forMinPersons: 2,
@@ -276,11 +281,11 @@ export default function PaellasMenu() {
           detailedDescription: 'Notre paella végétarienne met en valeur une généreuse sélection de légumes méditerranéens de saison : artichauts, poivrons, aubergines, courgettes et haricots verts. Cuits dans un bouillon aux herbes aromatiques et au safran, ces légumes transmettent toute leur fraîcheur au riz pour un plat aussi savoureux que coloré.'
         },
         {
-          name: 'PAELLA VALENCIANA DE LÉGUMES ET POULET',
-          description: 'La paella originelle de Valence mariant tendres morceaux de poulet fermier et légumes frais',
+          name: 'PAELLA VALENCIANA',
+          description: 'La paella authentique de Valence mariant tendres morceaux de poulet fermier et légumes frais',
           price: 150,
           forMinPersons: 2,
-          detailedDescription: 'Fidèle à l\'authentique recette valencienne, cette paella combine des morceaux de poulet fermier dorés avec une sélection de légumes de saison. Le riz bomba, cuit lentement dans un bouillon parfumé au safran et paprika, absorbe toutes les saveurs pour créer ce plat emblématique de l\'Espagne dans sa version la plus traditionnelle.'
+          detailedDescription: 'Fidèle à l\'authentique recette valencienne, cette paella combine des morceaux de poulet dorés avec une sélection de légumes de saison. Le riz bomba, cuit lentement dans un bouillon parfumé au safran et paprika, absorbe toutes les saveurs pour créer ce plat emblématique de l\'Espagne dans sa version la plus traditionnelle.'
         },
       ]
     },
@@ -294,19 +299,19 @@ export default function PaellasMenu() {
           detailedDescription: 'Ce riz moelleux inspiré du "arroz meloso" espagnol est préparé avec un fumet de crustacés intense et garni de gambas rouges de Méditerranée. Sa texture, entre la paella et le risotto, offre une onctuosité qui enveloppe les papilles tandis que les gambas apportent leur saveur délicate et leur texture ferme caractéristique.'
         },
         {
-          name: 'FIDEUA FRUITS DE MER (DÉCORTIQUÉS)',
+          name: 'FIDEUA DEL SEÑORITOS',
           description: 'Vermicelles dorés préparés comme une paella, richement garnis de fruits de mer décortiqués',
           price: 220,
           detailedDescription: 'Cette spécialité de la côte valencienne substitue de fins vermicelles au riz traditionnel de la paella. Dorés puis mijotés dans un fumet de poisson safrané, ces vermicelles s\'enrichissent des saveurs des crevettes, calamars, moules et palourdes soigneusement décortiqués pour un confort de dégustation optimal.'
         },
         {
-          name: 'SPAGHETTI AUX PALOURDES (À LA VONGOLE)',
+          name: 'SPAGHETTI À LA VONGOLE',
           description: 'Spaghetti al dente aux palourdes fraîches, parfumés à l\'ail, au persil et au vin blanc',
           price: 160,
           detailedDescription: 'Ce classique italien est préparé dans le respect de la tradition : des palourdes fraîches ouvertes à la minute dans un bouillon d\'ail, de persil frais et de vin blanc de qualité. Les spaghetti, cuits al dente, se marient parfaitement à ce jus de cuisson aux parfums marins, rehaussé d\'un trait d\'huile d\'olive extra vierge.'
         },
         {
-          name: 'SPAGHETTI À L\'ENCRE DE SEICHE AU CALAMAR ET BASILIC',
+          name: 'SPAGHETTI AL NERO',
           description: 'Spaghetti noirs à l\'encre de seiche, ornés de tendres morceaux de calamar et de basilic frais',
           price: 120,
           detailedDescription: 'Ces spaghetti noirs teintés à l\'encre de seiche sont servis avec des morceaux de calamar juste saisis pour préserver leur tendreté. Le basilic frais apporte une note aromatique qui contraste délicieusement avec les saveurs marines, le tout lié par une touche d\'huile d\'olive et un soupçon d\'ail.'
@@ -319,9 +324,9 @@ export default function PaellasMenu() {
         },
         {
           name: 'TAGLIATELLE AU POULET GRILLÉ AU CHARBON ET CHAMPIGNON',
-          description: 'Ruban de pâtes fraîches aux lamelles de poulet grillé et champignons sautés en sauce crémeuse',
+          description: 'Ruban de pâtes aux lamelles de poulet grillé et champignons sautés en sauce crémeuse',
           price: 140,
-          detailedDescription: 'Nos tagliatelles fraîches sont accompagnées de morceaux de poulet fermier grillés au charbon de bois et de champignons forestiers sautés à l\'ail. Une sauce crémeuse au parmesan et aux herbes fraîches enrobe délicatement les pâtes pour un plat réconfortant aux saveurs authentiques.'
+          detailedDescription: 'Nos tagliatelles sont accompagnées de morceaux de poulet fermier grillés au charbon de bois et de champignons forestiers sautés à l\'ail. Une sauce crémeuse au parmesan et aux herbes fraîches enrobe délicatement les pâtes pour un plat réconfortant aux saveurs authentiques.'
         },
         {
           name: 'COUSCOUS DE LA MER AUX PARFUMS DU MAROC',
@@ -347,24 +352,6 @@ export default function PaellasMenu() {
     <section ref={menuRef} className="py-20 bg-[#3e4c52] text-amber-50 relative">
       {/* Background elements */}
       <div className="absolute inset-0 opacity-10"></div>
-      
-      {/* Section Title */}
-      <motion.div 
-        className="text-center mb-16"
-        initial={{ opacity: 0, y: 20 }}
-        animate={isVisible ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
-        transition={{ duration: 0.8 }}
-      >
-        <h2 className="font-SweetSansProBold font-serif text-4xl md:text-5xl tracking-wider text-amber-50 mb-4">Paellas, Riz et Pâtes</h2>
-        <div className="flex items-center justify-center mb-6">
-          <div className="h-px w-12 bg-amber-200/40"></div>
-          <div className="mx-4 text-amber-200/60">✦</div>
-          <div className="h-px w-12 bg-amber-200/40"></div>
-        </div>
-        <p className="text-amber-100/70 font-light max-w-2xl mx-auto">
-          Des paellas traditionnelles valenciennes aux pâtes méditerranéennes, découvrez nos créations qui célèbrent les saveurs ensoleillées de la mer et de la terre
-        </p>
-      </motion.div>
       
       {/* Menu content */}
       <div className="container mx-auto px-4">

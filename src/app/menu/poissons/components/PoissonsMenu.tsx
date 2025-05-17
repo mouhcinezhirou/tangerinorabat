@@ -169,19 +169,19 @@ export default function PoissonViandeMenu() {
       items: [
         {
           name: 'ESPADON GRILLÉ',
-          description: 'Médaillon d\'espadon grillé à la flamme avec émulsion au citron vert et câpres',
+          description: 'Médaillon d\'espadon grillé à la flamme',
           price: 220,
-          detailedDescription: 'Notre espadon, pêché en Méditerranée, est délicatement mariné puis grillé à la flamme pour préserver sa texture tendre et son goût délicat. Servi avec une émulsion légère au citron vert et câpres qui sublime ses saveurs marines, accompagné d\'une touche d\'huile d\'olive au persil frais.'
+          detailedDescription: 'Notre espadon, pêché en Méditerranée, est délicatement mariné puis grillé à la flamme pour préserver sa texture tendre et son goût délicat.'
         },
         {
           name: 'CALAMAR AVEC SON ENCRE',
-          description: 'Calamar entier cuit lentement dans sa propre encre avec riz noir et légumes confits',
+          description: 'Calamar entier cuit lentement dans sa propre encre',
           price: 220,
           detailedDescription: 'Ce plat emblématique de la cuisine méditerranéenne présente un calamar entier cuit doucement dans une sauce à base de sa propre encre, d\'ail et de vin blanc. La chair tendre du calamar se marie parfaitement avec le riz noir crémeux et les légumes confits qui l\'accompagnent.'
         },
         {
           name: 'FILET DE THON ROUGE',
-          description: 'Filet de thon rouge mi-cuit, mariné au sésame et soja, purée de patate douce au gingembre',
+          description: 'Filet de thon rouge mi-cuit, soja',
           price: 220,
           detailedDescription: 'Notre thon rouge issu de pêche durable est brièvement mariné dans une sauce au sésame et soja avant d\'être saisi rapidement pour conserver un cœur rosé. Il est servi avec une onctueuse purée de patate douce parfumée au gingembre frais qui équilibre parfaitement ses notes iodées.'
         },
@@ -193,18 +193,18 @@ export default function PoissonViandeMenu() {
         },
         {
           name: 'ST PIERRE GRILLÉ',
-          description: 'Saint-Pierre entier grillé au four à bois, huile d\'olive aux herbes provençales',
+          description: 'Filet de Saint-Pierre grillé au four à bois, huile d\'olive aux herbes provençales',
           price: 260,
           detailedDescription: 'Ce poisson noble est délicatement grillé entier dans notre four à bois pour développer toutes ses saveurs. Sa chair ferme et délicate est sublimée par une huile d\'olive infusée aux herbes de Provence et une touche de fleur de sel. Un classique méditerranéen d\'une simplicité raffinée.'
         },
         {
           name: 'BAR DE LIGNE GRILLÉ',
-          description: 'Bar sauvage grillé entier aux agrumes et fenouil confit',
+          description: 'Filet grillé sur feu de charbon',
           price: 280,
           detailedDescription: 'Notre bar de ligne pêché au large des côtes méditerranéennes est grillé entier pour préserver sa saveur exceptionnelle. La chair nacrée et délicate du poisson est parfumée aux agrumes et accompagnée de fenouil doucement confit qui apporte une note anisée subtile et rafraîchissante.'
         },
         {
-          name: 'BAR DE LIGNE ET POMMES DE TERRE À LA CASSOLETTE',
+          name: 'CASSOLETTE DE BAR DE LIGNE',
           description: 'Bar sauvage cuit en cocotte avec pommes de terre fondantes, olives et tomates confites',
           price: 320,
           detailedDescription: 'Cette préparation traditionnelle présente notre bar de ligne cuit en cocotte avec des pommes de terre qui s\'imprègnent des sucs du poisson, des olives Taggiasche, des tomates confites et un bouquet d\'herbes fraîches. Le tout est nappé d\'un fumet réduit au vin blanc et servi directement dans sa cassolette.'
@@ -222,7 +222,7 @@ export default function PoissonViandeMenu() {
       items: [
         {
           name: 'FILET DE BŒUF GRILLÉ',
-          description: 'Filet de bœuf Black Angus grillé, réduction au Porto et échalotes confites',
+          description: 'Filet de bœuf grillé à la mibrasa accompagné d’une sauce au choix',
           price: 290,
           detailedDescription: 'Notre filet de bœuf Black Angus est grillé à la perfection selon votre préférence, pour une viande tendre et savoureuse. Il est accompagné d\'une réduction onctueuse au Porto vieilli et d\'échalotes doucement confites qui apportent une touche de douceur contrastant avec le caractère de la viande.'
         },
@@ -234,7 +234,7 @@ export default function PoissonViandeMenu() {
         },
         {
           name: 'ENTRECÔTE DE BŒUF GRILLÉE',
-          description: 'Généreuse entrecôte maturée grillée au charbon de bois, beurre maître d\'hôtel',
+          description: 'Généreuse entrecôte maturée grillée au charbon de bois, sauce au choix',
           price: 220,
           detailedDescription: 'Notre entrecôte de bœuf sélectionnée pour son persillage est maturée pendant 30 jours pour développer sa saveur exceptionnelle. Elle est grillée sur notre braise de charbon de bois qui lui confère des notes fumées uniques. Servie avec un beurre maître d\'hôtel maison qui se fond délicatement sur la viande chaude.'
         },
@@ -246,15 +246,15 @@ export default function PoissonViandeMenu() {
         },
         {
           name: 'VIANDE HACHÉE "KEFTA"',
-          description: 'Brochettes de viande hachée aux épices orientales, sauce yaourt à la menthe',
+          description: 'Viande hachée aux épices orientales, sauce au choix',
           price: 140,
           detailedDescription: 'Nos keftas sont préparées à partir de viande de bœuf hachée à la main et assaisonnée d\'un mélange d\'épices orientales soigneusement dosées : cumin, paprika, coriandre et menthe fraîche. Grillées sur la braise, elles sont servies avec une sauce légère au yaourt grec, menthe fraîche et concombre râpé.'
         },
         {
           name: 'PAILLARDE DE POULET ACCOMPAGNÉE D\'ÉPINARDS SAUTÉS',
-          description: 'Suprême de poulet fermier aplati et grillé, épinards frais sautés à l\'ail',
+          description: 'Suprême de poulet aplati et grillé, épinards frais sautés à l\'ail',
           price: 160,
-          detailedDescription: 'Notre suprême de poulet fermier est délicatement aplati puis mariné aux herbes fraîches avant d\'être grillé pour obtenir une chair moelleuse et une peau croustillante. Il est accompagné d\'épinards frais rapidement sautés à l\'ail et d\'un filet d\'huile d\'olive citronnée qui apporte fraîcheur et légèreté.'
+          detailedDescription: 'Notre suprême de poulet est délicatement aplati puis mariné aux herbes fraîches avant d\'être grillé pour obtenir une chair moelleuse et une peau croustillante. Il est accompagné d\'épinards frais rapidement sautés à l\'ail et d\'un filet d\'huile d\'olive citronnée qui apporte fraîcheur et légèreté.'
         }
       ]
     },
@@ -302,24 +302,6 @@ export default function PoissonViandeMenu() {
     <section ref={menuRef} className="py-20 bg-[#3e4c52] text-amber-50 relative">
       {/* Background elements */}
       <div className="absolute inset-0 opacity-10"></div>
-      
-      {/* Section Title */}
-      <motion.div 
-        className="text-center mb-16"
-        initial={{ opacity: 0, y: 20 }}
-        animate={{ opacity: 1, y: 0 }} /* Always animate in */
-        transition={{ duration: 0.8 }}
-      >
-        <h2 className="font-SweetSansProBold font-serif text-4xl md:text-5xl tracking-wider text-amber-50 mb-4">Poissons & Viandes</h2>
-        <div className="flex items-center justify-center mb-6">
-          <div className="h-px w-12 bg-amber-200/40"></div>
-          <div className="mx-4 text-amber-200/60">✦</div>
-          <div className="h-px w-12 bg-amber-200/40"></div>
-        </div>
-        <p className="text-amber-100/70 font-light max-w-2xl mx-auto">
-          Des trésors de la mer aux délices terrestres, découvrez nos poissons frais et viandes d'exception préparés selon les traditions méditerranéennes
-        </p>
-      </motion.div>
       
       {/* Menu content */}
       <div className="container mx-auto px-4">

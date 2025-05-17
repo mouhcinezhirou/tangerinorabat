@@ -118,7 +118,7 @@ Laissez-vous tenter par notre sélection soignée de cocktails signatures allian
           aria-label="Scroll to next section"
         >
           <div className="flex flex-col items-center">
-            <span className="text-amber-200/60 text-sm tracking-widest mb-2 hover:text-amber-200 transition-colors">DISCOVER</span>
+            <span className="text-amber-200/60 text-sm tracking-widest mb-2 hover:text-amber-200 transition-colors">DÉCOUVRIR</span>
             <div className="w-px h-16 bg-gradient-to-b from-amber-200/60 to-transparent"></div>
           </div>
         </motion.div>

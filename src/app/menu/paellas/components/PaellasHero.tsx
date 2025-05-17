@@ -97,8 +97,7 @@ export default function PaellasRizPatesHero() {
           animate={isVisible ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
           transition={{ duration: 0.8, delay: 0.6 }}
         >
-          Des paellas valenciennes aux pâtes fraîches italiennes, explorez nos créations où le riz et les pâtes 
-          se parent des saveurs ensoleillées de la Méditerranée pour un voyage culinaire inoubliable.
+Du riz doré de Valence aux pâtes fraîches d'Italie, savourez les saveurs vibrantes de la Méditerranée dans chaque assiette.
         </motion.p>
 
         {/* Scroll indicator - Clickable */}

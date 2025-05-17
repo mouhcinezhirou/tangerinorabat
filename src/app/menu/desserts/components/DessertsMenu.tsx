@@ -175,13 +175,13 @@ export default function DessertsMenu() {
         },
         {
           name: 'CARPACCIO D\'ANANAS',
-          description: 'Fines tranches d\'ananas frais infusé au rhum ambré, accompagnées d\'une petite crème brûlée',
+          description: 'Fines tranches d\'ananas frais avec une crème a l’anglaise et la glace vanille',
           price: 95,
-          detailedDescription: 'L\'ananas Victoria est tranché finement en carpaccio puis brièvement mariné dans un sirop au rhum ambré et à la vanille. Servi avec une mini crème brûlée au sucre caramélisé qui offre un contraste parfait entre le croustillant de la cassonade et la fraîcheur acidulée de l\'ananas.'
+          detailedDescription: 'Un dessert frais et exotique où les fines tranches d’ananas se marient à la douceur d’une crème anglaise onctueuse et d’une glace vanille veloutée. Une finale légère et parfumée pour conclure votre repas en beauté.'
         },
         {
-          name: 'TARTE AU CITRON',
-          description: 'Tarte au citron revisitée, curd onctueux au citron de Menton et meringue italienne légèrement torchée',
+          name: 'TARTE AU CITRON TANGEROISE',
+          description: 'Tarte au citron a la tangeroise avec du citron et du lait concentré',
           price: 80,
           detailedDescription: 'Sur une fine pâte sablée croustillante repose un curd au citron de Menton parfaitement équilibré entre acidité et douceur. La tarte est couronnée d\'une meringue italienne soyeuse, légèrement caramélisée à la flamme pour créer un contraste de textures et de températures inoubliable.'
         },
@@ -205,21 +205,21 @@ export default function DessertsMenu() {
         },
         {
           name: 'FONDANT AU CHOCOLAT',
-          description: 'Moelleux au chocolat noir 70% au cœur coulant, servi avec une crème anglaise à la vanille',
+          description: 'Moelleux au chocolat noir 70% au cœur coulant, servi avec une glace vanille',
           price: 80,
           detailedDescription: 'Notre fondant est préparé avec un chocolat noir d\'exception à 70% de cacao, dont le cœur révèle une ganache fondante qui s\'écoule à la première cuillère. Sa texture aérienne contraste parfaitement avec son intensité en bouche, adoucie par une crème anglaise à la vanille bourbon servie tiède en accompagnement.'
         },
         {
           name: 'COOKIE TANGERINO',
-          description: 'Cookie maison aux éclats de chocolat et fleur d\'oranger, glace à la cannelle',
+          description: 'Cookie maison aux éclats de chocolat et fleur d\'oranger, glace a la vanille et caramel beurre salé',
           price: 80,
           detailedDescription: 'Notre cookie signature allie la texture parfaite - croustillant sur les bords et moelleux au centre - à une saveur unique grâce à l\'eau de fleur d\'oranger qui parfume délicatement la pâte aux éclats de chocolat. Servi tiède avec une boule de glace à la cannelle qui se marie parfaitement à ses notes orientales.'
         },
         {
           name: 'ASSIETTE DE FRUITS',
-          description: 'Sélection de fruits frais de saison délicatement préparés, sirop léger à la menthe fraîche',
+          description: 'Sélection de fruits frais de saison délicatement préparés',
           price: 80,
-          detailedDescription: 'Une composition colorée et rafraîchissante de fruits de saison minutieusement sélectionnés pour leur maturité parfaite. Mangue, fruits rouges, agrumes et fruits exotiques sont présentés en harmonieuses découpes, subtilement nappés d\'un sirop infusé à la menthe fraîche et au citron vert.'
+          detailedDescription: 'Une composition colorée et rafraîchissante de fruits de saison soigneusement sélectionnés à leur parfaite maturité. Présentés en découpes élégantes, ils sont subtilement nappés d\'un sirop infusé à la menthe fraîche et au citron vert, pour une touche de fraîcheur aromatique.'
         },
         {
           name: 'CAFÉ GOURMAND',
@@ -244,24 +244,6 @@ export default function DessertsMenu() {
     <section ref={menuRef} className="py-20 bg-[#3e4c52] text-amber-50 relative">
       {/* Background elements */}
       <div className="absolute inset-0 opacity-10"></div>
-      
-      {/* Section Title */}
-      <motion.div 
-        className="text-center mb-16"
-        initial={{ opacity: 0, y: 20 }}
-        animate={isVisible ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
-        transition={{ duration: 0.8 }}
-      >
-        <h2 className="font-SweetSansProBold font-serif text-4xl md:text-5xl tracking-wider text-amber-50 mb-4">Desserts</h2>
-        <div className="flex items-center justify-center mb-6">
-          <div className="h-px w-12 bg-amber-200/40"></div>
-          <div className="mx-4 text-amber-200/60">✦</div>
-          <div className="h-px w-12 bg-amber-200/40"></div>
-        </div>
-        <p className="text-amber-100/70 font-light max-w-2xl mx-auto">
-          Une symphonie de douceurs pour clôturer votre expérience gustative, où tradition pâtissière et créativité contemporaine se rencontrent dans un ballet de saveurs et textures
-        </p>
-      </motion.div>
       
       {/* Menu content */}
       <div className="container mx-auto px-4">

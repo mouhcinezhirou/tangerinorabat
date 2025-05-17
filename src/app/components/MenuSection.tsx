@@ -159,9 +159,9 @@ export default function MenuCategorySection() {
   animate={isVisible ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
   transition={{ duration: 0.8 }}
 >
-  <h2 className="font-SweetSansProBold text-4xl md:text-5xl font-serif tracking-wider text-amber-50 mb-4">NOTRE CARTE</h2>
+  <h2 className="font-SweetSansProBold text-4xl md:text-5xl font-serif tracking-wider text-amber-50 mb-4">LA CARTE</h2>
   <p className="text-amber-100/70 font-light max-w-2xl mx-auto">
-    Un voyage culinaire à travers les saveurs méditerranéennes, élaboré avec passion et les meilleurs ingrédients
+  Attention, ce menu risque de vous mettre l’eau à la bouche, d’éveiller vos sens et de vous ouvrir un appétit insoupçonné
   </p>
 </motion.div>
       

@@ -14,13 +14,13 @@ export default function BeerSpiritsMenuPage() {
           setIsVisible(true);
         }
       },
-      { threshold: 0.1 }
+      { threshold: 0.01 } // Reduced threshold for faster trigger
     );
-
+  
     if (menuRef.current) {
       observer.observe(menuRef.current);
     }
-
+  
     return () => {
       if (menuRef.current) {
         observer.unobserve(menuRef.current);
@@ -28,18 +28,16 @@ export default function BeerSpiritsMenuPage() {
     };
   }, []);
 
-  // Menu data - with consistent naming style
+  // Updated menu data according to the provided menu
   const menuData = {
     beers: [
-      { name: 'Corelli Lager', price: 35 },
-      { name: 'San Miguel', price: 45 },
-      { name: 'San Miguel Sans Alcool', price: 45 },
-      { name: 'Mahou Original', price: 50 },
-      { name: 'Casablanca', price: 50 },
-      { name: 'San Miguel Fresca', price: 55 },
-      { name: 'Budweiser', price: 60 },
+      { name: 'San Miguel 33cl', price: 45 },
+      { name: 'Mahou Original 33cl', price: 50 },
+      { name: 'San Miguel Sans Alcool', price: 50 },
       { name: 'Smirnoff Ice', price: 60 },
-      { name: 'Leffe Blonde', price: 65 }
+      { name: 'Budweiser', price: 60 },
+      { name: 'Leffe blonde 33cl', price: 60 },
+      { name: 'Corona', price: 80 }
     ],
     aperitifs: [
       { name: 'Pastis', price: 70 },
@@ -48,71 +46,83 @@ export default function BeerSpiritsMenuPage() {
       { name: 'Martini Rouge', price: 70 },
       { name: 'Martini Blanc', price: 70 },
       { name: 'Martini Rosé', price: 70 },
-      { name: 'Campari', price: 70 }
+      { name: 'Campari', price: 70 },
+      { name: 'Pastis 12/12 St Tropez', price: 100 },
     ],
     digestifs: [
       { name: 'Sambuca Isolabella', price: 70 },
-      { name: 'Fernet-Branca', price: 70 },
+      { name: 'Fernet Branca', price: 70 },
       { name: 'Armagnac', price: 70 },
       { name: 'Get 27', price: 70 },
       { name: 'Grappa Sandro Bottega', price: 70 },
       { name: 'Limoncello', price: 70 },
-      { name: 'Jägermeister', price: 70 },
-      { name: 'Baileys', price: 70 },
-      { name: 'Amaretto Disaronno', price: 70 },
-      { name: 'Cointreau', price: 70 },
-      { name: 'Grand Marnier', price: 70 },
-      { name: 'Eau de Vie Prune', price: 70 },
-      { name: 'Eau de Vie Poire Williams', price: 70 }
+      { name: 'Cointreau', price: 90 },
+      { name: 'Eau de vie Prune', price: 90 },
+      { name: 'Eau de vie Poire Williams', price: 90 },
+      { name: 'Baileys', price: 100 },
+      { name: 'Amaretto Disaronno', price: 100 }
     ],
     cognacs: [
       { name: 'Calvados Boulard', price: 90 },
       { name: 'ABK6 VS', price: 90 },
-      { name: 'ABK6 VSPO', price: 150 },
-      { name: 'ABK6 X.O', price: 300 }
+      { name: 'ABK6 VSOP', price: 150 },
+      { name: 'HENNESSY V.S.', price: 190 },
+      { name: 'HENNESSY V.S.O.P.', price: 290 },
+      { name: 'ABK6 XO', price: 300 },
+      { name: 'HENNESSY X.O. BOUTEILLE', price: 6500 }
     ],
     rums: [
-      { name: 'Bacardi Blanc', price: 75 },
-      { name: 'Bacardi Gold', price: 75 },
-      { name: 'Relicario Superior', price: 90 },
-      { name: 'Relicario Supremo', price: 140 }
+      { name: 'Bacardi blanc', glass: 80, bottle: '-' },
+      { name: 'Bacardi Gold', glass: 80, bottle: '-' },
+      { name: 'Relicario Superior', glass: 90, bottle: '-' },
+      { name: 'Bacardi 8 ans', glass: 140, bottle: '-' },
+      { name: 'Relicario Supremo', glass: 140, bottle: '-' },
+      { name: 'Ron Zacapa 23', glass: 350, bottle: '-' },
+      { name: 'Ron Zacapa XO', glass: '-', bottle: 6500 }
     ],
     whiskies: [
-      { name: "Grant's", glass: 70, bottle: '-' },
-      { name: 'Chivas', glass: 95, bottle: '-' },
-      { name: 'Monkey Shoulder', glass: 95, bottle: '-' },
+      { name: 'Irish Tullamore Dew', glass: 90, bottle: '-' },
+      { name: 'Monkey Shoulder', glass: 95, bottle: 1400 },
       { name: "Jack Daniel's", glass: 90, bottle: 1300 },
-      { name: "Jack Daniel's Honey", glass: 90, bottle: '-' },
+      { name: "Jack Daniel's Honey", glass: 90, bottle: 1300 },
       { name: 'Gentleman Jack', glass: 140, bottle: 1400 },
-      { name: "Jack Daniel's Single Barrel", glass: 150, bottle: '-' },
-      { name: "Dewar's 12 Years", glass: 100, bottle: '-' },
-      { name: "Dewar's 15 Years", glass: 120, bottle: '-' },
-      { name: "Dewar's 18 Years", glass: 150, bottle: '-' },
-      { name: 'Glenfiddich 12 Years', glass: 120, bottle: '-' },
-      { name: 'Glenfiddich 15 Years', glass: 140, bottle: '-' },
+      { name: 'Woodford Reserve', glass: 110, bottle: 1450 },
+      { name: 'Bourbon Bulleit', glass: 110, bottle: 1450 },
+      { name: 'Glenfiddich 12 years', glass: 120, bottle: 1500 },
+      { name: 'Glenfiddich 15 years', glass: 140, bottle: 2000 },
+      { name: 'Glenfiddich 18 years', glass: 220, bottle: 3000 },
       { name: 'Black Label', glass: 95, bottle: 1500 },
-      { name: 'Blue Label', glass: '-', bottle: 8000 },
+      { name: 'Blue Label', glass: '-', bottle: 9500 },
       { name: 'Blue Label King George V', glass: '-', bottle: 14000 }
     ],
     vodkas: [
-      { name: "Tito's", glass: 75, bottle: 1100 },
+      { name: "Tito's Handmade", glass: 75, bottle: 1100 },
       { name: 'Grey Goose', glass: 90, bottle: 1400 },
-      { name: 'Cristal Head', glass: 140, bottle: 1900 }
+      { name: 'Crystal head', glass: 140, bottle: 1900 },
+      { name: 'Grey Goose Altius', glass: '-', bottle: 4500 },
+      { name: 'Belvedere 10', glass: '-', bottle: 6000 }
     ],
     gins: [
-      { name: 'Bombay Original', glass: 70, bottle: 1100 },
       { name: 'Bombay Sapphire', glass: 80, bottle: 1200 },
       { name: "Hendrick's", glass: 100, bottle: 1400 },
-      { name: 'Monkey 47', glass: 160, bottle: 1700 }
+      { name: 'Tanqueray', glass: 120, bottle: 1600 },
+      { name: 'Tanqueray Royale', glass: 120, bottle: 1600 },
+      { name: 'Gin Mare', glass: 140, bottle: 1600 },
+      { name: 'Monkey 47', glass: 160, bottle: 1700 },
+      { name: 'Palmarae (Luxury Gin)', glass: 250, bottle: 3000 }
     ],
     tequilas: [
-      { name: 'Camino', glass: 70, bottle: '-' },
+      { name: 'Camino Real', glass: 70, bottle: '-' },
+      { name: 'Mezcal San Cosme', glass: 150, bottle: 1500 },
       { name: 'Patron Silver', glass: 100, bottle: 1500 },
-      { name: 'Patron Añejo', glass: '-', bottle: 2000 },
-      { name: 'Patron Reposado', glass: '-', bottle: 2000 }
+      { name: 'Patron Reposado', glass: '-', bottle: 2000 },
+      { name: 'Patron Anejo', glass: '-', bottle: 2000 },
+      { name: 'Clase Azul Reposado', glass: '-', bottle: 9000 },
+      { name: 'Don Julio 1942', glass: '-', bottle: 12000 }
     ],
     sangrias: [
-      { name: 'Rouge - Blanche - Rosé', glass: 70, bottle: 280 }
+      { name: 'Sangria Original (Vino) Rouge/Blanche/Rosé', glass: 70, bottle: 280 },
+      { name: 'Sangria Cava Rouge/Blanche/Rosé', glass: 95, bottle: 380 }
     ]
   };
 
@@ -235,24 +245,6 @@ export default function BeerSpiritsMenuPage() {
         <div className="h-full w-full bg-[url('/texture.png')] bg-repeat opacity-10"></div>
       </div>
       
-      {/* Section Title */}
-      <motion.div 
-        className="text-center mb-12"
-        initial={{ opacity: 0, y: 20 }}
-        animate={{ opacity: 1, y: 0 }} /* Always animate in */
-        transition={{ duration: 0.8 }}
-      >
-        <h2 className="font-SweetSansProBold text-4xl md:text-5xl font-serif tracking-wider text-amber-50 mb-3">BIÈRES & SPIRITUEUX</h2>
-        <div className="flex items-center justify-center mb-4">
-          <div className="h-px w-12 bg-amber-200/40"></div>
-          <div className="mx-4 text-amber-200/60">✦</div>
-          <div className="h-px w-12 bg-amber-200/40"></div>
-        </div>
-        <p className="text-amber-100/70 font-light max-w-2xl mx-auto">
-          Découvrez notre sélection raffinée de bières et spiritueux premium, choisis avec soin pour accompagner votre expérience gastronomique
-        </p>
-      </motion.div>
-      
       {/* Menu content */}
       <div className="container mx-auto px-4">
         {/* BEERS SECTION */}
@@ -274,8 +266,8 @@ export default function BeerSpiritsMenuPage() {
 
         {/* COGNAC/BRANDY & RUM SECTION */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-14">
-          <DrinkSection title="COGNAC / BRANDY" items={menuData.cognacs} />
-          <DrinkSection title="RHUM" items={menuData.rums} />
+          <DrinkSection title="COGNAC / CALVADOS" items={menuData.cognacs} />
+          <DrinkSection title="RHUM" items={menuData.rums} hasBottle={true} />
         </div>
 
         <SmallDivider />
@@ -294,7 +286,7 @@ export default function BeerSpiritsMenuPage() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-14">
           <DrinkSection title="VODKA" items={menuData.vodkas} hasBottle={true} />
           <DrinkSection title="GIN" items={menuData.gins} hasBottle={true} />
-          <DrinkSection title="TEQUILA" items={menuData.tequilas} hasBottle={true} />
+          <DrinkSection title="TEQUILA / MEZCAL" items={menuData.tequilas} hasBottle={true} />
         </div>
 
         <SmallDivider />

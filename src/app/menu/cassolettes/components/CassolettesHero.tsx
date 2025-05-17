@@ -79,7 +79,7 @@ export default function CassolettesHero() {
           transition={{ duration: 0.8, delay: 0.2 }}
         >
           CASSOLETTES<br></br>
-          MIJOTÉES
+          DE LA CASA
         </motion.h1>
 
         {/* Decorative line */}

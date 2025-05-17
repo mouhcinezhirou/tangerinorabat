@@ -78,7 +78,7 @@ export default function OeufsFrituresHero() {
           animate={isVisible ? { opacity: 1, y: 0 } : { opacity: 0, y: 30 }}
           transition={{ duration: 0.8, delay: 0.2 }}
         >
-          ŒUFS<br></br>
+          TORTIALLAS<br></br>
           & FRITURES
         </motion.h1>
 

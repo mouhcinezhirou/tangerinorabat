@@ -182,20 +182,20 @@ export default function SeafoodMenuPage() {
       gridCols: "grid-cols-1 md:grid-cols-3",
       items: [
         {
-          name: 'HUÎTRES (6 PIÈCES)',
-          description: 'Huîtres fraîches de la Méditerranée servies sur glace avec citron et sauce mignonette',
+          name: "HUÎTRES (6 PIÈCES)",
+          description: "Huîtres fraîches de l'Atlantique, provenant de Dakhla, servies sur glace avec citron et sauce mignonette",
           price: 100,
-          detailedDescription: 'Sélectionnées à la main dans les eaux cristallines de la Méditerranée, ces délices iodés sont ouverts à la commande. Chaque huître charnue porte l\'essence de la mer, accompagnée d\'une délicate mignonette à l\'échalote et au vinaigre.'
-        },
+          detailedDescription: "Sélectionnées à la main dans les eaux cristallines de l'Atlantique, au large de Dakhla, ces délices iodés sont ouverts à la commande. Chaque huître charnue porte l'essence de la mer, accompagnée d'une délicate mignonette à l'échalote et au vinaigre."
+        },        
         {
           name: 'HUÎTRES (12 PIÈCES)',
           description: 'Une généreuse sélection de nos huîtres premium avec accompagnements traditionnels',
           price: 180,
-          detailedDescription: 'Une douzaine luxueuse présentant les meilleures pêches quotidiennes de différentes régions méditerranéennes. Servies sur un lit de glace pilée avec mignonette maison, raifort frais et sauce piquante artisanale.'
+          detailedDescription: 'Une douzaine luxueuse présentant les meilleures pêches quotidiennes de différentes régions atlantiques, notamment Dakhla. Servies sur un lit de glace pilée avec mignonette maison, raifort frais et sauce piquante artisanale.'
         },
         {
-          name: 'HUÎTRES GRILLÉES AU FOUR MIBRASA (6 PIÈCES)',
-          description: 'Huîtres grillées au beurre aux herbes et à l\'ail, cuites dans notre four Mibrasa',
+          name: 'HUÎTRES GRILLÉES A LA MIBRASA (6 PIÈCES)',
+          description: 'Huîtres grillées au beurre aux herbes et à l\'ail, cuites dans notre Mibrasa',
           price: 120,
           detailedDescription: 'Ces huîtres subissent une transformation fumée dans notre four Mibrasa, chacune caressée d\'un beurre à l\'ail et aux herbes. La chaleur douce intensifie leur iode naturelle tout en ajoutant une note grillée complexe.'
         }
@@ -206,15 +206,15 @@ export default function SeafoodMenuPage() {
       items: [
         {
           name: 'GRATIN DE FRUITS DE MER',
-          description: 'Un mélange luxueux de fruits de mer frais cuits au four avec crème, vin blanc et chapelure dorée',
+          description: 'Un mélange luxueux de fruits de mer frais cuits au four avec crème, et chapelure dorée',
           price: 130,
-          detailedDescription: 'Un assortiment décadent de crustacés et de poissons enveloppés dans une sauce veloutée à la crème et au vin blanc. Cuit au four jusqu\'à obtenir une croûte dorée de parmesan et de chapelure aux herbes qui ajoute un croustillant délicieux.'
+          detailedDescription: 'Un assortiment décadent de crustacés et de poissons enveloppés dans une sauce veloutée à la crème. Cuit au four jusqu\'à obtenir une croûte dorée de parmesan et de chapelure aux herbes qui ajoute un croustillant délicieux.'
         },
         {
           name: 'CEVICHE D\'HUÎTRES, CREVETTES ET POULPE',
-          description: 'Fruits de mer frais marinés dans du jus d\'agrumes avec des herbes méditerranéennes, oignon rouge et avocat',
+          description: 'Fruits de mer frais marinés dans du leche de tigre avec des herbes méditerranéennes, oignon rouge et avocat',
           price: 180,
-          detailedDescription: 'Une trilogie vibrante de trésors marins "cuits" dans des jus d\'agrumes frais, infusés de coriandre et d\'oignon rouge. Garni d\'avocat crémeux et de chips de banane plantain croustillantes pour un équilibre parfait de saveurs et de textures.'
+          detailedDescription: 'Une trilogie vibrante de trésors marins "cuits" dans des leche de tigre, infusés de coriandre et d\'oignon rouge. Garni d\'avocat crémeux pour un équilibre parfait de saveurs et de textures.'
         },
         {
           name: 'CREVETTES ROUGES SAUVAGES',
@@ -223,10 +223,10 @@ export default function SeafoodMenuPage() {
           detailedDescription: 'Les précieuses crevettes rouges méditerranéennes, grillées à la perfection avec leurs carapaces qui confèrent une saveur intense. Accompagnées d\'une bisque soyeuse élaborée à partir des têtes rôties, infusée au safran et au fenouil.'
         },
         {
-          name: 'HOMARD TRANCHÉ',
-          description: 'Queue de homard premium délicatement tranchée et disposée, accompagnée d\'une bisque aromatique servie dans un verre à shot',
+          name: 'EMNICÉ DE LANGOUSTE',
+          description: "Queue de langouste premium délicatement tranchée et disposée, accompagnée d'une bisque de langouste aromatique servie dans un verre à shot",
           price: 420,
-          detailedDescription: 'Queue de homard d\'eau froide, précisément tranchée et disposée en éventail pour mettre en valeur sa chair tendre et nacrée. Servie avec une réduction intense de bisque de homard, rehaussée de cognac et d\'herbes fraîches pour une expérience gustative inoubliable.'
+          detailedDescription: "Queue de langouste d'eau froide, précisément tranchée et disposée en éventail pour mettre en valeur sa chair tendre et nacrée. Servie avec une réduction intense de bisque de langouste, rehaussée de cognac et d'herbes fraîches pour une expérience gustative inoubliable."
         }
       ]
     }
@@ -237,23 +237,6 @@ export default function SeafoodMenuPage() {
       {/* Background elements */}
       <div className="absolute inset-0 opacity-10"></div>
       
-      {/* Section Title */}
-      <motion.div 
-        className="text-center mb-16"
-        initial={{ opacity: 0, y: 20 }}
-        animate={isVisible ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
-        transition={{ duration: 0.8 }}
-      >
-        <h2 className="font-SweetSansProBold font-serif text-4xl md:text-5xl tracking-wider text-amber-50 mb-4">FRUITS DE MER & HUÎTRES</h2>
-        <div className="flex items-center justify-center mb-6">
-          <div className="h-px w-12 bg-amber-200/40"></div>
-          <div className="mx-4 text-amber-200/60">✦</div>
-          <div className="h-px w-12 bg-amber-200/40"></div>
-        </div>
-        <p className="text-amber-100/70 font-light max-w-2xl mx-auto">
-          Laissez-vous tenter par notre sélection de fruits de mer frais et d'huîtres de première qualité provenant de la mer Méditerranée
-        </p>
-      </motion.div>
       
       {/* Menu content */}
       <div className="container mx-auto px-4">

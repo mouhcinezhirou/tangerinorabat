@@ -1,6 +1,7 @@
 'use client';
 
 import Image from 'next/image';
+import Link from 'next/link';
 import { motion } from 'framer-motion';
 import { useEffect } from 'react';
 
@@ -39,6 +40,46 @@ export default function HeroSection() {
 
   return (
     <div className="relative h-screen w-full overflow-hidden">
+      {/* Language Selector Buttons - New addition */}
+      <motion.div 
+        initial={{ opacity: 0, y: -20 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.8 }}
+        className="absolute top-8 right-8 z-20 flex space-x-2"
+      >
+        <motion.div
+          whileHover={{ scale: 1.05 }}
+          whileTap={{ scale: 0.95 }}
+          className="relative group"
+        >
+          <Link href="/eng">
+            <div className="bg-black/20 backdrop-blur-md border border-amber-100/40 text-amber-50 py-2 px-4 font-medium tracking-wider cursor-pointer transition-all duration-300">
+              <span className="relative z-10">ENG</span>
+              <motion.div 
+                className="absolute bottom-0 left-0 right-0 h-0 bg-amber-400/30 group-hover:h-full transition-all duration-300 ease-in-out"
+                style={{ zIndex: 0 }}
+              />
+            </div>
+          </Link>
+        </motion.div>
+        
+        <motion.div
+          whileHover={{ scale: 1.05 }}
+          whileTap={{ scale: 0.95 }}
+          className="relative group"
+        >
+          <Link href="/es">
+            <div className="bg-black/20 backdrop-blur-md border border-amber-100/40 text-amber-50 py-2 px-4 font-medium tracking-wider cursor-pointer transition-all duration-300">
+              <span className="relative z-10">ESP</span>
+              <motion.div 
+                className="absolute bottom-0 left-0 right-0 h-0 bg-amber-400/30 group-hover:h-full transition-all duration-300 ease-in-out"
+                style={{ zIndex: 0 }}
+              />
+            </div>
+          </Link>
+        </motion.div>
+      </motion.div>
+
       {/* Background Image with parallax effect */}
       <motion.div 
         initial={{ scale: 1.05, opacity: 0 }}
@@ -113,7 +154,7 @@ export default function HeroSection() {
           transition={{ duration: 0.8, delay: 0.5 }}
           className="text-amber-100/90 font-serif italic text-xl tracking-wide mb-8"
         >
-          - Established 2012 -
+          - Since 2012 -
         </motion.p>
 
         {/* Subheadline with poetic touch */}
@@ -123,8 +164,7 @@ export default function HeroSection() {
           transition={{ duration: 0.8, delay: 0.8 }}
           className="text-xl md:text-2xl mb-10 max-w-2xl font-light text-amber-50/90"
         >
-          Where Mediterranean flavors dance with modern artistry, 
-          <br className="hidden md:block" /> creating culinary poetry on every plate
+          C’est dans la cuisine qu’on retrouve l’âme du peuple
         </motion.p>
 
         {/* CTA Button - updated color scheme */}

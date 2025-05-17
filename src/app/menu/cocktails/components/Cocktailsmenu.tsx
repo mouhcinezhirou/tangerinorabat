@@ -6,7 +6,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 interface CocktailItem {
   name: string;
   description: string;
-  price: number;
+  price: number | null;
   detailedDescription?: string;
 }
 
@@ -190,18 +190,6 @@ export default function CocktailsMenu() {
           description: 'Bacardi Blanc, Cachaça, Oleo-saccharum à la Banane Épicée, Sirop de Vin Blanc Infusé à la Pêche et à l\'Ananas Grillé',
           price: 95,
           detailedDescription: 'Un voyage tropical complexe mettant en vedette des spiritueux des Caraïbes et des infusions maison. L\'oleo-saccharum de banane épicée et le sirop de vin aux fruits grillés créent un équilibre sophistiqué entre douceur caramélisée et épices exotiques.'
-        },
-        {
-          name: 'MALABATA BEACH',
-          description: 'Vodka Tito\'s, Purée de Fruit de la Passion, Jus d\'Orange',
-          price: 95,
-          detailedDescription: 'Souvenirs de plages ensoleillées capturés dans un verre, où la vodka pure rencontre la purée de fruit de la passion tropicale. Le jus d\'orange frais ajoute brillance et équilibre, créant une échappée rafraîchissante au bord de la mer.'
-        },
-        {
-          name: 'KASBAH',
-          description: 'Whisky Grants, Liqueur de Pommes, Jus de Pommes',
-          price: 95,
-          detailedDescription: 'Un hommage chaleureux à l\'hospitalité marocaine, mélangeant le whisky écossais avec la liqueur de pomme française. Le jus de pomme frais ajoute une touche croustillante et fruitée à ce cocktail réconfortant.'
         }
       ]
     },
@@ -229,42 +217,78 @@ export default function CocktailsMenu() {
       ]
     },
     {
-      title: 'EAUX MINÉRALES',
+      title: 'SHOTS',
+      items: [
+        {
+          name: 'MALABATA BEACH',
+          description: 'Vodka Tito\'s, Purée de Fruit de la Passion, Jus d\'Orange',
+          price: null,
+          detailedDescription: 'Souvenirs de plages ensoleillées capturés dans un verre, où la vodka pure rencontre la purée de fruit de la passion tropicale. Le jus d\'orange frais ajoute brillance et équilibre, créant une échappée rafraîchissante au bord de la mer.'
+        },
+        {
+          name: 'KASBAH',
+          description: 'Whisky Grants, Liqueur de Pommes, Jus de Pommes',
+          price: null,
+          detailedDescription: 'Un hommage chaleureux à l\'hospitalité marocaine, mélangeant le whisky écossais avec la liqueur de pomme française. Le jus de pomme frais ajoute une touche croustillante et fruitée à ce cocktail réconfortant.'
+        },
+        {
+          name: 'RMILAT',
+          description: 'Purée de Litchi, Menthe, Gin Bombay, Vermouth Rosé',
+          price: null,
+          detailedDescription: 'Un classique local revisité avec notre touche signature, parfait pour célébrer.'
+        },
+        {
+          name: 'PERDICARIS',
+          description: 'Tequila, Jus d’Orange, Sirop de Grenadine, Liqueur d’Orange',
+          price: null,
+          detailedDescription: 'Inspiré par les légendes locales, ce shot rafraîchissant offre un équilibre parfait entre force et saveur.'
+        }
+      ]
+    },
+    {
+      title: 'EAUX ET SOFTS',
       items: [
         {
           name: 'SIDI ALI 75cl',
-          description: 'eau minérale naturelle',
+          description: 'Eau minérale naturelle',
           price: 50,
           detailedDescription: 'Eau minérale naturelle rafraîchissante du Maroc, source des montagnes de l\'Atlas offrant une eau légèrement minéralisée au goût pur et équilibré.'
         },
         {
           name: 'EVIAN 75cl',
-          description: 'eau minérale premium',
+          description: 'Eau minérale premium',
           price: 90,
           detailedDescription: 'Eau minérale pure des Alpes françaises, issue d\'un voyage de plus de 15 ans à travers les roches alpines. Sa pureté et sa composition équilibrée en font une référence mondiale.'
         },
         {
           name: 'OULMÈS 75cl',
-          description: 'eau minérale gazeuse',
+          description: 'Eau minérale gazeuse',
           price: 50,
           detailedDescription: 'Eau minérale gazeuse marocaine classique, naturellement pétillante avec des bulles fines. Une référence nationale reconnue pour ses propriétés digestives et son goût rafraîchissant.'
         },
         {
           name: 'EVIAN PÉTILLANTE 75cl',
-          description: 'eau minérale gazeuse naturelle',
+          description: 'Eau minérale gazeuse naturelle',
           price: 90,
           detailedDescription: 'Eau minérale naturellement pétillante d\'Evian, alliant la pureté légendaire de la source avec une effervescence délicate. Parfaite pour accompagner vos repas gastronomiques.'
-        }
-      ]
-    },
-    {
-      title: 'BOISSONS FRAÎCHES',
-      items: [
+        },
         {
           name: 'SODA',
-          description: 'différents parfums disponibles',
+          description: 'Différents parfums disponibles',
           price: 50,
           detailedDescription: 'coca cola, coca cola zero, shweppes citron, schweppes tonic, sprite, poms, hawai.'
+        },
+        {
+          name: 'RED BULL',
+          description: 'Boisson énergisante',
+          price: 100,
+          detailedDescription: 'Boisson énergisante premium, idéale pure ou en mélange avec vos spiritueux préférés.'
+        },
+        {
+          name: 'GINGER ALE TRIBUTE',
+          description: 'Soda premium au gingembre',
+          price: 100,
+          detailedDescription: 'Soda artisanal premium avec des notes vives de gingembre frais, parfait seul ou en cocktail.'
         },
         {
           name: 'JUS DE FRUITS FRAIS',
@@ -274,19 +298,19 @@ export default function CocktailsMenu() {
         },
         {
           name: 'CAFÉ ESPRESSO  ',
-          description: 'illy café',
+          description: 'Illy café',
           price: 50,
           detailedDescription: 'Des grains d\'Arabica d\'origine unique torréfiés localement et préparés selon vos préférences. De l\'expresso intense au café au lait crémeux, chaque tasse est élaborée avec expertise.'
         },
         {
           name: 'THÉ À LA MENTHE',
-          description: 'thé marocain traditionnel',
+          description: 'Thé marocain traditionnel',
           price: 50,
           detailedDescription: 'Thé à la menthe rafraîchissant préparé à la traditionnelle.'
         },
         {
           name: 'THÉ SAYRA',
-          description: 'parfums différents',
+          description: 'Parfums différents',
           price: 50,
           detailedDescription: 'Une collection exclusive de thés parfumés aux arômes subtils et envoûtants. Chaque tasse révèle une symphonie de saveurs entre notes florales, fruitées et épicées, pour un moment de pure détente.'
         }
@@ -307,36 +331,9 @@ export default function CocktailsMenu() {
     <section ref={menuRef} className="py-20 bg-[#3e4c52] text-amber-50 relative">
       {/* Background elements */}
       <div className="absolute inset-0 opacity-10"></div>
-      
-      {/* Section Title */}
-      <motion.div 
-        className="text-center mb-16"
-        initial={{ opacity: 0, y: 20 }}
-        animate={isVisible ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
-        transition={{ duration: 0.8 }}
-      >
-        <h2 className="font-SweetSansProBold font-serif text-4xl md:text-5xl tracking-wider text-amber-50 mb-4">Cocktails</h2>
-        <div className="flex items-center justify-center mb-6">
-          <div className="h-px w-12 bg-amber-200/40"></div>
-          <div className="mx-4 text-amber-200/60">✦</div>
-          <div className="h-px w-12 bg-amber-200/40"></div>
-        </div>
-        <p className="text-amber-100/70 font-light max-w-2xl mx-auto">
-          Délectez-vous de nos cocktails signature élaborés avec des spiritueux artisanaux et des ingrédients frais méditerranéens
-        </p>
-      </motion.div>
-      
       {/* Menu content */}
       <div className="container mx-auto px-4">
-        {/* COCKTAILS SIGNATURE section */}
-        <CocktailMenuSection title={menuSections[0].title} items={menuSections[0].items} />
-        <ElegantDivider />
-        
-        {/* MOCKTAILS section */}
-        <CocktailMenuSection title={menuSections[1].title} items={menuSections[1].items} />
-        <ElegantDivider />
-        
-        {/* SHOTS section - Moved to after MOCKTAILS */}
+        {/* Notice about classics - Now between main title and cocktails signature */}
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -345,11 +342,37 @@ export default function CocktailsMenu() {
           className="mb-20"
         >
           <div className="bg-amber-900/20 backdrop-blur-sm rounded-lg p-6 border border-amber-200/20 relative overflow-hidden">
-            <div className="relative z-10">
-              <h3 className="font-SweetSansProBold text-center text-xl font-serif tracking-wider text-amber-100 mb-6">
-                SHOTS
-              </h3>
-              
+            <div className="relative z-10">              
+              <div className="text-center text-amber-100/80 italic">
+                <p>TOUS LES CLASSIQUES DISPONIBLES <span className="font-light">*Demandez à votre Serveur*</span></p>
+              </div>
+            </div>
+          </div>
+        </motion.div>
+        <ElegantDivider />
+        
+        {/* COCKTAILS SIGNATURE section */}
+        <CocktailMenuSection title={menuSections[0].title} items={menuSections[0].items} />
+        <ElegantDivider />
+        
+        {/* MOCKTAILS section */}
+        <CocktailMenuSection title={menuSections[1].title} items={menuSections[1].items} />
+        <ElegantDivider />
+        
+        {/* SHOTS section with pricing information */}
+        <motion.div
+          initial={{ opacity: 0, y: 30 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.8 }}
+          className="mb-20"
+        >
+          <h3 className="font-SweetSansProBold text-center font-serif text-3xl tracking-wider text-amber-100 mb-10">
+            SHOTS
+          </h3>
+          
+          <div className="bg-amber-900/20 backdrop-blur-sm rounded-lg p-6 border border-amber-200/20 relative overflow-hidden mb-8">
+            <div className="relative z-10">              
               <div className="flex justify-center items-center gap-10">
                 <div className="text-center">
                   <span className="block text-lg text-amber-100">5 POUR 180 </span>
@@ -358,20 +381,24 @@ export default function CocktailsMenu() {
                   <span className="block text-lg text-amber-100">10 POUR 300 </span>
                 </div>
               </div>
-              
-              <div className="text-center mt-6 text-amber-100/80 italic">
-                <p>TOUS LES CLASSIQUES DISPONIBLES <span className="font-light">*Demandez à votre Serveur*</span></p>
-              </div>
             </div>
+          </div>
+          
+          {/* Shot items */}
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+            {menuSections[2].items.map((item, index) => (
+              <CocktailMenuItem
+                key={index}
+                {...item}
+                onExpand={() => {}}
+                isExpanded={false}
+              />
+            ))}
           </div>
         </motion.div>
         <ElegantDivider />
         
-        {/* EAUX MINÉRALES section - Added before BOISSONS FRAÎCHES */}
-        <CocktailMenuSection title={menuSections[2].title} items={menuSections[2].items} />
-        <ElegantDivider />
-        
-        {/* BOISSONS FRAÎCHES section */}
+        {/* EAUX ET SOFTS section */}
         <CocktailMenuSection title={menuSections[3].title} items={menuSections[3].items} />
       </div>
       

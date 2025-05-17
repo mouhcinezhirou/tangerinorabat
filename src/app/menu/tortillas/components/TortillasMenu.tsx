@@ -168,26 +168,26 @@ export default function OeufsFrituresMenu() {
       title: 'TORTILLAS ET ŒUFS',
       items: [
         {
-          name: 'TORTILLA ESPAGNOLE AVEC CHORIZO PIQUANT',
+          name: 'TORTILLA ESPAGNOLE AU CHORIZO',
           description: 'L\'omelette traditionnelle espagnole enrichie de savoureux chorizo légèrement relevé',
           price: 90,
           detailedDescription: 'Notre tortilla est préparée selon la recette traditionnelle avec des pommes de terre confites dans l\'huile d\'olive et des oignons caramélisés, auxquels nous ajoutons un chorizo artisanal légèrement piquant. Cuite lentement pour obtenir un cœur moelleux et fondant, elle est servie tiède pour en apprécier toutes les saveurs.'
         },
         {
-          name: 'TORTILLA ESPAGNOLE',
+          name: 'TORTILLA ESPAGNOLE CLASSIQUE',
           description: 'L\'authentique omelette espagnole aux pommes de terre et oignons confits',
           price: 70,
-          detailedDescription: 'Notre tortilla traditionnelle est préparée avec des pommes de terre soigneusement sélectionnées, confites à basse température dans notre huile d\'olive extra vierge, et des oignons doucement caramélisés. Elle est cuite à la perfection pour offrir un contraste entre l\'extérieur légèrement doré et un cœur tendre et onctueux.'
+          detailedDescription: 'Notre tortilla traditionnelle est préparée avec des pommes de terre soigneusement sélectionnées, confites à basse température dans notre huile d\'olive vierge extra, et des oignons doucement caramélisés. Elle est cuite à la perfection pour offrir un contraste entre l\'extérieur légèrement doré et un cœur tendre et onctueux.'
         },
         {
-          name: 'TORTILLA ESPAGNOLE AVEC ÉPINARDS ET FROMAGE MANCHEGO',
+          name: 'TORTILLA ESPAGNOLE AUX ÉPINARDS ET MANCHEGO',
           description: 'Délicate variation de la tortilla classique aux épinards frais et manchego affiné',
           price: 90,
           detailedDescription: 'Cette élégante version de notre tortilla associe la douceur des épinards frais légèrement wilted et la richesse du fromage manchego affiné pendant 6 mois. La combinaison des pommes de terre fondantes, des épinards et du fromage crée un équilibre parfait entre onctuosité et caractère.'
         },
         {
-          name: 'ŒUFS AU PLAT ET CHORIZO SUR POMMES DE TERRE ALLUMETTES',
-          description: 'Œufs fermiers cuits sur lit de pommes de terre croustillantes avec chorizo grillé',
+          name: 'HUEVOS ROTOS CON CHORIZO (HALAL)',
+          description: 'Œufs cuits sur lit de pommes de terre croustillantes avec chorizo grillé',
           price: 95,
           detailedDescription: 'Nos œufs fermiers aux jaunes orangés sont délicatement cuits sur un lit de pommes de terre allumettes croustillantes et accompagnés de chorizo halal légèrement grillé. Le jaune coulant se mêle aux pommes de terre et au chorizo pour créer une harmonie de saveurs rustiques et réconfortantes.'
         }
@@ -197,37 +197,37 @@ export default function OeufsFrituresMenu() {
       title: 'FRITURES',
       items: [
         {
-          name: 'FILETS D\'ANCHOIS FRITS AU CITRON',
-          description: 'Délicats filets d\'anchois frais en tempura légère, servis avec quartiers de citron',
+          name: 'ANCHOIS AL LIMON',
+          description: 'Anchois frais marinés au citron, enrobé d’une fine panure, frits à la perfection.',
           price: 80,
           detailedDescription: 'Nos anchois frais sont délicatement filetés puis enrobés d\'une légère pâte à tempura avant d\'être frits à l\'instant. Croustillants à l\'extérieur et fondants à l\'intérieur, ils sont servis avec des quartiers de citron frais et une touche de fleur de sel pour sublimer leur saveur marine.'
         },
         {
-          name: 'POPCORN CREVETTES',
+          name: 'CREVETTES POPCORN',
           description: 'Crevettes croustillantes façon popcorn avec sauce cocktail maison',
           price: 80,
           detailedDescription: 'Nos crevettes sont enrobées d\'une panure croustillante aux herbes et épices, puis frites à la perfection pour obtenir un extérieur doré et craquant tout en préservant la tendreté de la chair. Servies avec notre sauce cocktail maison légèrement épicée, c\'est un délice irrésistible.'
         },
         {
-          name: 'CALAMARS FRITS AU STYLE ANDALOU',
+          name: 'CALAMARS FRITOS',
           description: 'Anneaux de calamars tendre en friture légère, servis avec aïoli au safran',
           price: 140,
           detailedDescription: 'Inspirés par la tradition andalouse, nos calamars sont trempés dans une pâte à frire aérienne puis frits rapidement à haute température pour préserver leur tendreté. Servis avec un aïoli maison délicatement parfumé au safran et une touche de persil frais haché, ils offrent un équilibre parfait entre croustillant et moelleux.'
         },
         {
-          name: 'CROQUETTES DE POULET, CHAMPIGNON, ET FROMAGE',
-          description: 'Croquettes crémeuses au poulet fermier, champignons sauvages et fromage fondu',
+          name: 'CROQUETTES DE POULET',
+          description: 'Croquettes crémeuses au poulet, champignons sauvages et fromage fondu',
           price: 80,
-          detailedDescription: 'Nos croquettes sont préparées avec une béchamel onctueuse enrichie de poulet fermier effiloché, de champignons sauvages sautés et d\'un mélange de fromages affinés. L\'ensemble est enrobé d\'une chapelure dorée et frit jusqu\'à obtenir une coque croustillante qui révèle un cœur fondant et savoureux.'
+          detailedDescription: 'Nos croquettes sont préparées avec une béchamel onctueuse enrichie de poulet   effiloché, de champignons sauvages sautés et d\'un mélange de fromages affinés. L\'ensemble est enrobé d\'une chapelure dorée et frit jusqu\'à obtenir une coque croustillante qui révèle un cœur fondant et savoureux.'
         },
         {
-          name: 'CROQUETTES CREVETTES',
+          name: 'CROQUETTES DE CREVETTES',
           description: 'Croquettes crémeuses aux crevettes et bisque maison, parfumées au piment d\'Espelette',
           price: 80,
           detailedDescription: 'Ces croquettes délicates sont élaborées à partir d\'une bisque de crevettes réduite et concentrée, incorporée à une béchamel soyeuse avec des morceaux de crevettes. Une légère touche de piment d\'Espelette apporte une subtile chaleur qui rehausse les saveurs marines, le tout enveloppé d\'une fine croûte dorée et croustillante.'
         },
         {
-          name: 'FISH & CHIPS ACCOMPAGNÉES DE POMMES DE TERRE HURRICANES',
+          name: 'FISH & CHIPS',
           description: 'Filet de cabillaud en tempura croustillante avec pommes de terre en spirale',
           price: 160,
           detailedDescription: 'Notre interprétation du classique britannique associe un filet de cabillaud ultra-frais enrobé d\'une pâte à la bière croustillante et aérienne, servi avec nos pommes de terre Hurricane en spirale à la texture incomparable. Le tout est accompagné d\'une sauce tartare maison aux câpres croquantes et cornichons finement hachés.'
@@ -261,24 +261,6 @@ export default function OeufsFrituresMenu() {
     <section ref={menuRef} className="py-20 bg-[#3e4c52] text-amber-50 relative">
       {/* Background elements */}
       <div className="absolute inset-0 opacity-10"></div>
-      
-      {/* Section Title */}
-      <motion.div 
-        className="text-center mb-16"
-        initial={{ opacity: 0, y: 20 }}
-        animate={isVisible ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
-        transition={{ duration: 0.8 }}
-      >
-        <h2 className="font-SweetSansProBold font-serif text-4xl md:text-5xl tracking-wider text-amber-50 mb-4">Tortillas et Fritures</h2>
-        <div className="flex items-center justify-center mb-6">
-          <div className="h-px w-12 bg-amber-200/40"></div>
-          <div className="mx-4 text-amber-200/60">✦</div>
-          <div className="h-px w-12 bg-amber-200/40"></div>
-        </div>
-        <p className="text-amber-100/70 font-light max-w-2xl mx-auto">
-          Des tortillas moelleuses aux fritures croustillantes, découvrez nos spécialités d'œufs et de fritures inspirées de la tradition méditerranéenne
-        </p>
-      </motion.div>
       
       {/* Menu content */}
       <div className="container mx-auto px-4">
