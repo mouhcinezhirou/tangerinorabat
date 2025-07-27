@@ -168,46 +168,46 @@ export default function CassolettesMenu() {
       title: 'CASSOLETTES DE LA MER',
       items: [
         {
-          name: 'ANGULAS D\'ESPAGNE (100GR)',
-          description: 'Délicates civelles espagnoles cuites à l\'huile d\'olive, ail et piment doux',
-          price: 650,
-          detailedDescription: 'Ce mets d\'exception nous vient directement des côtes cantabriques d\'Espagne. Les angulas, ou civelles, sont préparées selon la tradition basque dans des cassolettes en terre cuite chauffées à haute température. Cuites avec une huile d\'olive extra vierge infusée à l\'ail et relevées d\'un soupçon de piment doux, elles révèlent leur texture unique et leur saveur marine délicate. Servies fumantes avec du pain croustillant pour en savourer chaque goutte.'
-        },
-        {
-          name: 'CREVETTES SAUVAGES À L\'AIL ET PIMENT FORT',
-          description: 'Crevettes sauvages flambées dans une huile parfumée à l\'ail et au piment rouge',
-          price: 180,
-          detailedDescription: 'Nos crevettes sauvages pêchées en Méditerranée sont saisies dans une cassolette brûlante avec une huile d\'olive infusée à l\'ail frais et au piment rouge. Le jus de cuisson épicé et parfumé est idéal pour être savouré avec notre pain maison croustillant. Un plat emblématique qui réveille les papilles et évoque instantanément les tavernes méditerranéennes.'
-        },
-        {
-          name: 'PALOURDES À LA MARINIÈRE',
-          description: 'Palourdes fraîches ouvertes dans un bain d\'huile d\'olive, ail et persil',
-          price: 120,
-          detailedDescription: 'Nos palourdes vivantes sont soigneusement sélectionnées chaque matin et cuites à la commande dans nos cassolettes traditionnelles en terre cuite. Elles s\'ouvrent délicatement dans un bain d\'huile d\'olive parfumée à l\'ail frais écrasé et au persil. Une touche de jus de citron vient équilibrer leur saveur iodée naturelle. Un classique méditerranéen d\'une simplicité trompeuse, où la qualité exceptionnelle du produit est mise à l\'honneur.'
-        },
-        {
-          name: 'ESPADON ET CREVETTES À L\'AIL ',
-          description: 'Médaillons d\'espadon frais et crevettes sautés à l\'ail et fines herbes',
-          price: 160,
-          detailedDescription: 'D\'élégants médaillons d\'espadon frais sont sautés rapidement avec des crevettes dans une huile infusée à l\'ail et au thym frais. Ce duo marin est servi dans une cassolette bouillonnante qui préserve toutes leurs saveurs. Une pointe de piment d\'Espelette, un filet de citron et quelques herbes fraîches viennent parfaire ce plat à la fois raffiné et généreux. L\'alliance parfaite de deux trésors de la Méditerranée, que le service en cassolette rend encore plus savoureux.'
-        },
-        {
-          name: 'ESPADON ET PALOURDES À L\'AIL',
-          description: 'Harmonieuse combinaison d\'espadon tendre et de palourdes juteuses à l\'ail',
-          price: 160,
-          detailedDescription: 'Cette cassolette marie avec élégance la chair fondante de l\'espadon et la saveur iodée des palourdes. Les deux produits sont cuits séparément pour respecter leur texture, puis réunis dans une cassolette brûlante avec une huile parfumée à l\'ail, au persil et au citron. Le jus des palourdes imprègne délicatement l\'espadon, créant une symphonie de saveurs marines sublimée par la chaleur de la cassolette en terre cuite qui continue la cuisson à table.'
-        }
-      ]
-    },
-    {
-      title: 'CASSOLETTES DE LA TERRE',
-      items: [
-        {
-          name: 'CASSOLETTE DE CHAMPIGNONS',
-          description: 'Sélection de champignons sauvages et cultivés, ail confit et herbes fraîches',
-          price: 80,
-          detailedDescription: 'Notre cassolette réunit une collection de champignons soigneusement sélectionnés : cèpes, pleurotes, shiitakés et champignons de Paris. Ils sont sautés à feu vif puis mijotés lentement avec de l\'ail confit, du persil frais et une touche de crème. Une légère réduction de vin blanc et un filet d\'huile de truffe viennent parfaire ce plat terrestre aux saveurs profondes et réconfortantes. Servi bouillonnant, il libère des arômes boisés irrésistibles.'
-        }
+        name: 'ANGULAS D\'ESPAGNE (100GR)',
+        description: 'Délicates civelles espagnoles cuites à l\'huile d\'olive, ail et piment fort',
+        price: 650,
+        detailedDescription: 'Ce mets d\'exception nous vient directement des côtes cantabriques d\'Espagne. Les angulas, ou civelles, sont préparées selon la tradition basque dans des cassolettes en terre cuite chauffées à haute température. Cuites avec une huile d\'olive extra vierge infusée à l\'ail et relevées d\'un piment fort, elles révèlent leur texture unique et leur saveur marine délicate. Servies fumantes pour en savourer chaque goutte.'
+      },
+      {
+        name: 'CREVETTES SAUVAGES À L\'AIL ET PIMENT FORT',
+        description: 'Crevettes sauvages flambées dans une huile parfumée à l\'ail et au piment rouge',
+        price: 180,
+        detailedDescription: 'Nos crevettes sauvages pêchées en Méditerranée sont saisies dans une cassolette brûlante avec une huile d\'olive infusée à l\'ail frais et au piment rouge. Le jus de cuisson épicé et parfumé est idéal pour être savouré avec notre pain maison croustillant. Un plat emblématique qui réveille les papilles et évoque instantanément les tavernes méditerranéennes.'
+      },
+{
+  name: 'PALOURDES À LA MARINIÈRE',
+  description: 'Palourdes fraîches ouvertes dans un savoureux bouillon de poissons lié à la farine',
+  price: 120,
+  detailedDescription: 'Nos palourdes vivantes sont soigneusement sélectionnées chaque matin et cuites à la commande dans nos cassolettes. Elles s\'ouvrent délicatement dans un savoureux bouillon de poissons légèrement lié à la farine. Un classique méditerranéen revisité, où la qualité exceptionnelle du produit est mise à l\'honneur avec des saveurs authentiques et réconfortantes.'
+},
+      {
+        name: 'ESPADON ET CREVETTES À L\'AIL',
+        description: 'Médaillons d\'espadon frais et crevettes sautés à l\'ail',
+        price: 160,
+        detailedDescription: 'D\'élégants médaillons d\'espadon frais sont sautés rapidement avec des crevettes dans une huile infusée à l\'ail et au thym frais. Ce duo marin est servi dans une cassolette bouillonnante qui préserve toutes leurs saveurs. Une pointe de piment d\'Espelette vient parfaire ce plat à la fois raffiné et généreux. L\'alliance parfaite de deux trésors de la Méditerranée, que le service en cassolette rend encore plus savoureux.'
+      },
+      {
+        name: 'ESPADON ET PALOURDES À L\'AIL',
+        description: 'Combinaison harmonieuse d\'espadon tendre et de palourdes juteuses à l\'ail',
+        price: 160,
+        detailedDescription: 'Cette cassolette marie avec élégance la chair fondante de l\'espadon et la saveur iodée des palourdes. Les deux produits sont cuits séparément pour respecter leur texture, puis réunis dans une cassolette brûlante avec une huile d\'olive parfumée à l\'ail, au piment fort et au persil. Le jus des palourdes imprègne délicatement l\'espadon, créant une symphonie de saveurs marines sublimée par la chaleur de la cassolette qui continue la cuisson à table.'
+      }
+    ]
+  },
+  {
+    title: 'CASSOLETTES DE LA TERRE',
+    items: [
+      {
+        name: 'CASSOLETTE DE CHAMPIGNONS',
+        description: 'Champignons de Paris sautés à l\'ail, persil et piment',
+        price: 80,
+        detailedDescription: 'Notre cassolette met à l\'honneur les champignons de Paris. Ils sont sautés à feu vif avec de l\'ail frais et une pointe de piment, puis parfumés au persil frais. Cette préparation authentique et épurée révèle toute la saveur naturelle des champignons. Servi bouillonnant, il libère des arômes intenses et savoureux.'
+      }
       ]
     }
   ];

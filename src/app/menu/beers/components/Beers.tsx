@@ -56,11 +56,11 @@ export default function BeerSpiritsMenuPage() {
       { name: 'Get 27', price: 70 },
       { name: 'Grappa Sandro Bottega', price: 70 },
       { name: 'Limoncello', price: 70 },
-      { name: 'Cointreau', price: 90 },
-      { name: 'Eau de vie Prune', price: 90 },
-      { name: 'Eau de vie Poire Williams', price: 90 },
-      { name: 'Baileys', price: 100 },
-      { name: 'Amaretto Disaronno', price: 100 }
+      { name: 'Cointreau', price: 70 },
+      { name: 'Eau de vie Prune', price: 70 },
+      { name: 'Eau de vie Poire Williams', price: 70 },
+      { name: 'Baileys', price: 80 },
+      { name: 'Amaretto Disaronno', price: 80 }
     ],
     cognacs: [
       { name: 'Calvados Boulard', price: 90 },
@@ -89,10 +89,10 @@ export default function BeerSpiritsMenuPage() {
       { name: 'Woodford Reserve', glass: 110, bottle: 1450 },
       { name: 'Bourbon Bulleit', glass: 110, bottle: 1450 },
       { name: 'Glenfiddich 12 years', glass: 120, bottle: 1500 },
-      { name: 'Glenfiddich 15 years', glass: 140, bottle: 2000 },
+      { name: 'Glenfiddich 15 years', glass: 140, bottle: 2200 },
       { name: 'Glenfiddich 18 years', glass: 220, bottle: 3000 },
       { name: 'Black Label', glass: 95, bottle: 1500 },
-      { name: 'Blue Label', glass: '-', bottle: 9500 },
+      { name: 'Blue Label', glass: '-', bottle: 8000 },
       { name: 'Blue Label King George V', glass: '-', bottle: 14000 }
     ],
     vodkas: [
@@ -107,8 +107,8 @@ export default function BeerSpiritsMenuPage() {
       { name: "Hendrick's", glass: 100, bottle: 1400 },
       { name: 'Tanqueray', glass: 120, bottle: 1600 },
       { name: 'Tanqueray Royale', glass: 120, bottle: 1600 },
-      { name: 'Gin Mare', glass: 140, bottle: 1600 },
-      { name: 'Monkey 47', glass: 160, bottle: 1700 },
+      { name: 'Gin Mare', glass: 140, bottle: 2000 },
+      { name: 'Monkey 47', glass: 160, bottle: 2200 },
       { name: 'Palmarae (Luxury Gin)', glass: 250, bottle: 3000 }
     ],
     tequilas: [

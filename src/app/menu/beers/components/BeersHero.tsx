@@ -79,7 +79,7 @@ export default function BiereVinsHero() {
           transition={{ duration: 0.8, delay: 0.2 }}
         >
           BIÈRES<br></br>
-          ARTISANALES
+          & ALCOOLS
         </motion.h1>
 
         {/* Decorative line */}
@@ -97,9 +97,7 @@ export default function BiereVinsHero() {
           animate={isVisible ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
           transition={{ duration: 0.8, delay: 0.6 }}
         >
-          Explorez notre collection exceptionnelle de bières françaises artisanales, 
-          alliant savoir-faire brassicole et créativité gustative pour vous offrir 
-          des expériences de dégustation authentiques et raffinées.
+Explorez notre collection exceptionnelle, alliant savoir-faire et créativité gustative pour vous offrir des expériences de dégustation authentiques et raffinées.
         </motion.p>
 
         {/* Scroll indicator - Now clickable */}

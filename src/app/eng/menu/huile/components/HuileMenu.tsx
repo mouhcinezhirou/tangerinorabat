@@ -6,7 +6,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 interface MenuItem {
   name: string;
   description: string;
-  price: number;
+  price: number | string;
   detailedDescription?: string;
 }
 
@@ -15,7 +15,7 @@ interface MenuSection {
   items: MenuItem[];
 }
 
-const SeafoodMenuItem: React.FC<MenuItem & { onExpand: () => void, isExpanded: boolean, featured?: boolean }> = ({
+const HuileMenuItem: React.FC<MenuItem & { onExpand: () => void, isExpanded: boolean, featured?: boolean }> = ({
   name,
   description,
   price,
@@ -107,7 +107,7 @@ const SeafoodMenuItem: React.FC<MenuItem & { onExpand: () => void, isExpanded: b
   );
 };
 
-const SeafoodMenuSection: React.FC<MenuSection & { gridCols?: string }> = ({ title, items, gridCols = "grid-cols-1 md:grid-cols-2" }) => {
+const HuileMenuSection: React.FC<MenuSection & { gridCols?: string }> = ({ title, items, gridCols = "grid-cols-1 md:grid-cols-2" }) => {
   const [expandedItem, setExpandedItem] = useState<number | null>(null);
 
   const handleExpand = (index: number) => {
@@ -128,7 +128,7 @@ const SeafoodMenuSection: React.FC<MenuSection & { gridCols?: string }> = ({ tit
       
       <div className={`grid ${gridCols} gap-8`}>
         {items.map((item, index) => (
-          <SeafoodMenuItem
+          <HuileMenuItem
             key={index}
             {...item}
             onExpand={() => handleExpand(index)}
@@ -141,7 +141,7 @@ const SeafoodMenuSection: React.FC<MenuSection & { gridCols?: string }> = ({ tit
   );
 };
 
-// Elegant divider component to reduce repetition
+// Elegant divider component
 const ElegantDivider = () => (
   <div className="flex items-center justify-center my-16">
     <div className="h-px w-16 bg-amber-200/30"></div>
@@ -150,7 +150,7 @@ const ElegantDivider = () => (
   </div>
 );
 
-export default function SeafoodMenuPage() {
+export default function HuileMenuPage() {
   const menuRef = useRef<HTMLElement | null>(null);
   const [isVisible, setIsVisible] = useState<boolean>(false);
 
@@ -175,59 +175,24 @@ export default function SeafoodMenuPage() {
     };
   }, []);
 
-  // All menu data in one place
+  // Menu data
   const menuSections: (MenuSection & { gridCols?: string })[] = [
     {
-      title: 'OYSTERS',
-      gridCols: "grid-cols-1 md:grid-cols-3",
+      title: 'PREMIUM OLIVE OIL',
+      gridCols: "grid-cols-1 md:grid-cols-2 lg:grid-cols-3",
       items: [
         {
-          name: "OYSTERS (6 PIECES)",
-          description: "Fresh Atlantic oysters, sourced from Dakhla, served on ice with lemon and mignonette sauce",
-          price: 100,
-          detailedDescription: "Hand-selected from the crystal-clear waters of the Atlantic, off the coast of Dakhla, these briny delicacies are shucked to order. Each plump oyster carries the essence of the sea, accompanied by a delicate shallot and vinegar mignonette."
-        },        
-        {
-          name: 'OYSTERS (12 PIECES)',
-          description: 'A generous selection of our premium oysters with traditional accompaniments',
-          price: 180,
-          detailedDescription: 'A luxurious dozen featuring the best daily catches from different Atlantic regions, particularly Dakhla. Served on a bed of crushed ice with house-made mignonette, fresh horseradish, and artisanal hot sauce.'
+          name: "ORO VERDE TASTING",
+          description: "A portion of our award-winning extra virgin olive oil, served with artisanal bread",
+          price: 38,
+          detailedDescription: "Discover the exceptional flavors of our 'Los Guardianes del Crisal' olive oil in a guided tasting. This early harvest oil reveals an intense fruity taste with delicate notes of fresh tomato. Winner of the Mezquita award and ranked among the 10 best oils in the world."
         },
         {
-          name: 'MIBRASA GRILLED OYSTERS (6 PIECES)',
-          description: 'Oysters grilled with herb and garlic butter, cooked in our Mibrasa',
-          price: 120,
-          detailedDescription: 'These oysters undergo a smoky transformation in our Mibrasa, each one brushed with garlic and herb butter. The gentle heat intensifies their natural brininess while adding a complex charred note.'
+          name: "ORO VERDE BOTTLE",
+          description: "Take home our exclusive olive oil in a 500ml bottle",
+          price: 380,
+          detailedDescription: "This extra virgin olive oil from the first cold pressing is exclusive to Morocco for Tangerino restaurants. Made from olives harvested at early maturity, it preserves all its aromas and nutritional benefits. A culinary treasure to discover and share."
         }
-      ]
-    },
-    {
-      title: 'SIGNATURE SEAFOOD',
-      items: [
-        {
-          name: 'SEAFOOD GRATIN',
-          description: 'A luxurious blend of fresh seafood baked with cream and golden breadcrumbs',
-          price: 130,
-          detailedDescription: 'A decadent assortment of shellfish and fish enveloped in a velvety cream sauce. Baked until topped with a golden crust of parmesan and herbed breadcrumbs that adds a delicious crunch.'
-        },
-        {
-    name: 'OYSTER, SHRIMP AND OCTOPUS CEVICHE',
-    description: 'Fresh seafood marinated in leche de tigre with Mediterranean herbs and red onion',
-    price: 180,
-    detailedDescription: 'A vibrant trilogy of marine treasures "cooked" in zesty leche de tigre, infused with cilantro and red onion. This authentic preparation reveals all the freshness of the seafood in a perfect balance of tangy flavors and aromatic herbs.'
-  },
-{
-  name: 'WILD RED SHRIMP',
-  description: 'Succulent wild red shrimp peeled and grilled on the Mibrasa barbecue',
-  price: 190,
-  detailedDescription: 'Precious Mediterranean red prawns, carefully peeled and grilled to perfection. A refined preparation that showcases the tender flesh of these exceptional crustaceans and their authentic natural flavor.'
-},
-{
-  name: 'LOBSTER MEDALLIONS',
-  description: "Premium lobster tail delicately sliced and arranged, accompanied by an aromatic lobster bisque",
-  price: 420,
-  detailedDescription: "Cold-water lobster tail, precisely sliced and arranged in a fan to showcase its tender, pearlescent flesh. Served with an intense reduction of lobster bisque with fresh herbs for an unforgettable tasting experience."
-}
       ]
     }
   ];
@@ -235,19 +200,19 @@ export default function SeafoodMenuPage() {
   return (
     <section ref={menuRef} className="py-20 bg-[#3e4c52] text-amber-50 relative">
       {/* Background elements */}
-      <div className="absolute inset-0 opacity-10"></div>
-      
+      <div className="absolute inset-0 opacity-10">
+        <div className="h-full w-full bg-[url('/texture.png')] bg-repeat opacity-10"></div>
+      </div>
       
       {/* Menu content */}
       <div className="container mx-auto px-4">
         {menuSections.map((section, index) => (
           <div key={index}>
-            <SeafoodMenuSection
+            <HuileMenuSection
               title={section.title}
               items={section.items}
               gridCols={section.gridCols}
             />
-            {index < menuSections.length - 1 && <ElegantDivider />}
           </div>
         ))}
       </div>

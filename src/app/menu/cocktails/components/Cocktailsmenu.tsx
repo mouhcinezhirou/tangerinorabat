@@ -34,7 +34,7 @@ const CocktailMenuItem: React.FC<CocktailItem & { onExpand: () => void, isExpand
   return (
     <motion.div
       ref={itemRef}
-      className="bg-amber-900/20 backdrop-blur-sm rounded-lg p-6 border border-amber-200/20 relative overflow-hidden group"
+      className="bg-amber-900/20 backdrop-blur-sm rounded-lg p-6 border border-amber-200/20 relative overflow-hidden group cursor-pointer"
       whileHover={{ y: -4 }}
       initial={{ opacity: 0 }}
       whileInView={{ opacity: 1 }}
@@ -52,7 +52,7 @@ const CocktailMenuItem: React.FC<CocktailItem & { onExpand: () => void, isExpand
           <h3 className="font-SweetSansProBold text-xl font-serif tracking-wider text-amber-100">
             {name}
           </h3>
-          <span className="text-amber-200 font-light">{price}</span>
+          {price && <span className="text-amber-200 font-light">{price}</span>}
         </div>
         
         <div className="w-10 h-px bg-amber-200/40 mb-4"></div>
@@ -140,6 +140,11 @@ const CocktailMenuSection: React.FC<CocktailSection> = ({ title, items }) => {
 export default function CocktailsMenu() {
   const menuRef = useRef<HTMLElement | null>(null);
   const [isVisible, setIsVisible] = useState<boolean>(false);
+  const [expandedShot, setExpandedShot] = useState<number | null>(null);
+
+  const handleShotExpand = (index: number) => {
+    setExpandedShot(expandedShot === index ? null : index);
+  };
 
   useEffect(() => {
     const observer = new IntersectionObserver(
@@ -167,30 +172,30 @@ export default function CocktailsMenu() {
     {
       title: 'COCKTAILS SIGNATURE',
       items: [
-        {
-          name: 'ACHAKKAR',
-          description: 'Bourbon Woodford Reserve, Purée de Fraise Maison, Citron, Mousse vegan',
-          price: 95,
-          detailedDescription: 'Notre variation du classique bourbon sour, mettant en vedette le Woodford Reserve premium et un nuage de mousse végane qui fond délicatement. La purée de fraise maison apporte une douceur ensoleillée qui s\'accorde parfaitement avec le mordant des agrumes.'
-        },
-        {
-          name: 'TANGERINO',
-          description: 'Vodka Tito\'s, Liqueur de Coco, Purée de Mangue Maison, Ginger Soda',
-          price: 95,
-          detailedDescription: 'Un coucher de soleil tropical dans un verre, où la douce vodka Tito\'s rencontre la liqueur de noix de coco luxuriante. Couronné de purée de mangue maison et agrémenté d\'un pétillant soda au gingembre qui danse sur votre palais.'
-        },
-        {
-          name: 'CAP SPARTEL',
-          description: 'Gin Bombay Saphire, Liqueur de Pêche, Purée de Pêche Maison, Sirop de Lavande',
-          price: 95,
-          detailedDescription: 'Inspiré par le phare de Cap Spartel, ce cocktail aromatique combine les notes botaniques du Bombay Sapphire avec des pêches d\'été. Une touche de sirop de lavande provençale ajoute une élégante note florale à cette création inspirée par la côte.'
-        },
-        {
-          name: 'HAFA',
-          description: 'Bacardi Blanc, Cachaça, Oleo-saccharum à la Banane Épicée, Sirop de Vin Blanc Infusé à la Pêche et à l\'Ananas Grillé',
-          price: 95,
-          detailedDescription: 'Un voyage tropical complexe mettant en vedette des spiritueux des Caraïbes et des infusions maison. L\'oleo-saccharum de banane épicée et le sirop de vin aux fruits grillés créent un équilibre sophistiqué entre douceur caramélisée et épices exotiques.'
-        }
+    {
+      name: 'CAP SPARTEL',
+      description: 'Gin Bombay Dry, Jus de Pastèque, Citron, Menthe',
+      price: 95,
+      detailedDescription: 'Inspiré par le phare de Cap Spartel, ce cocktail rafraîchissant combine les notes botaniques du Bombay Dry avec la fraîcheur de la pastèque. Le citron et la menthe apportent une vivacité méditerranéenne à cette création côtière.'
+    },
+    {
+      name: 'ACHAKKAR',
+      description: 'Vodka Titos, Jus de Melon Naturel, Miel et Fleur de Sureau, Licor Melon',
+      price: 95,
+      detailedDescription: 'Une symphonie de douceur estivale où la vodka premium rencontre la fraîcheur du melon naturel. Le miel et la fleur de sureau ajoutent une complexité florale délicate, couronnée par la richesse du licor de melon.'
+    },
+    {
+      name: 'TANGERINO',
+      description: 'Sirop Lavande, Tequila Infusée Hibiscus, Coco Pure Maison, Citron',
+      price: 95,
+      detailedDescription: 'Un coucher de soleil provençal dans un verre, où la tequila infusée à l\'hibiscus rencontre la douceur de la noix de coco maison. Le sirop de lavande apporte une note florale sophistiquée à cette création exotique.'
+    },
+{
+  name: 'HAFA',
+  description: 'Mezcal San Cosme, Aperol, Sirop Menthe et Safran, Citron, Orange Bitters',
+  price: 95,
+  detailedDescription: 'Un voyage complexe mettant en vedette le mezcal et l\'Aperol italien. Le sirop de menthe au safran crée un équilibre sophistiqué entre fraîcheur et épices précieuses, relevé par les amers d\'orange.'
+}
       ]
     },
     {
@@ -202,12 +207,12 @@ export default function CocktailsMenu() {
           price: 90,
           detailedDescription: 'Un hommage vibrant et sans alcool à la place du Grand Socco, présentant une infusion d\'hibiscus d\'un rouge profond. La douceur naturelle de l\'agave s\'accorde parfaitement avec les notes d\'agrumes pour un compagnon rafraîchissant de journée au marché.'
         },
-        {
-          name: 'MENDOUBIA SUNSET',
-          description: 'Orgeat, Citron, Aquafaba, Purée de Coco Maison',
-          price: 90,
-          detailedDescription: 'Inspiré par les jardins de Mendoubia, ce délice crémeux combine l\'orgeat d\'amande avec la noix de coco tropicale. L\'aquafaba crée une texture soyeuse qui rivalise avec n\'importe quelle mousse de cocktail classique.'
-        },
+    {
+      name: 'MENDOUBIA SUNSET',
+      description: 'Orgeat, Citron, Aquafaba, Ananas Naturel',
+      price: 90,
+      detailedDescription: 'Inspiré par les jardins de Mendoubia, ce délice tropical combine l\'orgeat d\'amande avec l\'ananas naturel. L\'aquafaba crée une texture soyeuse qui rivalise avec n\'importe quelle mousse de cocktail classique.'
+    },
         {
           name: 'CERVANTES COOLER',
           description: 'Purée de Melon Maison, Sirop de Basilic, Citron',
@@ -217,32 +222,32 @@ export default function CocktailsMenu() {
       ]
     },
     {
-      title: 'SHOTS',
-      items: [
-        {
-          name: 'MALABATA BEACH',
-          description: 'Vodka Tito\'s, Purée de Fruit de la Passion, Jus d\'Orange',
-          price: null,
-          detailedDescription: 'Souvenirs de plages ensoleillées capturés dans un verre, où la vodka pure rencontre la purée de fruit de la passion tropicale. Le jus d\'orange frais ajoute brillance et équilibre, créant une échappée rafraîchissante au bord de la mer.'
-        },
-        {
-          name: 'KASBAH',
-          description: 'Whisky Grants, Liqueur de Pommes, Jus de Pommes',
-          price: null,
-          detailedDescription: 'Un hommage chaleureux à l\'hospitalité marocaine, mélangeant le whisky écossais avec la liqueur de pomme française. Le jus de pomme frais ajoute une touche croustillante et fruitée à ce cocktail réconfortant.'
-        },
-        {
-          name: 'RMILAT',
-          description: 'Purée de Litchi, Menthe, Gin Bombay, Vermouth Rosé',
-          price: null,
-          detailedDescription: 'Un classique local revisité avec notre touche signature, parfait pour célébrer.'
-        },
-        {
-          name: 'PERDICARIS',
-          description: 'Tequila, Jus d’Orange, Sirop de Grenadine, Liqueur d’Orange',
-          price: null,
-          detailedDescription: 'Inspiré par les légendes locales, ce shot rafraîchissant offre un équilibre parfait entre force et saveur.'
-        }
+  title: 'SHOTS',
+  items: [
+    {
+      name: 'MALABATA',
+      description: 'Vodka Titos, Licor Pasión, Pure Passion, Jus d\'Orange',
+      price: null,
+      detailedDescription: 'Souvenirs de plages ensoleillées capturés dans un verre, où la vodka pure rencontre la passion tropicale. Le jus d\'orange frais ajoute brillance et équilibre, créant une échappée rafraîchissante au bord de la mer.'
+    },
+    {
+      name: 'RMILATH',
+      description: 'Gin Bombay Dry, Licor Litchi, Jus d\'Ananas, Menthe',
+      price: null,
+      detailedDescription: 'Un mélange exotique où le gin sec rencontre la douceur du litchi et la fraîcheur de l\'ananas. La menthe apporte une note rafraîchissante à cette création tropicale.'
+    },
+    {
+      name: 'KASBAH',
+      description: 'Tequila Camino, Kahlua, Cold Brew',
+      price: null,
+      detailedDescription: 'Un hommage chaleureux aux saveurs intenses, mélangeant la tequila premium avec la liqueur de café. Le cold brew ajoute une profondeur et une richesse incomparables.'
+    },
+    {
+      name: 'PERDICARIS',
+      description: 'Tequila Infusée Hibiscus, Licor Orange, Orange, Grenadine',
+      price: null,
+      detailedDescription: 'Inspiré par les légendes locales, ce shot coloré marie la tequila infusée à l\'hibiscus avec les agrumes. Un équilibre parfait entre force et saveurs florales.'
+    }
       ]
     },
     {
@@ -303,12 +308,6 @@ export default function CocktailsMenu() {
           detailedDescription: 'Des grains d\'Arabica d\'origine unique torréfiés localement et préparés selon vos préférences. De l\'expresso intense au café au lait crémeux, chaque tasse est élaborée avec expertise.'
         },
         {
-          name: 'THÉ À LA MENTHE',
-          description: 'Thé marocain traditionnel',
-          price: 50,
-          detailedDescription: 'Thé à la menthe rafraîchissant préparé à la traditionnelle.'
-        },
-        {
           name: 'THÉ SAYRA',
           description: 'Parfums différents',
           price: 50,
@@ -344,7 +343,7 @@ export default function CocktailsMenu() {
           <div className="bg-amber-900/20 backdrop-blur-sm rounded-lg p-6 border border-amber-200/20 relative overflow-hidden">
             <div className="relative z-10">              
               <div className="text-center text-amber-100/80 italic">
-                <p>TOUS LES CLASSIQUES DISPONIBLES <span className="font-light">*Demandez à votre Serveur*</span></p>
+                <p>TOUS LES CLASSIQUES DISPONIBLES <span className="font-light">*Demandez à votre serveur*</span></p>
               </div>
             </div>
           </div>
@@ -359,7 +358,7 @@ export default function CocktailsMenu() {
         <CocktailMenuSection title={menuSections[1].title} items={menuSections[1].items} />
         <ElegantDivider />
         
-        {/* SHOTS section with pricing information */}
+        {/* SHOTS section with pricing information and working expand functionality */}
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -373,25 +372,25 @@ export default function CocktailsMenu() {
           
           <div className="bg-amber-900/20 backdrop-blur-sm rounded-lg p-6 border border-amber-200/20 relative overflow-hidden mb-8">
             <div className="relative z-10">              
-              <div className="flex justify-center items-center gap-10">
+              <div className="flex flex-col items-center space-y-4">
                 <div className="text-center">
-                  <span className="block text-lg text-amber-100">5 POUR 180 </span>
+                  <span className="block text-lg text-amber-100">5 POUR 180 DHS</span>
                 </div>
                 <div className="text-center">
-                  <span className="block text-lg text-amber-100">10 POUR 300 </span>
+                  <span className="block text-lg text-amber-100">10 POUR 300 DHS</span>
                 </div>
               </div>
             </div>
           </div>
           
-          {/* Shot items */}
+          {/* Shot items with working expand functionality */}
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             {menuSections[2].items.map((item, index) => (
               <CocktailMenuItem
                 key={index}
                 {...item}
-                onExpand={() => {}}
-                isExpanded={false}
+                onExpand={() => handleShotExpand(index)}
+                isExpanded={expandedShot === index}
               />
             ))}
           </div>

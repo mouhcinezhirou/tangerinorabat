@@ -167,124 +167,124 @@ export default function PoissonViandeMenu() {
     {
       title: 'POISSONS',
       items: [
-        {
-          name: 'ESPADON GRILLÉ',
-          description: 'Médaillon d\'espadon grillé à la flamme',
-          price: 220,
-          detailedDescription: 'Notre espadon, pêché en Méditerranée, est délicatement mariné puis grillé à la flamme pour préserver sa texture tendre et son goût délicat.'
-        },
-        {
-          name: 'CALAMAR AVEC SON ENCRE',
-          description: 'Calamar entier cuit lentement dans sa propre encre',
-          price: 220,
-          detailedDescription: 'Ce plat emblématique de la cuisine méditerranéenne présente un calamar entier cuit doucement dans une sauce à base de sa propre encre, d\'ail et de vin blanc. La chair tendre du calamar se marie parfaitement avec le riz noir crémeux et les légumes confits qui l\'accompagnent.'
-        },
-        {
-          name: 'FILET DE THON ROUGE',
-          description: 'Filet de thon rouge mi-cuit, soja',
-          price: 220,
-          detailedDescription: 'Notre thon rouge issu de pêche durable est brièvement mariné dans une sauce au sésame et soja avant d\'être saisi rapidement pour conserver un cœur rosé. Il est servi avec une onctueuse purée de patate douce parfumée au gingembre frais qui équilibre parfaitement ses notes iodées.'
-        },
-        {
-          name: 'SAUMON GRILLÉ',
-          description: 'Filet de saumon Label Rouge grillé aux herbes fraîches et citron confit',
-          price: 260,
-          detailedDescription: 'Notre filet de saumon d\'Écosse Label Rouge est mariné dans un mélange d\'herbes fraîches puis grillé à la perfection, la peau croustillante et la chair fondante. Servi avec des quartiers de citron confit et une sauce vierge aux herbes qui rehaussent délicatement la richesse naturelle du poisson.'
-        },
-        {
-          name: 'ST PIERRE GRILLÉ',
-          description: 'Filet de Saint-Pierre grillé au four à bois, huile d\'olive aux herbes provençales',
-          price: 260,
-          detailedDescription: 'Ce poisson noble est délicatement grillé entier dans notre four à bois pour développer toutes ses saveurs. Sa chair ferme et délicate est sublimée par une huile d\'olive infusée aux herbes de Provence et une touche de fleur de sel. Un classique méditerranéen d\'une simplicité raffinée.'
-        },
-        {
-          name: 'BAR DE LIGNE GRILLÉ',
-          description: 'Filet grillé sur feu de charbon',
-          price: 280,
-          detailedDescription: 'Notre bar de ligne pêché au large des côtes méditerranéennes est grillé entier pour préserver sa saveur exceptionnelle. La chair nacrée et délicate du poisson est parfumée aux agrumes et accompagnée de fenouil doucement confit qui apporte une note anisée subtile et rafraîchissante.'
-        },
-        {
-          name: 'CASSOLETTE DE BAR DE LIGNE',
-          description: 'Bar sauvage cuit en cocotte avec pommes de terre fondantes, olives et tomates confites',
-          price: 320,
-          detailedDescription: 'Cette préparation traditionnelle présente notre bar de ligne cuit en cocotte avec des pommes de terre qui s\'imprègnent des sucs du poisson, des olives Taggiasche, des tomates confites et un bouquet d\'herbes fraîches. Le tout est nappé d\'un fumet réduit au vin blanc et servi directement dans sa cassolette.'
-        },
-        {
-          name: 'LOUP EN CROÛTE DE SEL',
-          description: 'Loup de mer cuit en croûte de sel de Camargue aux herbes aromatiques',
-          price: 280,
-          detailedDescription: 'Cette méthode de cuisson ancestrale consiste à enfermer notre loup de mer dans une croûte de sel de Camargue mêlé d\'herbes aromatiques. Cuite au four, la chair du poisson reste incroyablement juteuse et s\'imprègne délicatement des arômes d\'herbes. La croûte est brisée devant vous pour un service spectaculaire.'
-        }
-      ]
-    },
-    {
-      title: 'VIANDES',
-      items: [
-        {
-          name: 'FILET DE BŒUF GRILLÉ',
-          description: 'Filet de bœuf grillé à la mibrasa accompagné d’une sauce au choix',
-          price: 290,
-          detailedDescription: 'Notre filet de bœuf Black Angus est grillé à la perfection selon votre préférence, pour une viande tendre et savoureuse. Il est accompagné d\'une réduction onctueuse au Porto vieilli et d\'échalotes doucement confites qui apportent une touche de douceur contrastant avec le caractère de la viande.'
-        },
-        {
-          name: 'FILET DE BŒUF ÉMINCÉ SAUTÉ AVEC AIL & "PATATAS A LO POBRE"',
-          description: 'Émincé de filet de bœuf sauté à l\'ail et au persil, pommes de terre rustiques à l\'espagnole',
-          price: 280,
-          detailedDescription: 'Notre filet de bœuf est finement émincé puis rapidement saisi à feu vif avec de l\'ail frais et du persil pour préserver sa tendreté et son jus. Il est servi avec des "patatas a lo pobre", ces pommes de terre traditionnelles espagnoles cuites lentement avec des oignons doux et des poivrons, imprégnées d\'huile d\'olive aromatisée.'
-        },
-        {
-          name: 'ENTRECÔTE DE BŒUF GRILLÉE',
-          description: 'Généreuse entrecôte maturée grillée au charbon de bois, sauce au choix',
-          price: 220,
-          detailedDescription: 'Notre entrecôte de bœuf sélectionnée pour son persillage est maturée pendant 30 jours pour développer sa saveur exceptionnelle. Elle est grillée sur notre braise de charbon de bois qui lui confère des notes fumées uniques. Servie avec un beurre maître d\'hôtel maison qui se fond délicatement sur la viande chaude.'
-        },
-        {
-          name: 'CÔTE DE BŒUF GRILLÉE',
-          description: 'Imposante côte de bœuf maturée, grillée à la braise, fleur de sel de Camargue (1kg – 2 personnes)',
-          price: 490,
-          detailedDescription: 'Cette pièce d\'exception est maturée pendant 40 jours pour développer des arômes complexes et une tendreté incomparable. Grillée avec expertise sur notre braise de bois d\'olivier, elle est présentée entière puis découpée à table. Sa croûte caramélisée et sa chair juteuse sont simplement rehaussées d\'une fleur de sel de Camargue qui en exalte la saveur naturelle.'
-        },
-        {
-          name: 'VIANDE HACHÉE "KEFTA"',
-          description: 'Viande hachée aux épices orientales, sauce au choix',
-          price: 140,
-          detailedDescription: 'Nos keftas sont préparées à partir de viande de bœuf hachée à la main et assaisonnée d\'un mélange d\'épices orientales soigneusement dosées : cumin, paprika, coriandre et menthe fraîche. Grillées sur la braise, elles sont servies avec une sauce légère au yaourt grec, menthe fraîche et concombre râpé.'
-        },
-        {
-          name: 'PAILLARDE DE POULET ACCOMPAGNÉE D\'ÉPINARDS SAUTÉS',
-          description: 'Suprême de poulet aplati et grillé, épinards frais sautés à l\'ail',
-          price: 160,
-          detailedDescription: 'Notre suprême de poulet est délicatement aplati puis mariné aux herbes fraîches avant d\'être grillé pour obtenir une chair moelleuse et une peau croustillante. Il est accompagné d\'épinards frais rapidement sautés à l\'ail et d\'un filet d\'huile d\'olive citronnée qui apporte fraîcheur et légèreté.'
-        }
-      ]
-    },
-    {
-      title: 'ACCOMPAGNEMENTS',
-      items: [
-        {
-          name: 'LÉGUMES SAUTÉS',
-          description: 'Assortiment de légumes de saison sautés à l\'huile d\'olive et aux herbes fraîches',
-          price: 50,
-          detailedDescription: 'Une sélection colorée de légumes de saison – courgettes, poivrons, aubergines, tomates cerises – rapidement sautés à l\'huile d\'olive extra vierge pour préserver leur croquant et leurs saveurs. Parfumés d\'herbes fraîches du jardin et d\'une touche d\'ail, ils offrent une accompagnement léger et savoureux.'
-        },
-        {
-          name: 'FRITES MAISON',
-          description: 'Frites rustiques coupées à la main, double cuisson et fleur de sel',
-          price: 50,
-          detailedDescription: 'Nos pommes de terre sélectionnées sont épluchées et coupées à la main en bâtonnets généreux, puis cuites deux fois selon la méthode traditionnelle belge : d\'abord à basse température pour cuire l\'intérieur, puis à haute température pour une croûte dorée et croustillante. Servies avec une pincée de fleur de sel.'
-        },
-        {
-          name: 'POMMES DE TERRE "A LO POBRE"',
-          description: 'Pommes de terre mijotées à l\'espagnole avec oignons, poivrons et huile d\'olive',
-          price: 50,
-          detailedDescription: 'Cette recette traditionnelle espagnole consiste en des pommes de terre coupées en fines tranches, cuites lentement dans l\'huile d\'olive avec des oignons doux et des poivrons qui caramélisent doucement. Le résultat est un accompagnement fondant, imprégné des saveurs méditerranéennes, avec une légère coloration dorée.'
-        },
-        {
-          name: 'PURÉE DE POMMES DE TERRE',
-          description: 'Onctueuse purée de pommes de terre à la crème fraîche et beurre noisette',
-          price: 50,
-          detailedDescription: 'Notre purée est préparée avec des pommes de terre Ratte à la chair fondante, écrasées à la fourchette pour conserver du caractère. Enrichie de crème fraîche épaisse et de beurre légèrement noisette, elle offre une texture à la fois aérienne et réconfortante, subtilement parfumée à la noix de muscade fraîchement râpée.'
-        }
+       {
+        name: 'ESPADON GRILLÉ',
+        description: 'Espadon de Tanger frais à la BBQ',
+        price: 220,
+        detailedDescription: 'Notre espadon de Tanger frais est grillé à la BBQ pour préserver sa texture tendre et son goût délicat.'
+      },
+      {
+        name: 'CALAMAR GRILLÉ',
+        description: 'Calamars frais cuit à la BBQ avec son encre',
+        price: 220,
+        detailedDescription: 'Ce plat emblématique de la cuisine méditerranéenne présente des calamars frais cuits à la BBQ avec son encre.'
+      },
+      {
+        name: 'FILET DE THON ROUGE',
+        description: 'Thon rouge frais au charbon servi au style tataki',
+        price: 220,
+        detailedDescription: 'Notre thon rouge frais est grillé au charbon et servi au style tataki.'
+      },
+      {
+        name: 'SAUMON GRILLÉ',
+        description: 'Saumon frais cuit au charbon servi avec tranche de citron',
+        price: 260,
+        detailedDescription: 'Notre saumon frais est cuit au charbon et servi avec une tranche de citron.'
+      },
+      {
+        name: 'ST PIERRE GRILLÉ',
+        description: 'Grillé avec la peau',
+        price: 340,
+        detailedDescription: 'Ce poisson noble est grillé avec la peau pour développer toutes ses saveurs.'
+      },
+      {
+        name: 'BAR DE LIGNE GRILLÉ',
+        description: 'Filet de loup bar grillé au charbon',
+        price: 280,
+        detailedDescription: 'Notre filet de loup bar est grillé au charbon pour préserver sa saveur exceptionnelle.'
+      },
+      {
+        name: 'CASSOLETTE DE BAR DE LIGNE',
+        description: 'Servi avec des pommes de terre façon papas a lo pobre',
+        price: 320,
+        detailedDescription: 'Notre bar de ligne est servi avec des pommes de terre façon papas a lo pobre.'
+      },
+      {
+        name: 'LOUP EN CROÛTE DE SEL',
+        description: 'Loup de mer cuit avec gros sel servi avec huile d\'olive',
+        price: 280,
+        detailedDescription: 'Notre loup de mer est cuit avec du gros sel et servi avec de l\'huile d\'olive.'
+      }
+    ]
+  },
+  {
+    title: 'VIANDES',
+    items: [
+      {
+        name: 'FILET DE BŒUF GRILLÉ',
+        description: 'Filet de bœuf grillé à la mibrasa accompagné d\'une sauce au choix',
+        price: 290,
+        detailedDescription: 'Notre filet de bœuf est grillé à la perfection selon votre préférence, pour une viande tendre et savoureuse. Il est accompagné d\'une sauce au choix qui apporte une touche complémentaire au caractère de la viande.'
+      },
+      {
+        name: 'FILET DE BŒUF ÉMINCÉ SAUTÉ AVEC AIL & "PATATAS A LO POBRE"',
+        description: 'Émincé de filet de bœuf sauté à l\'ail et au persil, pommes de terre rustiques à l\'espagnole',
+        price: 280,
+        detailedDescription: 'Notre filet de bœuf est finement émincé puis rapidement saisi à feu vif avec de l\'ail frais et du persil pour préserver sa tendreté et son jus. Il est servi avec des "patatas a lo pobre", ces pommes de terre traditionnelles espagnoles cuites lentement avec des oignons doux et des poivrons, imprégnées d\'huile d\'olive aromatisée.'
+      },
+      {
+        name: 'ENTRECÔTE DE BŒUF GRILLÉE',
+        description: 'Généreuse entrecôte maturée 15 jours grillée au charbon de bois, sauce au choix',
+        price: 220,
+        detailedDescription: 'Notre entrecôte de bœuf sélectionnée pour son persillage est maturée pendant 15 jours pour développer sa saveur exceptionnelle. Elle est grillée sur notre braise de charbon de bois qui lui confère des notes fumées uniques. Servie avec une sauce au choix qui se marie parfaitement avec la viande chaude.'
+      },
+      {
+        name: 'CÔTE DE BŒUF GRILLÉE',
+        description: 'Imposante côte de bœuf maturée 20 jours, grillée à la braise, fleur de sel de Camargue (1kg – 2 personnes)',
+        price: 490,
+        detailedDescription: 'Cette pièce d\'exception est maturée pendant 20 jours pour développer des arômes complexes et une tendreté incomparable. Grillée avec expertise sur notre braise de bois d\'olivier, elle est présentée entière puis découpée à table. Sa chair juteuse est simplement rehaussée d\'une fleur de sel de Camargue qui en exalte la saveur naturelle.'
+      },
+      {
+        name: 'VIANDE HACHÉE "KEFTA"',
+        description: 'Viande hachée avec épices marocaines',
+        price: 140,
+        detailedDescription: 'Nos keftas sont préparées à partir de viande hachée assaisonnée avec des épices marocaines.'
+      },
+{
+  name: 'PAILLARDE DE POULET ACCOMPAGNÉE D\'ÉPINARDS SAUTÉS',
+  description: 'Suprême de poulet aplati et grillé, épinards frais sautés à l\'ail',
+  price: 160,
+  detailedDescription: 'Notre suprême de poulet est délicatement aplati puis mariné aux herbes fraîches avant d\'être grillé pour obtenir une chair moelleuse et tendre. Il est accompagné d\'épinards frais rapidement sautés à l\'ail et d\'un filet d\'huile d\'olive citronnée qui apporte fraîcheur et légèreté.'
+}
+    ]
+  },
+  {
+    title: 'ACCOMPAGNEMENTS',
+    items: [
+      {
+        name: 'LÉGUMES SAUTÉS',
+        description: 'Légumes de saison avec sauce soja façon wok',
+        price: 50,
+        detailedDescription: 'Une sélection de légumes de saison sautés avec sauce soja façon wok.'
+      },
+      {
+        name: 'FRITES MAISON',
+        description: 'Frites rustiques coupées à la main, double cuisson et fleur de sel',
+        price: 50,
+        detailedDescription: 'Nos pommes de terre sélectionnées sont épluchées et coupées à la main en bâtonnets généreux, puis cuites deux fois selon la méthode traditionnelle belge : d\'abord à basse température pour cuire l\'intérieur, puis à haute température pour une croûte dorée et croustillante. Servies avec une pincée de fleur de sel.'
+      },
+      {
+        name: 'POMMES DE TERRE "A LO POBRE"',
+        description: 'Pommes de terre mijotées à l\'espagnole avec oignons, poivrons et huile d\'olive',
+        price: 50,
+        detailedDescription: 'Cette recette traditionnelle espagnole consiste en des pommes de terre coupées en fines tranches, cuites lentement dans l\'huile d\'olive avec des oignons doux et des poivrons qui caramélisent doucement. Le résultat est un accompagnement fondant, imprégné des saveurs méditerranéennes, avec une légère coloration dorée.'
+      },
+      {
+        name: 'PURÉE DE POMMES DE TERRE',
+        description: 'Onctueuse purée de pommes de terre à la crème fraîche et beurre noisette',
+        price: 50,
+        detailedDescription: 'Notre purée est préparée avec des pommes de terre Ratte à la chair fondante, écrasées à la fourchette pour conserver du caractère. Enrichie de crème fraîche épaisse et de beurre légèrement noisette, elle offre une texture à la fois aérienne et réconfortante, subtilement parfumée à la noix de muscade fraîchement râpée.'
+      }
       ]
     }
   ];

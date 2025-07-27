@@ -44,6 +44,13 @@ export default function MenuCategorySection() {
 
   // Menu categories data with links
   const menuCategories: MenuCategory[] = [
+                {
+      id: 'huile',
+      title: 'Nuestro Aceite',
+      description: 'Cata "ORO VERDE" - AOVE premiado entre los 10 mejores del mundo',
+      image: '/huile.jpg',
+      link: '/es/menu/huile'
+    },
     {
       id: 'cocktails',
       title: 'Cócteles y Refrescos',
@@ -61,7 +68,7 @@ export default function MenuCategorySection() {
     {
       id: 'beers',
       title: 'Cervezas y Licores',
-      description: 'Cervezas artesanales y licores de calidad superior',
+      description: 'Maestría líquida embotellada',
       image: '/beers.jpg',
       link: '/es/menu/beers'
     },
@@ -76,7 +83,7 @@ export default function MenuCategorySection() {
       id: 'tapas',
       title: 'Tapas y Entrantes',
       description: 'Pequeños platos rebosantes de sabores mediterráneos',
-      image: '/tapas.jpg',
+      image: '/tapas2.jpg',
       link: '/es/menu/tapas'
     },
     {

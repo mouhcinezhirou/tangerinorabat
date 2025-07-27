@@ -167,124 +167,124 @@ export default function FishMeatMenu() {
     {
       title: 'FISH',
       items: [
-        {
-          name: 'GRILLED SWORDFISH',
-          description: 'Flame-grilled swordfish medallion',
-          price: 220,
-          detailedDescription: 'Our Mediterranean swordfish is delicately marinated then flame-grilled to preserve its tender texture and delicate flavor.'
-        },
-        {
-          name: 'SQUID WITH INK',
-          description: 'Whole squid slowly cooked in its own ink',
-          price: 220,
-          detailedDescription: 'This iconic Mediterranean dish features a whole squid gently cooked in a sauce made from its own ink, garlic, and white wine. The tender squid meat pairs perfectly with creamy black rice and confited vegetables.'
-        },
-        {
-          name: 'BLUEFIN TUNA FILLET',
-          description: 'Medium-rare bluefin tuna fillet, soy sauce',
-          price: 220,
-          detailedDescription: 'Our sustainably caught bluefin tuna is briefly marinated in a sesame and soy sauce before being quickly seared to maintain a pink center. It is served with a creamy sweet potato purée infused with fresh ginger that perfectly balances its oceanic notes.'
-        },
-        {
-          name: 'GRILLED SALMON',
-          description: 'Red Label salmon fillet grilled with fresh herbs and preserved lemon',
-          price: 260,
-          detailedDescription: 'Our Scottish Red Label salmon fillet is marinated in a mix of fresh herbs then grilled to perfection, with crispy skin and melt-in-the-mouth flesh. Served with preserved lemon wedges and a herb virgin sauce that delicately enhances the natural richness of the fish.'
-        },
-        {
-          name: 'GRILLED JOHN DORY',
-          description: 'Wood-fired oven grilled John Dory fillet, olive oil with Provençal herbs',
-          price: 260,
-          detailedDescription: 'This noble fish is delicately grilled whole in our wood-fired oven to develop all its flavors. Its firm and delicate flesh is enhanced by olive oil infused with herbs of Provence and a touch of fleur de sel. A Mediterranean classic of refined simplicity.'
-        },
-        {
-          name: 'GRILLED LINE-CAUGHT SEA BASS',
-          description: 'Charcoal-grilled fillet',
-          price: 280,
-          detailedDescription: 'Our line-caught sea bass from the Mediterranean coast is grilled whole to preserve its exceptional flavor. The pearly, delicate flesh of the fish is infused with citrus and accompanied by gently confited fennel that brings a subtle and refreshing aniseed note.'
-        },
-        {
-          name: 'LINE-CAUGHT SEA BASS CASSEROLE',
-          description: 'Wild sea bass cooked in a casserole with melt-in-your-mouth potatoes, olives, and confited tomatoes',
-          price: 320,
-          detailedDescription: 'This traditional preparation features our line-caught sea bass cooked in a casserole with potatoes that absorb the fish juices, Taggiasche olives, confited tomatoes, and a bouquet of fresh herbs. All topped with a reduced white wine fish fumet and served directly in its casserole dish.'
-        },
-        {
-          name: 'SALT-CRUSTED SEA BASS',
-          description: 'Sea bass cooked in Camargue salt crust with aromatic herbs',
-          price: 280,
-          detailedDescription: 'This ancestral cooking method involves encasing our sea bass in a Camargue salt crust mixed with aromatic herbs. Baked in the oven, the fish flesh remains incredibly juicy and is delicately infused with herb aromas. The crust is broken in front of you for a spectacular service.'
-        }
-      ]
-    },
-    {
-      title: 'MEATS',
-      items: [
-        {
-          name: 'GRILLED BEEF TENDERLOIN',
-          description: 'Mibrasa-grilled beef tenderloin with a sauce of your choice',
-          price: 290,
-          detailedDescription: 'Our Black Angus beef tenderloin is grilled to perfection according to your preference, for tender and flavorful meat. It is accompanied by a smooth aged Port reduction and slowly confited shallots that bring a touch of sweetness contrasting with the character of the meat.'
-        },
-        {
-          name: 'SLICED BEEF TENDERLOIN SAUTÉED WITH GARLIC & "PATATAS A LO POBRE"',
-          description: 'Sliced beef tenderloin sautéed with garlic and parsley, rustic Spanish-style potatoes',
-          price: 280,
-          detailedDescription: 'Our beef tenderloin is finely sliced then quickly seared over high heat with fresh garlic and parsley to preserve its tenderness and juices. It is served with "patatas a lo pobre," traditional Spanish potatoes slowly cooked with sweet onions and peppers, infused with flavored olive oil.'
-        },
-        {
-          name: 'GRILLED BEEF RIBEYE',
-          description: 'Generous aged ribeye grilled over charcoal, sauce of your choice',
-          price: 220,
-          detailedDescription: 'Our beef ribeye, selected for its marbling, is aged for 30 days to develop its exceptional flavor. It is grilled on our charcoal fire which gives it unique smoky notes. Served with homemade herb butter that melts delicately on the hot meat.'
-        },
-        {
-          name: 'GRILLED BEEF PRIME RIB',
-          description: 'Impressive aged prime rib, grilled over embers, Camargue fleur de sel (1kg – 2 people)',
-          price: 490,
-          detailedDescription: 'This exceptional cut is aged for 40 days to develop complex flavors and incomparable tenderness. Expertly grilled on our olive wood embers, it is presented whole then carved at the table. Its caramelized crust and juicy flesh are simply enhanced with Camargue fleur de sel that brings out its natural flavor.'
-        },
-        {
-          name: 'KEFTA MINCED MEAT',
-          description: 'Minced meat with oriental spices, sauce of your choice',
-          price: 140,
-          detailedDescription: 'Our keftas are prepared from hand-minced beef seasoned with a carefully dosed blend of oriental spices: cumin, paprika, coriander, and fresh mint. Grilled over embers, they are served with a light sauce of Greek yogurt, fresh mint, and grated cucumber.'
-        },
-        {
-          name: 'CHICKEN PAILLARD WITH SAUTÉED SPINACH',
-          description: 'Flattened and grilled chicken supreme, fresh spinach sautéed with garlic',
-          price: 160,
-          detailedDescription: 'Our chicken supreme is delicately flattened then marinated with fresh herbs before being grilled for tender meat and crispy skin. It is accompanied by fresh spinach quickly sautéed with garlic and a drizzle of lemon-infused olive oil that brings freshness and lightness.'
-        }
-      ]
-    },
-    {
-      title: 'SIDE DISHES',
-      items: [
-        {
-          name: 'SAUTÉED VEGETABLES',
-          description: 'Assortment of seasonal vegetables sautéed in olive oil with fresh herbs',
-          price: 50,
-          detailedDescription: 'A colorful selection of seasonal vegetables – zucchini, bell peppers, eggplant, cherry tomatoes – quickly sautéed in extra virgin olive oil to preserve their crunch and flavors. Seasoned with fresh garden herbs and a touch of garlic, they offer a light and flavorful accompaniment.'
-        },
-        {
-          name: 'HOUSE FRIES',
-          description: 'Hand-cut rustic fries, double-cooked with fleur de sel',
-          price: 50,
-          detailedDescription: 'Our selected potatoes are peeled and hand-cut into generous sticks, then cooked twice according to the traditional Belgian method: first at low temperature to cook the inside, then at high temperature for a golden and crispy crust. Served with a pinch of fleur de sel.'
-        },
-        {
-          name: 'POTATOES "A LO POBRE"',
-          description: 'Spanish-style simmered potatoes with onions, peppers, and olive oil',
-          price: 50,
-          detailedDescription: 'This traditional Spanish recipe consists of thinly sliced potatoes, slowly cooked in olive oil with sweet onions and peppers that gently caramelize. The result is a melt-in-the-mouth side dish, infused with Mediterranean flavors, with a slight golden coloration.'
-        },
-        {
-          name: 'MASHED POTATOES',
-          description: 'Creamy mashed potatoes with crème fraîche and brown butter',
-          price: 50,
-          detailedDescription: 'Our mash is prepared with Ratte potatoes with melt-in-the-mouth flesh, fork-mashed to maintain character. Enriched with thick crème fraîche and lightly browned butter, it offers a texture that is both airy and comforting, subtly flavored with freshly grated nutmeg.'
-        }
+       {
+        name: 'GRILLED SWORDFISH',
+        description: 'Fresh Tangier swordfish on BBQ',
+        price: 220,
+        detailedDescription: 'Our fresh Tangier swordfish is grilled on the BBQ to preserve its tender texture and delicate taste.'
+      },
+      {
+        name: 'GRILLED SQUID',
+        description: 'Fresh squid cooked on BBQ with its ink',
+        price: 220,
+        detailedDescription: 'This emblematic dish of Mediterranean cuisine features fresh squid cooked on the BBQ with its ink.'
+      },
+      {
+        name: 'RED TUNA FILLET',
+        description: 'Fresh red tuna cooked over charcoal served tataki style',
+        price: 220,
+        detailedDescription: 'Our fresh red tuna is grilled over charcoal and served tataki style.'
+      },
+      {
+        name: 'GRILLED SALMON',
+        description: 'Fresh salmon cooked over charcoal served with lemon slice',
+        price: 260,
+        detailedDescription: 'Our fresh salmon is cooked over charcoal and served with a lemon slice.'
+      },
+      {
+        name: 'GRILLED JOHN DORY',
+        description: 'Grilled with skin',
+        price: 340,
+        detailedDescription: 'This noble fish is grilled with skin to develop all its flavors.'
+      },
+      {
+        name: 'GRILLED LINE-CAUGHT SEA BASS',
+        description: 'Sea bass fillet grilled over charcoal',
+        price: 280,
+        detailedDescription: 'Our sea bass fillet is grilled over charcoal to preserve its exceptional flavor.'
+      },
+      {
+        name: 'LINE-CAUGHT SEA BASS CASSEROLE',
+        description: 'Served with potatoes papas a lo pobre style',
+        price: 320,
+        detailedDescription: 'Our line-caught sea bass is served with potatoes papas a lo pobre style.'
+      },
+      {
+        name: 'SEA BASS IN SALT CRUST',
+        description: 'Sea bass cooked with coarse salt served with olive oil',
+        price: 280,
+        detailedDescription: 'Our sea bass is cooked with coarse salt and served with olive oil.'
+      }
+    ]
+  },
+  {
+    title: 'MEATS',
+    items: [
+      {
+        name: 'GRILLED BEEF FILLET',
+        description: 'Beef fillet grilled on mibrasa with sauce of your choice',
+        price: 290,
+        detailedDescription: 'Our beef fillet is grilled to perfection according to your preference, for tender and flavorful meat. It is served with a sauce of your choice that brings a complementary touch to the character of the meat.'
+      },
+      {
+        name: 'SLICED BEEF FILLET SAUTÉED WITH GARLIC & "PATATAS A LO POBRE"',
+        description: 'Sliced beef fillet sautéed with garlic and parsley, rustic Spanish-style potatoes',
+        price: 280,
+        detailedDescription: 'Our beef fillet is finely sliced then quickly seared over high heat with fresh garlic and parsley to preserve its tenderness and juice. It is served with "patatas a lo pobre", these traditional Spanish potatoes cooked slowly with sweet onions and peppers, infused with flavored olive oil.'
+      },
+      {
+        name: 'GRILLED BEEF RIBEYE',
+        description: 'Generous ribeye aged 15 days grilled over charcoal, sauce of your choice',
+        price: 220,
+        detailedDescription: 'Our beef ribeye selected for its marbling is aged for 15 days to develop its exceptional flavor. It is grilled over our charcoal embers which gives it unique smoky notes. Served with a sauce of your choice that pairs perfectly with the hot meat.'
+      },
+      {
+        name: 'GRILLED BEEF RIB',
+        description: 'Impressive beef rib aged 20 days, grilled over embers, Camargue sea salt (1kg – 2 people)',
+        price: 490,
+        detailedDescription: 'This exceptional piece is aged for 20 days to develop complex aromas and incomparable tenderness. Expertly grilled over our olive wood embers, it is presented whole then carved at the table. Its juicy flesh is simply enhanced with Camargue sea salt that exalts its natural flavor.'
+      },
+      {
+        name: 'MINCED MEAT "KEFTA"',
+        description: 'Minced meat with Moroccan spices',
+        price: 140,
+        detailedDescription: 'Our keftas are prepared from minced meat seasoned with Moroccan spices.'
+      },
+{
+  name: 'CHICKEN PAILLARD WITH SAUTÉED SPINACH',
+  description: 'Flattened and grilled chicken breast, fresh spinach sautéed with garlic',
+  price: 160,
+  detailedDescription: 'Our chicken breast is delicately flattened then marinated with fresh herbs before being grilled to obtain tender and juicy meat. It is served with fresh spinach quickly sautéed with garlic and a drizzle of lemon olive oil that brings freshness and lightness.'
+}
+    ]
+  },
+  {
+    title: 'SIDES',
+    items: [
+      {
+        name: 'SAUTÉED VEGETABLES',
+        description: 'Seasonal vegetables with soy sauce wok style',
+        price: 50,
+        detailedDescription: 'A selection of seasonal vegetables sautéed with soy sauce wok style.'
+      },
+      {
+        name: 'HOMEMADE FRIES',
+        description: 'Rustic hand-cut fries, double cooked with sea salt',
+        price: 50,
+        detailedDescription: 'Our selected potatoes are peeled and hand-cut into generous sticks, then cooked twice according to the traditional Belgian method: first at low temperature to cook the inside, then at high temperature for a golden and crispy crust. Served with a pinch of sea salt.'
+      },
+      {
+        name: 'POTATOES "A LO POBRE"',
+        description: 'Spanish-style braised potatoes with onions, peppers and olive oil',
+        price: 50,
+        detailedDescription: 'This traditional Spanish recipe consists of potatoes cut into thin slices, cooked slowly in olive oil with sweet onions and peppers that caramelize gently. The result is a tender side dish, infused with Mediterranean flavors, with a light golden color.'
+      },
+      {
+        name: 'MASHED POTATOES',
+        description: 'Smooth mashed potatoes with fresh cream and brown butter',
+        price: 50,
+        detailedDescription: 'Our mash is prepared with Ratte potatoes with tender flesh, mashed with a fork to retain character. Enriched with thick fresh cream and lightly browned butter, it offers a texture that is both airy and comforting, subtly flavored with freshly grated nutmeg.'
+      }
       ]
     }
   ];

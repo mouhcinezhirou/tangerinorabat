@@ -167,83 +167,83 @@ export default function EggsAndFriedFoodMenu() {
     {
       title: 'TORTILLAS AND EGGS',
       items: [
-        {
-          name: 'SPANISH TORTILLA WITH CHORIZO',
-          description: 'Traditional Spanish omelette enriched with flavorful, mildly spicy chorizo',
-          price: 90,
-          detailedDescription: 'Our tortilla is prepared according to the traditional recipe with potatoes confit in olive oil and caramelized onions, to which we add artisanal chorizo with a mild kick. Slowly cooked to achieve a soft and melting center, it is served warm to enjoy all its flavors.'
-        },
-        {
-          name: 'CLASSIC SPANISH TORTILLA',
-          description: 'Authentic Spanish omelette with potatoes and confit onions',
-          price: 70,
-          detailedDescription: 'Our traditional tortilla is prepared with carefully selected potatoes, confit at low temperature in our extra virgin olive oil, and gently caramelized onions. It is perfectly cooked to offer a contrast between the slightly golden exterior and a tender, creamy center.'
-        },
-        {
-          name: 'SPANISH TORTILLA WITH SPINACH AND MANCHEGO',
-          description: 'Delicate variation of the classic tortilla with fresh spinach and aged manchego cheese',
-          price: 90,
-          detailedDescription: 'This elegant version of our tortilla combines the sweetness of lightly wilted fresh spinach and the richness of manchego cheese aged for 6 months. The combination of melting potatoes, spinach, and cheese creates a perfect balance between creaminess and character.'
-        },
-        {
-          name: 'HUEVOS ROTOS CON CHORIZO (HALAL)',
-          description: 'Eggs cooked on a bed of crispy potatoes with grilled chorizo',
-          price: 95,
-          detailedDescription: 'Our farm-fresh eggs with orange yolks are delicately cooked on a bed of crispy matchstick potatoes and accompanied by lightly grilled halal chorizo. The runny yolk mixes with the potatoes and chorizo to create a harmony of rustic and comforting flavors.'
-        }
-      ]
-    },
-    {
-      title: 'FRIED DELIGHTS',
-      items: [
-        {
-          name: 'ANCHOVIES AL LIMON',
-          description: 'Fresh anchovies marinated in lemon, coated in a fine breading, fried to perfection.',
-          price: 80,
-          detailedDescription: 'Our fresh anchovies are delicately filleted then coated in a light tempura batter before being fried to order. Crispy on the outside and melting on the inside, they are served with fresh lemon wedges and a touch of fleur de sel to enhance their marine flavor.'
-        },
-        {
-          name: 'POPCORN SHRIMP',
-          description: 'Crispy popcorn-style shrimp with homemade cocktail sauce',
-          price: 80,
-          detailedDescription: 'Our shrimp are coated in a crispy breadcrumb mixture with herbs and spices, then fried to perfection to achieve a golden, crunchy exterior while preserving the tenderness of the meat. Served with our slightly spicy homemade cocktail sauce, it\'s an irresistible delight.'
-        },
-        {
-          name: 'CALAMARI FRITOS',
-          description: 'Tender calamari rings in light batter, served with saffron aioli',
-          price: 140,
-          detailedDescription: 'Inspired by Andalusian tradition, our calamari are dipped in a light batter then quickly fried at high temperature to preserve their tenderness. Served with a homemade aioli delicately flavored with saffron and a touch of freshly chopped parsley, they offer a perfect balance between crispy and tender.'
-        },
-        {
-          name: 'CHICKEN CROQUETTES',
-          description: 'Creamy croquettes with chicken, wild mushrooms, and melted cheese',
-          price: 80,
-          detailedDescription: 'Our croquettes are prepared with a creamy béchamel enriched with shredded chicken, sautéed wild mushrooms, and a blend of aged cheeses. The mixture is coated in golden breadcrumbs and fried until a crispy shell reveals a melting and flavorful heart.'
-        },
-        {
-          name: 'SHRIMP CROQUETTES',
-          description: 'Creamy shrimp croquettes with homemade bisque, flavored with Espelette pepper',
-          price: 80,
-          detailedDescription: 'These delicate croquettes are made from a reduced and concentrated shrimp bisque, incorporated into a silky béchamel with pieces of shrimp. A light touch of Espelette pepper brings a subtle warmth that enhances the marine flavors, all wrapped in a fine golden and crispy crust.'
-        },
-        {
-          name: 'FISH & CHIPS',
-          description: 'Cod fillet in crispy tempura with spiral potatoes',
-          price: 160,
-          detailedDescription: 'Our interpretation of the British classic combines an ultra-fresh cod fillet coated in a crispy and airy beer batter, served with our Hurricane spiral potatoes with an incomparable texture. The dish is accompanied by a homemade tartar sauce with crunchy capers and finely chopped pickles.'
-        },
-        {
-          name: 'MIXED FRIED SEAFOOD',
-          description: 'Generous selection of fish and seafood fried to perfection',
-          price: 220,
-          detailedDescription: 'This royal fry offers a varied selection of Mediterranean fish, calamari, shrimp, and cod fritters, each coated in a specific breading that enhances its natural flavor. The assortment is served with different homemade sauces: aioli, tartar sauce, and spicy sauce to satisfy all cravings.'
-        },
-        {
-          name: 'CHANQUETES WITH FRIED EGGS',
-          description: 'Delicate crispy silver fish served on a bed of soft fried eggs',
-          price: 140,
-          detailedDescription: 'A quintessential Mediterranean specialty, our chanquetes (small silver fish) are lightly floured then fried until perfectly crispy. They are placed on a bed of gently cooked broken eggs, whose creamy yolk deliciously blends with the marine flavors. The dish is sprinkled with fresh herbs and accompanied by a drizzle of extra virgin olive oil infused with garlic, creating a symphony of textures and flavors that instantly evokes the sunny Mediterranean coastline.'
-        },
+{
+  name: 'SPANISH TORTILLA WITH CHORIZO',
+  description: 'Traditional Spanish omelet enriched with flavorful, lightly spiced chorizo',
+  price: 90,
+  detailedDescription: 'Our tortilla is prepared according to traditional recipe with potatoes confit in olive oil, to which we add artisanal, lightly spicy chorizo. Slowly cooked to achieve a soft and melting center, it is served warm to appreciate all the flavors.'
+},
+      {
+        name: 'CLASSIC SPANISH TORTILLA',
+        description: 'The authentic Spanish potato omelet',
+        price: 70,
+        detailedDescription: 'Our traditional tortilla is prepared with carefully selected potatoes, confit at low temperature in our extra virgin olive oil. It is cooked to perfection to offer a contrast between the lightly golden exterior and a tender, creamy center.'
+      },
+      {
+        name: 'SPANISH TORTILLA WITH SPINACH AND MANCHEGO',
+        description: 'Delicate variation of the classic tortilla with fresh spinach and aged manchego',
+        price: 90,
+        detailedDescription: 'This elegant version of our tortilla combines the sweetness of fresh lightly wilted spinach and the richness of manchego cheese aged for 6 months. The combination of melting potatoes, spinach and cheese creates a perfect balance between creaminess and character.'
+      },
+      {
+        name: 'HUEVOS ROTOS CON CHORIZO (HALAL)',
+        description: 'Eggs cooked on a bed of potatoes with grilled chorizo',
+        price: 95,
+        detailedDescription: 'Our orange-yolked eggs are delicately cooked on a bed of tender potatoes and accompanied by lightly grilled halal chorizo. The runny yolk mixes with the potatoes and chorizo to create a harmony of rustic and comforting flavors.'
+      }
+    ]
+  },
+  {
+    title: 'FRIED DISHES',
+    items: [
+      {
+        name: 'ANCHOIS AL LIMON',
+        description: 'Fresh anchovies marinated in lemon, coated in fine breadcrumbs, fried to perfection',
+        price: 80,
+        detailedDescription: 'Our fresh anchovies are delicately filleted then coated in a light tempura batter before being fried instantly. Crispy on the outside and melting on the inside, they are served with fresh lemon wedges and a touch of fleur de sel to enhance their marine flavor.'
+      },
+      {
+        name: 'POPCORN SHRIMP',
+        description: 'Crispy popcorn-style shrimp with homemade cocktail sauce',
+        price: 80,
+        detailedDescription: 'Our shrimp are coated in crispy breadcrumbs, then fried to perfection to achieve a golden and crunchy exterior while preserving the tenderness of the flesh. Served with our lightly spiced homemade cocktail sauce, it\'s an irresistible delight.'
+      },
+      {
+        name: 'CALAMARES FRITOS',
+        description: 'Tender squid rings in light batter, served with tartare sauce',
+        price: 140,
+        detailedDescription: 'Inspired by Andalusian tradition, our squid are dipped in an airy frying batter then quickly fried at high temperature to preserve their tenderness. Served with homemade tartare sauce and a touch of fresh chopped parsley, they offer a perfect balance between crispy and tender.'
+      },
+      {
+        name: 'CHICKEN CROQUETTES',
+        description: 'Creamy chicken croquettes with wild mushrooms and melted cheese',
+        price: 80,
+        detailedDescription: 'Our croquettes are prepared with a smooth béchamel enriched with shredded chicken, sautéed wild mushrooms and a blend of aged cheeses. The whole is coated in golden breadcrumbs and fried until obtaining a crispy shell that reveals a melting and flavorful heart.'
+      },
+      {
+        name: 'SHRIMP CROQUETTES',
+        description: 'Creamy shrimp croquettes with homemade bisque, flavored with Espelette pepper',
+        price: 80,
+        detailedDescription: 'These delicate croquettes are made from a reduced and concentrated shrimp bisque, incorporated into a silky béchamel with pieces of shrimp. A light touch of Espelette pepper brings a subtle warmth that enhances the marine flavors, all wrapped in a fine golden and crispy crust.'
+      },
+      {
+        name: 'FISH & CHIPS',
+        description: 'Cod fillet in crispy tempura with spiral potatoes',
+        price: 160,
+        detailedDescription: 'Our interpretation of the British classic combines an ultra-fresh cod fillet coated in crispy and airy tempura batter, served with our Hurricane spiral potatoes with incomparable texture. The whole is accompanied by homemade tartare sauce with crunchy capers and finely chopped pickles.'
+      },
+      {
+        name: 'MIXED FISH FRY',
+        description: 'Generous selection of fish and seafood fried to perfection',
+        price: 220,
+        detailedDescription: 'This royal fry offers a varied selection of Mediterranean fish, squid, shrimp and cod fritters, each coated in a specific breading that enhances its natural flavor. The assortment is served with our homemade tartare sauce to satisfy all desires.'
+      },
+      {
+        name: 'CHANQUETES AND FRIED EGGS',
+        description: 'Creamy eggs served on a bed of delicate crispy small fish',
+        price: 140,
+        detailedDescription: 'A Mediterranean specialty par excellence, our chanquetes (small silver fish) are lightly floured then fried until obtaining a perfectly crispy texture. The broken eggs are gently cooked and placed on this bed of crispy fish, whose creamy yolk deliciously mingles with the marine flavors, creating a symphony of textures and flavors that instantly evokes the sunny Mediterranean coast.'
+      }
       ]
     }
   ];

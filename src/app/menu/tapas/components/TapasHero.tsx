@@ -45,7 +45,7 @@ export default function TapasEntreesHero() {
       {/* Background image with overlay */}
       <div className="absolute inset-0">
         <Image
-          src="/tapas.jpg"
+          src="/tapas2.jpg"
           alt="Assortiment de tapas et entrées"
           layout="fill"
           objectFit="cover"

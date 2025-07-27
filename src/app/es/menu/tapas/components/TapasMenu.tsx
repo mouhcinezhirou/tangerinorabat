@@ -200,9 +200,9 @@ export default function TapasEntreesMenu() {
         },
         {
           name: 'PIMIENTOS DEL PADRÓN',
-          description: 'Pequeños pimientos verdes españoles a la plancha y sazonados con flor de sal',
+          description: 'Pimientos verdes dulces fritos, acompañados de flor de sal',
           price: 70,
-          detailedDescription: 'Estos pequeños pimientos llegados directamente de Galicia son brevemente salteados a alta temperatura y delicadamente sazonados con flor de sal. Su particularidad: ¡algunos son suaves, otros sorprenden por su picante!'
+          detailedDescription: 'Un juego de ruleta española donde algunos son dulces y otros sorprenden por su calor, estos pequeños pimientos fritos crujientes se realzan con el crujido de la sal marina gruesa.'
         },
         {
           name: 'ANCHOAS EN VINAGRE',
@@ -216,12 +216,12 @@ export default function TapasEntreesMenu() {
           price: 95,
           detailedDescription: 'Nuestra cremosa burrata de Apulia se sirve con tomates suavemente ahumados sobre brasas de madera de olivo durante varias horas, todo ello sublimado con nuestro aceite de oliva de primera presión en frío y albahaca fresca.'
         },
-        {
-          name: 'VENTRESCA DE ATÚN Y PIMIENTOS ASADOS',
-          description: 'Pimientos dulces asados acompañados de ventresca de atún confitada en aceite de oliva',
-          price: 90,
-          detailedDescription: 'Nuestros pimientos son lentamente asados hasta su caramelización y luego combinados con la parte más sabrosa del atún, la ventresca, confitada en nuestro aceite de oliva infusionado con hierbas mediterráneas.'
-        },
+{
+  name: 'ASADILLOS DE PIMIENTOS CON VENTRESCA',
+  description: 'Pimientos rojos asados al horno acompañados de ventresca de atún en aceite de oliva',
+  price: 90,
+  detailedDescription: 'Nuestros pimientos rojos son lentamente asados al horno hasta obtener una textura melosa y concentrar sus sabores. Se acompañan de ventresca de atún de primera calidad conservada en aceite de oliva infusionado con hierbas mediterráneas.'
+},
         {
           name: 'PARMIGIANA DE TERNERA CON CHORIZO HALAL',
           description: 'Deliciosa preparación de berenjenas, ternera y chorizo halal gratinada al horno',
@@ -230,7 +230,7 @@ export default function TapasEntreesMenu() {
         },
         {
           name: 'PARMIGIANA DE MARISCOS',
-          description: 'Variación marina de la parmigiana tradicional con mariscos',
+          description: 'Una variante marina de la tradicional parmigiana de mariscos.',
           price: 90,
           detailedDescription: 'Nuestra interpretación marina combina berenjenas a la parrilla, una delicada selección de mariscos y una salsa bechamel perfumada con azafrán, todo ello cubierto de queso y delicadamente gratinado al horno.'
         },
@@ -265,16 +265,16 @@ export default function TapasEntreesMenu() {
           detailedDescription: 'La finura de nuestra bresaola de pavo delicadamente especiada se combina perfectamente con la riqueza del manchego curado. Todo ello está sutilmente realzado con un chorrito de aceite de oliva virgen y unas gotas de vinagre balsámico reducido.'
         },
         {
-          name: 'ENSALADILLA DE BOGAVANTE',
+          name: 'ENSALADILLA RUSA',
           description: 'Versión refinada de la tradicional ensaladilla de verduras y mayonesa',
           price: 70,
           detailedDescription: 'Nuestra elegante interpretación de la ensaladilla rusa tradicional combina patatas, zanahorias y guisantes finamente cortados, todo ello envuelto en una ligera mayonesa perfumada con limón y eneldo fresco.'
         },
         {
-          name: 'ENSALADILLA RUSA CON BOGAVANTE Y MAYONESA DE LIMÓN',
-          description: 'Versión lujosa de nuestra ensaladilla rusa con trozos de bogavante fresco',
+          name: 'ENSALADILLA DE LANGOSTA',
+          description: 'Versión lujosa de nuestra ensaladilla rusa con trozos de langosta fresca',
           price: 180,
-          detailedDescription: 'Esta versión gastronómica de la ensaladilla rusa está sublimada con generosos trozos de bogavante azul pescado en el Mediterráneo y una mayonesa delicadamente aromatizada con cítricos confitados y cebollino fresco del jardín.'
+          detailedDescription: 'Esta versión gastronómica de la ensaladilla rusa se sublima con generosos trozos de langosta del Mediterráneo y una mayonesa delicadamente alimonada con cítricos confitados y cebollino fresco del huerto.'
         },
         {
           name: 'ENSALADILLA DE PULPO',
@@ -307,27 +307,27 @@ export default function TapasEntreesMenu() {
       items: [
         {
           name: 'ESCALIVADA CON ATÚN',
-          description: 'Pimientos, berenjenas y cebollas asadas con atún a la parrilla y un toque de ajo negro',
+          description: 'Pimientos, berenjenas y cebollas asados con atún a la parrilla y un toque de aceite de ajo',
           price: 100,
-          detailedDescription: 'Nuestra escalivada tradicional compuesta de pimientos, berenjenas y cebollas lentamente asados a la leña está sublimada con trozos de atún marcado a la brasa y un toque de aceite de ajo negro fermentado para una profundidad aromática única.'
+          detailedDescription: 'Nuestra escalivada tradicional compuesta de pimientos, berenjenas y cebollas lentamente asados al fuego de leña se sublima con trozos de atún asado a la brasa y un toque de aceite de ajo para una profundidad aromática única.'
         },
         {
           name: 'ENSALADA DE SALMÓN AHUMADO Y AGUACATE',
-          description: 'Fresca mezcla de salmón ahumado y aguacate con vinagreta de miel y mostaza',
+          description: 'Mezcla fresca de salmón ahumado y aguacate con vinagreta de miel y mostaza',
           price: 110,
-          detailedDescription: 'Delicadas lonchas de salmón ahumado casero se combinan perfectamente con gajos de cremoso aguacate, todo ello realzado con nuestra vinagreta especial de miel de flores silvestres y mostaza a la antigua.'
+          detailedDescription: 'Delicadas lonchas de salmón ahumado casero se casan perfectamente con cuartos de aguacate cremoso, todo realzado por nuestra vinagreta signature con miel de flores silvestres y mostaza a la antigua.'
         },
         {
           name: 'ENSALADA CÉSAR ORIGINAL',
-          description: 'Lechuga romana, salsa César casera, pollo a la brasa y parmesano',
+          description: 'Lechuga romana, salsa César casera, pollo asado al carbón y parmesano',
           price: 120,
-          detailedDescription: 'Nuestra ensalada César combina una lechuga romana crujiente, picatostes al ajo, virutas de parmesano curado y pollo de corral marinado y luego asado en nuestra barbacoa Mibrasa, todo ello envuelto en nuestra salsa César con anchoas preparada al momento.'
+          detailedDescription: 'Nuestra ensalada César combina lechuga romana crujiente, picatostes, virutas de parmesano curado y pollo de corral marinado y asado en nuestra barbacoa Mibrasa, todo envuelto en nuestra salsa César con anchoas preparada al momento.'
         },
         {
           name: 'ENSALADA MARINERA',
-          description: 'Fresca composición de mariscos y verduras crujientes',
+          description: 'Composición fresca de mariscos con aguacate y tomates cherry',
           price: 120,
-          detailedDescription: 'Un festival marino que combina gambas, salmón ahumado, calamares, mejillones y almejas con verduras crujientes, todo ello delicadamente sazonado con una vinagreta de cítricos y hierbas frescas para una explosión de sabores mediterráneos.'
+          detailedDescription: 'Un festival marino que combina gambas, salmón ahumado y calamares con cuartos de aguacate cremoso y tomates cherry sobre un lecho de ensalada verde, todo delicadamente aliñado con vinagreta de cítricos y hierbas frescas.'
         }
       ]
     },
@@ -336,45 +336,45 @@ export default function TapasEntreesMenu() {
       items: [
         {
           name: 'CARPACCIO DE TOMATE TANGERINO',
-          description: 'Finas rodajas de tomate con atún, alcaparras y aceite de oliva virgen extra',
+          description: 'Finas lonchas de tomate con atún, alcaparras y aceite de oliva virgen extra',
           price: 120,
-          detailedDescription: 'Un refinado carpaccio de tomates Tangerino finamente cortados, que ofrece una frescura ácida equilibrada por la riqueza del atún delicadamente desmenuzado. Adornado con crujientes alcaparras para un toque picante, todo ello sublimado con un generoso aceite de oliva virgen extra, aportando una nota afrutada y sedosa. Una entrada ligera y elegante que celebra la simplicidad de los sabores mediterráneos.'
+          detailedDescription: 'Un carpaccio refinado de tomates Tangerino finamente laminados, ofreciendo una frescura ácida equilibrada por la riqueza del atún delicadamente desmenuzado. Adornado con alcaparras y sublimado por un generoso aceite de oliva virgen extra. Un entrante ligero y elegante que celebra la simplicidad de los sabores mediterráneos.'
         },
         {
           name: 'CARPACCIO DE PULPO',
-          description: 'Finas lonchas de pulpo tierno marinado con cítricos',
+          description: 'Finas lonchas de pulpo tierno',
           price: 120,
-          detailedDescription: 'Nuestro pulpo es primero cocinado lentamente, luego cortado finamente y marinado en una mezcla de aceite de oliva y cítricos. Cada bocado ofrece una tierna textura y un perfecto equilibrio entre los sabores marinos y las notas ácidas.'
+          detailedDescription: 'Nuestro pulpo se cuece primero lentamente y luego se lamina finamente. Cada bocado ofrece una textura tierna y un perfecto equilibrio de sabores marinos.'
         },
         {
-          name: 'CARPACCIO DE GAMBAS ROJAS FLAMBEADAS',
-          description: 'Delicadas láminas de gambas rojas salvajes con toque de ajo picante',
+          name: 'CARPACCIO DE GAMBAS ROJAS FLAMEADAS',
+          description: 'Delicadas lonchas de gambas rojas salvajes con un toque de ajo picante',
           price: 160,
-          detailedDescription: 'Nuestras gambas rojas salvajes del Mediterráneo son ligeramente flambeadas, luego finamente cortadas y sazonadas con un aceite perfumado con ajo y guindilla. Una delicia marina con sabores intensos y una textura incomparable.'
+          detailedDescription: 'Nuestras gambas rojas salvajes del Mediterráneo se flamean ligeramente, se laminan finamente y se aliñan con aceite perfumado con ajo y guindilla. Un manjar marino de sabores intensos y textura incomparable.'
         },
         {
           name: 'CARPACCIO DE ATÚN ROJO',
-          description: 'Finas lonchas de atún rojo crudo con salsa asiática ligeramente picante',
+          description: 'Finas lonchas de atún rojo crudo con salsa tailandesa y pimientos verdes',
           price: 140,
-          detailedDescription: 'Nuestro atún rojo del Mediterráneo, pescado con caña y cortado finamente, está sublimado con una salsa tailandesa con notas equilibradas de jengibre, lima y guindilla, creando un maridaje perfecto entre tradición mediterránea e influencias asiáticas.'
+          detailedDescription: 'Nuestro atún rojo del Mediterráneo, pescado con caña y finamente laminado, se sublima con salsa tailandesa con lima y pimientos verdes crujientes, todo acompañado de vinagreta creando un maridaje perfecto entre tradición mediterránea e influencias asiáticas.'
         },
         {
           name: 'CARPACCIO DE TERNERA',
-          description: 'Finas lonchas de ternera cruda aliñadas con aceite de oliva y parmesano',
+          description: 'Finas lonchas de ternera cruda aliñadas con aceite de trufa y virutas de parmesano',
           price: 120,
-          detailedDescription: 'Nuestro solomillo de ternera es ligeramente marcado, luego finamente cortado y presentado con un chorrito de aceite de oliva virgen extra, virutas de parmesano curado 24 meses, algunas alcaparras y una vuelta de molinillo de pimienta recién molida.'
+          detailedDescription: 'Nuestro solomillo de ternera se sella ligeramente, se lamina finamente y se presenta con un hilo de aceite de trufa, virutas de parmesano curado 24 meses y algunas alcaparras.'
         },
         {
           name: 'CARPACCIO ESTILO BRESAOLA',
-          description: 'Finas lonchas de lomo de pavo marinado y secado como una bresaola',
+          description: 'Finas lonchas de lomo de pavo marinado y secado como bresaola',
           price: 120,
-          detailedDescription: 'Nuestro lomo de pavo es marinado en una mezcla de especias, vino y hierbas aromáticas, luego secado lentamente para desarrollar un sabor complejo que recuerda a la bresaola tradicional, servido con rúcula y virutas de parmesano.'
+          detailedDescription: 'Nuestro lomo de pavo se marina en una mezcla de especias, vino y hierbas aromáticas y luego se seca lentamente para desarrollar un sabor complejo que recuerda a la bresaola tradicional, servido con rúcula y virutas de parmesano.'
         },
         {
-          name: 'SASHIMI DE SALMONETE MARINADO Y FLAMBEADO',
+          name: 'SASHIMI DE SALMONETE MARINADO Y FLAMEADO',
           description: 'Finas lonchas de salmonete acompañadas de un salpicón de gambas',
           price: 145,
-          detailedDescription: 'Nuestro salmonete del Mediterráneo es brevemente marinado y luego flambeado para desarrollar sus aromas preservando su delicada textura. Se acompaña de un refrescante salpicón de gambas, hierbas frescas y cítricos.'
+          detailedDescription: 'Nuestro salmonete del Mediterráneo se marina brevemente y luego se flamea para desarrollar sus aromas preservando su delicada textura. Se acompaña de un refrescante salpicón de gambas, hierbas frescas y cítricos.'
         },
       ]
     },
@@ -385,7 +385,7 @@ export default function TapasEntreesMenu() {
           name: 'SOPA DE PESCADOS Y MARISCOS',
           description: 'Rico caldo de pescados y crustáceos con picatostes y rouille',
           price: 120,
-          detailedDescription: 'Nuestra sopa está preparada según la tradición mediterránea con un intenso fumet de pescados de roca y una selección de mariscos frescos, servida con picatostes al ajo, queso gruyère rallado y nuestro rouille casero al azafrán.'
+          detailedDescription: 'Nuestra sopa se prepara según la tradición mediterránea con un fumet intenso de pescados de roca y una selección de mariscos frescos, servida con picatostes al ajo, gruyere rallado y nuestro rouille casero al azafrán.'
         }
       ]
     }

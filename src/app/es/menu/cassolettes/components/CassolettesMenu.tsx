@@ -167,47 +167,47 @@ export default function CassolettesMenu() {
     {
       title: 'CAZUELITAS DEL MAR',
       items: [
-        {
-          name: 'ANGULAS DE ESPAÑA (100GR)',
-          description: 'Delicadas angulas españolas cocinadas en aceite de oliva, ajo y pimiento dulce',
-          price: 650,
-          detailedDescription: 'Este manjar excepcional nos llega directamente de las costas cantábricas de España. Las angulas se preparan según la tradición vasca en cazuelitas de barro cocidas a alta temperatura. Cocinadas con aceite de oliva virgen extra infusionado con ajo y realzadas con un toque de pimiento dulce, revelan su textura única y su delicado sabor marino. Se sirven humeantes con pan crujiente para saborear cada gota.'
-        },
-        {
-          name: 'GAMBAS SALVAJES AL AJO Y GUINDILLA',
-          description: 'Gambas salvajes flambeadas en aceite aromatizado con ajo y guindilla',
-          price: 180,
-          detailedDescription: 'Nuestras gambas salvajes pescadas en el Mediterráneo se saltean en una cazuelita ardiente con aceite de oliva infusionado con ajo fresco y guindilla. El jugo de cocción especiado y aromático es ideal para disfrutarse con nuestro pan casero crujiente. Un plato emblemático que despierta las papilas gustativas y evoca instantáneamente las tabernas mediterráneas.'
-        },
-        {
-          name: 'ALMEJAS A LA MARINERA',
-          description: 'Almejas frescas abiertas en un baño de aceite de oliva, ajo y perejil',
-          price: 120,
-          detailedDescription: 'Nuestras almejas vivas son cuidadosamente seleccionadas cada mañana y cocinadas al momento en nuestras cazuelitas tradicionales de barro. Se abren delicadamente en un baño de aceite de oliva aromatizado con ajo fresco machacado y perejil. Un toque de zumo de limón equilibra su sabor yodado natural. Un clásico mediterráneo de engañosa sencillez, donde se destaca la excepcional calidad del producto.'
-        },
-        {
-          name: 'PEZ ESPADA Y GAMBAS AL AJO',
-          description: 'Medallones de pez espada fresco y gambas salteados con ajo y hierbas finas',
-          price: 160,
-          detailedDescription: 'Elegantes medallones de pez espada fresco se saltean rápidamente con gambas en un aceite infusionado con ajo y tomillo fresco. Este dúo marino se sirve en una cazuelita burbujeante que preserva todos sus sabores. Un toque de pimiento de Espelette, un chorrito de limón y algunas hierbas frescas completan este plato a la vez refinado y generoso. La combinación perfecta de dos tesoros del Mediterráneo, que el servicio en cazuelita hace aún más sabroso.'
-        },
-        {
-          name: 'PEZ ESPADA Y ALMEJAS AL AJO',
-          description: 'Armoniosa combinación de tierno pez espada y jugosas almejas al ajo',
-          price: 160,
-          detailedDescription: 'Esta cazuelita combina con elegancia la carne suave del pez espada y el sabor yodado de las almejas. Ambos productos se cocinan por separado para respetar su textura, y luego se reúnen en una cazuelita ardiente con aceite aromatizado con ajo, perejil y limón. El jugo de las almejas impregna delicadamente el pez espada, creando una sinfonía de sabores marinos sublimada por el calor de la cazuelita de barro que continúa la cocción en la mesa.'
-        }
-      ]
-    },
-    {
-      title: 'CAZUELITAS DE LA TIERRA',
-      items: [
-        {
-          name: 'CAZUELITA DE SETAS',
-          description: 'Selección de setas silvestres y cultivadas, ajo confitado y hierbas frescas',
-          price: 80,
-          detailedDescription: 'Nuestra cazuelita reúne una colección de setas cuidadosamente seleccionadas: boletus, setas de ostra, shiitake y champiñones. Se saltean a fuego vivo y luego se cocinan lentamente con ajo confitado, perejil fresco y un toque de crema. Una ligera reducción de vino blanco y un chorrito de aceite de trufa completan este plato terrenal con sabores profundos y reconfortantes. Servido burbujeante, libera irresistibles aromas boscosos.'
-        }
+{
+        name: 'ANGULAS DE ESPAÑA (100GR)',
+        description: 'Delicadas angulas españolas cocidas en aceite de oliva con ajo y guindilla',
+        price: 650,
+        detailedDescription: 'Este manjar excepcional nos llega directamente de las costas cántabras de España. Las angulas se preparan según la tradición vasca en cazuelitas de barro calentadas a alta temperatura. Cocidas con aceite de oliva virgen extra infusionado con ajo y realzadas con guindilla, revelan su textura única y su delicado sabor marino. Se sirven humeantes para saborear cada gota.'
+      },
+      {
+        name: 'GAMBAS SALVAJES AL AJILLO Y GUINDILLA',
+        description: 'Gambas salvajes flameadas en aceite aromatizado con ajo y guindilla roja',
+        price: 180,
+        detailedDescription: 'Nuestras gambas salvajes pescadas en el Mediterráneo se saltean en una cazuelita ardiente con aceite de oliva infusionado con ajo fresco y guindilla roja. El jugo de cocción picante y aromático es ideal para ser saboreado con nuestro pan casero crujiente. Un plato emblemático que despierta las papilas y evoca instantáneamente las tabernas mediterráneas.'
+      },
+{
+  name: 'ALMEJAS A LA MARINERA',
+  description: 'Almejas frescas abiertas en un sabroso caldo de pescado ligado con harina',
+  price: 120,
+  detailedDescription: 'Nuestras almejas vivas son cuidadosamente seleccionadas cada mañana y cocidas al momento en nuestras cazuelitas. Se abren delicadamente en un sabroso caldo de pescado ligeramente ligado con harina. Un clásico mediterráneo revisitado, donde la calidad excepcional del producto se pone de relieve con sabores auténticos y reconfortantes.'
+},
+      {
+        name: 'PEZ ESPADA Y GAMBAS AL AJILLO',
+        description: 'Medallones de pez espada fresco y gambas salteados con ajo',
+        price: 160,
+        detailedDescription: 'Elegantes medallones de pez espada fresco se saltean rápidamente con gambas en aceite infusionado con ajo y tomillo fresco. Este dúo marino se sirve en una cazuelita burbujeante que preserva todos sus sabores. Una pizca de pimiento de Espelette perfecciona este plato a la vez refinado y generoso. La alianza perfecta de dos tesoros del Mediterráneo, que el servicio en cazuelita hace aún más sabroso.'
+      },
+      {
+        name: 'PEZ ESPADA Y ALMEJAS AL AJILLO',
+        description: 'Combinación armoniosa de pez espada tierno y almejas jugosas con ajo',
+        price: 160,
+        detailedDescription: 'Esta cazuelita combina con elegancia la carne fundente del pez espada y el sabor yodado de las almejas. Los dos productos se cocinan por separado para respetar su textura, luego se reúnen en una cazuelita ardiente con aceite de oliva aromatizado con ajo, guindilla y perejil. El jugo de las almejas impregna delicadamente el pez espada, creando una sinfonía de sabores marinos realzada por el calor de la cazuelita que continúa la cocción en la mesa.'
+      }
+    ]
+  },
+  {
+    title: 'CAZUELITAS DE LA TIERRA',
+    items: [
+      {
+        name: 'CAZUELITA DE CHAMPIÑONES',
+        description: 'Champiñones salteados con ajo, perejil y guindilla',
+        price: 80,
+        detailedDescription: 'Nuestra cazuelita pone de relieve los champiñones. Se saltean a fuego fuerte con ajo fresco y una pizca de guindilla, luego se aromatizan con perejil fresco. Esta preparación auténtica y depurada revela todo el sabor natural de los champiñones. Servido burbujeante, libera aromas intensos y sabrosos.'
+      }
       ]
     }
   ];

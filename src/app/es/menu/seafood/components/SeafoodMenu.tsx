@@ -194,10 +194,10 @@ export default function SeafoodMenuPage() {
           detailedDescription: 'Una docena lujosa que presenta las mejores capturas diarias de diferentes regiones atlánticas, especialmente Dakhla. Servidas sobre un lecho de hielo picado con mignonette casera, rábano picante fresco y salsa picante artesanal.'
         },
         {
-          name: 'OSTRAS A LA PARRILLA MIBRASA (6 PIEZAS)',
-          description: 'Ostras a la parrilla con mantequilla de hierbas y ajo, cocinadas en nuestra Mibrasa',
+          name: 'OSTRAS A LA BRASA (6 PIEZAS)',
+          description: 'Ostras a la brasa con mantequilla de hierbas y ajo, cocinadas en nuestra Mibrasa',
           price: 120,
-          detailedDescription: 'Estas ostras experimentan una transformación ahumada en nuestro horno Mibrasa, cada una acariciada con mantequilla de ajo y hierbas. El calor suave intensifica su yodo natural mientras añade una compleja nota ahumada.'
+          detailedDescription: 'Estas ostras experimentan una transformación ahumada en nuestra Mibrasa, cada una acariciada con mantequilla de ajo y hierbas. El calor suave intensifica su yodo natural mientras añade una compleja nota ahumada.'
         }
       ]
     },
@@ -211,23 +211,23 @@ export default function SeafoodMenuPage() {
           detailedDescription: 'Un surtido decadente de crustáceos y pescados envueltos en una salsa aterciopelada de crema. Horneado hasta conseguir una costra dorada de parmesano y pan rallado con hierbas que añade un delicioso toque crujiente.'
         },
         {
-          name: 'CEVICHE DE OSTRAS, CAMARONES Y PULPO',
-          description: 'Mariscos frescos marinados en leche de tigre con hierbas mediterráneas, cebolla roja y aguacate',
-          price: 180,
-          detailedDescription: 'Una trilogía vibrante de tesoros marinos "cocinados" en leche de tigre, infusionados con cilantro y cebolla roja. Guarnecido con aguacate cremoso para un equilibrio perfecto de sabores y texturas.'
-        },
-        {
-          name: 'CAMARONES ROJOS SALVAJES',
-          description: 'Suculentos camarones rojos salvajes a la parrilla Mibrasa, servidos con una rica bisque casera',
-          price: 190,
-          detailedDescription: 'Los preciados camarones rojos mediterráneos, a la parrilla a la perfección con sus cáscaras que aportan un sabor intenso. Acompañados de una bisque sedosa elaborada con las cabezas tostadas, infusionada con azafrán e hinojo.'
-        },
-        {
-          name: 'LONCHAS DE LANGOSTA',
-          description: "Cola de langosta premium delicadamente laminada y dispuesta, acompañada de una aromática bisque de langosta servida en un vaso de chupito",
-          price: 420,
-          detailedDescription: "Cola de langosta de aguas frías, precisamente cortada y dispuesta en abanico para resaltar su carne tierna y nacarada. Servida con una intensa reducción de bisque de langosta, realzada con coñac y hierbas frescas para una experiencia gustativa inolvidable."
-        }
+    name: 'CEVICHE DE OSTRAS, CAMARONES Y PULPO',
+    description: 'Mariscos frescos marinados en leche de tigre con hierbas mediterráneas y cebolla roja',
+    price: 180,
+    detailedDescription: 'Una trilogía vibrante de tesoros marinos "cocinados" en leche de tigre, infusionados con cilantro y cebolla roja. Esta preparación auténtica revela toda la frescura de los productos del mar en un equilibrio perfecto de sabores ácidos y hierbas aromáticas.'
+  },
+{
+  name: 'CAMARONES ROJOS SALVAJES',
+  description: 'Suculentos camarones rojos salvajes pelados, a la parrilla Mibrasa',
+  price: 190,
+  detailedDescription: 'Los preciados camarones rojos mediterráneos, cuidadosamente pelados y a la parrilla a la perfección. Una preparación refinada que destaca la carne tierna de estos crustáceos excepcionales y su auténtico sabor natural.'
+},
+{
+  name: 'LONCHAS DE LANGOSTA',
+  description: "Cola de langosta premium delicadamente laminada y dispuesta, acompañada de una aromática bisque de langosta",
+  price: 420,
+  detailedDescription: "Cola de langosta de aguas frías, precisamente cortada y dispuesta en abanico para resaltar su carne tierna y nacarada. Servida con una intensa reducción de bisque de langosta con hierbas frescas para una experiencia gustativa inolvidable."
+}
       ]
     }
   ];

@@ -44,6 +44,13 @@ export default function MenuCategorySection() {
 
   // Menu categories data with links
   const menuCategories: MenuCategory[] = [
+            {
+      id: 'huile',
+      title: 'Our Oil',
+      description: '"ORO VERDE" tasting - AOVE awarded among the 10 best in the world',
+      image: '/huile.jpg',
+      link: '/eng/menu/huile'
+    },
     {
       id: 'cocktails',
       title: 'Cocktails & Soft Drinks',
@@ -61,7 +68,7 @@ export default function MenuCategorySection() {
     {
       id: 'beers',
       title: 'Beers & Spirits',
-      description: 'Craft beers and premium spirits',
+      description: 'Liquid artistry in every bottle',
       image: '/beers.jpg',
       link: '/eng/menu/beers'
     },
@@ -76,7 +83,7 @@ export default function MenuCategorySection() {
       id: 'tapas',
       title: 'Tapas & Starters',
       description: 'Small plates overflowing with Mediterranean flavors',
-      image: '/tapas.jpg',
+      image: '/tapas2.jpg',
       link: '/eng/menu/tapas'
     },
     {

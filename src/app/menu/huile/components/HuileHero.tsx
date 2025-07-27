@@ -4,7 +4,7 @@ import { useRef, useEffect, useState } from 'react';
 import Image from 'next/image';
 import { motion } from 'framer-motion';
 
-export default function TapasEntreesHero() {
+export default function HuileMenuHero() {
   const heroRef = useRef<HTMLDivElement>(null);
   const [isVisible, setIsVisible] = useState(false);
 
@@ -40,13 +40,13 @@ export default function TapasEntreesHero() {
   return (
     <section 
       ref={heroRef} 
-      className="relative h-screen min-h-[600px] overflow-hidden bg-[#2c1e18] text-amber-50"
+      className="relative h-screen min-h-[600px] overflow-hidden bg-[#1c2326] text-amber-50"
     >
       {/* Background image with overlay */}
       <div className="absolute inset-0">
         <Image
-          src="/tapas2.jpg"
-          alt="Assortiment de tapas et entrées"
+          src="/huile.jpg"
+          alt="Huile d'olive premium ORO VERDE"
           layout="fill"
           objectFit="cover"
           className="opacity-70"
@@ -78,8 +78,8 @@ export default function TapasEntreesHero() {
           animate={isVisible ? { opacity: 1, y: 0 } : { opacity: 0, y: 30 }}
           transition={{ duration: 0.8, delay: 0.2 }}
         >
-          TAPAS<br></br>
-          & STARTERS
+          NOTRE HUILE<br></br>
+          ORO VERDE
         </motion.h1>
 
         {/* Decorative line */}
@@ -90,14 +90,17 @@ export default function TapasEntreesHero() {
           transition={{ duration: 1, delay: 0.4 }}
         ></motion.div>
 
-        {/* Description in French */}
+        {/* Description */}
         <motion.p
-          className="text-amber-100/90 max-w-xl text-lg font-light mx-auto mb-12"
+          className="text-amber-100/90 max-w-2xl text-lg font-light mx-auto mb-12"
           initial={{ opacity: 0, y: 20 }}
           animate={isVisible ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
           transition={{ duration: 0.8, delay: 0.6 }}
         >
-Discover our refined selection of Spanish tapas and French starters, prepared with fresh seasonal ingredients and a unique Mediterranean touch.
+          Dégustez l'excellence de notre huile d'olive extra vierge "Los Guardianes del Crisal", 
+          exclusive au Maroc pour les restaurants Tangerino. Lauréate du prix Mezquita et classée 
+          parmi les 10 meilleures au monde, elle révèle un goût fruité intense et de délicates 
+          notes de tomate fraîche.
         </motion.p>
 
         {/* Scroll indicator - Now clickable */}
@@ -115,10 +118,10 @@ Discover our refined selection of Spanish tapas and French starters, prepared wi
           }}
           onClick={scrollToNextSection}
           role="button"
-          aria-label="Défiler vers la section suivante"
+          aria-label="Scroll to next section"
         >
           <div className="flex flex-col items-center">
-            <span className="text-amber-200/60 text-sm tracking-widest mb-2 hover:text-amber-200 transition-colors">EXPOLRE</span>
+            <span className="text-amber-200/60 text-sm tracking-widest mb-2 hover:text-amber-200 transition-colors">DÉCOUVRIR</span>
             <div className="w-px h-16 bg-gradient-to-b from-amber-200/60 to-transparent"></div>
           </div>
         </motion.div>

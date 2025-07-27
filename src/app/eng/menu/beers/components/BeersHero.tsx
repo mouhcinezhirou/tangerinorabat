@@ -97,8 +97,8 @@ export default function BiereVinsHero() {
           animate={isVisible ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
           transition={{ duration: 0.8, delay: 0.6 }}
         >
-Discover our exceptional collection of French craft beers, combining brewing expertise and creative flavors to offer you authentic and refined tasting experiences.
-        </motion.p>
+Discover our exceptional collection, combining expertise and creative flavors to offer you authentic and refined tasting experiences.
+</motion.p>
 
         {/* Scroll indicator - Now clickable */}
         <motion.div

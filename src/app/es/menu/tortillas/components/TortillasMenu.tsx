@@ -167,83 +167,83 @@ export default function HuevosFriturasMenu() {
     {
       title: 'TORTILLAS Y HUEVOS',
       items: [
-        {
-          name: 'TORTILLA ESPAÑOLA CON CHORIZO',
-          description: 'La tradicional tortilla española enriquecida con sabroso chorizo ligeramente picante',
-          price: 90,
-          detailedDescription: 'Nuestra tortilla está preparada según la receta tradicional con patatas confitadas en aceite de oliva y cebollas caramelizadas, a las que añadimos un chorizo artesanal ligeramente picante. Cocinada lentamente para obtener un corazón suave y fundente, se sirve tibia para apreciar todos sus sabores.'
-        },
-        {
-          name: 'TORTILLA ESPAÑOLA CLÁSICA',
-          description: 'La auténtica tortilla española con patatas y cebollas confitadas',
-          price: 70,
-          detailedDescription: 'Nuestra tortilla tradicional está preparada con patatas cuidadosamente seleccionadas, confitadas a baja temperatura en nuestro aceite de oliva virgen extra, y cebollas suavemente caramelizadas. Se cocina a la perfección para ofrecer un contraste entre el exterior ligeramente dorado y un corazón tierno y cremoso.'
-        },
-        {
-          name: 'TORTILLA ESPAÑOLA CON ESPINACAS Y MANCHEGO',
-          description: 'Delicada variación de la tortilla clásica con espinacas frescas y queso manchego curado',
-          price: 90,
-          detailedDescription: 'Esta elegante versión de nuestra tortilla combina la suavidad de las espinacas frescas ligeramente salteadas y la riqueza del queso manchego curado durante 6 meses. La combinación de patatas fundentes, espinacas y queso crea un equilibrio perfecto entre cremosidad y carácter.'
-        },
-        {
-          name: 'HUEVOS ROTOS CON CHORIZO (HALAL)',
-          description: 'Huevos cocinados sobre una cama de patatas crujientes con chorizo a la parrilla',
-          price: 95,
-          detailedDescription: 'Nuestros huevos de granja con yemas anaranjadas están delicadamente cocinados sobre una cama de patatas paja crujientes y acompañados de chorizo halal ligeramente a la parrilla. La yema líquida se mezcla con las patatas y el chorizo para crear una armonía de sabores rústicos y reconfortantes.'
-        }
-      ]
-    },
-    {
-      title: 'FRITURAS',
-      items: [
-        {
-          name: 'BOQUERONES AL LIMÓN',
-          description: 'Boquerones frescos marinados en limón, rebozados con una fina cobertura, fritos a la perfección.',
-          price: 80,
-          detailedDescription: 'Nuestros boquerones frescos son delicadamente fileteados y luego recubiertos con una ligera masa de tempura antes de freírse al momento. Crujientes por fuera y tiernos por dentro, se sirven con gajos de limón fresco y un toque de flor de sal para realzar su sabor marino.'
-        },
-        {
-          name: 'GAMBAS POPCORN',
-          description: 'Gambas crujientes estilo palomitas con salsa cóctel casera',
-          price: 80,
-          detailedDescription: 'Nuestras gambas están recubiertas con un rebozado crujiente de hierbas y especias, luego fritas a la perfección para obtener un exterior dorado y crujiente mientras se preserva la ternura de la carne. Servidas con nuestra salsa cóctel casera ligeramente picante, son una delicia irresistible.'
-        },
-        {
-          name: 'CALAMARES FRITOS',
-          description: 'Anillos de calamar tiernos en fritura ligera, servidos con alioli de azafrán',
-          price: 140,
-          detailedDescription: 'Inspirados en la tradición andaluza, nuestros calamares se sumergen en una masa de freír aireada y luego se fríen rápidamente a alta temperatura para preservar su ternura. Servidos con un alioli casero delicadamente perfumado con azafrán y un toque de perejil fresco picado, ofrecen un equilibrio perfecto entre lo crujiente y lo tierno.'
-        },
-        {
-          name: 'CROQUETAS DE POLLO',
-          description: 'Croquetas cremosas de pollo, setas silvestres y queso fundido',
-          price: 80,
-          detailedDescription: 'Nuestras croquetas están preparadas con una bechamel untuosa enriquecida con pollo deshilachado, setas silvestres salteadas y una mezcla de quesos curados. El conjunto está recubierto con pan rallado dorado y frito hasta obtener una capa crujiente que revela un corazón fundente y sabroso.'
-        },
-        {
-          name: 'CROQUETAS DE GAMBAS',
-          description: 'Croquetas cremosas de gambas y bisque casero, perfumadas con pimentón de Espelette',
-          price: 80,
-          detailedDescription: 'Estas croquetas delicadas están elaboradas a partir de un bisque de gambas reducido y concentrado, incorporado a una bechamel sedosa con trozos de gambas. Un ligero toque de pimentón de Espelette aporta un sutil calor que realza los sabores marinos, todo ello envuelto en una fina corteza dorada y crujiente.'
-        },
-        {
-          name: 'FISH & CHIPS',
-          description: 'Filete de bacalao en tempura crujiente con patatas en espiral',
-          price: 160,
-          detailedDescription: 'Nuestra interpretación del clásico británico combina un filete de bacalao ultra-fresco recubierto con una masa de cerveza crujiente y aireada, servido con nuestras patatas Hurricane en espiral de textura incomparable. Todo ello acompañado de una salsa tártara casera con alcaparras crujientes y pepinillos finamente picados.'
-        },
-        {
-          name: 'FRITURA DE PESCADO',
-          description: 'Generosa selección de pescados y mariscos fritos a la perfección',
-          price: 220,
-          detailedDescription: 'Esta fritura real ofrece una selección variada de pescados mediterráneos, calamares, gambas y buñuelos de bacalao, cada uno recubierto con un rebozado específico que realza su sabor natural. El surtido se sirve con diferentes salsas caseras: alioli, salsa tártara y salsa picante para satisfacer todos los gustos.'
-        },
-        {
-          name: 'CHANQUETES CON HUEVOS ROTOS',
-          description: 'Delicados pescaditos plateados crujientes servidos sobre una cama de huevos fundentes',
-          price: 140,
-          detailedDescription: 'Una especialidad mediterránea por excelencia, nuestros chanquetes (pequeños peces plateados) son ligeramente enharinados y luego fritos hasta obtener una textura perfectamente crujiente. Se depositan sobre una cama de huevos estrellados cocinados suavemente, cuya yema cremosa se mezcla deliciosamente con los sabores marinos. El conjunto está espolvoreado con hierbas frescas y acompañado de un chorrito de aceite de oliva virgen extra perfumado con ajo, creando una sinfonía de texturas y sabores que evoca instantáneamente el litoral soleado del Mediterráneo.'
-        },
+{
+  name: 'TORTILLA ESPAÑOLA CON CHORIZO',
+  description: 'La tortilla tradicional española enriquecida con sabroso chorizo ligeramente picante',
+  price: 90,
+  detailedDescription: 'Nuestra tortilla está preparada según la receta tradicional con patatas confitadas en aceite de oliva, a las que añadimos un chorizo artesanal ligeramente picante. Cocida lentamente para obtener un corazón suave y cremoso, se sirve tibia para apreciar todos los sabores.'
+},
+      {
+        name: 'TORTILLA ESPAÑOLA CLÁSICA',
+        description: 'La auténtica tortilla española de patatas',
+        price: 70,
+        detailedDescription: 'Nuestra tortilla tradicional está preparada con patatas cuidadosamente seleccionadas, confitadas a baja temperatura en nuestro aceite de oliva virgen extra. Se cocina a la perfección para ofrecer un contraste entre el exterior ligeramente dorado y un corazón tierno y cremoso.'
+      },
+      {
+        name: 'TORTILLA ESPAÑOLA CON ESPINACAS Y MANCHEGO',
+        description: 'Variante delicada de la tortilla clásica con espinacas frescas y manchego curado',
+        price: 90,
+        detailedDescription: 'Esta elegante versión de nuestra tortilla combina la suavidad de las espinacas frescas ligeramente pochadas y la riqueza del queso manchego curado durante 6 meses. La combinación de patatas cremosas, espinacas y queso crea un equilibrio perfecto entre suavidad y carácter.'
+      },
+      {
+        name: 'HUEVOS ROTOS CON CHORIZO (HALAL)',
+        description: 'Huevos cocidos sobre un lecho de patatas con chorizo a la plancha',
+        price: 95,
+        detailedDescription: 'Nuestros huevos de yemas naranjas están delicadamente cocidos sobre un lecho de patatas tiernas y acompañados de chorizo halal ligeramente a la plancha. La yema líquida se mezcla con las patatas y el chorizo para crear una armonía de sabores rústicos y reconfortantes.'
+      }
+    ]
+  },
+  {
+    title: 'FRITURAS',
+    items: [
+      {
+        name: 'BOQUERONES AL LIMÓN',
+        description: 'Boquerones frescos marinados en limón, rebozados en fina harina, fritos a la perfección',
+        price: 80,
+        detailedDescription: 'Nuestros boquerones frescos están delicadamente fileteados y luego rebozados en una ligera masa tempura antes de ser fritos al momento. Crujientes por fuera y tiernos por dentro, se sirven con gajos de limón fresco y una pizca de flor de sal para realzar su sabor marino.'
+      },
+      {
+        name: 'GAMBAS POPCORN',
+        description: 'Gambas crujientes estilo popcorn con salsa cóctel casera',
+        price: 80,
+        detailedDescription: 'Nuestras gambas están rebozadas en pan rallado crujiente, luego fritas a la perfección para obtener un exterior dorado y crujiente mientras preservan la ternura de la carne. Servidas con nuestra salsa cóctel casera ligeramente picante, es una delicia irresistible.'
+      },
+      {
+        name: 'CALAMARES FRITOS',
+        description: 'Anillas de calamar tierno en fritura ligera, servidos con salsa tártara',
+        price: 140,
+        detailedDescription: 'Inspirados en la tradición andaluza, nuestros calamares se sumergen en una masa de freír aireada y luego se fríen rápidamente a alta temperatura para preservar su ternura. Servidos con salsa tártara casera y un toque de perejil fresco picado, ofrecen un equilibrio perfecto entre crujiente y tierno.'
+      },
+      {
+        name: 'CROQUETAS DE POLLO',
+        description: 'Croquetas cremosas de pollo con setas silvestres y queso fundido',
+        price: 80,
+        detailedDescription: 'Nuestras croquetas están preparadas con una bechamel suave enriquecida con pollo deshilachado, setas silvestres salteadas y una mezcla de quesos curados. El conjunto está rebozado en pan rallado dorado y frito hasta obtener una cáscara crujiente que revela un corazón fundente y sabroso.'
+      },
+      {
+        name: 'CROQUETAS DE GAMBAS',
+        description: 'Croquetas cremosas de gambas con bisque casero, aromatizadas con pimiento de Espelette',
+        price: 80,
+        detailedDescription: 'Estas delicadas croquetas están elaboradas a partir de un bisque de gambas reducido y concentrado, incorporado a una bechamel sedosa con trozos de gambas. Un ligero toque de pimiento de Espelette aporta un calor sutil que realza los sabores marinos, todo envuelto en una fina corteza dorada y crujiente.'
+      },
+      {
+        name: 'FISH & CHIPS',
+        description: 'Filete de bacalao en tempura crujiente con patatas en espiral',
+        price: 160,
+        detailedDescription: 'Nuestra interpretación del clásico británico combina un filete de bacalao ultra-fresco rebozado en masa tempura crujiente y aireada, servido con nuestras patatas Hurricane en espiral de textura incomparable. Todo acompañado de salsa tártara casera con alcaparras crujientes y pepinillos finamente picados.'
+      },
+      {
+        name: 'FRITURA DE PESCADO',
+        description: 'Generosa selección de pescados y mariscos fritos a la perfección',
+        price: 220,
+        detailedDescription: 'Esta fritura real propone una selección variada de pescados mediterráneos, calamares, gambas y buñuelos de bacalao, cada uno rebozado en un empanado específico que realza su sabor natural. El surtido se sirve con nuestra salsa tártara casera para satisfacer todos los gustos.'
+      },
+      {
+        name: 'CHANQUETES Y HUEVOS ROTOS',
+        description: 'Huevos cremosos servidos sobre un lecho de delicados pescaditos crujientes',
+        price: 140,
+        detailedDescription: 'Una especialidad mediterránea por excelencia, nuestros chanquetes (pequeños peces plateados) están ligeramente enharinados y luego fritos hasta obtener una textura perfectamente crujiente. Los huevos rotos se cocinan suavemente y se colocan sobre este lecho de pescado crujiente, cuya yema cremosa se mezcla deliciosamente con los sabores marinos, creando una sinfonía de texturas y sabores que evoca instantáneamente la costa soleada del Mediterráneo.'
+      }
       ]
     }
   ];

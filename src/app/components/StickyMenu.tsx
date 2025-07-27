@@ -6,6 +6,7 @@ import Link from 'next/link';
 import { motion, AnimatePresence } from 'framer-motion';
 
 const menuItems = [
+  { id: 'huile', label: 'Notre Huile', link: '/menu/huile' },
   { id: 'cocktails', label: 'Cocktails & Soft', link: '/menu/cocktails' },
   { id: 'champagne', label: 'Champagne et Vins', link: '/menu/champagne' },
   { id: 'bieres', label: 'Bières & Spiritueux', link: '/menu/beers' },

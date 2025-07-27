@@ -6,6 +6,7 @@ import Link from 'next/link';
 import { motion, AnimatePresence } from 'framer-motion';
 
 const menuItems = [
+  { id: 'huile', label: 'Nuestro Aceite', link: '/es/menu/huile' },
   { id: 'cocktails', label: 'Cócteles y Refrescos', link: '/es/menu/cocktails' },
   { id: 'champagne', label: 'Champagne y Vinos', link: '/es/menu/champagne' },
   { id: 'bieres', label: 'Cervezas y Licores', link: '/es/menu/beers' },
@@ -16,6 +17,7 @@ const menuItems = [
   { id: 'paellas', label: 'Paellas, Arroces y Pasta', link: '/es/menu/paellas' },
   { id: 'poissons', label: 'Pescados y Carnes', link: '/es/menu/poissons' },
   { id: 'desserts', label: 'Postres', link: '/es/menu/desserts' }
+
 ];
 
 export default function StickyNavbar() {

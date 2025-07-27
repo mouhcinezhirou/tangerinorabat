@@ -168,123 +168,123 @@ export default function MenuPescadoCarne() {
       titulo: 'PESCADOS',
       items: [
         {
-          nombre: 'PEZ ESPADA A LA PARRILLA',
-          descripcion: 'Medallón de pez espada a la llama',
-          precio: 220,
-          descripcionDetallada: 'Nuestro pez espada, pescado en el Mediterráneo, es delicadamente marinado y luego asado a la llama para preservar su textura tierna y su sabor delicado.'
-        },
-        {
-          nombre: 'CALAMAR EN SU TINTA',
-          descripcion: 'Calamar entero cocido lentamente en su propia tinta',
-          precio: 220,
-          descripcionDetallada: 'Este plato emblemático de la cocina mediterránea presenta un calamar entero cocido suavemente en una salsa a base de su propia tinta, ajo y vino blanco. La carne tierna del calamar se combina perfectamente con el arroz negro cremoso y las verduras confitadas que lo acompañan.'
-        },
-        {
-          nombre: 'FILETE DE ATÚN ROJO',
-          descripcion: 'Filete de atún rojo semi-cocido, soja',
-          precio: 220,
-          descripcionDetallada: 'Nuestro atún rojo de pesca sostenible es brevemente marinado en una salsa de sésamo y soja antes de ser sellado rápidamente para conservar un centro rosado. Se sirve con un suave puré de batata aromatizado con jengibre fresco que equilibra perfectamente sus notas yodadas.'
-        },
-        {
-          nombre: 'SALMÓN A LA BRASA',
-          descripcion: 'Filete de salmón Label Rouge a la parrilla con hierbas frescas y limón confitado',
-          precio: 260,
-          descripcionDetallada: 'Nuestro filete de salmón de Escocia Label Rouge está marinado en una mezcla de hierbas frescas y luego asado a la perfección, con la piel crujiente y la carne tierna. Se sirve con gajos de limón confitado y una salsa virgen de hierbas que realzan delicadamente la riqueza natural del pescado.'
-        },
-        {
-          nombre: 'SAN PEDRO A LA BRASA',
-          descripcion: 'Filete de San Pedro asado al horno de leña, aceite de oliva con hierbas provenzales',
-          precio: 260,
-          descripcionDetallada: 'Este noble pescado es delicadamente asado entero en nuestro horno de leña para desarrollar todos sus sabores. Su carne firme y delicada es realzada con un aceite de oliva infusionado con hierbas de Provenza y un toque de flor de sal. Un clásico mediterráneo de refinada simplicidad.'
-        },
-        {
-          nombre: 'LUBINA DE ANZUELO A LA BRASA',
-          descripcion: 'Filete asado sobre fuego de carbón',
-          precio: 280,
-          descripcionDetallada: 'Nuestra lubina de anzuelo pescada en las costas mediterráneas es asada entera para preservar su excepcional sabor. La carne nacarada y delicada del pescado está perfumada con cítricos y acompañada de hinojo suavemente confitado que aporta una nota anisada sutil y refrescante.'
-        },
-        {
-          nombre: 'CAZUELA DE LUBINA DE ANZUELO',
-          descripcion: 'Lubina salvaje cocida en cazuela con patatas tiernas, aceitunas y tomates confitados',
-          precio: 320,
-          descripcionDetallada: 'Esta preparación tradicional presenta nuestra lubina de anzuelo cocida en cazuela con patatas que se impregnan de los jugos del pescado, aceitunas Taggiasche, tomates confitados y un ramillete de hierbas frescas. Todo bañado en un fumet reducido con vino blanco y servido directamente en su cazuela.'
-        },
-        {
-          nombre: 'LUBINA A LA SAL SIN ESPINAS',
-          descripcion: 'Lubina cocida en costra de sal de Camargue con hierbas aromáticas',
-          precio: 280,
-          descripcionDetallada: 'Este método de cocción ancestral consiste en encerrar nuestra lubina en una costra de sal de Camargue mezclada con hierbas aromáticas. Cocida al horno, la carne del pescado permanece increíblemente jugosa y se impregna delicadamente de los aromas de las hierbas. La costra se rompe delante de usted para un servicio espectacular.'
-        }
+        nombre: 'PEZ ESPADA A LA PARRILLA',
+        descripcion: 'Pez espada fresco de Tánger a la BBQ',
+        precio: 220,
+        descripcionDetallada: 'Nuestro pez espada fresco de Tánger se asa a la BBQ para preservar su textura tierna y su sabor delicado.'
+      },
+      {
+        nombre: 'CALAMAR A LA PARRILLA',
+        descripcion: 'Calamares frescos cocinados a la BBQ con su tinta',
+        precio: 220,
+        descripcionDetallada: 'Este plato emblemático de la cocina mediterránea presenta calamares frescos cocinados a la BBQ con su tinta.'
+      },
+      {
+        nombre: 'FILETE DE ATÚN ROJO',
+        descripcion: 'Atún rojo fresco al carbón servido estilo tataki',
+        precio: 220,
+        descripcionDetallada: 'Nuestro atún rojo fresco se asa al carbón y se sirve estilo tataki.'
+      },
+      {
+        nombre: 'SALMÓN A LA PARRILLA',
+        descripcion: 'Salmón fresco cocinado al carbón servido con rodaja de limón',
+        precio: 260,
+        descripcionDetallada: 'Nuestro salmón fresco se cocina al carbón y se sirve con una rodaja de limón.'
+      },
+      {
+        nombre: 'SAN PEDRO A LA PARRILLA',
+        descripcion: 'Asado con piel',
+        precio: 340,
+        descripcionDetallada: 'Este pescado noble se asa con piel para desarrollar todos sus sabores.'
+      },
+      {
+        nombre: 'LUBINA DE LÍNEA A LA PARRILLA',
+        descripcion: 'Filete de lubina asado al carbón',
+        precio: 280,
+        descripcionDetallada: 'Nuestro filete de lubina se asa al carbón para preservar su sabor excepcional.'
+      },
+      {
+        nombre: 'CAZUELA DE LUBINA DE LÍNEA',
+        descripcion: 'Servida con patatas estilo papas a lo pobre',
+        precio: 320,
+        descripcionDetallada: 'Nuestra lubina de línea se sirve con patatas estilo papas a lo pobre.'
+      },
+      {
+        nombre: 'LUBINA EN COSTRA DE SAL',
+        descripcion: 'Lubina cocida con sal gorda servida con aceite de oliva',
+        precio: 280,
+        descripcionDetallada: 'Nuestra lubina se cocina con sal gorda y se sirve con aceite de oliva.'
+      }
       ]
     },
     {
       titulo: 'CARNES',
       items: [
         {
-          nombre: 'SOLOMILLO DE TERNERA',
-          descripcion: 'Solomillo de ternera asado a la mibrasa acompañado de una salsa a elección',
-          precio: 290,
-          descripcionDetallada: 'Nuestro solomillo de ternera Black Angus es asado a la perfección según su preferencia, para una carne tierna y sabrosa. Está acompañado de una reducción untuosa de Oporto añejo y chalotas suavemente confitadas que aportan un toque de dulzura que contrasta con el carácter de la carne.'
-        },
-        {
-          nombre: 'SOLOMILLO DE TERNERA FILETEADO SALTEADO CON AJO Y "PATATAS A LO POBRE"',
-          descripcion: 'Solomillo de ternera fileteado salteado al ajo y perejil, patatas rústicas al estilo español',
-          precio: 280,
-          descripcionDetallada: 'Nuestro solomillo de ternera es finamente fileteado y luego rápidamente sellado a fuego vivo con ajo fresco y perejil para preservar su ternura y su jugo. Se sirve con "patatas a lo pobre", estas patatas tradicionales españolas cocinadas lentamente con cebollas dulces y pimientos, impregnadas de aceite de oliva aromatizado.'
-        },
-        {
-          nombre: 'ENTRECOT DE TERNERA ',
-          descripcion: 'Generoso entrecot madurado asado al carbón, salsa a elección',
-          precio: 220,
-          descripcionDetallada: 'Nuestro entrecot de ternera seleccionado por su veteado es madurado durante 30 días para desarrollar su excepcional sabor. Es asado sobre nuestras brasas de carbón que le confieren unas notas ahumadas únicas. Servido con una mantequilla maison que se funde delicadamente sobre la carne caliente.'
-        },
-        {
-          nombre: 'CHULETON DE TERNERA TRINCHADO',
-          descripcion: 'Imponente chuletón de ternera madurado, asado a la brasa, flor de sal de Camargue (1kg – 2 personas)',
-          precio: 490,
-          descripcionDetallada: 'Esta pieza excepcional es madurada durante 40 días para desarrollar aromas complejos y una ternura incomparable. Asada con experiencia sobre nuestras brasas de madera de olivo, es presentada entera y luego cortada en la mesa. Su corteza caramelizada y su carne jugosa son simplemente realzadas con una flor de sal de Camargue que exalta su sabor natural.'
-        },
-        {
-          nombre: 'CARNE PICADA "KEFTA"',
-          descripcion: 'Carne picada con especias orientales, salsa a elección',
-          precio: 140,
-          descripcionDetallada: 'Nuestras keftas son preparadas a partir de carne de ternera picada a mano y sazonada con una mezcla de especias orientales cuidadosamente dosificadas: comino, pimentón, cilantro y menta fresca. Asadas a la brasa, se sirven con una salsa ligera de yogur griego, menta fresca y pepino rallado.'
-        },
-        {
-          nombre: 'PECHUGA DE POLLO ACOMPAÑADA DE ESPINACAS SALTEADAS',
-          descripcion: 'Suprema de pollo aplanada y asada, espinacas frescas salteadas al ajo',
-          precio: 160,
-          descripcionDetallada: 'Nuestra suprema de pollo es delicadamente aplanada y luego marinada con hierbas frescas antes de ser asada para obtener una carne jugosa y una piel crujiente. Está acompañada de espinacas frescas rápidamente salteadas al ajo y un chorrito de aceite de oliva al limón que aporta frescura y ligereza.'
-        }
+        nombre: 'FILETE DE TERNERA A LA PARRILLA',
+        descripcion: 'Filete de ternera asado a la mibrasa acompañado de salsa a elegir',
+        precio: 290,
+        descripcionDetallada: 'Nuestro filete de ternera se asa a la perfección según su preferencia, para una carne tierna y sabrosa. Se acompaña de una salsa a elegir que aporta un toque complementario al carácter de la carne.'
+      },
+      {
+        nombre: 'FILETE DE TERNERA LAMINADO SALTEADO CON AJO Y "PATATAS A LO POBRE"',
+        descripcion: 'Laminado de filete de ternera salteado con ajo y perejil, patatas rústicas a la española',
+        precio: 280,
+        descripcionDetallada: 'Nuestro filete de ternera se lamina finamente y luego se sella rápidamente a fuego fuerte con ajo fresco y perejil para preservar su ternura y jugo. Se sirve con "patatas a lo pobre", estas patatas tradicionales españolas cocidas lentamente con cebollas dulces y pimientos, impregnadas de aceite de oliva aromatizado.'
+      },
+      {
+        nombre: 'ENTRECOT DE TERNERA A LA PARRILLA',
+        descripcion: 'Generoso entrecot madurado 15 días asado al carbón, salsa a elegir',
+        precio: 220,
+        descripcionDetallada: 'Nuestro entrecot de ternera seleccionado por su veteado se madura durante 15 días para desarrollar su sabor excepcional. Se asa sobre nuestras brasas de carbón que le confieren notas ahumadas únicas. Servido con una salsa a elegir que se casa perfectamente con la carne caliente.'
+      },
+      {
+        nombre: 'CHULETÓN DE TERNERA A LA PARRILLA',
+        descripcion: 'Imponente chuletón madurado 20 días, asado a la brasa, flor de sal de Camarga (1kg – 2 personas)',
+        precio: 490,
+        descripcionDetallada: 'Esta pieza excepcional se madura durante 20 días para desarrollar aromas complejos y una ternura incomparable. Asada con pericia sobre nuestras brasas de madera de olivo, se presenta entera y luego se corta en la mesa. Su carne jugosa se realza simplemente con una flor de sal de Camarga que exalta su sabor natural.'
+      },
+      {
+        nombre: 'CARNE PICADA "KEFTA"',
+        descripcion: 'Carne picada con especias marroquíes',
+        precio: 140,
+        descripcionDetallada: 'Nuestras keftas se preparan a partir de carne picada sazonada con especias marroquíes.'
+      },
+{
+  nombre: 'PECHUGA DE POLLO APLASTADA CON ESPINACAS SALTEADAS',
+  descripcion: 'Pechuga de pollo aplastada y asada, espinacas frescas salteadas con ajo',
+  precio: 160,
+  descripcionDetallada: 'Nuestra pechuga de pollo se aplasta delicadamente y luego se marina con hierbas frescas antes de asarse para obtener una carne tierna y jugosa. Se acompaña de espinacas frescas salteadas rápidamente con ajo y un chorrito de aceite de oliva al limón que aporta frescura y ligereza.'
+},
       ]
     },
     {
       titulo: 'GUARNICIONES',
       items: [
         {
-          nombre: 'VERDURAS SALTEADAS',
-          descripcion: 'Surtido de verduras de temporada salteadas con aceite de oliva y hierbas frescas',
-          precio: 50,
-          descripcionDetallada: 'Una selección colorida de verduras de temporada – calabacines, pimientos, berenjenas, tomates cherry – rápidamente salteadas en aceite de oliva virgen extra para preservar su crujiente y sus sabores. Perfumadas con hierbas frescas del jardín y un toque de ajo, ofrecen un acompañamiento ligero y sabroso.'
-        },
-        {
-          nombre: 'PATATAS FRITAS CASERAS',
-          descripcion: 'Patatas fritas rústicas cortadas a mano, doble cocción y flor de sal',
-          precio: 50,
-          descripcionDetallada: 'Nuestras patatas seleccionadas son peladas y cortadas a mano en bastones generosos, luego cocinadas dos veces según el método tradicional belga: primero a baja temperatura para cocinar el interior, luego a alta temperatura para una corteza dorada y crujiente. Servidas con una pizca de flor de sal.'
-        },
-        {
-          nombre: 'PATATAS "A LO POBRE"',
-          descripcion: 'Patatas guisadas al estilo español con cebollas, pimientos y aceite de oliva',
-          precio: 50,
-          descripcionDetallada: 'Esta receta tradicional española consiste en patatas cortadas en finas rodajas, cocinadas lentamente en aceite de oliva con cebollas dulces y pimientos que caramelizán suavemente. El resultado es una guarnición tierna, impregnada de sabores mediterráneos, con una ligera coloración dorada.'
-        },
-        {
-          nombre: 'PATATAS PURÉ',
-          descripcion: 'Cremoso puré de patatas con crema fresca y mantequilla avellana',
-          precio: 50,
-          descripcionDetallada: 'Nuestro puré está preparado con patatas Ratte de carne fundente, aplastadas con tenedor para conservar carácter. Enriquecido con crema fresca espesa y mantequilla ligeramente avellana, ofrece una textura a la vez aérea y reconfortante, sutilmente perfumada con nuez moscada recién rallada.'
-        }
+        nombre: 'VERDURAS SALTEADAS',
+        descripcion: 'Verduras de temporada con salsa de soja estilo wok',
+        precio: 50,
+        descripcionDetallada: 'Una selección de verduras de temporada salteadas con salsa de soja estilo wok.'
+      },
+      {
+        nombre: 'PATATAS FRITAS CASERAS',
+        descripcion: 'Patatas fritas rústicas cortadas a mano, doble cocción y flor de sal',
+        precio: 50,
+        descripcionDetallada: 'Nuestras patatas seleccionadas se pelan y cortan a mano en bastones generosos, luego se cocinan dos veces según el método tradicional belga: primero a baja temperatura para cocer el interior, luego a alta temperatura para una corteza dorada y crujiente. Servidas con una pizca de flor de sal.'
+      },
+      {
+        nombre: 'PATATAS "A LO POBRE"',
+        descripcion: 'Patatas guisadas a la española con cebollas, pimientos y aceite de oliva',
+        precio: 50,
+        descripcionDetallada: 'Esta receta tradicional española consiste en patatas cortadas en láminas finas, cocidas lentamente en aceite de oliva con cebollas dulces y pimientos que se carameliza suavemente. El resultado es un acompañamiento tierno, impregnado de sabores mediterráneos, con una ligera coloración dorada.'
+      },
+      {
+        nombre: 'PURÉ DE PATATAS',
+        descripcion: 'Cremoso puré de patatas con nata fresca y mantequilla avellana',
+        precio: 50,
+        descripcionDetallada: 'Nuestro puré se prepara con patatas Ratte de carne tierna, aplastadas con tenedor para conservar carácter. Enriquecido con nata fresca espesa y mantequilla ligeramente avellana, ofrece una textura a la vez aérea y reconfortante, sutilmente perfumada con nuez moscada recién rallada.'
+      }
       ]
     }
   ];

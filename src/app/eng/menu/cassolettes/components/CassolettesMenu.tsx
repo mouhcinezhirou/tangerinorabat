@@ -167,47 +167,47 @@
       {
         title: 'SEAFOOD CASSOLETTES',
         items: [
-          {
-            name: 'SPANISH BABY EELS (100G)',
-            description: 'Delicate Spanish baby eels cooked in olive oil, garlic, and mild chili',
-            price: 650,
-            detailedDescription: 'This exceptional delicacy comes directly from the Cantabrian coast of Spain. The angulas, or baby eels, are prepared according to Basque tradition in earthenware cassolettes heated to high temperature. Cooked with extra virgin olive oil infused with garlic and enhanced with a hint of mild chili, they reveal their unique texture and delicate marine flavor. Served steaming hot with crusty bread to savor every drop.'
-          },
-          {
-            name: 'WILD SHRIMP WITH GARLIC AND HOT CHILI',
-            description: 'Wild shrimp flambéed in oil infused with garlic and red chili',
-            price: 180,
-            detailedDescription: 'Our wild shrimp caught in the Mediterranean are seared in a hot cassolette with olive oil infused with fresh garlic and red chili. The spicy and fragrant cooking juice is ideal for savoring with our homemade crusty bread. An iconic dish that awakens the taste buds and instantly evokes Mediterranean taverns.'
-          },
-          {
-            name: 'CLAMS MARINIÈRE',
-            description: 'Fresh clams opened in a bath of olive oil, garlic, and parsley',
-            price: 120,
-            detailedDescription: 'Our live clams are carefully selected each morning and cooked to order in our traditional earthenware cassolettes. They open delicately in a bath of olive oil infused with freshly crushed garlic and parsley. A touch of lemon juice balances their natural briny flavor. A deceptively simple Mediterranean classic, where the exceptional quality of the product is showcased.'
-          },
-          {
-            name: 'SWORDFISH AND SHRIMP WITH GARLIC',
-            description: 'Fresh swordfish medallions and shrimp sautéed with garlic and fine herbs',
-            price: 160,
-            detailedDescription: 'Elegant medallions of fresh swordfish are quickly sautéed with shrimp in an oil infused with garlic and fresh thyme. This marine duo is served in a bubbling cassolette that preserves all their flavors. A hint of Espelette pepper, a drizzle of lemon, and some fresh herbs perfect this dish that is both refined and generous. The perfect alliance of two Mediterranean treasures, which the cassolette service makes even more flavorful.'
-          },
-          {
-            name: 'SWORDFISH AND CLAMS WITH GARLIC',
-            description: 'Harmonious combination of tender swordfish and juicy clams with garlic',
-            price: 160,
-            detailedDescription: 'This cassolette elegantly marries the melting flesh of swordfish with the briny flavor of clams. The two products are cooked separately to respect their texture, then reunited in a hot cassolette with oil flavored with garlic, parsley, and lemon. The clam juice delicately impregnates the swordfish, creating a symphony of marine flavors enhanced by the heat of the earthenware cassolette that continues cooking at the table.'
-          }
-        ]
+ {
+        name: 'SPANISH ANGULAS (100GR)',
+        description: 'Delicate Spanish baby eels cooked in olive oil with garlic and hot pepper',
+        price: 650,
+        detailedDescription: 'This exceptional delicacy comes directly from the Cantabrian coast of Spain. The angulas, or baby eels, are prepared according to Basque tradition in clay casseroles heated to high temperature. Cooked with extra virgin olive oil infused with garlic and enhanced with hot pepper, they reveal their unique texture and delicate marine flavor. Served steaming hot to savor every drop.'
       },
       {
-        title: 'LAND CASSOLETTES',
-        items: [
-          {
-            name: 'MUSHROOM CASSOLETTE',
-            description: 'Selection of wild and cultivated mushrooms, confit garlic, and fresh herbs',
-            price: 80,
-            detailedDescription: 'Our cassolette brings together a carefully selected collection of mushrooms: porcini, oyster mushrooms, shiitakes, and button mushrooms. They are sautéed over high heat then slowly simmered with confit garlic, fresh parsley, and a touch of cream. A light reduction of white wine and a drizzle of truffle oil perfect this earthy dish with deep and comforting flavors. Served bubbling hot, it releases irresistible woody aromas.'
-          }
+        name: 'WILD SHRIMP WITH GARLIC AND HOT PEPPER',
+        description: 'Wild shrimp flambéed in oil flavored with garlic and red pepper',
+        price: 180,
+        detailedDescription: 'Our wild shrimp caught in the Mediterranean are seared in a burning casserole with olive oil infused with fresh garlic and red pepper. The spicy and fragrant cooking juice is ideal to be enjoyed with our crispy homemade bread. An emblematic dish that awakens the taste buds and instantly evokes Mediterranean taverns.'
+      },
+{
+  name: 'CLAMS MARINIÈRE STYLE',
+  description: 'Fresh clams opened in a flavorful fish broth thickened with flour',
+  price: 120,
+  detailedDescription: 'Our live clams are carefully selected each morning and cooked to order in our casseroles. They open delicately in a flavorful fish broth lightly thickened with flour. A revisited Mediterranean classic, where the exceptional quality of the product is highlighted with authentic and comforting flavors.'
+},
+      {
+        name: 'SWORDFISH AND SHRIMP WITH GARLIC',
+        description: 'Fresh swordfish medallions and shrimp sautéed with garlic',
+        price: 160,
+        detailedDescription: 'Elegant fresh swordfish medallions are quickly sautéed with shrimp in oil infused with garlic and fresh thyme. This marine duo is served in a bubbling casserole that preserves all their flavors. A touch of Espelette pepper perfects this dish that is both refined and generous. The perfect alliance of two Mediterranean treasures, which the casserole service makes even more flavorful.'
+      },
+      {
+        name: 'SWORDFISH AND CLAMS WITH GARLIC',
+        description: 'Harmonious combination of tender swordfish and juicy clams with garlic',
+        price: 160,
+        detailedDescription: 'This casserole elegantly combines the melting flesh of swordfish and the briny flavor of clams. The two products are cooked separately to respect their texture, then brought together in a burning casserole with olive oil flavored with garlic, hot pepper and parsley. The clam juice delicately infuses the swordfish, creating a symphony of marine flavors enhanced by the heat of the casserole that continues cooking at the table.'
+      }
+    ]
+  },
+  {
+    title: 'LAND CASSEROLES',
+    items: [
+      {
+        name: 'MUSHROOM CASSEROLE',
+        description: 'Button mushrooms sautéed with garlic, parsley and pepper',
+        price: 80,
+        detailedDescription: 'Our casserole highlights button mushrooms. They are sautéed over high heat with fresh garlic and a touch of pepper, then flavored with fresh parsley. This authentic and refined preparation reveals all the natural flavor of the mushrooms. Served bubbling, it releases intense and flavorful aromas.'
+      }
         ]
       }
     ];

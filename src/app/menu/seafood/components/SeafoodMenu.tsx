@@ -197,7 +197,7 @@ export default function SeafoodMenuPage() {
           name: 'HUÎTRES GRILLÉES A LA MIBRASA (6 PIÈCES)',
           description: 'Huîtres grillées au beurre aux herbes et à l\'ail, cuites dans notre Mibrasa',
           price: 120,
-          detailedDescription: 'Ces huîtres subissent une transformation fumée dans notre four Mibrasa, chacune caressée d\'un beurre à l\'ail et aux herbes. La chaleur douce intensifie leur iode naturelle tout en ajoutant une note grillée complexe.'
+          detailedDescription: 'Ces huîtres subissent une transformation fumée dans notre Mibrasa, chacune caressée d\'un beurre à l\'ail et aux herbes. La chaleur douce intensifie leur iode naturelle tout en ajoutant une note grillée complexe.'
         }
       ]
     },
@@ -206,28 +206,28 @@ export default function SeafoodMenuPage() {
       items: [
         {
           name: 'GRATIN DE FRUITS DE MER',
-          description: 'Un mélange luxueux de fruits de mer frais cuits au four avec crème, et chapelure dorée',
+          description: 'Un mélange luxueux de fruits de mer frais cuits au four avec crème et chapelure dorée',
           price: 130,
           detailedDescription: 'Un assortiment décadent de crustacés et de poissons enveloppés dans une sauce veloutée à la crème. Cuit au four jusqu\'à obtenir une croûte dorée de parmesan et de chapelure aux herbes qui ajoute un croustillant délicieux.'
         },
         {
-          name: 'CEVICHE D\'HUÎTRES, CREVETTES ET POULPE',
-          description: 'Fruits de mer frais marinés dans du leche de tigre avec des herbes méditerranéennes, oignon rouge et avocat',
-          price: 180,
-          detailedDescription: 'Une trilogie vibrante de trésors marins "cuits" dans des leche de tigre, infusés de coriandre et d\'oignon rouge. Garni d\'avocat crémeux pour un équilibre parfait de saveurs et de textures.'
-        },
-        {
-          name: 'CREVETTES ROUGES SAUVAGES',
-          description: 'Succulentes crevettes rouges sauvages grillées au barbecue Mibrasa, servies avec une riche bisque maison',
-          price: 190,
-          detailedDescription: 'Les précieuses crevettes rouges méditerranéennes, grillées à la perfection avec leurs carapaces qui confèrent une saveur intense. Accompagnées d\'une bisque soyeuse élaborée à partir des têtes rôties, infusée au safran et au fenouil.'
-        },
-        {
-          name: 'EMNICÉ DE LANGOUSTE',
-          description: "Queue de langouste premium délicatement tranchée et disposée, accompagnée d'une bisque de langouste aromatique servie dans un verre à shot",
-          price: 420,
-          detailedDescription: "Queue de langouste d'eau froide, précisément tranchée et disposée en éventail pour mettre en valeur sa chair tendre et nacrée. Servie avec une réduction intense de bisque de langouste, rehaussée de cognac et d'herbes fraîches pour une expérience gustative inoubliable."
-        }
+    name: 'CEVICHE D\'HUÎTRES, CREVETTES ET POULPE',
+    description: 'Fruits de mer frais marinés dans du leche de tigre avec des herbes méditerranéennes et oignon rouge',
+    price: 180,
+    detailedDescription: 'Une trilogie vibrante de trésors marins "cuits" dans des leche de tigre, infusés de coriandre et d\'oignon rouge. Cette préparation authentique révèle toute la fraîcheur des produits de la mer dans un équilibre parfait de saveurs acidulées et d\'herbes aromatiques.'
+  },
+{
+  name: 'CREVETTES ROUGES SAUVAGES',
+  description: 'Succulentes crevettes rouges sauvages décortiquées, grillées au barbecue Mibrasa',
+  price: 190,
+  detailedDescription: 'Les précieuses crevettes rouges méditerranéennes, soigneusement décortiquées et grillées à la perfection. Une préparation raffinée qui met en valeur la chair tendre de ces crustacés d\'exception et leur saveur naturelle authentique.'
+},
+{
+  name: 'ÉMINCÉ DE LANGOUSTE',
+  description: "Queue de langouste premium délicatement tranchée et disposée, accompagnée d'une bisque de langouste aromatique",
+  price: 420,
+  detailedDescription: "Queue de langouste d'eau froide, précisément tranchée et disposée en éventail pour mettre en valeur sa chair tendre et nacrée. Servie avec une réduction intense de bisque de langouste aux herbes fraîches pour une expérience gustative inoubliable."
+}
       ]
     }
   ];

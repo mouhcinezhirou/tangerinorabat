@@ -233,59 +233,59 @@ export default function PaellasMenu() {
       items: [
         {
           name: 'PAELLA A BANDA',
-          description: 'Riz safrané garni de délicats morceaux de poisson blanc mijoté dans un fumet marin parfumé',
+          description: 'Riz rond avec petit calamar et petit crevette bouillon de poisson et sauce légère aïoli sur la paella',
           price: 120,
           forMinPersons: 2,
-          detailedDescription: 'Cette paella traditionnelle de la côte valencienne est préparée avec un riz bomba infusé au safran et cuit dans un riche fumet de poisson. Servie avec une sauce à l\'ail émulsionnée à part pour rehausser les délicates saveurs marines selon votre goût.'
+          detailedDescription: 'Cette paella traditionnelle de la côte valencienne est préparée avec un riz rond cuit dans un riche bouillon de poisson. Servie avec une sauce aïoli légère pour rehausser les délicates saveurs marines selon votre goût.'
         },
         {
           name: 'PAELLA AUX CALAMARS ET CREVETTES',
-          description: 'Riz doré au safran garni de tendres calamars et crevettes juteuses cuits à la perfection',
+          description: 'Riz doré garni de tendres rondelles de calamars et crevettes cuits à la perfection',
           price: 150,
           forMinPersons: 2,
-          detailedDescription: 'Notre paella aux fruits de mer associe un riz bomba subtilement parfumé avec des calamars frais coupés en anneaux et des crevettes sauvages. Le tout est lentement mijoté dans un bouillon marin savamment épicé jusqu\'à formation de la délicieuse socarrat, cette croûte caramélisée qui fait tout le charme d\'une authentique paella.'
+          detailedDescription: 'Notre paella aux fruits de mer associe un riz subtilement parfumé avec des calamars frais coupés en anneaux et des crevettes. Le tout est lentement mijoté dans un bouillon de poisson fait maison.'
         },
         {
           name: 'PAELLA NEGRA',
-          description: 'Riz noir intense infusé à l\'encre de seiche et garni de crevettes rosées au doux parfum iodé',
+          description: 'Riz paella avec encre de seiche et gambas',
           price: 160,
           forMinPersons: 2,
-          detailedDescription: 'Cette paella spectaculaire tire sa couleur noir d\'ébène de l\'encre de seiche qui apporte également une saveur marine profonde. Le riz crémeux contraste parfaitement avec la chair tendre des crevettes, le tout rehaussé d\'un filet d\'huile d\'olive infusée au citron et d\'un soupçon d\'ail.'
+          detailedDescription: 'Cette paella spectaculaire tire sa couleur noir d\'ébène de l\'encre de seiche qui apporte également une saveur marine profonde. Le riz crémeux se marie parfaitement avec les gambas, le tout rehaussé d\'un filet d\'huile d\'olive infusée au citron et d\'un soupçon d\'ail.'
         },
         {
           name: 'PAELLA FAÇON HERGMA',
           description: 'Paella de pieds de boeuf et de pois chiches façon hergma. Fusion méditerranéenne unissant la tradition espagnole aux saveurs nord-africaines du hergma.',
           price: 150,
           forMinPersons: 2,
-          detailedDescription: 'Cette création originale marie l\'art de la paella espagnole avec les saveurs du traditionnel Hergma marocaine. Les pieds de bœuf, mijotés pendant des heures jusqu\'à fondre, se mêlent aux pois chiches onctueux et au riz parfumé aux épices douces pour une expérience gustative unique entre deux rives de la Méditerranée.'
+          detailedDescription: 'Cette création originale marie l\'art de la paella espagnole avec les saveurs du traditionnel Hergma marocain. Les pieds de bœuf, mijotés pendant des heures jusqu\'à fondre, se mêlent aux pois chiches onctueux et au riz parfumé aux épices douces pour une expérience gustative unique entre deux rives de la Méditerranée.'
         },
         {
           name: 'PAELLA DEL SEÑORITOS',
-          description: 'Généreux festin marin de crevettes, moules, calamars et palourdes sur lit de riz safrané',
+          description: 'Généreux festin marin de fruits de mer et poisson sur un lit de riz rond',
           price: 220,
           forMinPersons: 2,
-          detailedDescription: 'Notre paella royale aux fruits de mer associe une sélection variée de trésors marins entièrement décortiqués pour votre confort : crevettes tigrées, moules de Galice, anneaux de calamars, et palourdes fraîches. Le riz, parfumé au safran et paprika fumé, capture toutes les saveurs des fruits de mer pour une expérience gustative iodée incomparable.'
+          detailedDescription: 'Notre paella royale aux fruits de mer associe une sélection variée de trésors marins entièrement décortiqués pour votre confort : fruits de mer et poisson frais. Le riz rond capture toutes les saveurs des fruits de mer pour une expérience gustative iodée incomparable.'
         },
         {
           name: 'PAELLA AU LANGOUSTE',
           description: 'Luxueuse paella ornée de langouste entière, révélant la quintessence des saveurs marines',
           price: 380,
           forMinPersons: 2,
-          detailedDescription: 'Cette paella d\'exception met à l\'honneur la langouste dans toute sa splendeur, posée au centre d\'un lit de riz doré parfumé à son bouillon. La chair délicate et sucrée de ce crustacé noble se marie parfaitement avec le riz imprégné des saveurs marines et du safran. Une expérience gastronomique méditerranéenne par excellence.'
+          detailedDescription: 'Cette paella d\'exception met à l\'honneur la langouste dans toute sa splendeur, posée au centre d\'un lit de riz doré parfumé à son bouillon. La chair délicate de ce crustacé noble se marie parfaitement avec le riz imprégné des saveurs marines. Une expérience gastronomique méditerranéenne par excellence.'
         },
         {
           name: 'PAELLA DE LÉGUMES',
-          description: 'Mosäique colorée de légumes de saison sur riz safrané, célébration des saveurs du potager',
+          description: 'Mosaïque colorée de légumes de saison sur du riz, célébration des saveurs du potager',
           price: 140,
           forMinPersons: 2,
-          detailedDescription: 'Notre paella végétarienne met en valeur une généreuse sélection de légumes méditerranéens de saison : artichauts, poivrons, aubergines, courgettes et haricots verts. Cuits dans un bouillon aux herbes aromatiques et au safran, ces légumes transmettent toute leur fraîcheur au riz pour un plat aussi savoureux que coloré.'
+          detailedDescription: 'Notre paella végétarienne met en valeur une généreuse sélection de légumes de saison. Cuits dans un bouillon aux herbes aromatiques, ces légumes transmettent toute leur fraîcheur au riz pour un plat aussi savoureux que coloré.'
         },
         {
           name: 'PAELLA VALENCIANA',
-          description: 'La paella authentique de Valence mariant tendres morceaux de poulet fermier et légumes frais',
+          description: 'La paella authentique de Valence mariant tendres morceaux de poulet et légumes de saison',
           price: 150,
           forMinPersons: 2,
-          detailedDescription: 'Fidèle à l\'authentique recette valencienne, cette paella combine des morceaux de poulet dorés avec une sélection de légumes de saison. Le riz bomba, cuit lentement dans un bouillon parfumé au safran et paprika, absorbe toutes les saveurs pour créer ce plat emblématique de l\'Espagne dans sa version la plus traditionnelle.'
+          detailedDescription: 'Fidèle à l\'authentique recette valencienne, cette paella combine des morceaux de poulet dorés avec une sélection de légumes de saison. Le riz rond, cuit lentement dans un bouillon parfumé, absorbe toutes les saveurs pour créer ce plat emblématique de l\'Espagne dans sa version la plus traditionnelle.'
         },
       ]
     },
@@ -294,21 +294,21 @@ export default function PaellasMenu() {
       items: [
         {
           name: 'RIZ MOELLEUX À LA MARINIÈRE AVEC GAMBAS ROUGE',
-          description: 'Riz crémeux façon risotto aux notes iodées, couronné de gambas rouges à la chair sucrée',
+          description: 'Riz crémeux façon risotto aux notes iodées, couronné de gambas rouges',
           price: 280,
           detailedDescription: 'Ce riz moelleux inspiré du "arroz meloso" espagnol est préparé avec un fumet de crustacés intense et garni de gambas rouges de Méditerranée. Sa texture, entre la paella et le risotto, offre une onctuosité qui enveloppe les papilles tandis que les gambas apportent leur saveur délicate et leur texture ferme caractéristique.'
         },
         {
           name: 'FIDEUA DEL SEÑORITOS',
-          description: 'Vermicelles dorés préparés comme une paella, richement garnis de fruits de mer décortiqués',
+          description: 'Vermicelle fideua richement garnis de fruits de mer',
           price: 220,
-          detailedDescription: 'Cette spécialité de la côte valencienne substitue de fins vermicelles au riz traditionnel de la paella. Dorés puis mijotés dans un fumet de poisson safrané, ces vermicelles s\'enrichissent des saveurs des crevettes, calamars, moules et palourdes soigneusement décortiqués pour un confort de dégustation optimal.'
+          detailedDescription: 'Cette spécialité de la côte valencienne utilise de fins vermicelles fideua. Dorés puis mijotés dans un fumet de poisson, ces vermicelles s\'enrichissent des saveurs des fruits de mer pour un confort de dégustation optimal.'
         },
         {
           name: 'SPAGHETTI À LA VONGOLE',
-          description: 'Spaghetti al dente aux palourdes fraîches, parfumés à l\'ail, au persil et au vin blanc',
+          description: 'Spaghetti al dente aux palourdes fraîches, parfumés à l\'huile d\'olive, ail et tomate concassée',
           price: 160,
-          detailedDescription: 'Ce classique italien est préparé dans le respect de la tradition : des palourdes fraîches ouvertes à la minute dans un bouillon d\'ail, de persil frais et de vin blanc de qualité. Les spaghetti, cuits al dente, se marient parfaitement à ce jus de cuisson aux parfums marins, rehaussé d\'un trait d\'huile d\'olive extra vierge.'
+          detailedDescription: 'Ce classique italien est préparé dans le respect de la tradition : des palourdes fraîches ouvertes à la minute avec de l\'huile d\'olive, ail et tomate concassée. Les spaghetti, cuits al dente, se marient parfaitement à cette préparation aux parfums marins, rehaussée d\'huile d\'olive extra vierge.'
         },
         {
           name: 'SPAGHETTI AL NERO',
@@ -318,22 +318,22 @@ export default function PaellasMenu() {
         },
         {
           name: 'LINGUINE AUX POISSONS ET FRUITS DE MER',
-          description: 'Linguine aux délices de la mer mêlant poissons nobles et fruits de mer dans une sauce parfumée',
+          description: 'Linguine aux délices de la mer avec huile d\'olive, ail et fruits de mer et tomates concassées fraîches',
           price: 180,
-          detailedDescription: 'Nos linguine sont généreusement garnis d\'une sélection de poissons blancs, crevettes, moules et calamars, le tout lié par une délicate sauce tomate parfumée au basilic et au fenouil sauvage. Chaque bouchée révèle la fraîcheur des produits de la mer soigneusement sélectionnés par notre chef.'
+          detailedDescription: 'Nos linguine sont généreusement garnis de fruits de mer, le tout préparé avec de l\'huile d\'olive, ail et tomates concassées fraîches. Chaque bouchée révèle la fraîcheur des produits de la mer soigneusement sélectionnés par notre chef.'
         },
         {
           name: 'TAGLIATELLE AU POULET GRILLÉ AU CHARBON ET CHAMPIGNON',
-          description: 'Ruban de pâtes aux lamelles de poulet grillé et champignons sautés en sauce crémeuse',
+          description: 'Ruban de pâtes aux lamelles de poulet grillé et champignons sautés dans une sauce crémeuse',
           price: 140,
-          detailedDescription: 'Nos tagliatelles sont accompagnées de morceaux de poulet fermier grillés au charbon de bois et de champignons forestiers sautés à l\'ail. Une sauce crémeuse au parmesan et aux herbes fraîches enrobe délicatement les pâtes pour un plat réconfortant aux saveurs authentiques.'
+          detailedDescription: 'Nos tagliatelles sont accompagnées de morceaux de poulet grillés au charbon de bois et de champignons forestiers sautés à l\'ail. Une sauce crémeuse au parmesan et aux herbes fraîches enrobe délicatement les pâtes pour un plat réconfortant aux saveurs authentiques.'
         },
         {
           name: 'COUSCOUS DE LA MER AUX PARFUMS DU MAROC',
-          description: 'Semoule vapeur aux épices marocaines surmontée d\'une riche sélection de poissons et fruits de mer',
+          description: 'Semoule vapeur aux épices marocaines avec bouillon de poissons aux épices marocaines',
           price: 240,
           specialDay: "VENDREDI",
-          detailedDescription: 'Disponible uniquement le vendredi, notre couscous de la mer propose une généreuse sélection de poissons et fruits de mer mijotés dans un bouillon aux épices marocaines traditionnelles. La semoule vapeur, parfaitement hydratée et parfumée, s\'accompagne d\'une harissa maison dont vous pouvez doser l\'intensité selon votre goût.'
+          detailedDescription: 'Disponible uniquement le vendredi, notre couscous de la mer propose un bouillon de poissons mijoté aux épices marocaines traditionnelles. La semoule vapeur, parfaitement hydratée et parfumée, s\'accompagne d\'une harissa maison dont vous pouvez doser l\'intensité selon votre goût.'
         }
       ]
     }

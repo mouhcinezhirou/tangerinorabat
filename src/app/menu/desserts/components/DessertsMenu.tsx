@@ -165,11 +165,11 @@ export default function DessertsMenu() {
   // All menu data in one place
   const menuSections: MenuSection[] = [
     {
-      title: 'DOUCEURS',
+      title: '',
       items: [
         {
           name: 'CHOUX PRALINÉ',
-          description: 'Délicat choux garni de crème praliné, accompagné d\'une boule de glace vanille de Madagascar',
+          description: 'Délicat choux praliné avec croustillant, accompagné d\'une boule de glace vanille de Madagascar',
           price: 80,
           detailedDescription: 'Notre pâte à choux croustillante renferme une onctueuse crème praliné aux noisettes caramélisées et amandes torréfiées. Ce petit chef-d\'œuvre est couronné d\'un craquelin doré et servi avec une boule de glace vanille de Madagascar aux grains intenses qui fond délicatement contre la tiédeur du choux.'
         },
@@ -183,7 +183,7 @@ export default function DessertsMenu() {
           name: 'TARTE AU CITRON TANGEROISE',
           description: 'Tarte au citron a la tangeroise avec du citron et du lait concentré',
           price: 80,
-          detailedDescription: 'Sur une fine pâte sablée croustillante repose un curd au citron de Menton parfaitement équilibré entre acidité et douceur. La tarte est couronnée d\'une meringue italienne soyeuse, légèrement caramélisée à la flamme pour créer un contraste de textures et de températures inoubliable.'
+          detailedDescription: 'Sur une fine pâte sablée croustillante repose un curd au citron de Menton parfaitement équilibré entre acidité et douceur.'
         },
         {
           name: 'TIRAMISU',
@@ -191,35 +191,35 @@ export default function DessertsMenu() {
           price: 80,
           detailedDescription: 'Notre tiramisu respecte la recette traditionnelle italienne : des biscuits savoiardi délicatement imbibés d\'un café expresso corsé, recouverts d\'une crème au mascarpone d\'une légèreté incomparable. Une fine couche de cacao amer saupoudrée à la minute apporte la note finale à ce dessert intemporel.'
         },
-        {
-          name: 'CHEESECAKE',
-          description: 'Cheesecake onctueux au fromage frais, servi avec un coulis de fruits rouges et éclats de spéculoos',
-          price: 80,
-          detailedDescription: 'Notre cheesecake new-yorkais est préparé avec un mélange velouté de fromage frais et crème, reposant sur une base croustillante de spéculoos concassés. Sa texture soyeuse est magnifiée par un coulis de fruits rouges légèrement acidulé et quelques éclats croquants de spéculoos caramélisés.'
-        },
-        {
-          name: 'NOUGAT GLACÉ',
-          description: 'Parfait glacé aux fruits secs et miel de lavande, éclats de caramel et coulis d\'abricot',
-          price: 80,
-          detailedDescription: 'Ce dessert provençal raffiné présente un parfait glacé incorporant amandes, pistaches et fruits confits, délicatement parfumé au miel de lavande. Servi sur un miroir de coulis d\'abricot et parsemé d\'éclats de caramel croustillant, il offre une expérience gustative alliant fraîcheur et douceur méditerranéenne.'
-        },
+{
+  name: 'CHEESECAKE',
+  description: 'Cheesecake façon espagnole',
+  price: 80,
+  detailedDescription: 'Notre cheesecake façon espagnole est préparé avec un mélange velouté de fromage frais et crème. Sa texture soyeuse et onctueuse offre une expérience gustative riche et délicate, parfaitement équilibrée.'
+},
+{
+  name: 'NOUGAT GLACÉ',
+  description: 'Parfait glacé aux fruits secs et miel.',
+  price: 80,
+  detailedDescription: 'Ce dessert provençal raffiné présente un parfait glacé incorporant amandes, pistaches et fruits confits, délicatement parfumé au miel.'
+},
         {
           name: 'FONDANT AU CHOCOLAT',
-          description: 'Moelleux au chocolat noir 70% au cœur coulant, servi avec une glace vanille',
+          description: 'Moelleux au chocolat noir 70% au cœur coulant, servi avec une boule de glace vanille',
           price: 80,
-          detailedDescription: 'Notre fondant est préparé avec un chocolat noir d\'exception à 70% de cacao, dont le cœur révèle une ganache fondante qui s\'écoule à la première cuillère. Sa texture aérienne contraste parfaitement avec son intensité en bouche, adoucie par une crème anglaise à la vanille bourbon servie tiède en accompagnement.'
+          detailedDescription: 'Notre fondant est préparé avec un chocolat noir d\'exception à 70% de cacao, dont le cœur révèle une ganache fondante qui s\'écoule à la première cuillère. Sa texture aérienne contraste parfaitement avec son intensité en bouche, adoucie par une glace à la vanille en accompagnement.'
         },
         {
           name: 'COOKIE TANGERINO',
-          description: 'Cookie maison aux éclats de chocolat et fleur d\'oranger, glace a la vanille et caramel beurre salé',
+          description: 'Cookie maison aux éclats de chocolat, glace à la vanille et caramel beurre salé',
           price: 80,
-          detailedDescription: 'Notre cookie signature allie la texture parfaite - croustillant sur les bords et moelleux au centre - à une saveur unique grâce à l\'eau de fleur d\'oranger qui parfume délicatement la pâte aux éclats de chocolat. Servi tiède avec une boule de glace à la cannelle qui se marie parfaitement à ses notes orientales.'
+          detailedDescription: 'Notre cookie signature allie la texture parfaite - croustillant sur les bords et moelleux au centre. Servi tiède avec une boule de glace à la vanille et caramel beurre salé qui se marie parfaitement à ses notes sucrées.'
         },
         {
           name: 'ASSIETTE DE FRUITS',
           description: 'Sélection de fruits frais de saison délicatement préparés',
           price: 80,
-          detailedDescription: 'Une composition colorée et rafraîchissante de fruits de saison soigneusement sélectionnés à leur parfaite maturité. Présentés en découpes élégantes, ils sont subtilement nappés d\'un sirop infusé à la menthe fraîche et au citron vert, pour une touche de fraîcheur aromatique.'
+          detailedDescription: 'Une composition colorée et rafraîchissante de fruits de saison soigneusement sélectionnés à leur parfaite maturité.'
         },
         {
           name: 'CAFÉ GOURMAND',

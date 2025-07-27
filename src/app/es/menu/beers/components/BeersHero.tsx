@@ -97,7 +97,7 @@ export default function BiereVinsHero() {
           animate={isVisible ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
           transition={{ duration: 0.8, delay: 0.6 }}
         >
-Explore nuestra excepcional colección de cervezas artesanales francesas, que combinan experiencia cervecera y creatividad gustativa para ofrecerle experiencias de degustación auténticas y refinadas.
+Explore nuestra excepcional colección, que combina experiencia y creatividad gustativa para ofrecerle experiencias de degustación auténticas y refinadas.
         </motion.p>
 
         {/* Scroll indicator - Now clickable */}

@@ -65,7 +65,7 @@ export default function ChampagneWineMenuPage() {
       { name: 'Tandem', bottle: 360, half: '-', glass: '-' }
     ],
     gris: [
-      { name: 'Boulaouane', bottle: 180, half: '-', glass: 60 },
+      { name: 'Boulaouane', bottle: 240, half: '-', glass: 60 },
       { name: 'Medaillon', bottle: 280, half: '-', glass: 70 },
       { name: 'Ait Souala', bottle: 320, half: '-', glass: '-' }
     ]
@@ -87,7 +87,7 @@ export default function ChampagneWineMenuPage() {
         { name: 'Sancerre J de Villebois', bottle: 590, glass: '-' }
       ],
       portugal: [
-        { name: 'Mateus Blanc 75cl', bottle: 220, glass: '-' }
+        { name: 'Mateus Blanc 75cl', bottle: 270, glass: '-' }
       ]
     },
     red: {
@@ -128,7 +128,7 @@ export default function ChampagneWineMenuPage() {
       ]
     },
     rose: [
-      { name: 'Mateus Rosé', bottle: 220, glass: '-' },
+      { name: 'Mateus Rosé', bottle: 270, glass: '-' },
       { name: 'Manon Côte de Provence', bottle: 270, glass: 90 },
       { name: 'Studio By Miraval', bottle: 320, glass: '-' },
       { name: 'Pétales de Rose', bottle: 360, glass: '-' },

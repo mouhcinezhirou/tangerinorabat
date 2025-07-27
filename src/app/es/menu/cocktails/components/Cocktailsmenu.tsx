@@ -34,7 +34,7 @@ const CocktailMenuItem: React.FC<CocktailItem & { onExpand: () => void, isExpand
   return (
     <motion.div
       ref={itemRef}
-      className="bg-amber-900/20 backdrop-blur-sm rounded-lg p-6 border border-amber-200/20 relative overflow-hidden group"
+className="bg-amber-900/20 backdrop-blur-sm rounded-lg p-6 border border-amber-200/20 relative overflow-hidden group cursor-pointer"
       whileHover={{ y: -4 }}
       initial={{ opacity: 0 }}
       whileInView={{ opacity: 1 }}
@@ -52,7 +52,7 @@ const CocktailMenuItem: React.FC<CocktailItem & { onExpand: () => void, isExpand
           <h3 className="font-SweetSansProBold text-xl font-serif tracking-wider text-amber-100">
             {name}
           </h3>
-          <span className="text-amber-200 font-light">{price}</span>
+{price && <span className="text-amber-200 font-light">{price}</span>}
         </div>
         
         <div className="w-10 h-px bg-amber-200/40 mb-4"></div>
@@ -140,6 +140,12 @@ const CocktailMenuSection: React.FC<CocktailSection> = ({ title, items }) => {
 export default function CocktailsMenu() {
   const menuRef = useRef<HTMLElement | null>(null);
   const [isVisible, setIsVisible] = useState<boolean>(false);
+  const [expandedShot, setExpandedShot] = useState<number | null>(null);
+
+  const handleShotExpand = (index: number) => {
+  setExpandedShot(expandedShot === index ? null : index);
+};
+
 
   useEffect(() => {
     const observer = new IntersectionObserver(
@@ -167,30 +173,31 @@ export default function CocktailsMenu() {
     {
       title: 'CÓCTELES SIGNATURE',
       items: [
-        {
-          name: 'ACHAKKAR',
-          description: 'Bourbon Woodford Reserve, Puré de Fresa Casero, Limón, Espuma vegana',
-          price: 95,
-          detailedDescription: 'Nuestra variación del clásico bourbon sour, destacando el Woodford Reserve premium y una nube de espuma vegana que se derrite delicadamente. El puré de fresa casero aporta una dulzura soleada que armoniza perfectamente con el mordisco de los cítricos.'
-        },
-        {
-          name: 'TANGERINO',
-          description: 'Vodka Tito\'s, Licor de Coco, Puré de Mango Casero, Soda de Jengibre',
-          price: 95,
-          detailedDescription: 'Una puesta de sol tropical en un vaso, donde el suave vodka Tito\'s se encuentra con el exuberante licor de coco. Coronado con puré de mango casero y adornado con una burbujeante soda de jengibre que baila en tu paladar.'
-        },
-        {
-          name: 'CAP SPARTEL',
-          description: 'Gin Bombay Saphire, Licor de Melocotón, Puré de Melocotón Casero, Sirope de Lavanda',
-          price: 95,
-          detailedDescription: 'Inspirado por el faro de Cap Spartel, este cóctel aromático combina las notas botánicas del Bombay Sapphire con melocotones de verano. Un toque de sirope de lavanda provenzal añade una elegante nota floral a esta creación inspirada en la costa.'
-        },
-        {
-          name: 'HAFA',
-          description: 'Bacardi Blanco, Cachaça, Oleo-saccharum de Plátano Especiado, Sirope de Vino Blanco Infusionado con Melocotón y Piña Asada',
-          price: 95,
-          detailedDescription: 'Un complejo viaje tropical que presenta espirituosos del Caribe e infusiones caseras. El oleo-saccharum de plátano especiado y el sirope de vino con frutas asadas crean un sofisticado equilibrio entre dulzor caramelizado y especias exóticas.'
-        }
+{
+      name: 'CAP SPARTEL',
+      description: 'Gin Bombay Dry, Zumo de Sandía, Limón, Menta',
+      price: 95,
+      detailedDescription: 'Inspirado por el faro de Cap Spartel, este cóctel refrescante combina las notas botánicas del Bombay Dry con la frescura de la sandía. El limón y la menta aportan una vivacidad mediterránea a esta creación costera.'
+    },
+    {
+      name: 'ACHAKKAR',
+      description: 'Vodka Titos, Zumo de Melón Natural, Miel y Flor de Saúco, Licor de Melón',
+      price: 95,
+      detailedDescription: 'Una sinfonía de dulzura veraniega donde el vodka premium se encuentra con la frescura del melón natural. La miel y la flor de saúco añaden una complejidad floral delicada, coronada por la riqueza del licor de melón.'
+    },
+    {
+      name: 'TANGERINO',
+      description: 'Sirope de Lavanda, Tequila Infusionada con Hibisco, Coco Puro Casero, Limón',
+      price: 95,
+      detailedDescription: 'Una puesta de sol provenzal en un vaso, donde la tequila infusionada con hibisco se encuentra con la dulzura del coco casero. El sirope de lavanda aporta una nota floral sofisticada a esta creación exótica.'
+    },
+{
+  name: 'HAFA',
+  description: 'Mezcal San Cosme, Aperol, Sirope de Menta y Azafrán, Limón, Orange Bitters',
+  price: 95,
+  detailedDescription: 'Un viaje complejo que presenta mezcal y Aperol italiano. El sirope de menta con azafrán crea un sofisticado equilibrio entre frescura y especias preciosas, realzado por los bitters de naranja.'
+}
+
       ]
     },
     {
@@ -202,12 +209,12 @@ export default function CocktailsMenu() {
           price: 90,
           detailedDescription: 'Un vibrante homenaje sin alcohol a la plaza del Gran Socco, presentando una infusión de hibisco de un rojo profundo. La dulzura natural del agave combina perfectamente con las notas cítricas para un refrescante compañero de un día en el mercado.'
         },
-        {
-          name: 'MENDOUBIA SUNSET',
-          description: 'Orgeat, Limón, Aquafaba, Puré de Coco Casero',
-          price: 90,
-          detailedDescription: 'Inspirado en los jardines de Mendoubia, esta delicia cremosa combina el orgeat de almendra con el coco tropical. La aquafaba crea una textura sedosa que rivaliza con cualquier espuma de cóctel clásico.'
-        },
+    {
+      name: 'MENDOUBIA SUNSET',
+      description: 'Orgeat, Limón, Aquafaba, Piña Natural',
+      price: 90,
+      detailedDescription: 'Inspirado en los jardines de Mendoubia, esta delicia tropical combina el orgeat de almendra con la piña natural. La aquafaba crea una textura sedosa que rivaliza con cualquier espuma de cóctel clásico.'
+    },
         {
           name: 'CERVANTES COOLER',
           description: 'Puré de Melón Casero, Sirope de Albahaca, Limón',
@@ -216,33 +223,33 @@ export default function CocktailsMenu() {
         }
       ]
     },
+{
+  title: 'SHOTS',
+  items: [
     {
-      title: 'SHOTS',
-      items: [
-        {
-          name: 'MALABATA BEACH',
-          description: 'Vodka Tito\'s, Puré de Maracuyá, Zumo de Naranja',
-          price: null,
-          detailedDescription: 'Recuerdos de playas soleadas capturados en un vaso, donde el vodka puro se encuentra con el puré de maracuyá tropical. El zumo de naranja fresco añade brillo y equilibrio, creando una refrescante escapada junto al mar.'
-        },
-        {
-          name: 'KASBAH',
-          description: 'Whisky Grants, Licor de Manzana, Zumo de Manzana',
-          price: null,
-          detailedDescription: 'Un cálido homenaje a la hospitalidad marroquí, mezclando el whisky escocés con el licor de manzana francés. El zumo de manzana fresco añade un toque crujiente y afrutado a este reconfortante cóctel.'
-        },
-        {
-          name: 'RMILAT',
-          description: 'Puré de Lichi, Menta, Gin Bombay, Vermut Rosado',
-          price: null,
-          detailedDescription: 'Un clásico local revisitado con nuestro toque distintivo, perfecto para celebrar.'
-        },
-        {
-          name: 'PERDICARIS',
-          description: 'Tequila, Zumo de Naranja, Sirope de Granadina, Licor de Naranja',
-          price: null,
-          detailedDescription: 'Inspirado en leyendas locales, este refrescante shot ofrece un equilibrio perfecto entre fuerza y sabor.'
-        }
+      name: 'MALABATA',
+      description: 'Vodka Titos, Licor Pasión, Pure Passion, Zumo de Naranja',
+      price: null,
+      detailedDescription: 'Recuerdos de playas soleadas capturados en un vaso, donde el vodka puro se encuentra con la pasión tropical. El zumo de naranja fresco añade brillo y equilibrio, creando una refrescante escapada junto al mar.'
+    },
+    {
+      name: 'RMILATH',
+      description: 'Gin Bombay Dry, Licor Litchi, Zumo de Piña, Menta',
+      price: null,
+      detailedDescription: 'Una mezcla exótica donde la ginebra seca se encuentra con la dulzura del lichi y la frescura de la piña. La menta aporta una nota refrescante a esta creación tropical.'
+    },
+    {
+      name: 'KASBAH',
+      description: 'Tequila Camino, Kahlua, Cold Brew',
+      price: null,
+      detailedDescription: 'Un cálido homenaje a los sabores intensos, mezclando tequila premium con licor de café. El cold brew añade una profundidad y riqueza incomparables.'
+    },
+    {
+      name: 'PERDICARIS',
+      description: 'Tequila Infusionada con Hibisco, Licor de Naranja, Naranja, Granadina',
+      price: null,
+      detailedDescription: 'Inspirado en leyendas locales, este colorido shot combina tequila infusionada con hibisco y cítricos. Un equilibrio perfecto entre fuerza y sabores florales.'
+    }
       ]
     },
     {
@@ -302,12 +309,12 @@ export default function CocktailsMenu() {
           price: 50,
           detailedDescription: 'Granos de Arábica de origen único tostados localmente y preparados según sus preferencias. Desde el intenso espresso hasta el cremoso café con leche, cada taza está elaborada con experiencia.'
         },
-        {
-          name: 'TÉ DE MENTA',
-          description: 'Té marroquí tradicional',
-          price: 50,
-          detailedDescription: 'Refrescante té de menta preparado a la manera tradicional.'
-        },
+        //{
+        //  name: 'TÉ DE MENTA',
+         // description: 'Té marroquí tradicional',
+         // price: 50,
+         // detailedDescription: 'Refrescante té de menta preparado a la manera tradicional.'
+       // },
         {
           name: 'TÉ SAYRA',
           description: 'Diferentes aromas',
@@ -344,7 +351,7 @@ export default function CocktailsMenu() {
           <div className="bg-amber-900/20 backdrop-blur-sm rounded-lg p-6 border border-amber-200/20 relative overflow-hidden">
             <div className="relative z-10">              
               <div className="text-center text-amber-100/80 italic">
-                <p>TODOS LOS CLÁSICOS DISPONIBLES <span className="font-light">*Pregunta su Camarero*</span></p>
+                <p>TODOS LOS CLÁSICOS DISPONIBLES <span className="font-light">*Pregunta su camarero*</span></p>
               </div>
             </div>
           </div>
@@ -373,12 +380,12 @@ export default function CocktailsMenu() {
           
           <div className="bg-amber-900/20 backdrop-blur-sm rounded-lg p-6 border border-amber-200/20 relative overflow-hidden mb-8">
             <div className="relative z-10">              
-              <div className="flex justify-center items-center gap-10">
+              <div className="flex flex-col items-center space-y-4">
                 <div className="text-center">
-                  <span className="block text-lg text-amber-100">5 POR 180 </span>
+                  <span className="block text-lg text-amber-100">5 POR 180 DHS</span>
                 </div>
                 <div className="text-center">
-                  <span className="block text-lg text-amber-100">10 POR 300 </span>
+                  <span className="block text-lg text-amber-100">10 POR 300 DHS</span>
                 </div>
               </div>
             </div>
@@ -386,14 +393,14 @@ export default function CocktailsMenu() {
           
           {/* Elementos de shots */}
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            {menuSections[2].items.map((item, index) => (
-              <CocktailMenuItem
-                key={index}
-                {...item}
-                onExpand={() => {}}
-                isExpanded={false}
-              />
-            ))}
+{menuSections[2].items.map((item, index) => (
+  <CocktailMenuItem
+    key={index}
+    {...item}
+    onExpand={() => handleShotExpand(index)}  // ← Proper function
+    isExpanded={expandedShot === index}       // ← Proper state check
+  />
+))}
           </div>
         </motion.div>
         <ElegantDivider />

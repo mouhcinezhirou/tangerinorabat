@@ -165,11 +165,11 @@ export default function DessertsMenu() {
   // All menu data in one place
   const menuSections: MenuSection[] = [
     {
-      title: 'DESSERTS',
+      title: '',
       items: [
         {
           name: 'PRALINE CREAM PUFF',
-          description: 'Delicate choux pastry filled with praline cream, served with Madagascar vanilla ice cream',
+          description: 'Delicate choux pastry with praline and crispy croustillant, served with Madagascar vanilla ice cream',
           price: 80,
           detailedDescription: 'Our crispy choux pastry shell contains a smooth praline cream made with caramelized hazelnuts and roasted almonds. This little masterpiece is crowned with a golden craquelin and served with a scoop of Madagascar vanilla ice cream with intense notes that melts delicately against the warmth of the pastry.'
         },
@@ -183,7 +183,7 @@ export default function DessertsMenu() {
           name: 'TANGIER LEMON TART',
           description: 'Tangier-style lemon tart with condensed milk',
           price: 80,
-          detailedDescription: 'A thin, crispy shortbread crust supports a perfectly balanced Menton lemon curd with just the right balance of acidity and sweetness. The tart is crowned with silky Italian meringue, lightly caramelized with a flame to create an unforgettable contrast of textures and temperatures.'
+          detailedDescription: 'A thin, crispy shortbread crust supports a perfectly balanced Menton lemon curd with just the right balance of acidity and sweetness.'
         },
         {
           name: 'TIRAMISU',
@@ -191,35 +191,35 @@ export default function DessertsMenu() {
           price: 80,
           detailedDescription: 'Our tiramisu follows the traditional Italian recipe: savoiardi biscuits delicately soaked in strong espresso, covered with incomparably light mascarpone cream. A fine layer of bitter cocoa powder sprinkled at the last minute adds the final touch to this timeless dessert.'
         },
-        {
-          name: 'CHEESECAKE',
-          description: 'Creamy fresh cheese cheesecake, served with mixed berry coulis and speculoos crumbs',
-          price: 80,
-          detailedDescription: 'Our New York-style cheesecake is prepared with a velvety blend of fresh cheese and cream, resting on a crunchy base of crushed speculoos. Its silky texture is enhanced by a slightly tangy red fruit coulis and a few crunchy pieces of caramelized speculoos.'
-        },
-        {
-          name: 'FROZEN NOUGAT',
-          description: 'Frozen parfait with dried fruits and lavender honey, caramel shards and apricot coulis',
-          price: 80,
-          detailedDescription: 'This refined Provençal dessert features a frozen parfait incorporating almonds, pistachios, and candied fruits, delicately scented with lavender honey. Served on a mirror of apricot coulis and sprinkled with crunchy caramel shards, it offers a flavor experience combining freshness and Mediterranean sweetness.'
-        },
+{
+  name: 'CHEESECAKE',
+  description: 'Spanish-style cheesecake',
+  price: 80,
+  detailedDescription: 'Our Spanish-style cheesecake is prepared with a velvety blend of fresh cheese and cream. Its silky and creamy texture offers a rich and delicate tasting experience, perfectly balanced.'
+},
+{
+  name: 'FROZEN NOUGAT',
+  description: 'Frozen parfait with dried fruits and honey.',
+  price: 80,
+  detailedDescription: 'This refined Provençal dessert features a frozen parfait incorporating almonds, pistachios, and candied fruits, delicately scented with honey.'
+},
         {
           name: 'CHOCOLATE FONDANT',
-          description: 'Soft 70% dark chocolate cake with molten center, served with vanilla ice cream',
+          description: 'Soft 70% dark chocolate cake with molten center, served with a scoop of vanilla ice cream',
           price: 80,
-          detailedDescription: 'Our fondant is prepared with exceptional 70% dark chocolate, revealing a melting ganache center that flows at the first spoonful. Its airy texture perfectly contrasts with its intensity in the mouth, softened by a warm bourbon vanilla crème anglaise served as an accompaniment.'
+          detailedDescription: 'Our fondant is prepared with exceptional 70% dark chocolate, revealing a melting ganache center that flows at the first spoonful. Its airy texture perfectly contrasts with its intensity in the mouth, softened by vanilla ice cream served as an accompaniment.'
         },
         {
           name: 'TANGIER COOKIE',
-          description: 'Homemade cookie with chocolate chunks and orange blossom, vanilla ice cream and salted caramel',
+          description: 'Homemade cookie with chocolate chunks, vanilla ice cream and salted caramel',
           price: 80,
-          detailedDescription: 'Our signature cookie combines the perfect texture - crispy on the edges and soft in the center - with a unique flavor thanks to orange blossom water that delicately scents the chocolate chip dough. Served warm with a scoop of cinnamon ice cream that pairs perfectly with its Oriental notes.'
+          detailedDescription: 'Our signature cookie combines the perfect texture - crispy on the edges and soft in the center. Served warm with a scoop of vanilla and salted butter caramel ice cream that pairs perfectly with its sweet notes.'
         },
         {
           name: 'FRUIT PLATE',
           description: 'Selection of delicately prepared fresh seasonal fruits',
           price: 80,
-          detailedDescription: 'A colorful and refreshing composition of carefully selected seasonal fruits at their perfect ripeness. Presented in elegant cuts, they are subtly coated with a syrup infused with fresh mint and lime for a touch of aromatic freshness.'
+          detailedDescription: 'A colorful and refreshing composition of carefully selected seasonal fruits at their perfect ripeness.'
         },
         {
           name: 'GOURMET COFFEE',

@@ -200,9 +200,9 @@ export default function TapasEntreesMenu() {
         },
         {
           name: 'PIMIENTOS DEL PADRON',
-          description: 'Small green Spanish peppers grilled and seasoned with fleur de sel',
+          description: 'Fried sweet green peppers, accompanied by fleur de sel',
           price: 70,
-          detailedDescription: 'These small peppers from Galicia are quickly seared at high temperature then delicately seasoned with fleur de sel. Their uniqueness: some are mild, while others surprise with their spiciness!'
+          detailedDescription: 'A Spanish roulette game where some are mild and others surprise with their heat, these crispy fried little peppers are enhanced by the crunch of coarse sea salt.'
         },
         {
           name: 'VINEGAR ANCHOVIES',
@@ -216,12 +216,12 @@ export default function TapasEntreesMenu() {
           price: 95,
           detailedDescription: 'Our creamy burrata from Puglia is served with tomatoes gently smoked over olive wood embers for several hours, all enhanced by our cold-pressed olive oil and fresh basil.'
         },
-        {
-          name: 'TUNA VENTRESCA & ROASTED PEPPERS',
-          description: 'Sweet roasted peppers accompanied by tuna belly confit in olive oil',
-          price: 90,
-          detailedDescription: 'Our peppers are slowly roasted until caramelized then paired with the most flavorful part of the tuna, the ventresca, confit in our olive oil infused with Mediterranean herbs.'
-        },
+{
+  name: 'RED PEPPERS IN THE OVEN WITH TUNA',
+  description: 'Red peppers baked in the oven accompanied by tuna in olive oil',
+  price: 90,
+  detailedDescription: 'Our red peppers are slowly baked in the oven until they achieve a tender texture and concentrated flavors. They are served with premium tuna preserved in our olive oil infused with Mediterranean herbs.'
+},
         {
           name: 'VEAL PARMIGIANA WITH HALAL CHORIZO',
           description: 'Delicious preparation of eggplant, veal, and halal chorizo baked au gratin',
@@ -230,7 +230,7 @@ export default function TapasEntreesMenu() {
         },
         {
           name: 'SEAFOOD PARMIGIANA',
-          description: 'Marine variation of traditional parmigiana with seafood',
+          description: 'A marine variation of the traditional seafood parmigiana',
           price: 90,
           detailedDescription: 'Our marine interpretation combines grilled eggplant, a delicate selection of seafood, and a saffron-flavored béchamel sauce, all covered with cheese and delicately baked in the oven.'
         },
@@ -265,16 +265,16 @@ export default function TapasEntreesMenu() {
           detailedDescription: 'The finesse of our delicately spiced turkey bresaola pairs perfectly with the richness of aged manchego. The combination is subtly enhanced with a drizzle of virgin olive oil and a few drops of reduced balsamic vinegar.'
         },
         {
-          name: 'LOBSTER RUSSIAN SALAD',
+          name: 'RUSSIAN SALAD',
           description: 'Refined version of the traditional vegetable and mayonnaise salad',
           price: 70,
           detailedDescription: 'Our elegant interpretation of traditional Russian salad combines finely chopped potatoes, carrots, and peas, all coated in a light mayonnaise flavored with lemon and fresh dill.'
         },
         {
-          name: 'RUSSIAN SALAD WITH LOBSTER AND LEMON MAYONNAISE',
-          description: 'Luxurious version of our Russian salad with fresh lobster pieces',
+          name: 'LANGOUSTINE ENSALADILLA',
+          description: 'Luxurious version of our Russian salad with pieces of fresh langoustine',
           price: 180,
-          detailedDescription: 'This gourmet version of Russian salad is enhanced with generous pieces of blue lobster caught in the Mediterranean and a delicate lemon mayonnaise with candied citrus and fresh garden chives.'
+          detailedDescription: 'This gourmet version of Russian salad is sublimed by generous pieces of Mediterranean langoustine and delicately lemony mayonnaise with candied citrus and fresh garden chives.'
         },
         {
           name: 'OCTOPUS RUSSIAN SALAD',
@@ -306,28 +306,28 @@ export default function TapasEntreesMenu() {
       title: 'SALADS',
       items: [
         {
-          name: 'TUNA ESCALIVADA',
-          description: 'Roasted peppers, eggplants, and onions with grilled tuna and a touch of black garlic',
+          name: 'ESCALIVADA WITH TUNA',
+          description: 'Roasted peppers, eggplant and onions with grilled tuna and a touch of garlic oil',
           price: 100,
-          detailedDescription: 'Our traditional escalivada consisting of peppers, eggplants, and onions slowly roasted over wood fire is enhanced by pieces of ember-seared tuna and a touch of fermented black garlic oil for a unique aromatic depth.'
+          detailedDescription: 'Our traditional escalivada composed of peppers, eggplant and onions slowly roasted over wood fire is sublimed by pieces of ember-grilled tuna and a touch of garlic oil for unique aromatic depth.'
         },
         {
           name: 'SMOKED SALMON AND AVOCADO SALAD',
-          description: 'Fresh mix of smoked salmon and avocado with honey-mustard vinaigrette',
+          description: 'Fresh mix of smoked salmon and avocado with a honey-mustard vinaigrette sauce',
           price: 110,
           detailedDescription: 'Delicate slices of house-smoked salmon pair perfectly with creamy avocado quarters, all enhanced by our signature vinaigrette made with wildflower honey and whole grain mustard.'
         },
         {
           name: 'ORIGINAL CAESAR SALAD',
-          description: 'Romaine lettuce, homemade Caesar dressing, charcoal-grilled chicken, and parmesan',
+          description: 'Romaine lettuce, homemade Caesar sauce, charcoal-grilled chicken and parmesan',
           price: 120,
-          detailedDescription: 'Our Caesar salad combines crisp romaine lettuce, garlic croutons, aged parmesan shavings, and marinated free-range chicken grilled on our Mibrasa barbecue, all coated in our freshly prepared anchovy Caesar dressing.'
+          detailedDescription: 'Our Caesar salad combines crispy romaine lettuce, croutons, aged parmesan shavings and farm chicken marinated then grilled on our Mibrasa barbecue, all coated in our anchovy Caesar sauce prepared fresh.'
         },
         {
           name: 'MARINERA SALAD',
-          description: 'Fresh composition of seafood and crispy vegetables',
+          description: 'Fresh composition of seafood with avocado and cherry tomatoes',
           price: 120,
-          detailedDescription: 'A marine festival combining shrimp, smoked salmon, calamari, mussels, and clams with crispy vegetables, all delicately seasoned with a citrus and fresh herb vinaigrette for an explosion of Mediterranean flavors.'
+          detailedDescription: 'A marine festival combining shrimp, smoked salmon and calamari with creamy avocado quarters and cherry tomatoes on a bed of green salad, all delicately seasoned with citrus and fresh herb vinaigrette.'
         }
       ]
     },
@@ -336,15 +336,15 @@ export default function TapasEntreesMenu() {
       items: [
         {
           name: 'TANGERINO TOMATO CARPACCIO',
-          description: 'Thin slices of tomato with tuna, capers, and extra virgin olive oil',
+          description: 'Thin slices of tomato with tuna, capers and extra virgin olive oil',
           price: 120,
-          detailedDescription: 'A refined carpaccio of finely sliced Tangerino tomatoes, offering a tangy freshness balanced by the richness of delicately crumbled tuna. Garnished with crunchy capers for a spicy touch, all enhanced by generous extra virgin olive oil, bringing a fruity and silky note. A light and elegant appetizer that celebrates the simplicity of Mediterranean flavors.'
+          detailedDescription: 'A refined carpaccio of finely sliced Tangerino tomatoes, offering acidic freshness balanced by the richness of delicately crumbled tuna. Garnished with capers and sublimed by generous extra virgin olive oil. A light and elegant starter that celebrates the simplicity of Mediterranean flavors.'
         },
         {
           name: 'OCTOPUS CARPACCIO',
-          description: 'Thin slices of tender octopus marinated in citrus',
+          description: 'Thin slices of tender octopus',
           price: 120,
-          detailedDescription: 'Our octopus is first slowly cooked then thinly sliced and marinated in a blend of olive oil and citrus. Each bite offers a tender texture and a perfect balance between marine flavors and tangy notes.'
+          detailedDescription: 'Our octopus is first slowly cooked then finely sliced. Each bite offers tender texture and perfect balance of marine flavors.'
         },
         {
           name: 'FLAMBÉED RED SHRIMP CARPACCIO',
@@ -353,16 +353,16 @@ export default function TapasEntreesMenu() {
           detailedDescription: 'Our wild Mediterranean red shrimp are lightly flambéed then finely sliced and seasoned with garlic and chili-infused oil. A marine delicacy with intense flavors and incomparable texture.'
         },
         {
-          name: 'BLUEFIN TUNA CARPACCIO',
-          description: 'Thin slices of raw bluefin tuna with a slightly spicy Asian sauce',
+          name: 'RED TUNA CARPACCIO',
+          description: 'Thin slices of raw red tuna with Thai sauce and green peppers',
           price: 140,
-          detailedDescription: 'Our line-caught Mediterranean bluefin tuna, thinly sliced, is enhanced by a Thai sauce with balanced notes of ginger, lime, and chili, creating a perfect marriage between Mediterranean tradition and Asian influences.'
+          detailedDescription: 'Our Mediterranean red tuna, line-caught and finely sliced, is sublimed by Thai sauce with lime and crunchy green peppers, all accompanied by vinaigrette creating a perfect marriage between Mediterranean tradition and Asian influences.'
         },
         {
           name: 'BEEF CARPACCIO',
-          description: 'Thin slices of raw beef seasoned with olive oil and parmesan',
+          description: 'Thin slices of raw beef seasoned with truffle oil and parmesan shavings',
           price: 120,
-          detailedDescription: 'Our beef tenderloin is lightly seared then thinly sliced and presented with a drizzle of extra virgin olive oil, 24-month aged parmesan shavings, a few capers, and freshly ground pepper.'
+          detailedDescription: 'Our beef fillet is lightly seared then finely sliced and presented with a drizzle of truffle oil, 24-month aged parmesan shavings and some capers.'
         },
         {
           name: 'BRESAOLA-STYLE CARPACCIO',

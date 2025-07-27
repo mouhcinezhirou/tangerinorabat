@@ -200,9 +200,9 @@ export default function TapasEntreesMenu() {
         },
         {
           name: 'PIMIENTOS DEL PADRON',
-          description: 'Petits poivrons verts espagnols grillés et assaisonnés à la fleur de sel',
+          description: 'Poivrons verts doux frits, accompagnés de fleur de sel',
           price: 70,
-          detailedDescription: 'Ces petits poivrons venus directement de Galice sont rapidement saisis à haute température puis délicatement assaisonnés à la fleur de sel. Leur particularité: certains sont doux, d\'autres surprennent par leur piquant!'
+          detailedDescription: 'Un jeu de roulette espagnole où certains sont doux et d\'autres surprennent par leur chaleur, ces petits poivrons frits croustillants sont rehaussés par le craquant du gros sel de mer.'
         },
         {
           name: 'ANCHOIS AU VINAIGRE',
@@ -216,21 +216,21 @@ export default function TapasEntreesMenu() {
           price: 95,
           detailedDescription: 'Notre burrata crémeuse des Pouilles est servie avec des tomates doucement fumées sur braises de bois d\'olivier pendant plusieurs heures, le tout sublimé par notre huile d\'olive première pression à froid et basilic frais.'
         },
+{
+  name: 'POIVRONS ROUGE AU FOUR AVEC THON',
+  description: 'Poivrons rouges cuits au four accompagnés de thon à l\'huile d\'olive',
+  price: 90,
+  detailedDescription: 'Nos poivrons rouges sont lentement cuits au four jusqu\'à obtenir une texture fondante et concentrer leurs saveurs. Ils sont accompagnés de notre thon de qualité conservé dans l\'huile d\'olive infusée aux herbes méditerranéennes.'
+},
         {
-          name: 'VENTRESCA DE THON & POIVRONS RÔTIS',
-          description: 'Poivrons doux rôtis accompagnés de ventre de thon confit à l\'huile d\'olive',
-          price: 90,
-          detailedDescription: 'Nos poivrons sont lentement rôtis jusqu\'à caramélisation puis associés à la partie la plus savoureuse du thon, le ventresca, confite dans notre huile d\'olive infusée aux herbes méditerranéennes.'
-        },
-        {
-          name: 'PARMIGIANA DE VEAU AU CHORIZO HALAL',
+          name: 'PARMIGIANA DE   VEAU AU CHORIZO HALAL',
           description: 'Délicieuse préparation d\'aubergines, veau et chorizo halal gratinée au four',
           price: 90,
           detailedDescription: 'Couches alternées d\'aubergines grillées, de veau mijoté et de chorizo halal légèrement épicé, le tout nappé d\'une sauce tomate aux herbes fraîches et généreusement gratiné au parmesan affiné 24 mois.'
         },
         {
           name: 'PARMIGIANA DE FRUITS DE MER',
-          description: 'Variation marine de la parmigiana traditionnelle aux fruits de mer',
+          description: 'Variante marine de la parmigiana traditionnelle aux fruits de mer',
           price: 90,
           detailedDescription: 'Notre interprétation marine associe des aubergines grillées, une délicate sélection de fruits de mer et une sauce béchamel parfumée au safran, le tout recouvert de fromage et délicatement gratiné au four.'
         },
@@ -259,22 +259,22 @@ export default function TapasEntreesMenu() {
           detailedDescription: 'Notre plateau de dégustation comprend une sélection raffinée de jambons ibériques et de fromages espagnols artisanaux, accompagnés d\'olives marinées, d\'amandes grillées au romarin et de pain croustillant.'
         },
         {
-          name: 'ASSORTIMENT DE BRESAOLA MANCHEGO',
+          name: 'ASSORTIMENT DE BRESAOLA ET MANCHEGO',
           description: 'Fines tranches de bresaola de dinde et de manchego affiné',
           price: 90,
           detailedDescription: 'La finesse de notre bresaola de dinde délicatement épicée se marie parfaitement avec la richesse du manchego affiné. Le tout est subtilement rehaussé d\'un filet d\'huile d\'olive vierge et de quelques gouttes de vinaigre balsamique réduit.'
         },
         {
-          name: 'ENSALADILLA D\'HOMARD',
+          name: 'SALADE RUSSE',
           description: 'Version raffinée de la traditionnelle salade de légumes et mayonnaise',
           price: 70,
           detailedDescription: 'Notre interprétation élégante de la salade russe traditionnelle associe pommes de terre, carottes et petits pois finement coupés, le tout enrobé d\'une mayonnaise légère parfumée au citron et à l\'aneth frais.'
         },
         {
-          name: 'SALADE RUSSE AU HOMARD ET MAYONNAISE CITRONNÉE',
-          description: 'Version luxueuse de notre salade russe avec des morceaux de homard frais',
+          name: 'ENSALADILLA DE LANGOUSTE',
+          description: 'Version luxueuse de notre salade russe avec des morceaux de langouste fraîche',
           price: 180,
-          detailedDescription: 'Cette version gastronomique de la salade russe est sublimée par des morceaux généreux de homard bleu pêché en Méditerranée et une mayonnaise délicatement citronnée aux agrumes confits et à la ciboulette fraîche du jardin.'
+          detailedDescription: 'Cette version gastronomique de la salade russe est sublimée par des morceaux généreux de langouste de Méditerranée et une mayonnaise délicatement citronnée aux agrumes confits et à la ciboulette fraîche du jardin.'
         },
         {
           name: 'ENSALADILLA DE POULPE',
@@ -290,7 +290,7 @@ export default function TapasEntreesMenu() {
         },
         {
           name: 'POULPE À LA GALICIENNE',
-          description: 'Poulpe tendre servi sur lit de pommes de terre au paprika fumé',
+          description: 'Poulpe tendre servi sur un lit de pommes de terre au paprika fumé',
           price: 140,
           detailedDescription: 'Notre poulpe est cuit lentement selon la tradition galicienne puis servi sur un lit de pommes de terre fondantes, généreusement saupoudré de paprika fumé de La Vera et arrosé d\'une huile d\'olive extra vierge infusée à l\'ail.'
         },
@@ -307,13 +307,13 @@ export default function TapasEntreesMenu() {
       items: [
         {
           name: 'ESCALIVADA AU THON',
-          description: 'Poivrons, aubergines et oignons rôtis avec thon grillé et une touche d\'ail noir',
+          description: 'Poivrons, aubergines et oignons rôtis avec thon grillé et une touche d\'huile d\'ail',
           price: 100,
-          detailedDescription: 'Notre escalivada traditionnelle composée de poivrons, aubergines et oignons lentement rôtis au feu de bois est sublimée par des morceaux de thon saisi à la braise et une touche d\'huile d\'ail noir fermenté pour une profondeur aromatique unique.'
+          detailedDescription: 'Notre escalivada traditionnelle composée de poivrons, aubergines et oignons lentement rôtis au feu de bois est sublimée par des morceaux de thon grillé à la braise et une touche d\'huile d\'ail pour une profondeur aromatique unique.'
         },
         {
           name: 'SALADE DE SAUMON FUMÉ ET AVOCAT',
-          description: 'Mélange frais de saumon fumé et avocat avec vinaigrette miel-moutarde',
+          description: 'Mélange frais de saumon fumé et avocat avec une sauce vinaigrette miel-moutarde',
           price: 110,
           detailedDescription: 'Des tranches délicates de saumon fumé maison se marient parfaitement avec des quartiers d\'avocat crémeux, le tout rehaussé par notre vinaigrette signature au miel de fleurs sauvages et moutarde à l\'ancienne.'
         },
@@ -321,13 +321,13 @@ export default function TapasEntreesMenu() {
           name: 'SALADE CÉSAR ORIGINAL',
           description: 'Laitue romaine, sauce César maison, poulet grillé au charbon de bois et parmesan',
           price: 120,
-          detailedDescription: 'Notre salade César combine une laitue romaine croquante, des croûtons à l\'ail, des copeaux de parmesan affiné et un poulet fermier mariné puis grillé sur notre barbecue Mibrasa, le tout enrobé de notre sauce César aux anchois préparée à la minute.'
+          detailedDescription: 'Notre salade César combine une laitue romaine croquante, des croûtons, des copeaux de parmesan affiné et un poulet fermier mariné puis grillé sur notre barbecue Mibrasa, le tout enrobé de notre sauce César aux anchois préparée à la minute.'
         },
         {
           name: 'SALADE MARINERA',
-          description: 'Fraîche composition de fruits de mer et légumes croquants',
+          description: 'Composition fraîche de fruits de mer avec avocat et tomates cerises',
           price: 120,
-          detailedDescription: 'Un festival marin associant crevettes, saumon fumé, calamars, moules et palourdes à des légumes croquants, le tout délicatement assaisonné d\'une vinaigrette aux agrumes et herbes fraîches pour une explosion de saveurs méditerranéennes.'
+          detailedDescription: 'Un festival marin associant crevettes, saumon fumé et calamars à des quartiers d\'avocat crémeux et des tomates cerises sur un lit de salade verte, le tout délicatement assaisonné d\'une vinaigrette aux agrumes et herbes fraîches.'
         }
       ]
     },
@@ -338,31 +338,31 @@ export default function TapasEntreesMenu() {
           name: 'CARPACCIO DE TOMATE TANGERINO',
           description: 'Fines tranches de tomate avec thon, câpres et huile d\'olive vierge extra',
           price: 120,
-          detailedDescription: 'Un carpaccio raffiné de tomates Tangerino finement tranchées, offrant une fraîcheur acidulée équilibrée par la richesse du thon délicatement émietté. Agrémenté de câpres croquantes pour une touche de piquant, le tout sublimé par une généreuse huile d\'olive vierge extra, apportant une note fruitée et soyeuse. Une entrée légère et élégante qui célèbre la simplicité des saveurs méditerranéennes.'
+          detailedDescription: 'Un carpaccio raffiné de tomates Tangerino finement tranchées, offrant une fraîcheur acidulée équilibrée par la richesse du thon délicatement émietté. Agrémenté de câpres et sublimé par une généreuse huile d\'olive vierge extra. Une entrée légère et élégante qui célèbre la simplicité des saveurs méditerranéennes.'
         },
         {
           name: 'CARPACCIO DE POULPE',
-          description: 'Fines tranches de poulpe tendre mariné aux agrumes',
+          description: 'Fines tranches de poulpe tendre',
           price: 120,
-          detailedDescription: 'Notre poulpe est d\'abord cuit lentement puis tranché finement et mariné dans un mélange d\'huile d\'olive et d\'agrumes. Chaque bouchée offre une tendre texture et un parfait équilibre entre les saveurs marines et les notes acidulées.'
+          detailedDescription: 'Notre poulpe est d\'abord cuit lentement puis tranché finement. Chaque bouchée offre une tendre texture et un parfait équilibre des saveurs marines.'
         },
         {
           name: 'CARPACCIO DE CREVETTES ROUGES FLAMBÉES',
-          description: 'Délicates tranches de crevettes rouges sauvages avec touche d\'ail piquant',
+          description: 'Délicates tranches de crevettes rouges sauvages avec une touche d\'ail piquant',
           price: 160,
           detailedDescription: 'Nos crevettes rouges sauvages de Méditerranée sont légèrement flambées puis finement tranchées et assaisonnées d\'une huile parfumée à l\'ail et au piment. Un délice marin aux saveurs intenses et à la texture incomparable.'
         },
         {
           name: 'CARPACCIO DE THON ROUGE',
-          description: 'Fines tranches de thon rouge cru avec sauce asiatique légèrement épicée',
+          description: 'Fines tranches de thon rouge cru avec sauce thaï et poivrons verts',
           price: 140,
-          detailedDescription: 'Notre thon rouge de Méditerranée, pêché à la ligne et tranché finement, est sublimé par une sauce thaï aux notes équilibrées de gingembre, citron vert et piment, créant un mariage parfait entre tradition méditerranéenne et influences asiatiques.'
+          detailedDescription: 'Notre thon rouge de Méditerranée, pêché à la ligne et tranché finement, est sublimé par une sauce thaï au citron vert et des poivrons verts croquants, le tout accompagné d\'une vinaigrette créant un mariage parfait entre tradition méditerranéenne et influences asiatiques.'
         },
         {
           name: 'CARPACCIO DE BŒUF',
-          description: 'Tranches fines de bœuf cru assaisonnées à l\'huile d\'olive et parmesan',
+          description: 'Tranches fines de bœuf cru assaisonnées à l\'huile de truffes avec des copeaux de parmesan',
           price: 120,
-          detailedDescription: 'Notre filet de bœuf est légèrement saisi puis finement tranché et présenté avec un filet d\'huile d\'olive extra vierge, des copeaux de parmesan affiné 24 mois, quelques câpres et un tour de moulin à poivre fraîchement moulu.'
+          detailedDescription: 'Notre filet de bœuf est légèrement saisi puis finement tranché et présenté avec un filet d\'huile de truffes, des copeaux de parmesan affiné 24 mois et quelques câpres.'
         },
         {
           name: 'CARPACCIO FAÇON BRESAOLA',

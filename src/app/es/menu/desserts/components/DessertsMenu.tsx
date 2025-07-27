@@ -165,11 +165,11 @@ export default function DessertsMenu() {
   // All menu data in one place
   const menuSections: MenuSection[] = [
     {
-      title: 'DULZURAS',
+      title: '',
       items: [
         {
           name: 'PROFITEROL DE PRALINÉ',
-          description: 'Delicado profiterol relleno de crema de praliné, acompañado de una bola de helado de vainilla de Madagascar',
+          description: 'Delicado profiterol con praliné y croustillant crujiente, acompañado de una bola de helado de vainilla de Madagascar',
           price: 80,
           detailedDescription: 'Nuestra crujiente masa choux contiene una untuosa crema de praliné con avellanas caramelizadas y almendras tostadas. Esta pequeña obra maestra está coronada con un craquelin dorado y servida con una bola de helado de vainilla de Madagascar con intensos granos que se derrite delicadamente contra la tibieza del profiterol.'
         },
@@ -183,7 +183,7 @@ export default function DessertsMenu() {
           name: 'TARTA DE LIMÓN TANGERINA',
           description: 'Tarta de limón al estilo tangerino con limón y leche condensada',
           price: 80,
-          detailedDescription: 'Sobre una fina masa quebrada crujiente reposa una crema de limón de Mentón perfectamente equilibrada entre acidez y dulzura. La tarta está coronada con un sedoso merengue italiano, ligeramente caramelizado a la llama para crear un contraste de texturas y temperaturas inolvidable.'
+          detailedDescription: 'Sobre una fina masa quebrada crujiente reposa una crema de limón de Mentón perfectamente equilibrada entre acidez y dulzura.'
         },
         {
           name: 'TIRAMISÚ',
@@ -191,35 +191,35 @@ export default function DessertsMenu() {
           price: 80,
           detailedDescription: 'Nuestro tiramisú respeta la receta tradicional italiana: bizcochos savoiardi delicadamente embebidos en un café expreso intenso, cubiertos con una crema de mascarpone de incomparable ligereza. Una fina capa de cacao amargo espolvoreada al momento aporta la nota final a este postre intemporal.'
         },
-        {
-          name: 'TARTA DE QUESO',
-          description: 'Untuosa tarta de queso fresco, servida con coulis de frutos rojos y trozos de speculoos',
-          price: 80,
-          detailedDescription: 'Nuestra tarta de queso neoyorquina está preparada con una mezcla aterciopelada de queso fresco y crema, sobre una base crujiente de speculoos triturados. Su textura sedosa se magnifica con un coulis de frutos rojos ligeramente acidulado y algunos trozos crujientes de speculoos caramelizados.'
-        },
-        {
-          name: 'TURRÓN HELADO',
-          description: 'Parfait helado con frutos secos y miel de lavanda, trozos de caramelo y coulis de albaricoque',
-          price: 80,
-          detailedDescription: 'Este refinado postre provenzal presenta un parfait helado que incorpora almendras, pistachos y frutas confitadas, delicadamente perfumado con miel de lavanda. Servido sobre un espejo de coulis de albaricoque y espolvoreado con trozos de caramelo crujiente, ofrece una experiencia gustativa que combina frescura y dulzura mediterránea.'
-        },
+{
+  name: 'TARTA DE QUESO',
+  description: 'Tarta de queso façon española',
+  price: 80,
+  detailedDescription: 'Nuestra tarta de queso façon española está preparada con una mezcla aterciopelada de queso fresco y crema. Su textura sedosa y cremosa ofrece una experiencia gustativa rica y delicada, perfectamente equilibrada.'
+},
+{
+  name: 'TURRÓN HELADO',
+  description: 'Parfait helado con frutos secos y miel.',
+  price: 80,
+  detailedDescription: 'Este refinado postre provenzal presenta un parfait helado que incorpora almendras, pistachos y frutas confitadas, delicadamente perfumado con miel.'
+},
         {
           name: 'COULANT DE CHOCOLATE',
-          description: 'Bizcocho de chocolate negro 70% con corazón fundente, servido con helado de vainilla',
+          description: 'Bizcocho de chocolate negro 70% con corazón fundente, servido con una bola de helado de vainilla',
           price: 80,
-          detailedDescription: 'Nuestro coulant está preparado con un chocolate negro excepcional al 70% de cacao, cuyo corazón revela una ganache fundente que fluye a la primera cucharada. Su textura aérea contrasta perfectamente con su intensidad en boca, suavizada por una crema inglesa de vainilla bourbon servida tibia como acompañamiento.'
+          detailedDescription: 'Nuestro coulant está preparado con un chocolate negro excepcional al 70% de cacao, cuyo corazón revela una ganache fundente que fluye a la primera cucharada. Su textura aérea contrasta perfectamente con su intensidad en boca, suavizada por un helado de vainilla como acompañamiento.'
         },
         {
           name: 'COOKIE TANGERINO',
-          description: 'Cookie casera con trozos de chocolate y agua de azahar, helado de vainilla y caramelo de mantequilla salada',
+          description: 'Cookie casera con trozos de chocolate, helado de vainilla y caramelo de mantequilla salada',
           price: 80,
-          detailedDescription: 'Nuestra cookie insignia combina la textura perfecta - crujiente en los bordes y tierna en el centro - con un sabor único gracias al agua de azahar que perfuma delicadamente la masa con trozos de chocolate. Servida tibia con una bola de helado de canela que se casa perfectamente con sus notas orientales.'
+          detailedDescription: 'Nuestra cookie insignia combina la textura perfecta - crujiente en los bordes y tierna en el centro. Servida tibia con una bola de helado de vainilla y caramelo de mantequilla salada que se casa perfectamente con sus notas dulces.'
         },
         {
           name: 'PLATO DE FRUTAS',
           description: 'Selección de frutas frescas de temporada delicadamente preparadas',
           price: 80,
-          detailedDescription: 'Una composición colorida y refrescante de frutas de temporada cuidadosamente seleccionadas en su perfecta madurez. Presentadas en elegantes cortes, están sutilmente bañadas con un almíbar infusionado con menta fresca y lima, para un toque de frescura aromática.'
+          detailedDescription: 'Una composición colorida y refrescante de frutas de temporada cuidadosamente seleccionadas en su perfecta madurez.'
         },
         {
           name: 'CAFÉ GOURMET',
