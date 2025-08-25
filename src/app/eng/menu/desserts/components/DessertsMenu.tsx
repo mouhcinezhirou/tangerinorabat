@@ -225,7 +225,7 @@ export default function DessertsMenu() {
           name: 'GOURMET COFFEE',
           description: 'Espresso accompanied by a trio of mini desserts: chocolate fondant, crème brûlée, and vanilla ice cream',
           price: 80,
-          detailedDescription: 'An ideal end to the meal for the indecisive: our Ethiopian espresso is accompanied by a tasting of three iconic mini desserts from our menu. A bite-sized chocolate fondant, a crème brûlée served in a spoon, and a quenelle of vanilla ice cream on a bed of almond crumble.'
+          detailedDescription: 'An ideal end to the meal for the indecisive: our Ethiopian espresso is accompanied by a tasting of three iconic mini desserts from our menu. A bite-sized chocolate fondant, a crème brûlée served in a spoon, and a quenelle of vanilla ice cream.'
         }
       ]
     }

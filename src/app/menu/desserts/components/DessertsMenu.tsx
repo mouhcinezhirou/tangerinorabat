@@ -225,7 +225,7 @@ export default function DessertsMenu() {
           name: 'CAFÉ GOURMAND',
           description: 'Expresso accompagné d\'un trio de mini-desserts: fondant au chocolat, crème brûlée et glace vanille',
           price: 80,
-          detailedDescription: 'Une fin de repas idéale pour les indécis: notre café expresso d\'origine éthiopienne s\'accompagne d\'une dégustation de trois mini-desserts emblématiques de notre carte. Un fondant au chocolat en format mignardise, une crème brûlée servie dans une cuillère et une quenelle de glace vanille posée sur un lit de crumble aux amandes.'
+          detailedDescription: 'Une fin de repas idéale pour les indécis: notre café expresso d\'origine éthiopienne s\'accompagne d\'une dégustation de trois mini-desserts emblématiques de notre carte. Un fondant au chocolat en format mignardise, une crème brûlée servie dans une cuillère et une quenelle de glace vanille.'
         }
       ]
     }

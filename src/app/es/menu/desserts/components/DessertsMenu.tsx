@@ -225,7 +225,7 @@ export default function DessertsMenu() {
           name: 'CAFÉ GOURMET',
           description: 'Espresso acompañado de un trío de mini postres: coulant de chocolate, crema catalana y helado de vainilla',
           price: 80,
-          detailedDescription: 'Un final de comida ideal para los indecisos: nuestro café espresso de origen etíope se acompaña de una degustación de tres mini postres emblemáticos de nuestra carta. Un coulant de chocolate en formato miniatura, una crema catalana servida en una cuchara y una quenelle de helado de vainilla colocada sobre una cama de crumble de almendras.'
+          detailedDescription: 'Un final de comida ideal para los indecisos: nuestro café espresso de origen etíope se acompaña de una degustación de tres mini postres emblemáticos de nuestra carta. Un coulant de chocolate en formato miniatura, una crema catalana servida en una cuchara y una quenelle de helado de vainilla.'
         }
       ]
     }
