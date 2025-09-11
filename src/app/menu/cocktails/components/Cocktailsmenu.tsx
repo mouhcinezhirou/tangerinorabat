@@ -172,29 +172,29 @@ export default function CocktailsMenu() {
     {
       title: 'COCKTAILS SIGNATURE',
       items: [
-    {
-      name: 'CAP SPARTEL',
-      description: 'Gin Bombay Dry, Jus de Pastèque, Citron, Menthe',
-      price: 95,
-      detailedDescription: 'Inspiré par le phare de Cap Spartel, ce cocktail rafraîchissant combine les notes botaniques du Bombay Dry avec la fraîcheur de la pastèque. Le citron et la menthe apportent une vivacité méditerranéenne à cette création côtière.'
-    },
-    {
-      name: 'ACHAKKAR',
-      description: 'Vodka Titos, Jus de Melon Naturel, Miel et Fleur de Sureau, Licor Melon',
-      price: 95,
-      detailedDescription: 'Une symphonie de douceur estivale où la vodka premium rencontre la fraîcheur du melon naturel. Le miel et la fleur de sureau ajoutent une complexité florale délicate, couronnée par la richesse du licor de melon.'
-    },
-    {
-      name: 'TANGERINO',
-      description: 'Sirop Lavande, Tequila Infusée Hibiscus, Coco Pure Maison, Citron',
-      price: 95,
-      detailedDescription: 'Un coucher de soleil provençal dans un verre, où la tequila infusée à l\'hibiscus rencontre la douceur de la noix de coco maison. Le sirop de lavande apporte une note florale sophistiquée à cette création exotique.'
-    },
+   {
+  name: 'CAP SPARTEL',
+  description: 'Gin Bombay Dry, Purée de Raisin, Vermouth Blanc, Essence de Romarin',
+  price: 95,
+  detailedDescription: 'Inspiré par le légendaire phare du Cap Spartel où l\'Atlantique rencontre la Méditerranée, ce cocktail élégant au gin met en valeur l\'héritage botanique du Bombay Dry. La purée de raisin frais apporte une douceur naturelle tandis que le vermouth blanc offre une sophistication classique. Une délicate essence de romarin vous transporte vers les falaises parfumées aux herbes du nord du Maroc.'
+},
+{
+  name: 'ACHAKAR',
+  description: 'Sirop de Lavande, Tequila Infusée à l\'Hibiscus, Purée de Coco Maison, Citron Frais, Liqueur de Coco',
+  price: 95,
+  detailedDescription: 'Une célébration vibrante de l\'harmonie florale et tropicale. La tequila premium infusée aux pétales d\'hibiscus crée une base cramoisie saisissante, tandis que notre purée de coco signature apporte une richesse crémeuse. Le sirop de lavande naturelle évoque l\'élégance de la campagne française, parfaitement équilibré avec du citron vif et une luxueuse liqueur de coco pour un voyage sensoriel inoubliable.'
+},
+{
+  name: 'TANGERINE',
+  description: 'Bourbon Premium, Napoléon Mandarine, Sirop Mandarine & Pêche Grillée, Miel au Gingembre',
+  price: 95,
+  detailedDescription: 'Une célébration audacieuse de la chaleur d\'agrumes et de la sophistication fumée. Le bourbon riche crée la toile parfaite pour la liqueur Napoléon mandarine premium, tandis que notre sirop signature mandarine et pêche grillée au feu ajoute des couches de complexité fruitée caramélisée. Le miel doré au gingembre apporte la touche finale de chaleur épicée à ce chef-d\'œuvre artisanal.'
+},
 {
   name: 'HAFA',
-  description: 'Mezcal San Cosme, Aperol, Sirop Menthe et Safran, Citron, Orange Bitters',
+  description: 'Mezcal San Cosme, Oléo-Saccharum Banane Épicée, Sirop Vin Blanc & Fruits Grillés, Purée de Banane Carbonisée',
   price: 95,
-  detailedDescription: 'Un voyage complexe mettant en vedette le mezcal et l\'Aperol italien. Le sirop de menthe au safran crée un équilibre sophistiqué entre fraîcheur et épices précieuses, relevé par les amers d\'orange.'
+  detailedDescription: 'Un voyage exotique mettant en vedette l\'âme fumée du Mezcal San Cosme artisanal associé à notre oléo-saccharum banane épicée fait maison. Notre sirop unique au vin blanc, infusé à la pêche et à l\'ananas grillé au feu, crée des couches de douceur sophistiquée. La purée de banane carbonisée ajoute une finition fumée dramatique à cette aventure tropicale audacieuse.'
 }
       ]
     },

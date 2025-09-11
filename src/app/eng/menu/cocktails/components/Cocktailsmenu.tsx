@@ -173,28 +173,28 @@ const handleShotExpand = (index: number) => {
   title: 'SIGNATURE COCKTAILS',
   items: [
     {
-      name: 'CAP SPARTEL',
-      description: 'Gin Bombay Dry, Watermelon Juice, Lemon, Mint',
-      price: 95,
-      detailedDescription: 'Inspired by the Cap Spartel lighthouse, this refreshing cocktail combines the botanical notes of Bombay Dry with the freshness of watermelon. Lemon and mint bring Mediterranean vibrancy to this coastal creation.'
-    },
-    {
-      name: 'ACHAKKAR',
-      description: 'Vodka Titos, Natural Melon Juice, Honey and Elderflower, Melon Liqueur',
-      price: 95,
-      detailedDescription: 'A symphony of summer sweetness where premium vodka meets the freshness of natural melon. Honey and elderflower add delicate floral complexity, crowned by the richness of melon liqueur.'
-    },
-    {
-      name: 'TANGERINO',
-      description: 'Lavender Syrup, Hibiscus Infused Tequila, Homemade Pure Coconut, Lemon',
-      price: 95,
-      detailedDescription: 'A Provençal sunset in a glass, where hibiscus-infused tequila meets the sweetness of homemade coconut. Lavender syrup brings a sophisticated floral note to this exotic creation.'
-    },
+  name: 'CAP SPARTEL',
+  description: 'Bombay Dry Gin, Grape Purée, White Vermouth, Rosemary',
+  price: 95,
+  detailedDescription: 'Named after Morocco\'s iconic lighthouse, this sophisticated cocktail marries the botanical complexity of Bombay Dry gin with the sweetness of grape purée. White vermouth adds elegance while fresh rosemary brings an aromatic Mediterranean touch to this refined creation.'
+},
+{
+  name: 'ACHAKKAR',
+  description: 'Lavender Syrup, Hibiscus Infused Tequila, Homemade Coconut Purée, Lemon, Coconut Liqueur',
+  price: 95,
+  detailedDescription: 'A floral and tropical masterpiece where hibiscus-infused tequila meets the richness of homemade coconut purée. Natural lavender syrup adds Provençal elegance, while coconut liqueur and fresh lemon create a perfect balance of exotic sweetness and citrus brightness.'
+},
+{
+  name: 'TANGERINO',
+  description: 'Bourbon, Napoléon Mandarine Liqueur, Tangerine & Grilled Peach Syrup, Ginger Honey',
+  price: 95,
+  detailedDescription: 'A warm and sophisticated cocktail celebrating the essence of tangerine. Premium bourbon provides the foundation while Napoléon mandarine liqueur adds French elegance. The house-made tangerine and grilled peach syrup brings smoky sweetness, finished with the warming spice of ginger honey.'
+},
 {
   name: 'HAFA',
-  description: 'Mezcal San Cosme, Aperol, Mint and Saffron Syrup, Lemon, Orange Bitters',
+  description: 'Mezcal San Cosme, Spiced Banana Oleo-Saccharum, White Wine Peach & Grilled Pineapple Syrup, Grilled Banana Purée',
   price: 95,
-  detailedDescription: 'A complex journey featuring mezcal and Italian Aperol. The mint and saffron syrup creates a sophisticated balance between freshness and precious spices, enhanced by orange bitters.'
+  detailedDescription: 'An adventurous tropical creation featuring artisanal mezcal and house-made spiced banana oleo-saccharum. The complex syrup of white wine, peach, and grilled pineapple adds sophisticated sweetness, while smashed grilled banana purée brings smoky depth to this innovative cocktail.'
 }
       ]
     },

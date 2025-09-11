@@ -174,28 +174,28 @@ export default function CocktailsMenu() {
       title: 'CÓCTELES SIGNATURE',
       items: [
 {
-      name: 'CAP SPARTEL',
-      description: 'Gin Bombay Dry, Zumo de Sandía, Limón, Menta',
-      price: 95,
-      detailedDescription: 'Inspirado por el faro de Cap Spartel, este cóctel refrescante combina las notas botánicas del Bombay Dry con la frescura de la sandía. El limón y la menta aportan una vivacidad mediterránea a esta creación costera.'
-    },
-    {
-      name: 'ACHAKKAR',
-      description: 'Vodka Titos, Zumo de Melón Natural, Miel y Flor de Saúco, Licor de Melón',
-      price: 95,
-      detailedDescription: 'Una sinfonía de dulzura veraniega donde el vodka premium se encuentra con la frescura del melón natural. La miel y la flor de saúco añaden una complejidad floral delicada, coronada por la riqueza del licor de melón.'
-    },
-    {
-      name: 'TANGERINO',
-      description: 'Sirope de Lavanda, Tequila Infusionada con Hibisco, Coco Puro Casero, Limón',
-      price: 95,
-      detailedDescription: 'Una puesta de sol provenzal en un vaso, donde la tequila infusionada con hibisco se encuentra con la dulzura del coco casero. El sirope de lavanda aporta una nota floral sofisticada a esta creación exótica.'
-    },
+  name: 'CAP SPARTEL',
+  description: 'Gin Bombay Dry, Puré de Uva, Vermut Blanco, Esencia de Romero',
+  price: 95,
+  detailedDescription: 'Inspirado en el legendario faro del Cabo Spartel donde el Atlántico se encuentra con el Mediterráneo, este elegante cóctel de ginebra resalta la herencia botánica del Bombay Dry. El puré de uva fresca aporta dulzura natural mientras que el vermut blanco ofrece sofisticación clásica. Una delicada esencia de romero te transporta a los acantilados perfumados de hierbas del norte de Marruecos.'
+},
+{
+  name: 'ACHAKAR',
+  description: 'Jarabe de Lavanda, Tequila Infusionado con Hibisco, Puré de Coco Casero, Limón Fresco, Licor de Coco',
+  price: 95,
+  detailedDescription: 'Una celebración vibrante de la armonía floral y tropical. El tequila premium infusionado con pétalos de hibisco crea una base carmesí impresionante, mientras que nuestro puré de coco signature aporta riqueza cremosa. El jarabe de lavanda natural evoca la elegancia de la campiña francesa, perfectamente equilibrado con limón brillante y lujoso licor de coco para un viaje sensorial inolvidable.'
+},
+{
+  name: 'TANGERINO',
+  description: 'Bourbon Premium, Napoléon Mandarina, Jarabe de Mandarina y Durazno a la Parrilla, Miel de Jengibre',
+  price: 95,
+  detailedDescription: 'Una celebración audaz de la calidez cítrica y la sofisticación ahumada. El bourbon rico crea el lienzo perfecto para el licor premium Napoléon mandarina, mientras que nuestro jarabe signature de mandarina y durazno asado al fuego añade capas de complejidad frutal caramelizada. La miel dorada de jengibre proporciona el toque final de calidez especiada en esta obra maestra artesanal.'
+},
 {
   name: 'HAFA',
-  description: 'Mezcal San Cosme, Aperol, Sirope de Menta y Azafrán, Limón, Orange Bitters',
+  description: 'Mezcal San Cosme, Oleo-Saccharum de Plátano Especiado, Jarabe de Vino Blanco y Frutas Asadas, Puré de Plátano Carbonizado',
   price: 95,
-  detailedDescription: 'Un viaje complejo que presenta mezcal y Aperol italiano. El sirope de menta con azafrán crea un sofisticado equilibrio entre frescura y especias preciosas, realzado por los bitters de naranja.'
+  detailedDescription: 'Un viaje exótico que presenta el alma ahumada del Mezcal San Cosme artesanal combinado con nuestro oleo-saccharum de plátano especiado hecho en casa. Nuestro jarabe único de vino blanco, infusionado con durazno y piña asada al fuego, crea capas de dulzura sofisticada. El puré de plátano carbonizado añade un final ahumado dramático a esta aventura tropical audaz.'
 }
 
       ]
