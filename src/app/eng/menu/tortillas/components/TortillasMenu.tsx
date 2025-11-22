@@ -233,16 +233,16 @@ export default function EggsAndFriedFoodMenu() {
         detailedDescription: 'Our interpretation of the British classic combines an ultra-fresh cod fillet coated in crispy and airy tempura batter, served with our Hurricane spiral potatoes with incomparable texture. The whole is accompanied by homemade tartare sauce with crunchy capers and finely chopped pickles.'
       },
       {
+  name: 'SEASONAL CRISPY FRY',
+  description: 'Baby red mullet & smelt',
+  price: 160,
+  detailedDescription: 'A seasonal crispy fry of baby red mullet and smelt.'
+},
+      {
         name: 'MIXED FISH FRY',
         description: 'Generous selection of fish and seafood fried to perfection',
         price: 220,
         detailedDescription: 'This royal fry offers a varied selection of Mediterranean fish, squid, shrimp and cod fritters, each coated in a specific breading that enhances its natural flavor. The assortment is served with our homemade tartare sauce to satisfy all desires.'
-      },
-      {
-        name: 'CHANQUETES AND FRIED EGGS',
-        description: 'Creamy eggs served on a bed of delicate crispy small fish',
-        price: 140,
-        detailedDescription: 'A Mediterranean specialty par excellence, our chanquetes (small silver fish) are lightly floured then fried until obtaining a perfectly crispy texture. The broken eggs are gently cooked and placed on this bed of crispy fish, whose creamy yolk deliciously mingles with the marine flavors, creating a symphony of textures and flavors that instantly evokes the sunny Mediterranean coast.'
       }
       ]
     }

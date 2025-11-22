@@ -205,12 +205,6 @@ export default function SeafoodMenuPage() {
       title: 'SIGNATURE SEAFOOD',
       items: [
         {
-          name: 'SEAFOOD GRATIN',
-          description: 'A luxurious blend of fresh seafood baked with cream and golden breadcrumbs',
-          price: 130,
-          detailedDescription: 'A decadent assortment of shellfish and fish enveloped in a velvety cream sauce. Baked until topped with a golden crust of parmesan and herbed breadcrumbs that adds a delicious crunch.'
-        },
-        {
     name: 'OYSTER, SHRIMP AND OCTOPUS CEVICHE',
     description: 'Fresh seafood marinated in leche de tigre with Mediterranean herbs and red onion',
     price: 180,

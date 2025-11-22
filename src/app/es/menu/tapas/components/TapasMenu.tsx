@@ -282,12 +282,12 @@ export default function TapasEntreesMenu() {
           price: 90,
           detailedDescription: 'Esta reinterpretación creativa combina nuestro pulpo cocinado a baja temperatura, dados de manzana verde Granny Smith para un toque ácido y cebollas rojas crujientes, todo ello ligado con una mayonesa de hierbas frescas.'
         },
-        {
-          name: 'PARRILLADA DE VERDURAS',
-          description: 'Colorido surtido de verduras de temporada cocinadas a la brasa',
-          price: 120,
-          detailedDescription: 'Nuestras verduras de temporada procedentes de productores locales son asadas sobre brasas de roble para desarrollar sus sabores naturales, ligeramente ahumadas y simplemente sazonadas con aceite de oliva, ajo confitado y flor de sal.'
-        },
+{
+  name: 'PARRILLADA DE VERDURAS DE TEMPORADA',
+  description: 'Berenjena, calabacín, cebolla, tomate, champiñones, alcachofas, espárragos y pimientos',
+  price: 160,
+  detailedDescription: 'Colorido surtido de verduras de temporada cocinadas a la brasa para desarrollar sus sabores naturales.'
+},
         {
           name: 'PULPO A LA GALLEGA',
           description: 'Pulpo tierno servido sobre lecho de patatas al pimentón ahumado',
@@ -299,7 +299,31 @@ export default function TapasEntreesMenu() {
           description: 'Majestuoso tentáculo de pulpo confitado y luego asado sobre brasas',
           price: 160,
           detailedDescription: 'Nuestro tentáculo de pulpo es primero confitado durante varias horas y luego asado sobre brasas ardientes para obtener un contraste perfecto entre una textura tierna y notas ligeramente ahumadas.'
-        }
+        },
+        {
+  name: 'REVUELTO DE SETAS DE MONTAÑA CON CEPS',
+  description: 'Huevos revueltos con setas silvestres de montaña y ceps (boletus edulis)',
+  price: 140,
+  detailedDescription: 'Nuestros huevos revueltos se preparan con una selección de setas silvestres de montaña y ceps (boletus edulis) para una experiencia gastronómica auténtica.'
+},
+{
+  name: 'CORAZONES DE ALCACHOFAS RELLENOS DE MARISCO Y GRATINADOS',
+  description: 'Corazones de alcachofas rellenos de marisco y gratinados a la perfección',
+  price: 140,
+  detailedDescription: 'Nuestros corazones de alcachofas están generosamente rellenos de una delicada selección de mariscos y gratinados al horno para obtener una textura dorada y crujiente.'
+},
+{
+  name: 'ESPÁRRAGOS DE TUDELA A LA BRASA SOBRE CREMA DE TOMATE Y GRATINADOS CON PARMESANO',
+  description: 'Espárragos de Tudela a la brasa servidos sobre crema de tomate y gratinados con parmesano',
+  price: 140,
+  detailedDescription: 'Nuestros espárragos de Tudela se asan a la perfección y se sirven sobre un lecho de crema de tomate casera, todo ello gratinado con parmesano curado.'
+},
+{
+  name: 'ESPÁRRAGOS A LA BRASA CON ACEITE Y LIMÓN',
+  description: 'Espárragos a la brasa con aceite de oliva y limón',
+  price: 140,
+  detailedDescription: 'Nuestros espárragos se asan a la brasa y se condimentan simplemente con aceite de oliva virgen extra y un chorrito de limón fresco.'
+}
       ]
     },
     {

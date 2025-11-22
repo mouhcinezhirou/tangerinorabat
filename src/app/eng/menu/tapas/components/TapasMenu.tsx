@@ -282,12 +282,12 @@ export default function TapasEntreesMenu() {
           price: 90,
           detailedDescription: 'This creative reinterpretation combines our slow-cooked octopus, diced Granny Smith green apple for a tangy touch, and crunchy red onions, all bound with a fresh herb mayonnaise.'
         },
-        {
-          name: 'VEGETABLE PARILLADA',
-          description: 'Colorful assortment of seasonal vegetables cooked over embers',
-          price: 120,
-          detailedDescription: 'Our seasonal vegetables from local producers are grilled over oak embers to develop their natural flavors, lightly smoked and simply seasoned with olive oil, confit garlic, and fleur de sel.'
-        },
+{
+  name: 'GRILLED SEASONAL VEGETABLES',
+  description: 'Eggplant, zucchini, onion, tomato, mushrooms, artichokes, asparagus, and peppers',
+  price: 160,
+  detailedDescription: 'Colorful assortment of seasonal vegetables cooked over embers to develop their natural flavors.'
+},
         {
           name: 'GALICIAN-STYLE OCTOPUS',
           description: 'Tender octopus served on a bed of potatoes with smoked paprika',
@@ -299,7 +299,31 @@ export default function TapasEntreesMenu() {
           description: 'Majestic octopus tentacle confit then grilled over embers',
           price: 160,
           detailedDescription: 'Our octopus tentacle is first confit for several hours then grilled over hot embers to achieve a perfect contrast between a melt-in-your-mouth texture and slightly smoky notes.'
-        }
+        },
+        {
+  name: 'SCRAMBLED EGGS WITH WILD MOUNTAIN MUSHROOMS AND PORCINI',
+  description: 'Scrambled eggs with wild mountain mushrooms and porcini (boletus edulis)',
+  price: 140,
+  detailedDescription: 'Our scrambled eggs are prepared with a selection of wild mountain mushrooms and porcini (boletus edulis) for an authentic gourmet experience.'
+},
+{
+  name: 'ARTICHOKE HEARTS STUFFED WITH SEAFOOD AND GRATINATED',
+  description: 'Artichoke hearts stuffed with seafood and gratinated to perfection',
+  price: 140,
+  detailedDescription: 'Our artichoke hearts are generously stuffed with a delicate selection of seafood and oven-gratinated for a golden, crispy texture.'
+},
+{
+  name: 'GRILLED TUDELA ASPARAGUS ON TOMATO CREAM AND GRATINATED WITH PARMESAN',
+  description: 'Grilled Tudela asparagus served on tomato cream and gratinated with Parmesan cheese',
+  price: 140,
+  detailedDescription: 'Our Tudela asparagus are grilled to perfection and served on a bed of homemade tomato cream, all gratinated with aged Parmesan.'
+},
+{
+  name: 'GRILLED ASPARAGUS WITH OLIVE OIL AND LEMON',
+  description: 'Grilled asparagus with olive oil and lemon',
+  price: 140,
+  detailedDescription: 'Our asparagus are grilled and simply seasoned with extra virgin olive oil and a drizzle of fresh lemon.'
+}
       ]
     },
     {

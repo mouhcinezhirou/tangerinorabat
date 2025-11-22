@@ -232,17 +232,17 @@ export default function OeufsFrituresMenu() {
         price: 160,
         detailedDescription: 'Notre interprétation du classique britannique associe un filet de cabillaud ultra-frais enrobé d\'une pâte tempura croustillante et aérienne, servi avec nos pommes de terre Hurricane en spirale à la texture incomparable. Le tout est accompagné d\'une sauce tartare maison aux câpres croquantes et cornichons finement hachés.'
       },
+            {
+  name: 'FRITURE DE SAISON',
+  description: 'Petits rougets & éperlans croustillants',
+  price: 160,
+  detailedDescription: 'Une friture de saison composée de petits rougets et éperlans croustillants.'
+},
       {
         name: 'FRITURE DE POISSON',
         description: 'Généreuse sélection de poissons et fruits de mer frits à la perfection',
         price: 220,
         detailedDescription: 'Cette friture royale propose une sélection variée de poissons méditerranéens, calamars, crevettes et accras de morue, chacun enrobé d\'une panure spécifique qui sublime sa saveur naturelle. L\'assortiment est servi avec notre sauce tartare maison pour satisfaire toutes les envies.'
-      },
-      {
-        name: 'CHANQUETES ET ŒUFS CASSÉS SUR LE PLAT',
-        description: 'Œufs fondants servis sur un lit de délicats petits poissons croustillants',
-        price: 140,
-        detailedDescription: 'Une spécialité méditerranéenne par excellence, nos chanquetes (petits poissons argentés) sont légèrement farinés puis frits jusqu\'à obtenir une texture parfaitement croustillante. Les œufs cassés sont cuits doucement et déposés sur ce lit de poissons croustillants, dont le jaune crémeux se mêle délicieusement aux saveurs marines, créant une symphonie de textures et de saveurs qui évoque instantanément le littoral ensoleillé de la Méditerranée.'
       }
       ]
     }

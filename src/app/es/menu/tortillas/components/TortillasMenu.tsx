@@ -232,17 +232,17 @@ export default function HuevosFriturasMenu() {
         price: 160,
         detailedDescription: 'Nuestra interpretación del clásico británico combina un filete de bacalao ultra-fresco rebozado en masa tempura crujiente y aireada, servido con nuestras patatas Hurricane en espiral de textura incomparable. Todo acompañado de salsa tártara casera con alcaparras crujientes y pepinillos finamente picados.'
       },
+          {
+  name: 'FRITURA DE TEMPORADA',
+  description: 'Salmonetes pequeños y eperlano crujiente',
+  price: 160,
+  detailedDescription: 'Una fritura de temporada compuesta de salmonetes pequeños y eperlano crujiente.'
+},
       {
         name: 'FRITURA DE PESCADO',
         description: 'Generosa selección de pescados y mariscos fritos a la perfección',
         price: 220,
         detailedDescription: 'Esta fritura real propone una selección variada de pescados mediterráneos, calamares, gambas y buñuelos de bacalao, cada uno rebozado en un empanado específico que realza su sabor natural. El surtido se sirve con nuestra salsa tártara casera para satisfacer todos los gustos.'
-      },
-      {
-        name: 'CHANQUETES Y HUEVOS ROTOS',
-        description: 'Huevos cremosos servidos sobre un lecho de delicados pescaditos crujientes',
-        price: 140,
-        detailedDescription: 'Una especialidad mediterránea por excelencia, nuestros chanquetes (pequeños peces plateados) están ligeramente enharinados y luego fritos hasta obtener una textura perfectamente crujiente. Los huevos rotos se cocinan suavemente y se colocan sobre este lecho de pescado crujiente, cuya yema cremosa se mezcla deliciosamente con los sabores marinos, creando una sinfonía de texturas y sabores que evoca instantáneamente la costa soleada del Mediterráneo.'
       }
       ]
     }

@@ -164,59 +164,71 @@ export default function MenuPescadoCarne() {
 
   // Todos los datos del menú en un solo lugar
   const seccionesMenu: MenuSection[] = [
+{
+  titulo: 'PESCADOS',
+  items: [
     {
-      titulo: 'PESCADOS',
-      items: [
-        {
-        nombre: 'PEZ ESPADA A LA PARRILLA',
-        descripcion: 'Pez espada fresco de Tánger a la BBQ',
-        precio: 220,
-        descripcionDetallada: 'Nuestro pez espada fresco de Tánger se asa a la BBQ para preservar su textura tierna y su sabor delicado.'
-      },
-      {
-        nombre: 'CALAMAR A LA PARRILLA',
-        descripcion: 'Calamares frescos cocinados a la BBQ con su tinta',
-        precio: 220,
-        descripcionDetallada: 'Este plato emblemático de la cocina mediterránea presenta calamares frescos cocinados a la BBQ con su tinta.'
-      },
-      {
-        nombre: 'FILETE DE ATÚN ROJO',
-        descripcion: 'Atún rojo fresco al carbón servido estilo tataki',
-        precio: 220,
-        descripcionDetallada: 'Nuestro atún rojo fresco se asa al carbón y se sirve estilo tataki.'
-      },
-      {
-        nombre: 'SALMÓN A LA PARRILLA',
-        descripcion: 'Salmón fresco cocinado al carbón servido con rodaja de limón',
-        precio: 260,
-        descripcionDetallada: 'Nuestro salmón fresco se cocina al carbón y se sirve con una rodaja de limón.'
-      },
-      {
-        nombre: 'SAN PEDRO A LA PARRILLA',
-        descripcion: 'Asado con piel',
-        precio: 340,
-        descripcionDetallada: 'Este pescado noble se asa con piel para desarrollar todos sus sabores.'
-      },
-      {
-        nombre: 'LUBINA DE LÍNEA A LA PARRILLA',
-        descripcion: 'Filete de lubina asado al carbón',
-        precio: 280,
-        descripcionDetallada: 'Nuestro filete de lubina se asa al carbón para preservar su sabor excepcional.'
-      },
-      {
-        nombre: 'CAZUELA DE LUBINA DE LÍNEA',
-        descripcion: 'Servida con patatas estilo papas a lo pobre',
-        precio: 320,
-        descripcionDetallada: 'Nuestra lubina de línea se sirve con patatas estilo papas a lo pobre.'
-      },
-      {
-        nombre: 'LUBINA EN COSTRA DE SAL',
-        descripcion: 'Lubina cocida con sal gorda servida con aceite de oliva',
-        precio: 280,
-        descripcionDetallada: 'Nuestra lubina se cocina con sal gorda y se sirve con aceite de oliva.'
-      }
-      ]
+      nombre: 'PEZ ESPADA A LA PARRILLA',
+      descripcion: 'Pez espada fresco de Tánger a la BBQ',
+      precio: 220,
+      descripcionDetallada: 'Nuestro pez espada fresco de Tánger se asa a la BBQ para preservar su textura tierna y su sabor delicado.'
     },
+    {
+      nombre: 'CALAMAR A LA PARRILLA',
+      descripcion: 'Calamares frescos cocinados a la BBQ con su tinta',
+      precio: 220,
+      descripcionDetallada: 'Este plato emblemático de la cocina mediterránea presenta calamares frescos cocinados a la BBQ con su tinta.'
+    },
+    {
+      nombre: 'FILETE DE ATÚN ROJO',
+      descripcion: 'Atún rojo fresco al carbón servido estilo tataki',
+      precio: 220,
+      descripcionDetallada: 'Nuestro atún rojo fresco se asa al carbón y se sirve estilo tataki.'
+    },
+    {
+      nombre: 'SALMÓN A LA PARRILLA',
+      descripcion: 'Salmón fresco cocinado al carbón servido con rodaja de limón',
+      precio: 260,
+      descripcionDetallada: 'Nuestro salmón fresco se cocina al carbón y se sirve con una rodaja de limón.'
+    },
+    {
+      nombre: 'CAZUELA DE PEZ ESCORPIÓN AL PIL-PIL PICANTE',
+      descripcion: 'Pez escorpión servido en salsa pil-pil picante',
+      precio: 180,
+      descripcionDetallada: 'Nuestra cazuela de pez escorpión al pil-pil picante ofrece una experiencia mediterránea auténtica.'
+    },
+    {
+      nombre: 'PESCADO DEL DÍA',
+      descripcion: 'Selección de pescados frescos del mercado',
+      precio: 260,
+      descripcionDetallada: 'Nuestro pescado del día es una selección de pescados frescos directamente del mercado local.'
+    },
+    {
+      nombre: 'SAN PEDRO A LA PARRILLA',
+      descripcion: 'Asado con piel',
+      precio: 340,
+      descripcionDetallada: 'Este pescado noble se asa con piel para desarrollar todos sus sabores.'
+    },
+    {
+      nombre: 'LUBINA DE LÍNEA A LA PARRILLA',
+      descripcion: 'Filete de lubina asado al carbón',
+      precio: 280,
+      descripcionDetallada: 'Nuestro filete de lubina se asa al carbón para preservar su sabor excepcional.'
+    },
+    {
+      nombre: 'CAZUELA DE LUBINA DE LÍNEA',
+      descripcion: 'Servida con patatas estilo papas a lo pobre',
+      precio: 320,
+      descripcionDetallada: 'Nuestra lubina de línea se sirve con patatas estilo papas a lo pobre.'
+    },
+    {
+      nombre: 'LUBINA EN COSTRA DE SAL',
+      descripcion: 'Lubina cocida con sal gorda servida con aceite de oliva',
+      precio: 280,
+      descripcionDetallada: 'Nuestra lubina se cocina con sal gorda y se sirve con aceite de oliva.'
+    }
+  ]
+},
     {
       titulo: 'CARNES',
       items: [
@@ -256,6 +268,12 @@ export default function MenuPescadoCarne() {
   precio: 160,
   descripcionDetallada: 'Nuestra pechuga de pollo se aplasta delicadamente y luego se marina con hierbas frescas antes de asarse para obtener una carne tierna y jugosa. Se acompaña de espinacas frescas salteadas rápidamente con ajo y un chorrito de aceite de oliva al limón que aporta frescura y ligereza.'
 },
+      {
+  nombre: 'ESCALOPINES AL LIMÓN',
+  descripcion: 'Castillo de arroz blanco aromatizado con ajo y laurel',
+  precio: 240,
+  descripcionDetallada: 'Escalopines al limón servidas con un castillo de arroz blanco aromatizado con ajo y laurel.'
+}
       ]
     },
     {

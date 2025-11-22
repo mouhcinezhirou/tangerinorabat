@@ -205,12 +205,6 @@ export default function SeafoodMenuPage() {
       title: 'FRUITS DE MER SIGNATURE',
       items: [
         {
-          name: 'GRATIN DE FRUITS DE MER',
-          description: 'Un mélange luxueux de fruits de mer frais cuits au four avec crème et chapelure dorée',
-          price: 130,
-          detailedDescription: 'Un assortiment décadent de crustacés et de poissons enveloppés dans une sauce veloutée à la crème. Cuit au four jusqu\'à obtenir une croûte dorée de parmesan et de chapelure aux herbes qui ajoute un croustillant délicieux.'
-        },
-        {
     name: 'CEVICHE D\'HUÎTRES, CREVETTES ET POULPE',
     description: 'Fruits de mer frais marinés dans du leche de tigre avec des herbes méditerranéennes et oignon rouge',
     price: 180,

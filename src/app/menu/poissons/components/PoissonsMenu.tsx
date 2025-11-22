@@ -164,59 +164,71 @@ export default function PoissonViandeMenu() {
 
   // All menu data in one place
   const menuSections: MenuSection[] = [
+{
+  title: 'POISSONS',
+  items: [
     {
-      title: 'POISSONS',
-      items: [
-       {
-        name: 'ESPADON GRILLÉ',
-        description: 'Espadon de Tanger frais à la BBQ',
-        price: 220,
-        detailedDescription: 'Notre espadon de Tanger frais est grillé à la BBQ pour préserver sa texture tendre et son goût délicat.'
-      },
-      {
-        name: 'CALAMAR GRILLÉ',
-        description: 'Calamars frais cuit à la BBQ avec son encre',
-        price: 220,
-        detailedDescription: 'Ce plat emblématique de la cuisine méditerranéenne présente des calamars frais cuits à la BBQ avec son encre.'
-      },
-      {
-        name: 'FILET DE THON ROUGE',
-        description: 'Thon rouge frais au charbon servi au style tataki',
-        price: 220,
-        detailedDescription: 'Notre thon rouge frais est grillé au charbon et servi au style tataki.'
-      },
-      {
-        name: 'SAUMON GRILLÉ',
-        description: 'Saumon frais cuit au charbon servi avec tranche de citron',
-        price: 260,
-        detailedDescription: 'Notre saumon frais est cuit au charbon et servi avec une tranche de citron.'
-      },
-      {
-        name: 'ST PIERRE GRILLÉ',
-        description: 'Grillé avec la peau',
-        price: 340,
-        detailedDescription: 'Ce poisson noble est grillé avec la peau pour développer toutes ses saveurs.'
-      },
-      {
-        name: 'BAR DE LIGNE GRILLÉ',
-        description: 'Filet de loup bar grillé au charbon',
-        price: 280,
-        detailedDescription: 'Notre filet de loup bar est grillé au charbon pour préserver sa saveur exceptionnelle.'
-      },
-      {
-        name: 'CASSOLETTE DE BAR DE LIGNE',
-        description: 'Servi avec des pommes de terre façon papas a lo pobre',
-        price: 320,
-        detailedDescription: 'Notre bar de ligne est servi avec des pommes de terre façon papas a lo pobre.'
-      },
-      {
-        name: 'LOUP EN CROÛTE DE SEL',
-        description: 'Loup de mer cuit avec gros sel servi avec huile d\'olive',
-        price: 280,
-        detailedDescription: 'Notre loup de mer est cuit avec du gros sel et servi avec de l\'huile d\'olive.'
-      }
-    ]
-  },
+      name: 'ESPADON GRILLÉ',
+      description: 'Espadon de Tanger frais à la BBQ',
+      price: 220,
+      detailedDescription: 'Notre espadon de Tanger frais est grillé à la BBQ pour préserver sa texture tendre et son goût délicat.'
+    },
+    {
+      name: 'CALAMAR GRILLÉ',
+      description: 'Calamars frais cuit à la BBQ avec son encre',
+      price: 220,
+      detailedDescription: 'Ce plat emblématique de la cuisine méditerranéenne présente des calamars frais cuits à la BBQ avec son encre.'
+    },
+    {
+      name: 'FILET DE THON ROUGE',
+      description: 'Thon rouge frais au charbon servi au style tataki',
+      price: 220,
+      detailedDescription: 'Notre thon rouge frais est grillé au charbon et servi au style tataki.'
+    },
+    {
+      name: 'SAUMON GRILLÉ',
+      description: 'Saumon frais cuit au charbon servi avec tranche de citron',
+      price: 260,
+      detailedDescription: 'Notre saumon frais est cuit au charbon et servi avec une tranche de citron.'
+    },
+    {
+      name: 'CASSOLETTE DE SCORPIO AU PIL-PIL ÉPICÉ',
+      description: 'Scorpio servie dans une sauce pil-pil épicée',
+      price: 180,
+      detailedDescription: 'Notre cassolette de scorpio au pil-pil épicé offre une expérience méditerranéenne authentique.'
+    },
+    {
+      name: 'POISSON DU JOUR',
+      description: 'Sélection de poissons frais du marché',
+      price: 260,
+      detailedDescription: 'Notre poisson du jour est une sélection de poissons frais directement du marché local.'
+    },
+    {
+      name: 'ST PIERRE GRILLÉ',
+      description: 'Grillé avec la peau',
+      price: 340,
+      detailedDescription: 'Ce poisson noble est grillé avec la peau pour développer toutes ses saveurs.'
+    },
+    {
+      name: 'BAR DE LIGNE GRILLÉ',
+      description: 'Filet de loup bar grillé au charbon',
+      price: 280,
+      detailedDescription: 'Notre filet de loup bar est grillé au charbon pour préserver sa saveur exceptionnelle.'
+    },
+    {
+      name: 'CASSOLETTE DE BAR DE LIGNE',
+      description: 'Servi avec des pommes de terre façon papas a lo pobre',
+      price: 320,
+      detailedDescription: 'Notre bar de ligne est servi avec des pommes de terre façon papas a lo pobre.'
+    },
+    {
+      name: 'LOUP EN CROÛTE DE SEL',
+      description: 'Loup de mer cuit avec gros sel servi avec huile d\'olive',
+      price: 280,
+      detailedDescription: 'Notre loup de mer est cuit avec du gros sel et servi avec de l\'huile d\'olive.'
+    }
+  ]
+},
   {
     title: 'VIANDES',
     items: [
@@ -255,6 +267,12 @@ export default function PoissonViandeMenu() {
   description: 'Suprême de poulet aplati et grillé, épinards frais sautés à l\'ail',
   price: 160,
   detailedDescription: 'Notre suprême de poulet est délicatement aplati puis mariné aux herbes fraîches avant d\'être grillé pour obtenir une chair moelleuse et tendre. Il est accompagné d\'épinards frais rapidement sautés à l\'ail et d\'un filet d\'huile d\'olive citronnée qui apporte fraîcheur et légèreté.'
+},
+      {
+  name: 'ESCALOPINES AU CITRON',
+  description: 'Château de riz blanc parfumé à l\'ail et au laurier',
+  price: 240,
+  detailedDescription: 'Escalopines au citron servies avec un château de riz blanc parfumé à l\'ail et au laurier.'
 }
     ]
   },

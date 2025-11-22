@@ -165,58 +165,70 @@ export default function FishMeatMenu() {
   // All menu data in one place
   const menuSections: MenuSection[] = [
     {
-      title: 'FISH',
-      items: [
-       {
-        name: 'GRILLED SWORDFISH',
-        description: 'Fresh Tangier swordfish on BBQ',
-        price: 220,
-        detailedDescription: 'Our fresh Tangier swordfish is grilled on the BBQ to preserve its tender texture and delicate taste.'
-      },
-      {
-        name: 'GRILLED SQUID',
-        description: 'Fresh squid cooked on BBQ with its ink',
-        price: 220,
-        detailedDescription: 'This emblematic dish of Mediterranean cuisine features fresh squid cooked on the BBQ with its ink.'
-      },
-      {
-        name: 'RED TUNA FILLET',
-        description: 'Fresh red tuna cooked over charcoal served tataki style',
-        price: 220,
-        detailedDescription: 'Our fresh red tuna is grilled over charcoal and served tataki style.'
-      },
-      {
-        name: 'GRILLED SALMON',
-        description: 'Fresh salmon cooked over charcoal served with lemon slice',
-        price: 260,
-        detailedDescription: 'Our fresh salmon is cooked over charcoal and served with a lemon slice.'
-      },
-      {
-        name: 'GRILLED JOHN DORY',
-        description: 'Grilled with skin',
-        price: 340,
-        detailedDescription: 'This noble fish is grilled with skin to develop all its flavors.'
-      },
-      {
-        name: 'GRILLED LINE-CAUGHT SEA BASS',
-        description: 'Sea bass fillet grilled over charcoal',
-        price: 280,
-        detailedDescription: 'Our sea bass fillet is grilled over charcoal to preserve its exceptional flavor.'
-      },
-      {
-        name: 'LINE-CAUGHT SEA BASS CASSEROLE',
-        description: 'Served with potatoes papas a lo pobre style',
-        price: 320,
-        detailedDescription: 'Our line-caught sea bass is served with potatoes papas a lo pobre style.'
-      },
-      {
-        name: 'SEA BASS IN SALT CRUST',
-        description: 'Sea bass cooked with coarse salt served with olive oil',
-        price: 280,
-        detailedDescription: 'Our sea bass is cooked with coarse salt and served with olive oil.'
-      }
-    ]
-  },
+  title: 'FISH',
+  items: [
+    {
+      name: 'GRILLED SWORDFISH',
+      description: 'Fresh Tangier swordfish on BBQ',
+      price: 220,
+      detailedDescription: 'Our fresh Tangier swordfish is grilled on the BBQ to preserve its tender texture and delicate taste.'
+    },
+    {
+      name: 'GRILLED SQUID',
+      description: 'Fresh squid cooked on BBQ with its ink',
+      price: 220,
+      detailedDescription: 'This emblematic dish of Mediterranean cuisine features fresh squid cooked on the BBQ with its ink.'
+    },
+    {
+      name: 'RED TUNA FILLET',
+      description: 'Fresh red tuna cooked over charcoal served tataki style',
+      price: 220,
+      detailedDescription: 'Our fresh red tuna is grilled over charcoal and served tataki style.'
+    },
+    {
+      name: 'GRILLED SALMON',
+      description: 'Fresh salmon cooked over charcoal served with lemon slice',
+      price: 260,
+      detailedDescription: 'Our fresh salmon is cooked over charcoal and served with a lemon slice.'
+    },
+    {
+      name: 'SPICY SCORPIONFISH CASSEROLE IN PIL-PIL SAUCE',
+      description: 'Scorpionfish served in spicy pil-pil sauce',
+      price: 180,
+      detailedDescription: 'Our spicy scorpionfish casserole in pil-pil sauce offers an authentic Mediterranean experience.'
+    },
+    {
+      name: 'CATCH OF THE DAY',
+      description: 'Fresh local fish selection',
+      price: 260,
+      detailedDescription: 'Our catch of the day is a selection of fresh fish directly from the local market.'
+    },
+    {
+      name: 'GRILLED JOHN DORY',
+      description: 'Grilled with skin',
+      price: 340,
+      detailedDescription: 'This noble fish is grilled with skin to develop all its flavors.'
+    },
+    {
+      name: 'GRILLED LINE-CAUGHT SEA BASS',
+      description: 'Sea bass fillet grilled over charcoal',
+      price: 280,
+      detailedDescription: 'Our sea bass fillet is grilled over charcoal to preserve its exceptional flavor.'
+    },
+    {
+      name: 'LINE-CAUGHT SEA BASS CASSEROLE',
+      description: 'Served with potatoes papas a lo pobre style',
+      price: 320,
+      detailedDescription: 'Our line-caught sea bass is served with potatoes papas a lo pobre style.'
+    },
+    {
+      name: 'SEA BASS IN SALT CRUST',
+      description: 'Sea bass cooked with coarse salt served with olive oil',
+      price: 280,
+      detailedDescription: 'Our sea bass is cooked with coarse salt and served with olive oil.'
+    }
+  ]
+},
   {
     title: 'MEATS',
     items: [
@@ -255,6 +267,12 @@ export default function FishMeatMenu() {
   description: 'Flattened and grilled chicken breast, fresh spinach sautéed with garlic',
   price: 160,
   detailedDescription: 'Our chicken breast is delicately flattened then marinated with fresh herbs before being grilled to obtain tender and juicy meat. It is served with fresh spinach quickly sautéed with garlic and a drizzle of lemon olive oil that brings freshness and lightness.'
+},
+{
+  name: 'LEMON ESCALOPINES',
+  description: 'White rice tower infused with garlic and bay leaf',
+  price: 240,
+  detailedDescription: 'Lemon escalopines served with a white rice tower infused with garlic and bay leaf.'
 }
     ]
   },

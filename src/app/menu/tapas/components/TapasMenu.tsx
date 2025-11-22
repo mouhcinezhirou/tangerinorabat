@@ -282,12 +282,12 @@ export default function TapasEntreesMenu() {
           price: 90,
           detailedDescription: 'Cette réinterprétation créative associe notre poulpe cuit à basse température, des dés de pomme verte Granny Smith pour une touche acidulée et des oignons rouges croquants, le tout lié par une mayonnaise aux herbes fraîches.'
         },
-        {
-          name: 'PARILLADA DE LÉGUMES',
-          description: 'Assortiment coloré de légumes de saison cuits sur braises',
-          price: 120,
-          detailedDescription: 'Nos légumes de saison provenant de producteurs locaux sont grillés sur braises de chêne pour développer leurs saveurs naturelles, légèrement fumés et simplement assaisonnés d\'huile d\'olive, d\'ail confit et de fleur de sel.'
-        },
+{
+  name: 'GRILLADE DE LÉGUMES DE SAISON',
+  description: 'Aubergine, courgette, oignon, tomate, champignons, artichauts, asperges et poivrons',
+  price: 160,
+  detailedDescription: 'Assortiment coloré de légumes de saison cuits sur braises pour développer leurs saveurs naturelles.'
+},
         {
           name: 'POULPE À LA GALICIENNE',
           description: 'Poulpe tendre servi sur un lit de pommes de terre au paprika fumé',
@@ -299,7 +299,31 @@ export default function TapasEntreesMenu() {
           description: 'Majestueuse tentacule de poulpe confite puis grillée sur braises',
           price: 160,
           detailedDescription: 'Notre tentacule de poulpe est d\'abord confite pendant plusieurs heures puis grillée sur braises ardentes pour obtenir un contraste parfait entre une texture fondante et des notes légèrement fumées'
-        }
+        },
+        {
+  name: 'ŒUFS BROUILLÈ AUX CHAMPIGNONS SAUVAGES DE MONTAGNE AUX CÈPES',
+  description: 'Œufs brouillés aux champignons sauvages de montagne et cèpes (boletus edulis)',
+  price: 140,
+  detailedDescription: 'Nos œufs brouillés sont préparés avec une sélection de champignons sauvages de montagne et de cèpes (boletus edulis) pour une expérience gourmande et authentique.'
+},
+{
+  name: 'CŒURS D\'ARTICHAUTS FARCIS AUX FRUITS DE MER ET GRATINÉS',
+  description: 'Cœurs d\'artichauts farcis aux fruits de mer et gratinés à la perfection',
+  price: 140,
+  detailedDescription: 'Nos cœurs d\'artichauts sont généreusement farcis d\'une délicate sélection de fruits de mer et gratinés au four pour une texture dorée et croustillante.'
+},
+{
+  name: 'ASPERGES DE TUDELA GRILLÉES SUR CRÈME DE TOMATE ET GRATINÉES AU PARMESAN',
+  description: 'Asperges de Tudela grillées servies sur une crème de tomate et gratinées au parmesan',
+  price: 140,
+  detailedDescription: 'Nos asperges de Tudela sont grillées à la perfection et servies sur un lit de crème de tomate maison, le tout gratiné avec du parmesan affiné.'
+},
+{
+  name: 'ASPERGES GRILLÉES À L\'HUILE D\'OLIVE ET AU CITRON',
+  description: 'Asperges grillées avec huile d\'olive et citron',
+  price: 140,
+  detailedDescription: 'Nos asperges sont grillées et simplement assaisonnées avec de l\'huile d\'olive extra vierge et un filet de citron frais.'
+}
       ]
     },
     {

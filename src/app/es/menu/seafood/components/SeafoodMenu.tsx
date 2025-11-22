@@ -205,12 +205,6 @@ export default function SeafoodMenuPage() {
       title: 'MARISCOS EXCLUSIVOS',
       items: [
         {
-          name: 'GRATINADO DE MARISCOS',
-          description: 'Una mezcla lujosa de mariscos frescos horneados con crema y pan rallado dorado',
-          price: 130,
-          detailedDescription: 'Un surtido decadente de crustáceos y pescados envueltos en una salsa aterciopelada de crema. Horneado hasta conseguir una costra dorada de parmesano y pan rallado con hierbas que añade un delicioso toque crujiente.'
-        },
-        {
     name: 'CEVICHE DE OSTRAS, CAMARONES Y PULPO',
     description: 'Mariscos frescos marinados en leche de tigre con hierbas mediterráneas y cebolla roja',
     price: 180,
