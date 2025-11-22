@@ -8,6 +8,7 @@ interface MenuItem {
   description: string;
   price: number;
   detailedDescription?: string;
+  isNew?: boolean;
 }
 
 interface MenuSection {
@@ -15,11 +16,26 @@ interface MenuSection {
   items: MenuItem[];
 }
 
+const NewBadge: React.FC = () => (
+  <motion.span
+    className="inline-flex items-center gap-1 bg-gradient-to-r from-amber-500 to-orange-500 text-amber-950 px-2 py-0.5 rounded-full text-[10px] sm:text-xs font-bold tracking-wide ml-0 sm:ml-2 shrink-0"
+    initial={{ opacity: 0, scale: 0.8 }}
+    animate={{ opacity: 1, scale: 1 }}
+    transition={{ type: "spring", stiffness: 400, damping: 20, delay: 0.2 }}
+  >
+    <svg className="w-2.5 h-2.5 sm:w-3 sm:h-3" viewBox="0 0 24 24" fill="currentColor">
+      <path d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z"/>
+    </svg>
+    NEW
+  </motion.span>
+);
+
 const FishMeatMenuItem: React.FC<MenuItem & { onExpand: () => void, isExpanded: boolean }> = ({
   name,
   description,
   price,
   detailedDescription,
+  isNew,
   onExpand,
   isExpanded
 }) => {
@@ -34,7 +50,7 @@ const FishMeatMenuItem: React.FC<MenuItem & { onExpand: () => void, isExpanded: 
   return (
     <motion.div
       ref={itemRef}
-      className="bg-amber-900/20 backdrop-blur-sm rounded-lg p-6 border border-amber-200/20 relative overflow-hidden group"
+      className="bg-amber-900/20 backdrop-blur-sm rounded-lg p-6 border border-amber-200/20 relative overflow-hidden group cursor-pointer"
       whileHover={{ y: -4 }}
       initial={{ opacity: 0 }}
       whileInView={{ opacity: 1 }}
@@ -48,11 +64,21 @@ const FishMeatMenuItem: React.FC<MenuItem & { onExpand: () => void, isExpanded: 
       
       {/* Content */}
       <div className="relative z-10">
-        <div className="flex justify-between items-start mb-3">
-          <h3 className="font-SweetSansProBold text-xl font-serif tracking-wider text-amber-100">
-            {name}
-          </h3>
-          <span className="text-amber-200 font-light">{price}</span>
+        <div className="mb-3">
+          {isNew && (
+            <div className="mb-2 sm:hidden">
+              <NewBadge />
+            </div>
+          )}
+          <div className="flex justify-between items-start gap-2">
+            <div className="flex items-center flex-wrap gap-y-1 min-w-0">
+              <h3 className="font-SweetSansProBold text-lg sm:text-xl font-serif tracking-wider text-amber-100 break-words">
+                {name}
+              </h3>
+              {isNew && <span className="hidden sm:inline-flex"><NewBadge /></span>}
+            </div>
+            <span className="text-amber-200 font-light shrink-0">{price}</span>
+          </div>
         </div>
         
         <div className="w-10 h-px bg-amber-200/40 mb-4"></div>
@@ -162,152 +188,151 @@ export default function FishMeatMenu() {
     };
   }, []);
 
-  // All menu data in one place
   const menuSections: MenuSection[] = [
     {
-  title: 'FISH',
-  items: [
-    {
-      name: 'GRILLED SWORDFISH',
-      description: 'Fresh Tangier swordfish on BBQ',
-      price: 220,
-      detailedDescription: 'Our fresh Tangier swordfish is grilled on the BBQ to preserve its tender texture and delicate taste.'
+      title: 'FISH',
+      items: [
+        {
+          name: 'GRILLED SWORDFISH',
+          description: 'Fresh Tangier swordfish on BBQ',
+          price: 220,
+          detailedDescription: 'Our fresh Tangier swordfish is grilled on the BBQ to preserve its tender texture and delicate taste.'
+        },
+        {
+          name: 'GRILLED SQUID',
+          description: 'Fresh squid cooked on BBQ with its ink',
+          price: 220,
+          detailedDescription: 'This emblematic dish of Mediterranean cuisine features fresh squid cooked on the BBQ with its ink.'
+        },
+        {
+          name: 'RED TUNA FILLET',
+          description: 'Fresh red tuna cooked over charcoal served tataki style',
+          price: 220,
+          detailedDescription: 'Our fresh red tuna is grilled over charcoal and served tataki style.'
+        },
+        {
+          name: 'GRILLED SALMON',
+          description: 'Fresh salmon cooked over charcoal served with lemon slice',
+          price: 260,
+          detailedDescription: 'Our fresh salmon is cooked over charcoal and served with a lemon slice.'
+        },
+        {
+          name: 'SPICY SCORPIONFISH CASSEROLE IN PIL-PIL SAUCE',
+          description: 'Scorpionfish served in spicy pil-pil sauce',
+          price: 180,
+          detailedDescription: 'Our spicy scorpionfish casserole in pil-pil sauce offers an authentic Mediterranean experience.'
+        },
+        {
+          name: 'CATCH OF THE DAY',
+          description: 'Fresh local fish selection',
+          price: 260,
+          detailedDescription: 'Our catch of the day is a selection of fresh fish directly from the local market.'
+        },
+        {
+          name: 'GRILLED JOHN DORY',
+          description: 'Grilled with skin',
+          price: 340,
+          detailedDescription: 'This noble fish is grilled with skin to develop all its flavors.'
+        },
+        {
+          name: 'GRILLED LINE-CAUGHT SEA BASS',
+          description: 'Sea bass fillet grilled over charcoal',
+          price: 280,
+          detailedDescription: 'Our sea bass fillet is grilled over charcoal to preserve its exceptional flavor.'
+        },
+        {
+          name: 'LINE-CAUGHT SEA BASS CASSEROLE',
+          description: 'Served with potatoes papas a lo pobre style',
+          price: 320,
+          detailedDescription: 'Our line-caught sea bass is served with potatoes papas a lo pobre style.'
+        },
+        {
+          name: 'SEA BASS IN SALT CRUST',
+          description: 'Sea bass cooked with coarse salt served with olive oil',
+          price: 280,
+          detailedDescription: 'Our sea bass is cooked with coarse salt and served with olive oil.'
+        }
+      ]
     },
     {
-      name: 'GRILLED SQUID',
-      description: 'Fresh squid cooked on BBQ with its ink',
-      price: 220,
-      detailedDescription: 'This emblematic dish of Mediterranean cuisine features fresh squid cooked on the BBQ with its ink.'
+      title: 'MEATS',
+      items: [
+        {
+          name: 'GRILLED BEEF FILLET',
+          description: 'Beef fillet grilled on mibrasa with sauce of your choice',
+          price: 290,
+          detailedDescription: 'Our beef fillet is grilled to perfection according to your preference, for tender and flavorful meat. It is served with a sauce of your choice that brings a complementary touch to the character of the meat.'
+        },
+        {
+          name: 'SLICED BEEF FILLET SAUTÉED WITH GARLIC & "PATATAS A LO POBRE"',
+          description: 'Sliced beef fillet sautéed with garlic and parsley, rustic Spanish-style potatoes',
+          price: 280,
+          detailedDescription: 'Our beef fillet is finely sliced then quickly seared over high heat with fresh garlic and parsley to preserve its tenderness and juice. It is served with "patatas a lo pobre", these traditional Spanish potatoes cooked slowly with sweet onions and peppers, infused with flavored olive oil.'
+        },
+        {
+          name: 'GRILLED BEEF RIBEYE',
+          description: 'Generous ribeye aged 15 days grilled over charcoal, sauce of your choice',
+          price: 220,
+          detailedDescription: 'Our beef ribeye selected for its marbling is aged for 15 days to develop its exceptional flavor. It is grilled over our charcoal embers which gives it unique smoky notes. Served with a sauce of your choice that pairs perfectly with the hot meat.'
+        },
+        {
+          name: 'GRILLED BEEF RIB',
+          description: 'Impressive beef rib aged 20 days, grilled over embers, Camargue sea salt (1kg – 2 people)',
+          price: 490,
+          detailedDescription: 'This exceptional piece is aged for 20 days to develop complex aromas and incomparable tenderness. Expertly grilled over our olive wood embers, it is presented whole then carved at the table. Its juicy flesh is simply enhanced with Camargue sea salt that exalts its natural flavor.'
+        },
+        {
+          name: 'MINCED MEAT "KEFTA"',
+          description: 'Minced meat with Moroccan spices',
+          price: 140,
+          detailedDescription: 'Our keftas are prepared from minced meat seasoned with Moroccan spices.'
+        },
+        {
+          name: 'CHICKEN PAILLARD WITH SAUTÉED SPINACH',
+          description: 'Flattened and grilled chicken breast, fresh spinach sautéed with garlic',
+          price: 160,
+          detailedDescription: 'Our chicken breast is delicately flattened then marinated with fresh herbs before being grilled to obtain tender and juicy meat. It is served with fresh spinach quickly sautéed with garlic and a drizzle of lemon olive oil that brings freshness and lightness.'
+        },
+        {
+          name: 'LEMON ESCALOPINES',
+          description: 'White rice tower infused with garlic and bay leaf',
+          price: 240,
+          detailedDescription: 'Lemon escalopines served with a white rice tower infused with garlic and bay leaf.',
+          isNew: true
+        }
+      ]
     },
     {
-      name: 'RED TUNA FILLET',
-      description: 'Fresh red tuna cooked over charcoal served tataki style',
-      price: 220,
-      detailedDescription: 'Our fresh red tuna is grilled over charcoal and served tataki style.'
-    },
-    {
-      name: 'GRILLED SALMON',
-      description: 'Fresh salmon cooked over charcoal served with lemon slice',
-      price: 260,
-      detailedDescription: 'Our fresh salmon is cooked over charcoal and served with a lemon slice.'
-    },
-    {
-      name: 'SPICY SCORPIONFISH CASSEROLE IN PIL-PIL SAUCE',
-      description: 'Scorpionfish served in spicy pil-pil sauce',
-      price: 180,
-      detailedDescription: 'Our spicy scorpionfish casserole in pil-pil sauce offers an authentic Mediterranean experience.'
-    },
-    {
-      name: 'CATCH OF THE DAY',
-      description: 'Fresh local fish selection',
-      price: 260,
-      detailedDescription: 'Our catch of the day is a selection of fresh fish directly from the local market.'
-    },
-    {
-      name: 'GRILLED JOHN DORY',
-      description: 'Grilled with skin',
-      price: 340,
-      detailedDescription: 'This noble fish is grilled with skin to develop all its flavors.'
-    },
-    {
-      name: 'GRILLED LINE-CAUGHT SEA BASS',
-      description: 'Sea bass fillet grilled over charcoal',
-      price: 280,
-      detailedDescription: 'Our sea bass fillet is grilled over charcoal to preserve its exceptional flavor.'
-    },
-    {
-      name: 'LINE-CAUGHT SEA BASS CASSEROLE',
-      description: 'Served with potatoes papas a lo pobre style',
-      price: 320,
-      detailedDescription: 'Our line-caught sea bass is served with potatoes papas a lo pobre style.'
-    },
-    {
-      name: 'SEA BASS IN SALT CRUST',
-      description: 'Sea bass cooked with coarse salt served with olive oil',
-      price: 280,
-      detailedDescription: 'Our sea bass is cooked with coarse salt and served with olive oil.'
-    }
-  ]
-},
-  {
-    title: 'MEATS',
-    items: [
-      {
-        name: 'GRILLED BEEF FILLET',
-        description: 'Beef fillet grilled on mibrasa with sauce of your choice',
-        price: 290,
-        detailedDescription: 'Our beef fillet is grilled to perfection according to your preference, for tender and flavorful meat. It is served with a sauce of your choice that brings a complementary touch to the character of the meat.'
-      },
-      {
-        name: 'SLICED BEEF FILLET SAUTÉED WITH GARLIC & "PATATAS A LO POBRE"',
-        description: 'Sliced beef fillet sautéed with garlic and parsley, rustic Spanish-style potatoes',
-        price: 280,
-        detailedDescription: 'Our beef fillet is finely sliced then quickly seared over high heat with fresh garlic and parsley to preserve its tenderness and juice. It is served with "patatas a lo pobre", these traditional Spanish potatoes cooked slowly with sweet onions and peppers, infused with flavored olive oil.'
-      },
-      {
-        name: 'GRILLED BEEF RIBEYE',
-        description: 'Generous ribeye aged 15 days grilled over charcoal, sauce of your choice',
-        price: 220,
-        detailedDescription: 'Our beef ribeye selected for its marbling is aged for 15 days to develop its exceptional flavor. It is grilled over our charcoal embers which gives it unique smoky notes. Served with a sauce of your choice that pairs perfectly with the hot meat.'
-      },
-      {
-        name: 'GRILLED BEEF RIB',
-        description: 'Impressive beef rib aged 20 days, grilled over embers, Camargue sea salt (1kg – 2 people)',
-        price: 490,
-        detailedDescription: 'This exceptional piece is aged for 20 days to develop complex aromas and incomparable tenderness. Expertly grilled over our olive wood embers, it is presented whole then carved at the table. Its juicy flesh is simply enhanced with Camargue sea salt that exalts its natural flavor.'
-      },
-      {
-        name: 'MINCED MEAT "KEFTA"',
-        description: 'Minced meat with Moroccan spices',
-        price: 140,
-        detailedDescription: 'Our keftas are prepared from minced meat seasoned with Moroccan spices.'
-      },
-{
-  name: 'CHICKEN PAILLARD WITH SAUTÉED SPINACH',
-  description: 'Flattened and grilled chicken breast, fresh spinach sautéed with garlic',
-  price: 160,
-  detailedDescription: 'Our chicken breast is delicately flattened then marinated with fresh herbs before being grilled to obtain tender and juicy meat. It is served with fresh spinach quickly sautéed with garlic and a drizzle of lemon olive oil that brings freshness and lightness.'
-},
-{
-  name: 'LEMON ESCALOPINES',
-  description: 'White rice tower infused with garlic and bay leaf',
-  price: 240,
-  detailedDescription: 'Lemon escalopines served with a white rice tower infused with garlic and bay leaf.'
-}
-    ]
-  },
-  {
-    title: 'SIDES',
-    items: [
-      {
-        name: 'SAUTÉED VEGETABLES',
-        description: 'Seasonal vegetables with soy sauce wok style',
-        price: 50,
-        detailedDescription: 'A selection of seasonal vegetables sautéed with soy sauce wok style.'
-      },
-      {
-        name: 'HOMEMADE FRIES',
-        description: 'Rustic hand-cut fries, double cooked with sea salt',
-        price: 50,
-        detailedDescription: 'Our selected potatoes are peeled and hand-cut into generous sticks, then cooked twice according to the traditional Belgian method: first at low temperature to cook the inside, then at high temperature for a golden and crispy crust. Served with a pinch of sea salt.'
-      },
-      {
-        name: 'POTATOES "A LO POBRE"',
-        description: 'Spanish-style braised potatoes with onions, peppers and olive oil',
-        price: 50,
-        detailedDescription: 'This traditional Spanish recipe consists of potatoes cut into thin slices, cooked slowly in olive oil with sweet onions and peppers that caramelize gently. The result is a tender side dish, infused with Mediterranean flavors, with a light golden color.'
-      },
-      {
-        name: 'MASHED POTATOES',
-        description: 'Smooth mashed potatoes with fresh cream and brown butter',
-        price: 50,
-        detailedDescription: 'Our mash is prepared with Ratte potatoes with tender flesh, mashed with a fork to retain character. Enriched with thick fresh cream and lightly browned butter, it offers a texture that is both airy and comforting, subtly flavored with freshly grated nutmeg.'
-      }
+      title: 'SIDES',
+      items: [
+        {
+          name: 'SAUTÉED VEGETABLES',
+          description: 'Seasonal vegetables with soy sauce wok style',
+          price: 50,
+          detailedDescription: 'A selection of seasonal vegetables sautéed with soy sauce wok style.'
+        },
+        {
+          name: 'HOMEMADE FRIES',
+          description: 'Rustic hand-cut fries, double cooked with sea salt',
+          price: 50,
+          detailedDescription: 'Our selected potatoes are peeled and hand-cut into generous sticks, then cooked twice according to the traditional Belgian method: first at low temperature to cook the inside, then at high temperature for a golden and crispy crust. Served with a pinch of sea salt.'
+        },
+        {
+          name: 'POTATOES "A LO POBRE"',
+          description: 'Spanish-style braised potatoes with onions, peppers and olive oil',
+          price: 50,
+          detailedDescription: 'This traditional Spanish recipe consists of potatoes cut into thin slices, cooked slowly in olive oil with sweet onions and peppers that caramelize gently. The result is a tender side dish, infused with Mediterranean flavors, with a light golden color.'
+        },
+        {
+          name: 'MASHED POTATOES',
+          description: 'Smooth mashed potatoes with fresh cream and brown butter',
+          price: 50,
+          detailedDescription: 'Our mash is prepared with Ratte potatoes with tender flesh, mashed with a fork to retain character. Enriched with thick fresh cream and lightly browned butter, it offers a texture that is both airy and comforting, subtly flavored with freshly grated nutmeg.'
+        }
       ]
     }
   ];
 
-  // Elegant divider component to reduce repetition
   const ElegantDivider = () => (
     <div className="flex items-center justify-center my-16">
       <div className="h-px w-16 bg-amber-200/30"></div>
@@ -318,10 +343,8 @@ export default function FishMeatMenu() {
 
   return (
     <section ref={menuRef} className="py-20 bg-[#3e4c52] text-amber-50 relative">
-      {/* Background elements */}
       <div className="absolute inset-0 opacity-10"></div>
       
-      {/* Menu content */}
       <div className="container mx-auto px-4">
         {menuSections.map((section, index) => (
           <div key={index}>

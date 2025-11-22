@@ -8,6 +8,7 @@ interface MenuItem {
   description: string;
   price: number;
   detailedDescription?: string;
+  isNew?: boolean;
 }
 
 interface MenuSection {
@@ -15,11 +16,26 @@ interface MenuSection {
   items: MenuItem[];
 }
 
+const NouveauBadge: React.FC = () => (
+  <motion.span
+    className="inline-flex items-center gap-1 bg-gradient-to-r from-amber-500 to-orange-500 text-amber-950 px-2 py-0.5 rounded-full text-[10px] sm:text-xs font-bold tracking-wide ml-2 shrink-0"
+    initial={{ opacity: 0, scale: 0.8 }}
+    animate={{ opacity: 1, scale: 1 }}
+    transition={{ type: "spring", stiffness: 400, damping: 20, delay: 0.2 }}
+  >
+    <svg className="w-2.5 h-2.5 sm:w-3 sm:h-3" viewBox="0 0 24 24" fill="currentColor">
+      <path d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z"/>
+    </svg>
+    NOUVEAU
+  </motion.span>
+);
+
 const OeufsFrituresMenuItem: React.FC<MenuItem & { onExpand: () => void, isExpanded: boolean }> = ({
   name,
   description,
   price,
   detailedDescription,
+  isNew,
   onExpand,
   isExpanded
 }) => {
@@ -34,7 +50,7 @@ const OeufsFrituresMenuItem: React.FC<MenuItem & { onExpand: () => void, isExpan
   return (
     <motion.div
       ref={itemRef}
-      className="bg-amber-900/20 backdrop-blur-sm rounded-lg p-6 border border-amber-200/20 relative overflow-hidden group"
+      className="bg-amber-900/20 backdrop-blur-sm rounded-lg p-6 border border-amber-200/20 relative overflow-hidden group cursor-pointer"
       whileHover={{ y: -4 }}
       initial={{ opacity: 0 }}
       whileInView={{ opacity: 1 }}
@@ -48,11 +64,21 @@ const OeufsFrituresMenuItem: React.FC<MenuItem & { onExpand: () => void, isExpan
       
       {/* Content */}
       <div className="relative z-10">
-        <div className="flex justify-between items-start mb-3">
-          <h3 className="font-SweetSansProBold text-xl font-serif tracking-wider text-amber-100">
-            {name}
-          </h3>
-          <span className="text-amber-200 font-light">{price}</span>
+        <div className="mb-3">
+          {isNew && (
+            <div className="mb-2 sm:hidden">
+              <NouveauBadge />
+            </div>
+          )}
+          <div className="flex justify-between items-start gap-2">
+            <div className="flex items-center flex-wrap gap-y-1 min-w-0">
+              <h3 className="font-SweetSansProBold text-lg sm:text-xl font-serif tracking-wider text-amber-100 break-words">
+                {name}
+              </h3>
+              {isNew && <span className="hidden sm:inline-flex"><NouveauBadge /></span>}
+            </div>
+            <span className="text-amber-200 font-light shrink-0">{price}</span>
+          </div>
         </div>
         
         <div className="w-10 h-px bg-amber-200/40 mb-4"></div>
@@ -162,93 +188,92 @@ export default function OeufsFrituresMenu() {
     };
   }, []);
 
-  // All menu data in one place
   const menuSections: MenuSection[] = [
     {
       title: 'TORTILLAS ET ŒUFS',
       items: [
-{
-  name: 'TORTILLA ESPAGNOLE AU CHORIZO',
-  description: 'L\'omelette traditionnelle espagnole enrichie d\'un savoureux chorizo légèrement relevé',
-  price: 90,
-  detailedDescription: 'Notre tortilla est préparée selon la recette traditionnelle avec des pommes de terre confites dans l\'huile d\'olive, auxquelles nous ajoutons un chorizo artisanal légèrement piquant. Cuite lentement pour obtenir un cœur moelleux et fondant, elle est servie tiède pour en apprécier toutes les saveurs.'
-},
-      {
-        name: 'TORTILLA ESPAGNOLE CLASSIQUE',
-        description: 'L\'authentique omelette espagnole aux pommes de terre',
-        price: 70,
-        detailedDescription: 'Notre tortilla traditionnelle est préparée avec des pommes de terre soigneusement sélectionnées, confites à basse température dans notre huile d\'olive vierge extra. Elle est cuite à la perfection pour offrir un contraste entre l\'extérieur légèrement doré et un cœur tendre et onctueux.'
-      },
-      {
-        name: 'TORTILLA ESPAGNOLE AUX ÉPINARDS ET MANCHEGO',
-        description: 'Variante délicate de la tortilla classique aux épinards frais et manchego affiné',
-        price: 90,
-        detailedDescription: 'Cette élégante version de notre tortilla associe la douceur des épinards frais légèrement wilted et la richesse du fromage manchego affiné pendant 6 mois. La combinaison des pommes de terre fondantes, des épinards et du fromage crée un équilibre parfait entre onctuosité et caractère.'
-      },
-      {
-        name: 'HUEVOS ROTOS CON CHORIZO (HALAL)',
-        description: 'Œufs cuits sur un lit de pommes de terre avec du chorizo grillé',
-        price: 95,
-        detailedDescription: 'Nos œufs aux jaunes oranges sont délicatement cuits sur un lit de pommes de terre tendres et accompagnés de chorizo halal légèrement grillé. Le jaune coulant se mêle aux pommes de terre et au chorizo pour créer une harmonie de saveurs rustiques et réconfortantes.'
-      }
+        {
+          name: 'TORTILLA ESPAGNOLE AU CHORIZO',
+          description: 'L\'omelette traditionnelle espagnole enrichie d\'un savoureux chorizo légèrement relevé',
+          price: 90,
+          detailedDescription: 'Notre tortilla est préparée selon la recette traditionnelle avec des pommes de terre confites dans l\'huile d\'olive, auxquelles nous ajoutons un chorizo artisanal légèrement piquant. Cuite lentement pour obtenir un cœur moelleux et fondant, elle est servie tiède pour en apprécier toutes les saveurs.'
+        },
+        {
+          name: 'TORTILLA ESPAGNOLE CLASSIQUE',
+          description: 'L\'authentique omelette espagnole aux pommes de terre',
+          price: 70,
+          detailedDescription: 'Notre tortilla traditionnelle est préparée avec des pommes de terre soigneusement sélectionnées, confites à basse température dans notre huile d\'olive vierge extra. Elle est cuite à la perfection pour offrir un contraste entre l\'extérieur légèrement doré et un cœur tendre et onctueux.'
+        },
+        {
+          name: 'TORTILLA ESPAGNOLE AUX ÉPINARDS ET MANCHEGO',
+          description: 'Variante délicate de la tortilla classique aux épinards frais et manchego affiné',
+          price: 90,
+          detailedDescription: 'Cette élégante version de notre tortilla associe la douceur des épinards frais légèrement wilted et la richesse du fromage manchego affiné pendant 6 mois. La combinaison des pommes de terre fondantes, des épinards et du fromage crée un équilibre parfait entre onctuosité et caractère.'
+        },
+        {
+          name: 'HUEVOS ROTOS CON CHORIZO (HALAL)',
+          description: 'Œufs cuits sur un lit de pommes de terre avec du chorizo grillé',
+          price: 95,
+          detailedDescription: 'Nos œufs aux jaunes oranges sont délicatement cuits sur un lit de pommes de terre tendres et accompagnés de chorizo halal légèrement grillé. Le jaune coulant se mêle aux pommes de terre et au chorizo pour créer une harmonie de saveurs rustiques et réconfortantes.'
+        }
       ]
     },
     {
       title: 'FRITURES',
       items: [
         {
-        name: 'ANCHOIS AL LIMON',
-        description: 'Anchois frais marinés au citron, enrobé d\'une fine panure, frits à la perfection.',
-        price: 80,
-        detailedDescription: 'Nos anchois frais sont délicatement filetés puis enrobés d\'une légère pâte à tempura avant d\'être frits à l\'instant. Croustillants à l\'extérieur et fondants à l\'intérieur, ils sont servis avec des quartiers de citron frais et une touche de fleur de sel pour sublimer leur saveur marine.'
-      },
-      {
-        name: 'CREVETTES POPCORN',
-        description: 'Crevettes croustillantes façon popcorn avec une sauce cocktail maison',
-        price: 80,
-        detailedDescription: 'Nos crevettes sont enrobées d\'une panure croustillante, puis frites à la perfection pour obtenir un extérieur doré et craquant tout en préservant la tendreté de la chair. Servies avec notre sauce cocktail maison légèrement épicée, c\'est un délice irrésistible.'
-      },
-      {
-        name: 'CALAMARES FRITOS',
-        description: 'Rondelles de calamars tendre en friture légère, servis avec une sauce tartare',
-        price: 140,
-        detailedDescription: 'Inspirés par la tradition andalouse, nos calamars sont trempés dans une pâte à frire aérienne puis frits rapidement à haute température pour préserver leur tendreté. Servis avec une sauce tartare maison et une touche de persil frais haché, ils offrent un équilibre parfait entre croustillant et moelleux.'
-      },
-      {
-        name: 'CROQUETTES DE POULET',
-        description: 'Croquettes crémeuses au poulet, champignons sauvages et fromage fondu',
-        price: 80,
-        detailedDescription: 'Nos croquettes sont préparées avec une béchamel onctueuse enrichie de poulet effiloché, de champignons sauvages sautés et d\'un mélange de fromages affinés. L\'ensemble est enrobé d\'une chapelure dorée et frit jusqu\'à obtenir une coque croustillante qui révèle un cœur fondant et savoureux.'
-      },
-      {
-        name: 'CROQUETTES DE CREVETTES',
-        description: 'Croquettes crémeuses aux crevettes et bisque maison, parfumées au piment d\'Espelette',
-        price: 80,
-        detailedDescription: 'Ces croquettes délicates sont élaborées à partir d\'une bisque de crevettes réduite et concentrée, incorporée à une béchamel soyeuse avec des morceaux de crevettes. Une légère touche de piment d\'Espelette apporte une subtile chaleur qui rehausse les saveurs marines, le tout enveloppé d\'une fine croûte dorée et croustillante.'
-      },
-      {
-        name: 'FISH & CHIPS',
-        description: 'Filet de cabillaud en tempura croustillante avec pommes de terre en spirale',
-        price: 160,
-        detailedDescription: 'Notre interprétation du classique britannique associe un filet de cabillaud ultra-frais enrobé d\'une pâte tempura croustillante et aérienne, servi avec nos pommes de terre Hurricane en spirale à la texture incomparable. Le tout est accompagné d\'une sauce tartare maison aux câpres croquantes et cornichons finement hachés.'
-      },
-            {
-  name: 'FRITURE DE SAISON',
-  description: 'Petits rougets & éperlans croustillants',
-  price: 160,
-  detailedDescription: 'Une friture de saison composée de petits rougets et éperlans croustillants.'
-},
-      {
-        name: 'FRITURE DE POISSON',
-        description: 'Généreuse sélection de poissons et fruits de mer frits à la perfection',
-        price: 220,
-        detailedDescription: 'Cette friture royale propose une sélection variée de poissons méditerranéens, calamars, crevettes et accras de morue, chacun enrobé d\'une panure spécifique qui sublime sa saveur naturelle. L\'assortiment est servi avec notre sauce tartare maison pour satisfaire toutes les envies.'
-      }
+          name: 'ANCHOIS AL LIMON',
+          description: 'Anchois frais marinés au citron, enrobé d\'une fine panure, frits à la perfection.',
+          price: 80,
+          detailedDescription: 'Nos anchois frais sont délicatement filetés puis enrobés d\'une légère pâte à tempura avant d\'être frits à l\'instant. Croustillants à l\'extérieur et fondants à l\'intérieur, ils sont servis avec des quartiers de citron frais et une touche de fleur de sel pour sublimer leur saveur marine.'
+        },
+        {
+          name: 'CREVETTES POPCORN',
+          description: 'Crevettes croustillantes façon popcorn avec une sauce cocktail maison',
+          price: 80,
+          detailedDescription: 'Nos crevettes sont enrobées d\'une panure croustillante, puis frites à la perfection pour obtenir un extérieur doré et craquant tout en préservant la tendreté de la chair. Servies avec notre sauce cocktail maison légèrement épicée, c\'est un délice irrésistible.'
+        },
+        {
+          name: 'CALAMARES FRITOS',
+          description: 'Rondelles de calamars tendre en friture légère, servis avec une sauce tartare',
+          price: 140,
+          detailedDescription: 'Inspirés par la tradition andalouse, nos calamars sont trempés dans une pâte à frire aérienne puis frits rapidement à haute température pour préserver leur tendreté. Servis avec une sauce tartare maison et une touche de persil frais haché, ils offrent un équilibre parfait entre croustillant et moelleux.'
+        },
+        {
+          name: 'CROQUETTES DE POULET',
+          description: 'Croquettes crémeuses au poulet, champignons sauvages et fromage fondu',
+          price: 80,
+          detailedDescription: 'Nos croquettes sont préparées avec une béchamel onctueuse enrichie de poulet effiloché, de champignons sauvages sautés et d\'un mélange de fromages affinés. L\'ensemble est enrobé d\'une chapelure dorée et frit jusqu\'à obtenir une coque croustillante qui révèle un cœur fondant et savoureux.'
+        },
+        {
+          name: 'CROQUETTES DE CREVETTES',
+          description: 'Croquettes crémeuses aux crevettes et bisque maison, parfumées au piment d\'Espelette',
+          price: 80,
+          detailedDescription: 'Ces croquettes délicates sont élaborées à partir d\'une bisque de crevettes réduite et concentrée, incorporée à une béchamel soyeuse avec des morceaux de crevettes. Une légère touche de piment d\'Espelette apporte une subtile chaleur qui rehausse les saveurs marines, le tout enveloppé d\'une fine croûte dorée et croustillante.'
+        },
+        {
+          name: 'FISH & CHIPS',
+          description: 'Filet de cabillaud en tempura croustillante avec pommes de terre en spirale',
+          price: 160,
+          detailedDescription: 'Notre interprétation du classique britannique associe un filet de cabillaud ultra-frais enrobé d\'une pâte tempura croustillante et aérienne, servi avec nos pommes de terre Hurricane en spirale à la texture incomparable. Le tout est accompagné d\'une sauce tartare maison aux câpres croquantes et cornichons finement hachés.'
+        },
+        {
+          name: 'FRITURE DE SAISON',
+          description: 'Petits rougets & éperlans croustillants',
+          price: 160,
+          detailedDescription: 'Une friture de saison composée de petits rougets et éperlans croustillants.',
+          isNew: true
+        },
+        {
+          name: 'FRITURE DE POISSON',
+          description: 'Généreuse sélection de poissons et fruits de mer frits à la perfection',
+          price: 220,
+          detailedDescription: 'Cette friture royale propose une sélection variée de poissons méditerranéens, calamars, crevettes et accras de morue, chacun enrobé d\'une panure spécifique qui sublime sa saveur naturelle. L\'assortiment est servi avec notre sauce tartare maison pour satisfaire toutes les envies.'
+        }
       ]
     }
   ];
 
-  // Elegant divider component to reduce repetition
   const ElegantDivider = () => (
     <div className="flex items-center justify-center my-16">
       <div className="h-px w-16 bg-amber-200/30"></div>
@@ -259,10 +284,8 @@ export default function OeufsFrituresMenu() {
 
   return (
     <section ref={menuRef} className="py-20 bg-[#3e4c52] text-amber-50 relative">
-      {/* Background elements */}
       <div className="absolute inset-0 opacity-10"></div>
       
-      {/* Menu content */}
       <div className="container mx-auto px-4">
         {menuSections.map((section, index) => (
           <div key={index}>
@@ -272,7 +295,6 @@ export default function OeufsFrituresMenu() {
         ))}
       </div>
       
-      {/* Elegant divider bottom */}
       <div className="flex items-center justify-center mt-20">
         <div className="h-px w-24 bg-amber-200/40"></div>
         <div className="mx-4 text-amber-200/60">✦</div>
