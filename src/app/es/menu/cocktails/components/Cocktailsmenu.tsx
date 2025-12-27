@@ -175,9 +175,9 @@ export default function CocktailsMenu() {
       items: [
 {
   name: 'CAP SPARTEL',
-  description: 'Gin Bombay Dry, Puré de Uva, Vermut Blanco, Esencia de Romero',
+  description: 'Gin Bombay Dry, Puré de Frutos Rojos Casero, Vermut Blanco, Esencia de Romero',
   price: 95,
-  detailedDescription: 'Inspirado en el legendario faro del Cabo Spartel donde el Atlántico se encuentra con el Mediterráneo, este elegante cóctel de ginebra resalta la herencia botánica del Bombay Dry. El puré de uva fresca aporta dulzura natural mientras que el vermut blanco ofrece sofisticación clásica. Una delicada esencia de romero te transporta a los acantilados perfumados de hierbas del norte de Marruecos.'
+  detailedDescription: 'Inspirado en el legendario faro del Cabo Spartel donde el Atlántico se encuentra con el Mediterráneo, este elegante cóctel de ginebra resalta la herencia botánica del Bombay Dry. El puré de frutos rojos casero aporta dulzura natural vibrante mientras que el vermut blanco ofrece sofisticación clásica. Una delicada esencia de romero te transporta a los acantilados perfumados de hierbas del norte de Marruecos.'
 },
 {
   name: 'ACHAKAR',
@@ -193,9 +193,9 @@ export default function CocktailsMenu() {
 },
 {
   name: 'HAFA',
-  description: 'Mezcal San Cosme, Oleo-Saccharum de Plátano Especiado, Jarabe de Vino Blanco y Frutas Asadas, Puré de Plátano Carbonizado',
+  description: 'Vodka Titos, Licor de Café Kahlua, Licor "Falfla" Casero (Ahumado, Dulce, No Picante)',
   price: 95,
-  detailedDescription: 'Un viaje exótico que presenta el alma ahumada del Mezcal San Cosme artesanal combinado con nuestro oleo-saccharum de plátano especiado hecho en casa. Nuestro jarabe único de vino blanco, infusionado con durazno y piña asada al fuego, crea capas de dulzura sofisticada. El puré de plátano carbonizado añade un final ahumado dramático a esta aventura tropical audaz.'
+  detailedDescription: 'Un viaje sensorial sofisticado que presenta la suavidad aterciopelada del Vodka Titos combinada con la riqueza del Kahlua. Nuestro licor "Falfla" casero aporta una dimensión ahumada y dulce única, creando un equilibrio perfecto entre profundidad aromática y dulzura cautivadora. Una creación audaz que captura el espíritu misterioso de los cafés tangerinos.'
 }
 
       ]

@@ -172,11 +172,11 @@ const handleShotExpand = (index: number) => {
     {
   title: 'SIGNATURE COCKTAILS',
   items: [
-    {
+{
   name: 'CAP SPARTEL',
-  description: 'Bombay Dry Gin, Grape Purée, White Vermouth, Rosemary',
+  description: 'Bombay Dry Gin, Homemade Red Fruits Purée, White Vermouth, Rosemary',
   price: 95,
-  detailedDescription: 'Named after Morocco\'s iconic lighthouse, this sophisticated cocktail marries the botanical complexity of Bombay Dry gin with the sweetness of grape purée. White vermouth adds elegance while fresh rosemary brings an aromatic Mediterranean touch to this refined creation.'
+  detailedDescription: 'Named after Morocco\'s iconic lighthouse, this sophisticated cocktail marries the botanical complexity of Bombay Dry gin with the vibrant sweetness of homemade red fruits purée. White vermouth adds elegance while fresh rosemary brings an aromatic Mediterranean touch to this refined creation.'
 },
 {
   name: 'ACHAKKAR',
@@ -192,9 +192,9 @@ const handleShotExpand = (index: number) => {
 },
 {
   name: 'HAFA',
-  description: 'Mezcal San Cosme, Spiced Banana Oleo-Saccharum, White Wine Peach & Grilled Pineapple Syrup, Grilled Banana Purée',
+  description: 'Titos Vodka, Kahlua Coffee Liqueur, Homemade "Falfla" Liqueur (Smoky, Sweet, Not Spicy)',
   price: 95,
-  detailedDescription: 'An adventurous tropical creation featuring artisanal mezcal and house-made spiced banana oleo-saccharum. The complex syrup of white wine, peach, and grilled pineapple adds sophisticated sweetness, while smashed grilled banana purée brings smoky depth to this innovative cocktail.'
+  detailedDescription: 'A sophisticated sensory journey featuring the velvety smoothness of Titos Vodka paired with the rich depth of Kahlua. Our homemade "Falfla" liqueur brings a unique smoky-sweet dimension, creating a perfect balance between aromatic depth and captivating sweetness. A bold creation that captures the mysterious spirit of Tangier\'s legendary cafés.'
 }
       ]
     },

@@ -172,11 +172,11 @@ export default function CocktailsMenu() {
     {
       title: 'COCKTAILS SIGNATURE',
       items: [
-   {
+{
   name: 'CAP SPARTEL',
-  description: 'Gin Bombay Dry, Purée de Raisin, Vermouth Blanc, Essence de Romarin',
+  description: 'Gin Bombay Dry, Purée de Fruits Rouges Maison, Vermouth Blanc, Essence de Romarin',
   price: 95,
-  detailedDescription: 'Inspiré par le légendaire phare du Cap Spartel où l\'Atlantique rencontre la Méditerranée, ce cocktail élégant au gin met en valeur l\'héritage botanique du Bombay Dry. La purée de raisin frais apporte une douceur naturelle tandis que le vermouth blanc offre une sophistication classique. Une délicate essence de romarin vous transporte vers les falaises parfumées aux herbes du nord du Maroc.'
+  detailedDescription: 'Inspiré par le légendaire phare du Cap Spartel où l\'Atlantique rencontre la Méditerranée, ce cocktail élégant au gin met en valeur l\'héritage botanique du Bombay Dry. La purée de fruits rouges maison apporte une douceur naturelle vibrante tandis que le vermouth blanc offre une sophistication classique. Une délicate essence de romarin vous transporte vers les falaises parfumées aux herbes du nord du Maroc.'
 },
 {
   name: 'ACHAKAR',
@@ -192,9 +192,9 @@ export default function CocktailsMenu() {
 },
 {
   name: 'HAFA',
-  description: 'Mezcal San Cosme, Oléo-Saccharum Banane Épicée, Sirop Vin Blanc & Fruits Grillés, Purée de Banane Carbonisée',
+  description: 'Vodka Titos, Liqueur de Café Kahlua, Liqueur "Falfla" Maison (Fumée, Douce, Non Piquante)',
   price: 95,
-  detailedDescription: 'Un voyage exotique mettant en vedette l\'âme fumée du Mezcal San Cosme artisanal associé à notre oléo-saccharum banane épicée fait maison. Notre sirop unique au vin blanc, infusé à la pêche et à l\'ananas grillé au feu, crée des couches de douceur sophistiquée. La purée de banane carbonisée ajoute une finition fumée dramatique à cette aventure tropicale audacieuse.'
+  detailedDescription: 'Un voyage sensoriel sophistiqué mettant en vedette la douceur veloutée de la Vodka Titos associée à la richesse du Kahlua. Notre liqueur "Falfla" maison apporte une dimension fumée et douce unique, créant un équilibre parfait entre profondeur aromatique et douceur envoûtante. Une création audacieuse qui capture l\'esprit mystérieux des cafés tangérois.'
 }
       ]
     },
