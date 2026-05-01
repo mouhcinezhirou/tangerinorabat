@@ -196,7 +196,7 @@ export default function TapasEntreesMenu() {
           name: 'PATATAS "HURRICANE" CON SUS 3 SALSAS',
           description: 'Patatas en espiral servidas con trío de salsas caseras',
           price: 60,
-          detailedDescription: 'Patatas cortadas en espiral y fritas a la perfección, acompañadas de una salsa alioli al azafrán, una salsa brava picante y una salsa cremosa con hierbas frescas del jardín.'
+          detailedDescription: 'Patatas cortadas en espiral y fritas a la perfección, acompañadas de una salsa bravas picante, una salsa alioli cremosa y una salsa BBQ ahumada.'
         },
         {
           name: 'PIMIENTOS DEL PADRÓN',
@@ -226,7 +226,7 @@ export default function TapasEntreesMenu() {
           name: 'PARMIGIANA DE TERNERA CON CHORIZO HALAL',
           description: 'Deliciosa preparación de berenjenas, ternera y chorizo halal gratinada al horno',
           price: 90,
-          detailedDescription: 'Capas alternadas de berenjenas a la parrilla, ternera estofada y chorizo halal ligeramente picante, todo ello cubierto con una salsa de tomate con hierbas frescas y generosamente gratinado con parmesano curado 24 meses.'
+          detailedDescription: 'Capas alternadas de berenjenas a la parrilla, ternera estofada y chorizo halal ligeramente picante, todo ello cubierto con una salsa bechamel cremosa y generosamente gratinado con parmesano.'
         },
         {
           name: 'PARMIGIANA DE MARISCOS',
@@ -268,7 +268,7 @@ export default function TapasEntreesMenu() {
           name: 'ENSALADILLA RUSA',
           description: 'Versión refinada de la tradicional ensaladilla de verduras y mayonesa',
           price: 70,
-          detailedDescription: 'Nuestra elegante interpretación de la ensaladilla rusa tradicional combina patatas, zanahorias y guisantes finamente cortados, todo ello envuelto en una ligera mayonesa perfumada con limón y eneldo fresco.'
+          detailedDescription: 'Nuestra elegante interpretación de la ensaladilla rusa tradicional combina patatas, zanahorias, todo ello envuelto en una ligera mayonesa perfumada con limón y eneldo fresco.'
         },
         {
           name: 'ENSALADILLA DE LANGOSTA',
@@ -300,12 +300,6 @@ export default function TapasEntreesMenu() {
           price: 160,
           detailedDescription: 'Nuestro tentáculo de pulpo es primero confitado durante varias horas y luego asado sobre brasas ardientes para obtener un contraste perfecto entre una textura tierna y notas ligeramente ahumadas.'
         },
-        {
-  name: 'REVUELTO DE SETAS DE MONTAÑA CON CEPS',
-  description: 'Huevos revueltos con setas silvestres de montaña y ceps (boletus edulis)',
-  price: 140,
-  detailedDescription: 'Nuestros huevos revueltos se preparan con una selección de setas silvestres de montaña y ceps (boletus edulis) para una experiencia gastronómica auténtica.'
-},
 {
   name: 'CORAZONES DE ALCACHOFAS RELLENOS DE MARISCO Y GRATINADOS',
   description: 'Corazones de alcachofas rellenos de marisco y gratinados a la perfección',
@@ -371,12 +365,6 @@ export default function TapasEntreesMenu() {
           detailedDescription: 'Nuestro pulpo se cuece primero lentamente y luego se lamina finamente. Cada bocado ofrece una textura tierna y un perfecto equilibrio de sabores marinos.'
         },
         {
-          name: 'CARPACCIO DE GAMBAS ROJAS FLAMEADAS',
-          description: 'Delicadas lonchas de gambas rojas salvajes con un toque de ajo picante',
-          price: 160,
-          detailedDescription: 'Nuestras gambas rojas salvajes del Mediterráneo se flamean ligeramente, se laminan finamente y se aliñan con aceite perfumado con ajo y guindilla. Un manjar marino de sabores intensos y textura incomparable.'
-        },
-        {
           name: 'CARPACCIO DE ATÚN ROJO',
           description: 'Finas lonchas de atún rojo crudo con salsa tailandesa y pimientos verdes',
           price: 140,
@@ -387,19 +375,7 @@ export default function TapasEntreesMenu() {
           description: 'Finas lonchas de ternera cruda aliñadas con aceite de trufa y virutas de parmesano',
           price: 120,
           detailedDescription: 'Nuestro solomillo de ternera se sella ligeramente, se lamina finamente y se presenta con un hilo de aceite de trufa, virutas de parmesano curado 24 meses y algunas alcaparras.'
-        },
-        {
-          name: 'CARPACCIO ESTILO BRESAOLA',
-          description: 'Finas lonchas de lomo de pavo marinado y secado como bresaola',
-          price: 120,
-          detailedDescription: 'Nuestro lomo de pavo se marina en una mezcla de especias, vino y hierbas aromáticas y luego se seca lentamente para desarrollar un sabor complejo que recuerda a la bresaola tradicional, servido con rúcula y virutas de parmesano.'
-        },
-        {
-          name: 'SASHIMI DE SALMONETE MARINADO Y FLAMEADO',
-          description: 'Finas lonchas de salmonete acompañadas de un salpicón de gambas',
-          price: 145,
-          detailedDescription: 'Nuestro salmonete del Mediterráneo se marina brevemente y luego se flamea para desarrollar sus aromas preservando su delicada textura. Se acompaña de un refrescante salpicón de gambas, hierbas frescas y cítricos.'
-        },
+        }
       ]
     },
     {

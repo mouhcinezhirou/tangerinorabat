@@ -196,7 +196,7 @@ export default function TapasEntreesMenu() {
           name: 'HURRICANE POTATOES WITH 3 SAUCES',
           description: 'Spiral-cut potatoes served with a trio of homemade sauces',
           price: 60,
-          detailedDescription: 'Potatoes cut in a spiral pattern and fried to perfection, served with saffron aioli sauce, spicy brava sauce, and a creamy sauce made with fresh garden herbs.'
+          detailedDescription: 'Potatoes cut in a spiral pattern and fried to perfection, served with a spicy bravas sauce, a creamy aioli sauce, and a smoky BBQ sauce.'
         },
         {
           name: 'PIMIENTOS DEL PADRON',
@@ -226,7 +226,7 @@ export default function TapasEntreesMenu() {
           name: 'VEAL PARMIGIANA WITH HALAL CHORIZO',
           description: 'Delicious preparation of eggplant, veal, and halal chorizo baked au gratin',
           price: 90,
-          detailedDescription: 'Alternating layers of grilled eggplant, slow-cooked veal, and lightly spiced halal chorizo, all topped with a fresh herb tomato sauce and generously gratinéed with 24-month aged parmesan.'
+          detailedDescription: 'Alternating layers of grilled eggplant, slow-cooked veal, and lightly spiced halal chorizo, all topped with a creamy béchamel sauce and generously gratinéed with parmesan.'
         },
         {
           name: 'SEAFOOD PARMIGIANA',
@@ -268,7 +268,7 @@ export default function TapasEntreesMenu() {
           name: 'RUSSIAN SALAD',
           description: 'Refined version of the traditional vegetable and mayonnaise salad',
           price: 70,
-          detailedDescription: 'Our elegant interpretation of traditional Russian salad combines finely chopped potatoes, carrots, and peas, all coated in a light mayonnaise flavored with lemon and fresh dill.'
+          detailedDescription: 'Our elegant interpretation of traditional Russian salad combines finely chopped potatoes, carrots, all coated in a light mayonnaise flavored with lemon and fresh dill.'
         },
         {
           name: 'LANGOUSTINE ENSALADILLA',
@@ -300,12 +300,6 @@ export default function TapasEntreesMenu() {
           price: 160,
           detailedDescription: 'Our octopus tentacle is first confit for several hours then grilled over hot embers to achieve a perfect contrast between a melt-in-your-mouth texture and slightly smoky notes.'
         },
-        {
-  name: 'SCRAMBLED EGGS WITH WILD MOUNTAIN MUSHROOMS AND PORCINI',
-  description: 'Scrambled eggs with wild mountain mushrooms and porcini (boletus edulis)',
-  price: 140,
-  detailedDescription: 'Our scrambled eggs are prepared with a selection of wild mountain mushrooms and porcini (boletus edulis) for an authentic gourmet experience.'
-},
 {
   name: 'ARTICHOKE HEARTS STUFFED WITH SEAFOOD AND GRATINATED',
   description: 'Artichoke hearts stuffed with seafood and gratinated to perfection',
@@ -371,12 +365,6 @@ export default function TapasEntreesMenu() {
           detailedDescription: 'Our octopus is first slowly cooked then finely sliced. Each bite offers tender texture and perfect balance of marine flavors.'
         },
         {
-          name: 'FLAMBÉED RED SHRIMP CARPACCIO',
-          description: 'Delicate slices of wild red shrimp with a touch of spicy garlic',
-          price: 160,
-          detailedDescription: 'Our wild Mediterranean red shrimp are lightly flambéed then finely sliced and seasoned with garlic and chili-infused oil. A marine delicacy with intense flavors and incomparable texture.'
-        },
-        {
           name: 'RED TUNA CARPACCIO',
           description: 'Thin slices of raw red tuna with Thai sauce and green peppers',
           price: 140,
@@ -387,19 +375,7 @@ export default function TapasEntreesMenu() {
           description: 'Thin slices of raw beef seasoned with truffle oil and parmesan shavings',
           price: 120,
           detailedDescription: 'Our beef fillet is lightly seared then finely sliced and presented with a drizzle of truffle oil, 24-month aged parmesan shavings and some capers.'
-        },
-        {
-          name: 'BRESAOLA-STYLE CARPACCIO',
-          description: 'Thin slices of marinated and dried turkey loin like a bresaola',
-          price: 120,
-          detailedDescription: 'Our turkey loin is marinated in a blend of spices, wine, and aromatic herbs then slowly dried to develop a complex flavor reminiscent of traditional bresaola, served with arugula and parmesan shavings.'
-        },
-        {
-          name: 'MARINATED AND FLAMBÉED RED MULLET SASHIMI',
-          description: 'Thin slices of red mullet accompanied by a shrimp salpicon',
-          price: 145,
-          detailedDescription: 'Our Mediterranean red mullet is briefly marinated then flambéed to develop its flavors while preserving its delicate texture. It is accompanied by a refreshing salpicon of shrimp, fresh herbs, and citrus.'
-        },
+        }
       ]
     },
     {

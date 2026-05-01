@@ -179,24 +179,18 @@ export default function CassolettesMenu() {
         price: 180,
         detailedDescription: 'Nuestras gambas salvajes pescadas en el Mediterráneo se saltean en una cazuelita ardiente con aceite de oliva infusionado con ajo fresco y guindilla roja. El jugo de cocción picante y aromático es ideal para ser saboreado con nuestro pan casero crujiente. Un plato emblemático que despierta las papilas y evoca instantáneamente las tabernas mediterráneas.'
       },
-{
-  name: 'ALMEJAS A LA MARINERA',
-  description: 'Almejas frescas abiertas en un sabroso caldo de pescado ligado con harina',
-  price: 120,
-  detailedDescription: 'Nuestras almejas vivas son cuidadosamente seleccionadas cada mañana y cocidas al momento en nuestras cazuelitas. Se abren delicadamente en un sabroso caldo de pescado ligeramente ligado con harina. Un clásico mediterráneo revisitado, donde la calidad excepcional del producto se pone de relieve con sabores auténticos y reconfortantes.'
-},
       {
         name: 'PEZ ESPADA Y GAMBAS AL AJILLO',
         description: 'Medallones de pez espada fresco y gambas salteados con ajo',
         price: 160,
         detailedDescription: 'Elegantes medallones de pez espada fresco se saltean rápidamente con gambas en aceite infusionado con ajo y tomillo fresco. Este dúo marino se sirve en una cazuelita burbujeante que preserva todos sus sabores. Una pizca de pimiento de Espelette perfecciona este plato a la vez refinado y generoso. La alianza perfecta de dos tesoros del Mediterráneo, que el servicio en cazuelita hace aún más sabroso.'
       },
-      {
-        name: 'PEZ ESPADA Y ALMEJAS AL AJILLO',
-        description: 'Combinación armoniosa de pez espada tierno y almejas jugosas con ajo',
-        price: 160,
-        detailedDescription: 'Esta cazuelita combina con elegancia la carne fundente del pez espada y el sabor yodado de las almejas. Los dos productos se cocinan por separado para respetar su textura, luego se reúnen en una cazuelita ardiente con aceite de oliva aromatizado con ajo, guindilla y perejil. El jugo de las almejas impregna delicadamente el pez espada, creando una sinfonía de sabores marinos realzada por el calor de la cazuelita que continúa la cocción en la mesa.'
-      }
+{
+  name: 'PEZ ESPADA PIL-PIL',
+  description: 'Pez espada tierno al ajo, cocinado en cazuelita con aceite de oliva y guindilla',
+  price: 160,
+  detailedDescription: 'Esta cazuelita pone en valor la carne fundente del pez espada, cocinado en aceite de oliva aromatizado con ajo, guindilla y perejil. La cazuelita ardiente continúa la cocción en la mesa, concentrando los sabores y envolviendo el pez espada en una salsa untuosa y perfumada que realza la delicadeza de este noble pescado.'
+}
     ]
   },
   {

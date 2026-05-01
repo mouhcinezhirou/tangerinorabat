@@ -234,35 +234,35 @@ export default function PaellasMenu() {
         {
         name: 'PAELLA A BANDA',
         description: 'Round rice with small squid and small shrimp, fish stock and light aioli sauce on the paella',
-        price: 120,
+        price: 140,
         forMinPersons: 2,
         detailedDescription: 'This traditional paella from the Valencian coast is prepared with round rice cooked in a rich fish stock. Served with a light aioli sauce to enhance the delicate marine flavors according to your taste.'
       },
       {
         name: 'SQUID AND SHRIMP PAELLA',
         description: 'Golden rice garnished with tender squid rings and shrimp cooked to perfection',
-        price: 150,
+        price: 160,
         forMinPersons: 2,
         detailedDescription: 'Our seafood paella combines subtly flavored rice with fresh squid cut into rings and shrimp. Everything is slowly simmered in homemade fish stock.'
       },
       {
         name: 'PAELLA NEGRA',
         description: 'Paella rice with squid ink and prawns',
-        price: 160,
+        price: 170,
         forMinPersons: 2,
         detailedDescription: 'This spectacular paella gets its ebony black color from squid ink which also brings a deep marine flavor. The creamy rice pairs perfectly with prawns, all enhanced with a drizzle of lemon-infused olive oil and a touch of garlic.'
       },
       {
         name: 'HERGMA-STYLE PAELLA',
         description: 'Beef feet and chickpea paella, hergma style. Mediterranean fusion uniting Spanish tradition with North African hergma flavors.',
-        price: 150,
+        price: 170,
         forMinPersons: 2,
         detailedDescription: 'This original creation marries the art of Spanish paella with the flavors of traditional Moroccan Hergma. Beef feet, simmered for hours until tender, blend with creamy chickpeas and rice perfumed with mild spices for a unique taste experience between two Mediterranean shores.'
       },
       {
         name: 'PAELLA DEL SEÑORITOS',
         description: 'Generous marine feast of seafood and fish on a bed of round rice',
-        price: 220,
+        price: 230,
         forMinPersons: 2,
         detailedDescription: 'Our royal seafood paella combines a varied selection of marine treasures completely shelled for your comfort: fresh seafood and fish. The round rice captures all the seafood flavors for an incomparable iodized taste experience.'
       },
@@ -283,7 +283,7 @@ export default function PaellasMenu() {
       {
         name: 'VALENCIAN PAELLA',
         description: 'The authentic paella from Valencia combining tender pieces of chicken and seasonal vegetables',
-        price: 150,
+        price: 180,
         forMinPersons: 2,
         detailedDescription: 'True to the authentic Valencian recipe, this paella combines golden chicken pieces with a selection of seasonal vegetables. The round rice, slowly cooked in seasoned stock, absorbs all the flavors to create this emblematic Spanish dish in its most traditional version.'
       },
@@ -295,26 +295,14 @@ export default function PaellasMenu() {
       {
         name: 'SOFT RICE MARINIÈRE WITH RED PRAWNS',
         description: 'Creamy risotto-style rice with iodized notes, crowned with red prawns',
-        price: 280,
+        price: 260,
         detailedDescription: 'This soft rice inspired by Spanish "arroz meloso" is prepared with an intense crustacean stock and garnished with red Mediterranean prawns. Its texture, between paella and risotto, offers a creaminess that envelops the palate while the prawns bring their delicate flavor and characteristic firm texture.'
       },
       {
         name: 'FIDEUA DEL SEÑORITOS',
         description: 'Fideua vermicelli richly garnished with seafood',
-        price: 220,
+        price: 230,
         detailedDescription: 'This specialty from the Valencian coast uses thin fideua vermicelli. Golden then simmered in fish stock, these vermicelli are enriched with seafood flavors for optimal tasting comfort.'
-      },
-      {
-        name: 'SPAGHETTI ALLE VONGOLE',
-        description: 'Al dente spaghetti with fresh clams, flavored with olive oil, garlic and crushed tomato',
-        price: 160,
-        detailedDescription: 'This Italian classic is prepared in respect of tradition: fresh clams opened at the minute with olive oil, garlic and crushed tomato. The spaghetti, cooked al dente, pairs perfectly with this preparation with marine aromas, enhanced with extra virgin olive oil.'
-      },
-      {
-        name: 'SPAGHETTI AL NERO',
-        description: 'Black spaghetti with squid ink, adorned with tender pieces of squid and fresh basil',
-        price: 120,
-        detailedDescription: 'These black spaghetti tinted with squid ink are served with pieces of squid just seared to preserve their tenderness. Fresh basil brings an aromatic note that contrasts deliciously with the marine flavors, all bound by a touch of olive oil and a hint of garlic.'
       },
       {
         name: 'LINGUINE WITH FISH AND SEAFOOD',
@@ -327,13 +315,6 @@ export default function PaellasMenu() {
         description: 'Pasta ribbons with grilled chicken strips and mushrooms sautéed in creamy sauce',
         price: 140,
         detailedDescription: 'Our tagliatelle are served with pieces chicken grilled over charcoal and forest mushrooms sautéed with garlic. A creamy sauce with parmesan and fresh herbs delicately coats the pasta for a comforting dish with authentic flavors.'
-      },
-      {
-        name: 'COUSCOUS FROM THE SEA WITH MOROCCAN FLAVORS',
-        description: 'Steamed semolina with Moroccan spices with fish stock with Moroccan spices',
-        price: 240,
-        specialDay: "FRIDAY",
-        detailedDescription: 'Available only on Friday, our sea couscous offers a fish stock simmered with traditional Moroccan spices. The steamed semolina, perfectly hydrated and flavored, is accompanied by homemade harissa whose intensity you can adjust according to your taste.'
       }
       ]
     }

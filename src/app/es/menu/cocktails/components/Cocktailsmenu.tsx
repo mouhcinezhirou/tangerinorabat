@@ -174,28 +174,28 @@ export default function CocktailsMenu() {
       title: 'CÓCTELES SIGNATURE',
       items: [
 {
-  name: 'CAP SPARTEL',
-  description: 'Gin Bombay Dry, Puré de Frutos Rojos Casero, Vermut Blanco, Esencia de Romero',
-  price: 95,
-  detailedDescription: 'Inspirado en el legendario faro del Cabo Spartel donde el Atlántico se encuentra con el Mediterráneo, este elegante cóctel de ginebra resalta la herencia botánica del Bombay Dry. El puré de frutos rojos casero aporta dulzura natural vibrante mientras que el vermut blanco ofrece sofisticación clásica. Una delicada esencia de romero te transporta a los acantilados perfumados de hierbas del norte de Marruecos.'
+  name: 'TANGERINO',
+  description: 'Ginebra Bombay Sapphire, Cordial Tomate Clarificado, Zumo Limón, Vinagre Romero/Pimienta',
+  price: 120,
+  detailedDescription: 'Una reinterpretación atrevida del martini clásico que revela la inesperada unión entre la botánica del Bombay Sapphire y la dulzura umami del cordial de tomate clarificado. Un toque de vinagre de romero y pimienta aporta un final aromático impactante, capturando la esencia de Tánger entre dos océanos.'
 },
 {
   name: 'ACHAKAR',
-  description: 'Jarabe de Lavanda, Tequila Infusionado con Hibisco, Puré de Coco Casero, Limón Fresco, Licor de Coco',
-  price: 95,
-  detailedDescription: 'Una celebración vibrante de la armonía floral y tropical. El tequila premium infusionado con pétalos de hibisco crea una base carmesí impresionante, mientras que nuestro puré de coco signature aporta riqueza cremosa. El jarabe de lavanda natural evoca la elegancia de la campiña francesa, perfectamente equilibrado con limón brillante y lujoso licor de coco para un viaje sensorial inolvidable.'
-},
-{
-  name: 'TANGERINO',
-  description: 'Bourbon Premium, Napoléon Mandarina, Jarabe de Mandarina y Durazno a la Parrilla, Miel de Jengibre',
-  price: 95,
-  detailedDescription: 'Una celebración audaz de la calidez cítrica y la sofisticación ahumada. El bourbon rico crea el lienzo perfecto para el licor premium Napoléon mandarina, mientras que nuestro jarabe signature de mandarina y durazno asado al fuego añade capas de complejidad frutal caramelizada. La miel dorada de jengibre proporciona el toque final de calidez especiada en esta obra maestra artesanal.'
+  description: 'Tequila Fresa-Infusionado, Triple Sec, Zumo Lima',
+  price: 120,
+  detailedDescription: 'Bautizado con el nombre de la playa salvaje a las puertas de Tánger, este cóctel vibrante captura la energía fresca del verano. El tequila premium infusionado con fresa fresca se une a la profundidad del Triple Sec en un equilibrio perfecto de acidez cítrica para un viaje sensorial inolvidable.'
 },
 {
   name: 'HAFA',
-  description: 'Vodka Titos, Licor de Café Kahlua, Licor "Falfla" Casero (Ahumado, Dulce, No Picante)',
-  price: 95,
-  detailedDescription: 'Un viaje sensorial sofisticado que presenta la suavidad aterciopelada del Vodka Titos combinada con la riqueza del Kahlua. Nuestro licor "Falfla" casero aporta una dimensión ahumada y dulce única, creando un equilibrio perfecto entre profundidad aromática y dulzura cautivadora. Una creación audaz que captura el espíritu misterioso de los cafés tangerinos.'
+  description: 'Mezcal, Vermut Blanco, Cordial Vino Blanco, Licor Cacao, Bitter Cacao, Aroma: Hidrosol Café',
+  price: 120,
+  detailedDescription: 'Un homenaje a las legendarias terrazas de Hafa con vistas al Estrecho de Gibraltar. El mezcal ahumado se une al vermut blanco y al cordial de vino blanco, mientras que el licor de cacao y los bitters añaden una profundidad hipnótica. El hidrosol de café corona la experiencia con un toque aromático inolvidable.'
+},
+{
+  name: 'CAP SPARTEL',
+  description: 'Bourbon, Aperol, Oleo Saccharum Níspero Asado, Zumo Limón',
+  price: 120,
+  detailedDescription: 'Inspirado en el legendario faro del Cabo Espartel donde el Atlántico se encuentra con el Mediterráneo, este cóctel combina el calor del bourbon con la vivacidad del Aperol. El oleo saccharum de níspero asado aporta una dulzura caramelizada y frutal única, perfectamente equilibrada por la frescura del limón.'
 }
 
       ]

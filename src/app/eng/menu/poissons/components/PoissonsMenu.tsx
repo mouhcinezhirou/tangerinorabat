@@ -217,12 +217,6 @@ export default function FishMeatMenu() {
           detailedDescription: 'Our fresh salmon is cooked over charcoal and served with a lemon slice.'
         },
         {
-          name: 'SPICY SCORPIONFISH CASSEROLE IN PIL-PIL SAUCE',
-          description: 'Scorpionfish served in spicy pil-pil sauce',
-          price: 180,
-          detailedDescription: 'Our spicy scorpionfish casserole in pil-pil sauce offers an authentic Mediterranean experience.'
-        },
-        {
           name: 'CATCH OF THE DAY',
           description: 'Fresh local fish selection',
           price: 260,
@@ -237,7 +231,7 @@ export default function FishMeatMenu() {
         {
           name: 'GRILLED LINE-CAUGHT SEA BASS',
           description: 'Sea bass fillet grilled over charcoal',
-          price: 280,
+          price: 320,
           detailedDescription: 'Our sea bass fillet is grilled over charcoal to preserve its exceptional flavor.'
         },
         {
@@ -292,13 +286,6 @@ export default function FishMeatMenu() {
           description: 'Flattened and grilled chicken breast, fresh spinach sautéed with garlic',
           price: 160,
           detailedDescription: 'Our chicken breast is delicately flattened then marinated with fresh herbs before being grilled to obtain tender and juicy meat. It is served with fresh spinach quickly sautéed with garlic and a drizzle of lemon olive oil that brings freshness and lightness.'
-        },
-        {
-          name: 'LEMON ESCALOPINES',
-          description: 'White rice tower infused with garlic and bay leaf',
-          price: 240,
-          detailedDescription: 'Lemon escalopines served with a white rice tower infused with garlic and bay leaf.',
-          isNew: true
         }
       ]
     },

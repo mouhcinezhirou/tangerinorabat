@@ -173,28 +173,28 @@ export default function CocktailsMenu() {
       title: 'COCKTAILS SIGNATURE',
       items: [
 {
-  name: 'CAP SPARTEL',
-  description: 'Gin Bombay Dry, Purée de Fruits Rouges Maison, Vermouth Blanc, Essence de Romarin',
-  price: 95,
-  detailedDescription: 'Inspiré par le légendaire phare du Cap Spartel où l\'Atlantique rencontre la Méditerranée, ce cocktail élégant au gin met en valeur l\'héritage botanique du Bombay Dry. La purée de fruits rouges maison apporte une douceur naturelle vibrante tandis que le vermouth blanc offre une sophistication classique. Une délicate essence de romarin vous transporte vers les falaises parfumées aux herbes du nord du Maroc.'
+  name: 'TANGERINO',
+  description: 'Gin Bombay Sapphire, Cordial Tomate Clarifié, Jus de Citron, Vinaigre Romarin/Poivre',
+  price: 120,
+  detailedDescription: 'Une réinterprétation audacieuse du martini classique révélant l\'inattendu mariage entre la botanique du Bombay Sapphire et la douceur umami du cordial tomate clarifié. Les gouttes de vinaigre au romarin et poivre apportent une finale aromatique saisissante, capturant l\'essence de Tanger entre Atlantique et Méditerranée.'
 },
 {
   name: 'ACHAKAR',
-  description: 'Sirop de Lavande, Tequila Infusée à l\'Hibiscus, Purée de Coco Maison, Citron Frais, Liqueur de Coco',
-  price: 95,
-  detailedDescription: 'Une célébration vibrante de l\'harmonie florale et tropicale. La tequila premium infusée aux pétales d\'hibiscus crée une base cramoisie saisissante, tandis que notre purée de coco signature apporte une richesse crémeuse. Le sirop de lavande naturelle évoque l\'élégance de la campagne française, parfaitement équilibré avec du citron vif et une luxueuse liqueur de coco pour un voyage sensoriel inoubliable.'
-},
-{
-  name: 'TANGERINE',
-  description: 'Bourbon Premium, Napoléon Mandarine, Sirop Mandarine & Pêche Grillée, Miel au Gingembre',
-  price: 95,
-  detailedDescription: 'Une célébration audacieuse de la chaleur d\'agrumes et de la sophistication fumée. Le bourbon riche crée la toile parfaite pour la liqueur Napoléon mandarine premium, tandis que notre sirop signature mandarine et pêche grillée au feu ajoute des couches de complexité fruitée caramélisée. Le miel doré au gingembre apporte la touche finale de chaleur épicée à ce chef-d\'œuvre artisanal.'
+  description: 'Tequila Infusée à la Fraise, Triple Sec, Jus de Citron Vert',
+  price: 120,
+  detailedDescription: 'Baptisé d\'après la plage sauvage aux portes de Tanger, ce cocktail vibrant capture l\'énergie franche de l\'été. La tequila premium infusée à la fraise fraîche rencontre la profondeur du Triple Sec dans un équilibre parfait d\'acidité citronnée pour un voyage sensoriel inoubliable.'
 },
 {
   name: 'HAFA',
-  description: 'Vodka Titos, Liqueur de Café Kahlua, Liqueur "Falfla" Maison (Fumée, Douce, Non Piquante)',
-  price: 95,
-  detailedDescription: 'Un voyage sensoriel sophistiqué mettant en vedette la douceur veloutée de la Vodka Titos associée à la richesse du Kahlua. Notre liqueur "Falfla" maison apporte une dimension fumée et douce unique, créant un équilibre parfait entre profondeur aromatique et douceur envoûtante. Une création audacieuse qui capture l\'esprit mystérieux des cafés tangérois.'
+  description: 'Mezcal, Vermut Blanc, Cordial Vin Blanc, Liqueur Cacao, Bitter Cacao, Arôme Hydrosol Café',
+  price: 120,
+  detailedDescription: 'Un hommage aux terrasses légendaires de Hafa surplombant le détroit de Gibraltar. Le mezcal fumé s\'unit au vermouth blanc et au cordial de vin blanc, tandis que la liqueur de cacao et le bitter apportent une profondeur envoûtante. L\'hydrosol de café vient couronner le tout d\'une touche aromatique mémorable.'
+},
+{
+  name: 'CAP SPARTEL',
+  description: 'Bourbon, Aperol, Oleo Saccharum Nèfle Rôtie, Jus de Citron',
+  price: 120,
+  detailedDescription: 'Inspiré par le légendaire phare du Cap Spartel où l\'Atlantique rencontre la Méditerranée, ce cocktail conjugue la chaleur du bourbon avec la vivacité de l\'Aperol. L\'oleo saccharum de nèfle rôtie apporte une douceur fruitée et caramélisée unique, parfaitement équilibrée par la fraîcheur du citron.'
 }
       ]
     },

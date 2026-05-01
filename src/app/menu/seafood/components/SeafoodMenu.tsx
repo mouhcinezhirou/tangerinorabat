@@ -215,12 +215,6 @@ export default function SeafoodMenuPage() {
   description: 'Succulentes crevettes rouges sauvages décortiquées, grillées au barbecue Mibrasa',
   price: 190,
   detailedDescription: 'Les précieuses crevettes rouges méditerranéennes, soigneusement décortiquées et grillées à la perfection. Une préparation raffinée qui met en valeur la chair tendre de ces crustacés d\'exception et leur saveur naturelle authentique.'
-},
-{
-  name: 'ÉMINCÉ DE LANGOUSTE',
-  description: "Queue de langouste premium délicatement tranchée et disposée, accompagnée d'une bisque de langouste aromatique",
-  price: 420,
-  detailedDescription: "Queue de langouste d'eau froide, précisément tranchée et disposée en éventail pour mettre en valeur sa chair tendre et nacrée. Servie avec une réduction intense de bisque de langouste aux herbes fraîches pour une expérience gustative inoubliable."
 }
       ]
     }

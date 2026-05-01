@@ -215,12 +215,6 @@ export default function SeafoodMenuPage() {
   description: 'Suculentos camarones rojos salvajes pelados, a la parrilla Mibrasa',
   price: 190,
   detailedDescription: 'Los preciados camarones rojos mediterráneos, cuidadosamente pelados y a la parrilla a la perfección. Una preparación refinada que destaca la carne tierna de estos crustáceos excepcionales y su auténtico sabor natural.'
-},
-{
-  name: 'LONCHAS DE LANGOSTA',
-  description: "Cola de langosta premium delicadamente laminada y dispuesta, acompañada de una aromática bisque de langosta",
-  price: 420,
-  detailedDescription: "Cola de langosta de aguas frías, precisamente cortada y dispuesta en abanico para resaltar su carne tierna y nacarada. Servida con una intensa reducción de bisque de langosta con hierbas frescas para una experiencia gustativa inolvidable."
 }
       ]
     }

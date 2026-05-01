@@ -179,24 +179,18 @@
         price: 180,
         detailedDescription: 'Our wild shrimp caught in the Mediterranean are seared in a burning casserole with olive oil infused with fresh garlic and red pepper. The spicy and fragrant cooking juice is ideal to be enjoyed with our crispy homemade bread. An emblematic dish that awakens the taste buds and instantly evokes Mediterranean taverns.'
       },
-{
-  name: 'CLAMS MARINIÈRE STYLE',
-  description: 'Fresh clams opened in a flavorful fish broth thickened with flour',
-  price: 120,
-  detailedDescription: 'Our live clams are carefully selected each morning and cooked to order in our casseroles. They open delicately in a flavorful fish broth lightly thickened with flour. A revisited Mediterranean classic, where the exceptional quality of the product is highlighted with authentic and comforting flavors.'
-},
       {
         name: 'SWORDFISH AND SHRIMP WITH GARLIC',
         description: 'Fresh swordfish medallions and shrimp sautéed with garlic',
         price: 160,
         detailedDescription: 'Elegant fresh swordfish medallions are quickly sautéed with shrimp in oil infused with garlic and fresh thyme. This marine duo is served in a bubbling casserole that preserves all their flavors. A touch of Espelette pepper perfects this dish that is both refined and generous. The perfect alliance of two Mediterranean treasures, which the casserole service makes even more flavorful.'
       },
-      {
-        name: 'SWORDFISH AND CLAMS WITH GARLIC',
-        description: 'Harmonious combination of tender swordfish and juicy clams with garlic',
-        price: 160,
-        detailedDescription: 'This casserole elegantly combines the melting flesh of swordfish and the briny flavor of clams. The two products are cooked separately to respect their texture, then brought together in a burning casserole with olive oil flavored with garlic, hot pepper and parsley. The clam juice delicately infuses the swordfish, creating a symphony of marine flavors enhanced by the heat of the casserole that continues cooking at the table.'
-      }
+{
+  name: 'SWORDFISH PIL-PIL',
+  description: 'Tender swordfish with garlic, cooked in a casserole with olive oil and hot pepper',
+  price: 160,
+  detailedDescription: 'This casserole showcases the melting flesh of swordfish, cooked in olive oil flavored with garlic, hot pepper and parsley. The burning casserole continues cooking at the table, concentrating the flavors and enveloping the swordfish in a smooth and fragrant sauce that enhances the delicacy of this noble fish.'
+}
     ]
   },
   {

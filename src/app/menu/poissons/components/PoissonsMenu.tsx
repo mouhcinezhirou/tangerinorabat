@@ -217,12 +217,6 @@ export default function PoissonViandeMenu() {
           detailedDescription: 'Notre saumon frais est cuit au charbon et servi avec une tranche de citron.'
         },
         {
-          name: 'CASSOLETTE DE SCORPIO AU PIL-PIL ÉPICÉ',
-          description: 'Scorpio servie dans une sauce pil-pil épicée',
-          price: 180,
-          detailedDescription: 'Notre cassolette de scorpio au pil-pil épicé offre une expérience méditerranéenne authentique.'
-        },
-        {
           name: 'POISSON DU JOUR',
           description: 'Sélection de poissons frais du marché',
           price: 260,
@@ -237,7 +231,7 @@ export default function PoissonViandeMenu() {
         {
           name: 'BAR DE LIGNE GRILLÉ',
           description: 'Filet de loup bar grillé au charbon',
-          price: 280,
+          price: 320,
           detailedDescription: 'Notre filet de loup bar est grillé au charbon pour préserver sa saveur exceptionnelle.'
         },
         {
@@ -292,13 +286,6 @@ export default function PoissonViandeMenu() {
           description: 'Suprême de poulet aplati et grillé, épinards frais sautés à l\'ail',
           price: 160,
           detailedDescription: 'Notre suprême de poulet est délicatement aplati puis mariné aux herbes fraîches avant d\'être grillé pour obtenir une chair moelleuse et tendre. Il est accompagné d\'épinards frais rapidement sautés à l\'ail et d\'un filet d\'huile d\'olive citronnée qui apporte fraîcheur et légèreté.'
-        },
-        {
-          name: 'ESCALOPINES AU CITRON',
-          description: 'Château de riz blanc parfumé à l\'ail et au laurier',
-          price: 240,
-          detailedDescription: 'Escalopines au citron servies avec un château de riz blanc parfumé à l\'ail et au laurier.',
-          isNew: true
         }
       ]
     },

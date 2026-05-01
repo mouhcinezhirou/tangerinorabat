@@ -179,24 +179,18 @@ export default function CassolettesMenu() {
         price: 180,
         detailedDescription: 'Nos crevettes sauvages pêchées en Méditerranée sont saisies dans une cassolette brûlante avec une huile d\'olive infusée à l\'ail frais et au piment rouge. Le jus de cuisson épicé et parfumé est idéal pour être savouré avec notre pain maison croustillant. Un plat emblématique qui réveille les papilles et évoque instantanément les tavernes méditerranéennes.'
       },
-{
-  name: 'PALOURDES À LA MARINIÈRE',
-  description: 'Palourdes fraîches ouvertes dans un savoureux bouillon de poissons lié à la farine',
-  price: 120,
-  detailedDescription: 'Nos palourdes vivantes sont soigneusement sélectionnées chaque matin et cuites à la commande dans nos cassolettes. Elles s\'ouvrent délicatement dans un savoureux bouillon de poissons légèrement lié à la farine. Un classique méditerranéen revisité, où la qualité exceptionnelle du produit est mise à l\'honneur avec des saveurs authentiques et réconfortantes.'
-},
       {
         name: 'ESPADON ET CREVETTES À L\'AIL',
         description: 'Médaillons d\'espadon frais et crevettes sautés à l\'ail',
         price: 160,
         detailedDescription: 'D\'élégants médaillons d\'espadon frais sont sautés rapidement avec des crevettes dans une huile infusée à l\'ail et au thym frais. Ce duo marin est servi dans une cassolette bouillonnante qui préserve toutes leurs saveurs. Une pointe de piment d\'Espelette vient parfaire ce plat à la fois raffiné et généreux. L\'alliance parfaite de deux trésors de la Méditerranée, que le service en cassolette rend encore plus savoureux.'
       },
-      {
-        name: 'ESPADON ET PALOURDES À L\'AIL',
-        description: 'Combinaison harmonieuse d\'espadon tendre et de palourdes juteuses à l\'ail',
-        price: 160,
-        detailedDescription: 'Cette cassolette marie avec élégance la chair fondante de l\'espadon et la saveur iodée des palourdes. Les deux produits sont cuits séparément pour respecter leur texture, puis réunis dans une cassolette brûlante avec une huile d\'olive parfumée à l\'ail, au piment fort et au persil. Le jus des palourdes imprègne délicatement l\'espadon, créant une symphonie de saveurs marines sublimée par la chaleur de la cassolette qui continue la cuisson à table.'
-      }
+{
+  name: 'ESPADON PIL-PIL',
+  description: 'Espadon tendre à l\'ail, cuit en cassolette avec huile d\'olive et piment fort',
+  price: 160,
+  detailedDescription: 'Cette cassolette met à l\'honneur la chair fondante de l\'espadon, cuit dans une huile d\'olive parfumée à l\'ail, au piment fort et au persil. La cassolette brûlante continue la cuisson à table, concentrant les saveurs et enveloppant l\'espadon d\'une sauce onctueuse et parfumée qui sublime la délicatesse de ce poisson noble.'
+}
     ]
   },
   {

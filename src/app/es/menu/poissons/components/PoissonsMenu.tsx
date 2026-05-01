@@ -217,12 +217,6 @@ export default function MenuPescadoCarne() {
           descripcionDetallada: 'Nuestro salmón fresco se cocina al carbón y se sirve con una rodaja de limón.'
         },
         {
-          nombre: 'CAZUELA DE PEZ ESCORPIÓN AL PIL-PIL PICANTE',
-          descripcion: 'Pez escorpión servido en salsa pil-pil picante',
-          precio: 180,
-          descripcionDetallada: 'Nuestra cazuela de pez escorpión al pil-pil picante ofrece una experiencia mediterránea auténtica.'
-        },
-        {
           nombre: 'PESCADO DEL DÍA',
           descripcion: 'Selección de pescados frescos del mercado',
           precio: 260,
@@ -237,7 +231,7 @@ export default function MenuPescadoCarne() {
         {
           nombre: 'LUBINA DE LÍNEA A LA PARRILLA',
           descripcion: 'Filete de lubina asado al carbón',
-          precio: 280,
+          precio: 320,
           descripcionDetallada: 'Nuestro filete de lubina se asa al carbón para preservar su sabor excepcional.'
         },
         {
@@ -292,13 +286,6 @@ export default function MenuPescadoCarne() {
           descripcion: 'Pechuga de pollo aplastada y asada, espinacas frescas salteadas con ajo',
           precio: 160,
           descripcionDetallada: 'Nuestra pechuga de pollo se aplasta delicadamente y luego se marina con hierbas frescas antes de asarse para obtener una carne tierna y jugosa. Se acompaña de espinacas frescas salteadas rápidamente con ajo y un chorrito de aceite de oliva al limón que aporta frescura y ligereza.'
-        },
-        {
-          nombre: 'ESCALOPINES AL LIMÓN',
-          descripcion: 'Castillo de arroz blanco aromatizado con ajo y laurel',
-          precio: 240,
-          descripcionDetallada: 'Escalopines al limón servidas con un castillo de arroz blanco aromatizado con ajo y laurel.',
-          esNuevo: true
         }
       ]
     },

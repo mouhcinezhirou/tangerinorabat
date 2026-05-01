@@ -173,28 +173,28 @@ const handleShotExpand = (index: number) => {
   title: 'SIGNATURE COCKTAILS',
   items: [
 {
-  name: 'CAP SPARTEL',
-  description: 'Bombay Dry Gin, Homemade Red Fruits Purée, White Vermouth, Rosemary',
-  price: 95,
-  detailedDescription: 'Named after Morocco\'s iconic lighthouse, this sophisticated cocktail marries the botanical complexity of Bombay Dry gin with the vibrant sweetness of homemade red fruits purée. White vermouth adds elegance while fresh rosemary brings an aromatic Mediterranean touch to this refined creation.'
-},
-{
-  name: 'ACHAKKAR',
-  description: 'Lavender Syrup, Hibiscus Infused Tequila, Homemade Coconut Purée, Lemon, Coconut Liqueur',
-  price: 95,
-  detailedDescription: 'A floral and tropical masterpiece where hibiscus-infused tequila meets the richness of homemade coconut purée. Natural lavender syrup adds Provençal elegance, while coconut liqueur and fresh lemon create a perfect balance of exotic sweetness and citrus brightness.'
-},
-{
   name: 'TANGERINO',
-  description: 'Bourbon, Napoléon Mandarine Liqueur, Tangerine & Grilled Peach Syrup, Ginger Honey',
-  price: 95,
-  detailedDescription: 'A warm and sophisticated cocktail celebrating the essence of tangerine. Premium bourbon provides the foundation while Napoléon mandarine liqueur adds French elegance. The house-made tangerine and grilled peach syrup brings smoky sweetness, finished with the warming spice of ginger honey.'
+  description: 'Bombay Sapphire Gin, Clarified Tomato Cordial, Lemon Juice, Rosemary/Pepper Vinegar',
+  price: 120,
+  detailedDescription: 'A bold reimagining of the classic martini, unveiling an unexpected harmony between Bombay Sapphire\'s botanicals and the umami sweetness of clarified tomato cordial. A touch of rosemary and pepper vinegar delivers a striking aromatic finish, capturing the essence of Tangier where two oceans meet.'
+},
+{
+  name: 'ACHAKAR',
+  description: 'Strawberry-Infused Tequila, Triple Sec, Lime Juice',
+  price: 120,
+  detailedDescription: 'Named after the wild beach at Tangier\'s doorstep, this vibrant cocktail captures the raw energy of summer. Premium fresh strawberry-infused tequila meets the depth of Triple Sec in a perfect balance of citrus acidity for an unforgettable sensory journey.'
 },
 {
   name: 'HAFA',
-  description: 'Titos Vodka, Kahlua Coffee Liqueur, Homemade "Falfla" Liqueur (Smoky, Sweet, Not Spicy)',
-  price: 95,
-  detailedDescription: 'A sophisticated sensory journey featuring the velvety smoothness of Titos Vodka paired with the rich depth of Kahlua. Our homemade "Falfla" liqueur brings a unique smoky-sweet dimension, creating a perfect balance between aromatic depth and captivating sweetness. A bold creation that captures the mysterious spirit of Tangier\'s legendary cafés.'
+  description: 'Mezcal, Dry Vermouth, White Wine Cordial, Cacao Liqueur, Cacao Bitters, Coffee Hydrosol Aroma',
+  price: 120,
+  detailedDescription: 'A tribute to the legendary Hafa terraces overlooking the Strait of Gibraltar. Smoky mezcal unites with dry vermouth and white wine cordial, while cacao liqueur and bitters add a haunting depth. Coffee hydrosol crowns the experience with an unforgettable aromatic touch.'
+},
+{
+  name: 'CAP SPARTEL',
+  description: 'Bourbon, Aperol, Roasted Loquat Oleo Saccharum, Lemon Juice',
+  price: 120,
+  detailedDescription: 'Inspired by the legendary Cap Spartel lighthouse where the Atlantic meets the Mediterranean, this cocktail pairs the warmth of bourbon with the vivid brightness of Aperol. Roasted loquat oleo saccharum brings a uniquely caramelized, fruity sweetness perfectly balanced by fresh citrus.'
 }
       ]
     },

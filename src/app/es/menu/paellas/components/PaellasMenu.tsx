@@ -234,35 +234,35 @@ export default function PaellasMenu() {
         {
         name: 'PAELLA A BANDA',
         description: 'Arroz redondo con calamar pequeño y gamba pequeña, caldo de pescado y salsa alioli ligera sobre la paella',
-        price: 120,
+        price: 140,
         forMinPersons: 2,
         detailedDescription: 'Esta paella tradicional de la costa valenciana se prepara con arroz redondo cocido en un rico caldo de pescado. Servida con una salsa alioli ligera para realzar los delicados sabores marinos según su gusto.'
       },
       {
         name: 'PAELLA DE CALAMARES Y GAMBAS',
         description: 'Arroz dorado guarnecido con tiernos aros de calamar y gambas cocidas a la perfección',
-        price: 150,
+        price: 160,
         forMinPersons: 2,
         detailedDescription: 'Nuestra paella de mariscos combina un arroz sutilmente aromatizado con calamares frescos cortados en anillos y gambas. Todo se cuece lentamente en caldo de pescado casero.'
       },
       {
         name: 'PAELLA NEGRA',
         description: 'Arroz de paella con tinta de calamar y langostinos',
-        price: 160,
+        price: 170,
         forMinPersons: 2,
         detailedDescription: 'Esta paella espectacular obtiene su color negro ébano de la tinta de calamar que también aporta un sabor marino profundo. El arroz cremoso se casa perfectamente con los langostinos, todo realzado con un chorrito de aceite de oliva infusionado con limón y un toque de ajo.'
       },
       {
         name: 'PAELLA ESTILO HERGMA',
         description: 'Paella de pies de ternera y garbanzos estilo hergma. Fusión mediterránea que une la tradición española con los sabores norteafricanos del hergma.',
-        price: 150,
+        price: 170,
         forMinPersons: 2,
         detailedDescription: 'Esta creación original casa el arte de la paella española con los sabores del tradicional Hergma marroquí. Los pies de ternera, guisados durante horas hasta fundirse, se mezclan con garbanzos cremosos y arroz perfumado con especias suaves para una experiencia gustativa única entre dos orillas del Mediterráneo.'
       },
       {
         name: 'PAELLA DEL SEÑORITO',
         description: 'Generoso festín marino de mariscos y pescado sobre un lecho de arroz redondo',
-        price: 220,
+        price: 230,
         forMinPersons: 2,
         detailedDescription: 'Nuestra paella real de mariscos combina una selección variada de tesoros marinos completamente pelados para su comodidad: mariscos y pescado fresco. El arroz redondo captura todos los sabores de los mariscos para una experiencia gustativa yodada incomparable.'
       },
@@ -283,7 +283,7 @@ export default function PaellasMenu() {
       {
         name: 'PAELLA VALENCIANA',
         description: 'La paella auténtica de Valencia que casa tiernos trozos de pollo con verduras de temporada',
-        price: 150,
+        price: 180,
         forMinPersons: 2,
         detailedDescription: 'Fiel a la auténtica receta valenciana, esta paella combina trozos de pollo dorados con una selección de verduras de temporada. El arroz redondo, cocido lentamente en caldo condimentado, absorbe todos los sabores para crear este plato emblemático de España en su versión más tradicional.'
       },
@@ -295,26 +295,14 @@ export default function PaellasMenu() {
       {
         name: 'ARROZ MELOSO A LA MARINERA CON LANGOSTINOS ROJOS',
         description: 'Arroz cremoso estilo risotto con notas yodadas, coronado con langostinos rojos',
-        price: 280,
+        price: 260,
         detailedDescription: 'Este arroz meloso inspirado en el "arroz meloso" español se prepara con un fumet de crustáceos intenso y se guarnece con langostinos rojos del Mediterráneo. Su textura, entre la paella y el risotto, ofrece una cremosidad que envuelve el paladar mientras los langostinos aportan su sabor delicado y su textura firme característica.'
       },
       {
         name: 'FIDEUA DEL SEÑORITO',
         description: 'Fideos fideua ricamente guarnecidos con mariscos',
-        price: 220,
+        price: 230,
         detailedDescription: 'Esta especialidad de la costa valenciana utiliza fideos fideua finos. Dorados y luego guisados en fumet de pescado, estos fideos se enriquecen con sabores de mariscos para un confort de degustación óptimo.'
-      },
-      {
-        name: 'ESPAGUETIS ALLE VONGOLE',
-        description: 'Espaguetis al dente con almejas frescas, aromatizados con aceite de oliva, ajo y tomate triturado',
-        price: 160,
-        detailedDescription: 'Este clásico italiano se prepara respetando la tradición: almejas frescas abiertas al momento con aceite de oliva, ajo y tomate triturado. Los espaguetis, cocidos al dente, se casan perfectamente con esta preparación de aromas marinos, realzada con aceite de oliva virgen extra.'
-      },
-      {
-        name: 'ESPAGUETIS AL NERO',
-        description: 'Espaguetis negros con tinta de calamar, adornados con tiernos trozos de calamar y albahaca fresca',
-        price: 120,
-        detailedDescription: 'Estos espaguetis negros teñidos con tinta de calamar se sirven con trozos de calamar apenas sellados para preservar su ternura. La albahaca fresca aporta una nota aromática que contrasta deliciosamente con los sabores marinos, todo ligado por un toque de aceite de oliva y una pizca de ajo.'
       },
       {
         name: 'LINGUINE CON PESCADO Y MARISCOS',
@@ -327,13 +315,6 @@ export default function PaellasMenu() {
         description: 'Cintas de pasta con láminas de pollo a la brasa y champiñones salteados en salsa cremosa',
         price: 140,
         detailedDescription: 'Nuestros tagliatelle se acompañan de trozos de pollo asado al carbón y champiñones forestales salteados con ajo. Una salsa cremosa de parmesano y hierbas frescas envuelve delicadamente la pasta para un plato reconfortante con sabores auténticos.'
-      },
-      {
-        name: 'CUSCÚS DEL MAR CON AROMAS DE MARRUECOS',
-        description: 'Sémola al vapor con especias marroquíes con caldo de pescado con especias marroquíes',
-        price: 240,
-        specialDay: "VIERNES",
-        detailedDescription: 'Disponible únicamente los viernes, nuestro cuscús del mar ofrece un caldo de pescado guisado con especias marroquíes tradicionales. La sémola al vapor, perfectamente hidratada y aromatizada, se acompaña de una harissa casera cuya intensidad pueden dosificar según su gusto.'
       }
       ]
     }

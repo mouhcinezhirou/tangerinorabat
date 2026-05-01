@@ -215,12 +215,6 @@ export default function SeafoodMenuPage() {
   description: 'Succulent wild red shrimp peeled and grilled on the Mibrasa barbecue',
   price: 190,
   detailedDescription: 'Precious Mediterranean red prawns, carefully peeled and grilled to perfection. A refined preparation that showcases the tender flesh of these exceptional crustaceans and their authentic natural flavor.'
-},
-{
-  name: 'LOBSTER MEDALLIONS',
-  description: "Premium lobster tail delicately sliced and arranged, accompanied by an aromatic lobster bisque",
-  price: 420,
-  detailedDescription: "Cold-water lobster tail, precisely sliced and arranged in a fan to showcase its tender, pearlescent flesh. Served with an intense reduction of lobster bisque with fresh herbs for an unforgettable tasting experience."
 }
       ]
     }

@@ -196,7 +196,7 @@ export default function TapasEntreesMenu() {
           name: 'POMMES DE TERRE "HURRICANE" AVEC SES 3 SAUCES',
           description: 'Pommes de terre en spirale servies avec trio de sauces maison',
           price: 60,
-          detailedDescription: 'Pommes de terre taillées en spirale puis frites à la perfection, accompagnées d\'une sauce aïoli au safran, une sauce brava épicée et une sauce crémeuse aux herbes fraîches du jardin.'
+          detailedDescription: 'Pommes de terre taillées en spirale puis frites à la perfection, accompagnées d\'une sauce bravas épicée, une sauce aïoli crémeuse et une sauce BBQ fumée.'
         },
         {
           name: 'PIMIENTOS DEL PADRON',
@@ -223,10 +223,10 @@ export default function TapasEntreesMenu() {
   detailedDescription: 'Nos poivrons rouges sont lentement cuits au four jusqu\'à obtenir une texture fondante et concentrer leurs saveurs. Ils sont accompagnés de notre thon de qualité conservé dans l\'huile d\'olive infusée aux herbes méditerranéennes.'
 },
         {
-          name: 'PARMIGIANA DE   VEAU AU CHORIZO HALAL',
+          name: 'PARMIGIANA DE VEAU AU CHORIZO HALAL',
           description: 'Délicieuse préparation d\'aubergines, veau et chorizo halal gratinée au four',
           price: 90,
-          detailedDescription: 'Couches alternées d\'aubergines grillées, de veau mijoté et de chorizo halal légèrement épicé, le tout nappé d\'une sauce tomate aux herbes fraîches et généreusement gratiné au parmesan affiné 24 mois.'
+          detailedDescription: 'Couches alternées d\'aubergines grillées, de veau mijoté et de chorizo halal légèrement épicé, le tout nappé d\'une sauce béchamel onctueuse et généreusement gratiné au parmesan.'
         },
         {
           name: 'PARMIGIANA DE FRUITS DE MER',
@@ -268,7 +268,7 @@ export default function TapasEntreesMenu() {
           name: 'SALADE RUSSE',
           description: 'Version raffinée de la traditionnelle salade de légumes et mayonnaise',
           price: 70,
-          detailedDescription: 'Notre interprétation élégante de la salade russe traditionnelle associe pommes de terre, carottes et petits pois finement coupés, le tout enrobé d\'une mayonnaise légère parfumée au citron et à l\'aneth frais.'
+          detailedDescription: 'Notre interprétation élégante de la salade russe traditionnelle associe pommes de terre, carottes, le tout enrobé d\'une mayonnaise légère parfumée au citron et à l\'aneth frais.'
         },
         {
           name: 'ENSALADILLA DE LANGOUSTE',
@@ -300,12 +300,6 @@ export default function TapasEntreesMenu() {
           price: 160,
           detailedDescription: 'Notre tentacule de poulpe est d\'abord confite pendant plusieurs heures puis grillée sur braises ardentes pour obtenir un contraste parfait entre une texture fondante et des notes légèrement fumées'
         },
-        {
-  name: 'ŒUFS BROUILLÈ AUX CHAMPIGNONS SAUVAGES DE MONTAGNE AUX CÈPES',
-  description: 'Œufs brouillés aux champignons sauvages de montagne et cèpes (boletus edulis)',
-  price: 140,
-  detailedDescription: 'Nos œufs brouillés sont préparés avec une sélection de champignons sauvages de montagne et de cèpes (boletus edulis) pour une expérience gourmande et authentique.'
-},
 {
   name: 'CŒURS D\'ARTICHAUTS FARCIS AUX FRUITS DE MER ET GRATINÉS',
   description: 'Cœurs d\'artichauts farcis aux fruits de mer et gratinés à la perfection',
@@ -371,12 +365,6 @@ export default function TapasEntreesMenu() {
           detailedDescription: 'Notre poulpe est d\'abord cuit lentement puis tranché finement. Chaque bouchée offre une tendre texture et un parfait équilibre des saveurs marines.'
         },
         {
-          name: 'CARPACCIO DE CREVETTES ROUGES FLAMBÉES',
-          description: 'Délicates tranches de crevettes rouges sauvages avec une touche d\'ail piquant',
-          price: 160,
-          detailedDescription: 'Nos crevettes rouges sauvages de Méditerranée sont légèrement flambées puis finement tranchées et assaisonnées d\'une huile parfumée à l\'ail et au piment. Un délice marin aux saveurs intenses et à la texture incomparable.'
-        },
-        {
           name: 'CARPACCIO DE THON ROUGE',
           description: 'Fines tranches de thon rouge cru avec sauce thaï et poivrons verts',
           price: 140,
@@ -387,19 +375,7 @@ export default function TapasEntreesMenu() {
           description: 'Tranches fines de bœuf cru assaisonnées à l\'huile de truffes avec des copeaux de parmesan',
           price: 120,
           detailedDescription: 'Notre filet de bœuf est légèrement saisi puis finement tranché et présenté avec un filet d\'huile de truffes, des copeaux de parmesan affiné 24 mois et quelques câpres.'
-        },
-        {
-          name: 'CARPACCIO FAÇON BRESAOLA',
-          description: 'Fines tranches de longe de dinde marinée et séchée comme une bresaola',
-          price: 120,
-          detailedDescription: 'Notre longe de dinde est marinée dans un mélange d\'épices, de vin et d\'herbes aromatiques puis séchée lentement pour développer une saveur complexe rappelant la bresaola traditionnelle, servie avec roquette et copeaux de parmesan.'
-        },
-        {
-          name: 'SASHIMI DE ROUGET MARINÉ ET FLAMBÉ',
-          description: 'Tranches fines de rouget accompagnées d\'un salpicon de crevettes',
-          price: 145,
-          detailedDescription: 'Notre rouget de Méditerranée est brièvement mariné puis flambé pour développer ses arômes tout en préservant sa délicate texture. Il est accompagné d\'un salpicon rafraîchissant de crevettes, herbes fraîches et agrumes.'
-        },
+        }
       ]
     },
     {
