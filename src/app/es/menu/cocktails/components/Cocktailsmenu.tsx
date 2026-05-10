@@ -203,24 +203,36 @@ export default function CocktailsMenu() {
     {
       title: 'MOCKTAILS',
       items: [
-        {
-          name: 'SOCCO BREEZE',
-          description: 'Hibisco, Zumo de Naranja, Limón, Sirope de Agave',
-          price: 90,
-          detailedDescription: 'Un vibrante homenaje sin alcohol a la plaza del Gran Socco, presentando una infusión de hibisco de un rojo profundo. La dulzura natural del agave combina perfectamente con las notas cítricas para un refrescante compañero de un día en el mercado.'
-        },
-    {
-      name: 'MENDOUBIA SUNSET',
-      description: 'Orgeat, Limón, Aquafaba, Piña Natural',
-      price: 90,
-      detailedDescription: 'Inspirado en los jardines de Mendoubia, esta delicia tropical combina el orgeat de almendra con la piña natural. La aquafaba crea una textura sedosa que rivaliza con cualquier espuma de cóctel clásico.'
-    },
-        {
-          name: 'CERVANTES COOLER',
-          description: 'Puré de Melón Casero, Sirope de Albahaca, Limón',
-          price: 90,
-          detailedDescription: 'Un mocktail fresco como un jardín que celebra los sabores mediterráneos. El dulce puré de melón cantalupo se encuentra con el aromático sirope de albahaca, finalizado con un toque de cítricos que evoca las aceras de verano.'
-        }
+{
+  name: 'SOCCO BREEZE',
+  description: 'Hibisco, Zumo de Naranja, Limón, Sirope de Agave',
+  price: 90,
+  detailedDescription: 'Un vibrante homenaje sin alcohol a la plaza del Gran Socco, presentando una infusión de hibisco de un rojo profundo. La dulzura natural del agave combina perfectamente con las notas cítricas para un refrescante compañero de un día en el mercado.'
+},
+{
+  name: 'MENDOUBIA SUNSET',
+  description: 'Orgeat, Limón, Aquafaba, Piña Natural',
+  price: 90,
+  detailedDescription: 'Inspirado en los jardines de Mendoubia, esta delicia tropical combina el orgeat de almendra con la piña natural. La aquafaba crea una textura sedosa que rivaliza con cualquier espuma de cóctel clásico.'
+},
+{
+  name: 'CERVANTES COOLER',
+  description: 'Puré de Melón Casero, Sirope de Albahaca, Limón',
+  price: 90,
+  detailedDescription: 'Un mocktail fresco como un jardín que celebra los sabores mediterráneos. El dulce puré de melón cantalupo se encuentra con el aromático sirope de albahaca, finalizado con un toque de cítricos que evoca las aceras de verano.'
+},
+{
+  name: 'MERKALA',
+  description: 'Remolacha, Miel y Jengibre, Nube de Vainilla, Polvo de Azúcar de Remolacha',
+  price: 90,
+  detailedDescription: 'La remolacha terrosa se encuentra con la miel y el jengibre, coronada por una nube de vainilla y un brillante polvo de azúcar de remolacha en el borde.'
+},
+{
+  name: 'MEDIOUNA',
+  description: 'Pepino Fresco, Cordial de Tomate Clarificado, Sirope Floral, Sal de Pepino',
+  price: 90,
+  detailedDescription: 'El fresco pepino y el cordial de tomate clarificado crean una profundidad inesperada, realzada por el sirope floral y rematada con un delicado borde de sal de pepino.'
+}
       ]
     },
 {

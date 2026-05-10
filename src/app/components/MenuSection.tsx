@@ -168,7 +168,7 @@ export default function MenuCategorySection() {
 >
   <h2 className="font-SweetSansProBold text-4xl md:text-5xl font-serif tracking-wider text-amber-50 mb-4">LA CARTE</h2>
   <p className="text-amber-100/70 font-light max-w-2xl mx-auto">
-  Attention, ce menu risque de vous mettre l’eau à la bouche, d’éveiller vos sens et de vous ouvrir un appétit insoupçonné
+  Attention, ce menu risque de vous mettre l'eau à la bouche, d'éveiller vos sens et de vous ouvrir un appétit insoupçonné
   </p>
 </motion.div>
       
@@ -246,6 +246,22 @@ export default function MenuCategorySection() {
           ))}
         </motion.div>
       </div>
+
+      {/* Client Information Section */}
+      <motion.div
+        initial={{ opacity: 0, y: 30 }}
+        animate={isVisible ? { opacity: 1, y: 0 } : { opacity: 0, y: 30 }}
+        transition={{ duration: 0.8, delay: 0.4 }}
+        className="mt-20 container mx-auto px-4"
+      >
+        <div className="max-w-4xl mx-auto">
+          <div className="bg-[#2f3a3f]/60 backdrop-blur-md border border-amber-200/20 rounded-lg p-8 shadow-xl">
+            <p className="text-lg font-light leading-relaxed text-center text-amber-100/90">
+              Nous informons notre aimable clientèle qu'un service de <span className="text-amber-400 font-medium">6%</span> sera ajouté à votre addition.
+            </p>
+          </div>
+        </div>
+      </motion.div>
       
       {/* Elegant divider bottom */}
       <div className="flex items-center justify-center mt-20">

@@ -202,23 +202,35 @@ const handleShotExpand = (index: number) => {
       title: 'MOCKTAILS',
       items: [
         {
-          name: 'SOCCO BREEZE',
-          description: 'Hibiscus, Orange Juice, Lemon, Agave Syrup',
-          price: 90,
-          detailedDescription: 'A vibrant, alcohol-free tribute to the Grand Socco square, featuring a deep red hibiscus infusion. The natural sweetness of agave perfectly complements the citrus notes for a refreshing market day companion.'
-        },
-    {
-      name: 'MENDOUBIA SUNSET',
-      description: 'Orgeat, Lemon, Aquafaba, Natural Pineapple',
-      price: 90,
-      detailedDescription: 'Inspired by the Mendoubia gardens, this tropical delight combines almond orgeat with natural pineapple. The aquafaba creates a silky texture that rivals any classic cocktail foam.'
-    },
-        {
-          name: 'CERVANTES COOLER',
-          description: 'Homemade Melon Purée, Basil Syrup, Lemon',
-          price: 90,
-          detailedDescription: 'A garden-fresh mocktail that celebrates Mediterranean flavors. Sweet cantaloupe purée meets aromatic basil syrup, finished with a touch of citrus that evokes summer sidewalks.'
-        }
+  name: 'SOCCO BREEZE',
+  description: 'Hibiscus, Orange Juice, Lemon, Agave Syrup',
+  price: 90,
+  detailedDescription: 'A vibrant, alcohol-free tribute to the Grand Socco square, featuring a deep red hibiscus infusion. The natural sweetness of agave perfectly complements the citrus notes for a refreshing market day companion.'
+},
+{
+  name: 'MENDOUBIA SUNSET',
+  description: 'Orgeat, Lemon, Aquafaba, Natural Pineapple',
+  price: 90,
+  detailedDescription: 'Inspired by the Mendoubia gardens, this tropical delight combines almond orgeat with natural pineapple. The aquafaba creates a silky texture that rivals any classic cocktail foam.'
+},
+{
+  name: 'CERVANTES COOLER',
+  description: 'Homemade Melon Purée, Basil Syrup, Lemon',
+  price: 90,
+  detailedDescription: 'A garden-fresh mocktail that celebrates Mediterranean flavors. Sweet cantaloupe purée meets aromatic basil syrup, finished with a touch of citrus that evokes summer sidewalks.'
+},
+{
+  name: 'MERKALA',
+  description: 'Beetroot, Honey & Ginger, Vanilla Cloud, Beetroot Sugar Dust',
+  price: 90,
+  detailedDescription: 'Earthy beetroot meets warming honey and ginger, crowned with a vanilla cloud and a glittering beetroot sugar dust on the rim.'
+},
+{
+  name: 'MEDIOUNA',
+  description: 'Fresh Cucumber, Clarified Tomato Cordial, Floral Syrup, Cucumber Salt',
+  price: 90,
+  detailedDescription: 'Cool cucumber and clarified tomato cordial create unexpected depth, lifted by floral syrup and finished with a delicate cucumber salt rim.'
+}
       ]
     },
     {

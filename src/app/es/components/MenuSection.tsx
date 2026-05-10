@@ -245,6 +245,22 @@ export default function MenuCategorySection() {
           ))}
         </motion.div>
       </div>
+
+      {/* Client Information Section */}
+      <motion.div
+        initial={{ opacity: 0, y: 30 }}
+        animate={isVisible ? { opacity: 1, y: 0 } : { opacity: 0, y: 30 }}
+        transition={{ duration: 0.8, delay: 0.4 }}
+        className="mt-20 container mx-auto px-4"
+      >
+        <div className="max-w-4xl mx-auto">
+          <div className="bg-[#2f3a3f]/60 backdrop-blur-md border border-amber-200/20 rounded-lg p-8 shadow-xl">
+            <p className="text-lg font-light leading-relaxed text-center text-amber-100/90">
+              Informamos a nuestra estimada clientela que se añadirá un servicio del <span className="text-amber-400 font-medium">6%</span> a su cuenta.
+            </p>
+          </div>
+        </div>
+      </motion.div>
       
       {/* Elegant divider bottom */}
       <div className="flex items-center justify-center mt-20">

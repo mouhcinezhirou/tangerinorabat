@@ -201,24 +201,36 @@ export default function CocktailsMenu() {
     {
       title: 'MOCKTAILS',
       items: [
-        {
-          name: 'SOCCO BREEZE',
-          description: 'Hibiscus, Jus d\'Orange, Citron, Sirop d\'Agave',
-          price: 90,
-          detailedDescription: 'Un hommage vibrant et sans alcool à la place du Grand Socco, présentant une infusion d\'hibiscus d\'un rouge profond. La douceur naturelle de l\'agave s\'accorde parfaitement avec les notes d\'agrumes pour un compagnon rafraîchissant de journée au marché.'
-        },
-    {
-      name: 'MENDOUBIA SUNSET',
-      description: 'Orgeat, Citron, Aquafaba, Ananas Naturel',
-      price: 90,
-      detailedDescription: 'Inspiré par les jardins de Mendoubia, ce délice tropical combine l\'orgeat d\'amande avec l\'ananas naturel. L\'aquafaba crée une texture soyeuse qui rivalise avec n\'importe quelle mousse de cocktail classique.'
-    },
-        {
-          name: 'CERVANTES COOLER',
-          description: 'Purée de Melon Maison, Sirop de Basilic, Citron',
-          price: 90,
-          detailedDescription: 'Un mocktail frais comme un jardin qui célèbre les saveurs méditerranéennes. La purée de cantaloupe sucrée rencontre le sirop de basilic aromatique, terminé par une touche d\'agrumes qui évoque les trottoirs d\'été.'
-        }
+       {
+  name: 'SOCCO BREEZE',
+  description: 'Hibiscus, Jus d\'Orange, Citron, Sirop d\'Agave',
+  price: 90,
+  detailedDescription: 'Un hommage vibrant et sans alcool à la place du Grand Socco, présentant une infusion d\'hibiscus d\'un rouge profond. La douceur naturelle de l\'agave s\'accorde parfaitement avec les notes d\'agrumes pour un compagnon rafraîchissant de journée au marché.'
+},
+{
+  name: 'MENDOUBIA SUNSET',
+  description: 'Orgeat, Citron, Aquafaba, Ananas Naturel',
+  price: 90,
+  detailedDescription: 'Inspiré par les jardins de Mendoubia, ce délice tropical combine l\'orgeat d\'amande avec l\'ananas naturel. L\'aquafaba crée une texture soyeuse qui rivalise avec n\'importe quelle mousse de cocktail classique.'
+},
+{
+  name: 'CERVANTES COOLER',
+  description: 'Purée de Melon Maison, Sirop de Basilic, Citron',
+  price: 90,
+  detailedDescription: 'Un mocktail frais comme un jardin qui célèbre les saveurs méditerranéennes. La purée de cantaloupe sucrée rencontre le sirop de basilic aromatique, terminé par une touche d\'agrumes qui évoque les trottoirs d\'été.'
+},
+{
+  name: 'MERKALA',
+  description: 'Betterave, Miel & Gingembre, Nuage de Vanille, Poudre de Sucre de Betterave',
+  price: 90,
+  detailedDescription: 'La betterave terreuse rencontre le miel et le gingembre, couronnée d\'un nuage de vanille et d\'une poudre de sucre de betterave scintillante sur le bord du verre.'
+},
+{
+  name: 'MEDIOUNA',
+  description: 'Concombre Frais, Cordial de Tomate Clarifié, Sirop Floral, Sel de Concombre',
+  price: 90,
+  detailedDescription: 'Le concombre frais et le cordial de tomate clarifié créent une profondeur inattendue, sublimée par le sirop floral et achevée d\'un délicat bord salé au concombre.'
+}
       ]
     },
     {
