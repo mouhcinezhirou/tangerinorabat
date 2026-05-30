@@ -180,9 +180,9 @@ export default function CocktailsMenu() {
 },
 {
   name: 'ACHAKAR',
-  description: 'Tequila Infusée à la Fraise, Triple Sec, Jus de Citron Vert',
+  description: 'Gin London Dry, Jus de Pastèque Fraîche, Menthe, Triple Sec',
   price: 120,
-  detailedDescription: 'Baptisé d\'après la plage sauvage aux portes de Tanger, ce cocktail vibrant capture l\'énergie franche de l\'été. La tequila premium infusée à la fraise fraîche rencontre la profondeur du Triple Sec dans un équilibre parfait d\'acidité citronnée pour un voyage sensoriel inoubliable.'
+  detailedDescription: 'Baptisé d\'après la plage sauvage aux portes de Tanger, ce cocktail vibrant capture l\'énergie franche de l\'été. Le Gin London Dry rencontre la fraîcheur sucrée du jus de pastèque, la légèreté de la menthe et la profondeur du Triple Sec dans un équilibre parfait pour un voyage sensoriel inoubliable.'
 },
 {
   name: 'HAFA',
@@ -201,7 +201,7 @@ export default function CocktailsMenu() {
     {
       title: 'MOCKTAILS',
       items: [
-       {
+{
   name: 'SOCCO BREEZE',
   description: 'Hibiscus, Jus d\'Orange, Citron, Sirop d\'Agave',
   price: 90,
@@ -221,9 +221,9 @@ export default function CocktailsMenu() {
 },
 {
   name: 'MERKALA',
-  description: 'Betterave, Miel & Gingembre, Nuage de Vanille, Poudre de Sucre de Betterave',
+  description: 'Betterave Fraîche, Cordial Miel & Gingembre, Nuage de Vanille, Poudre de Sucre de Betterave',
   price: 90,
-  detailedDescription: 'La betterave terreuse rencontre le miel et le gingembre, couronnée d\'un nuage de vanille et d\'une poudre de sucre de betterave scintillante sur le bord du verre.'
+  detailedDescription: 'La betterave fraîche et terreuse rencontre le cordial de miel et gingembre, couronnée d\'un nuage de vanille et d\'une poudre de sucre de betterave scintillante sur le bord du verre.'
 },
 {
   name: 'MEDIOUNA',

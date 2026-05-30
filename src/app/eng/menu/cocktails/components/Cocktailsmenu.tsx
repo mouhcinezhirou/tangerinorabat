@@ -180,9 +180,9 @@ const handleShotExpand = (index: number) => {
 },
 {
   name: 'ACHAKAR',
-  description: 'Strawberry-Infused Tequila, Triple Sec, Lime Juice',
+  description: 'Gin London Dry, Jus de Pastèque Fraîche, Menthe, Triple Sec',
   price: 120,
-  detailedDescription: 'Named after the wild beach at Tangier\'s doorstep, this vibrant cocktail captures the raw energy of summer. Premium fresh strawberry-infused tequila meets the depth of Triple Sec in a perfect balance of citrus acidity for an unforgettable sensory journey.'
+  detailedDescription: 'Baptisé d\'après la plage sauvage aux portes de Tanger, ce cocktail vibrant capture l\'énergie franche de l\'été. Le Gin London Dry rencontre la fraîcheur sucrée du jus de pastèque, la légèreté de la menthe et la profondeur du Triple Sec dans un équilibre parfait pour un voyage sensoriel inoubliable.'
 },
 {
   name: 'HAFA',
@@ -201,7 +201,7 @@ const handleShotExpand = (index: number) => {
     {
       title: 'MOCKTAILS',
       items: [
-        {
+{
   name: 'SOCCO BREEZE',
   description: 'Hibiscus, Orange Juice, Lemon, Agave Syrup',
   price: 90,
@@ -221,9 +221,9 @@ const handleShotExpand = (index: number) => {
 },
 {
   name: 'MERKALA',
-  description: 'Beetroot, Honey & Ginger, Vanilla Cloud, Beetroot Sugar Dust',
+  description: 'Fresh Beetroot, Honey & Ginger Cordial, Vanilla Cloud, Beetroot Sugar Dust',
   price: 90,
-  detailedDescription: 'Earthy beetroot meets warming honey and ginger, crowned with a vanilla cloud and a glittering beetroot sugar dust on the rim.'
+  detailedDescription: 'Earthy fresh beetroot meets warming honey and ginger cordial, crowned with a vanilla cloud and a glittering beetroot sugar dust on the rim.'
 },
 {
   name: 'MEDIOUNA',

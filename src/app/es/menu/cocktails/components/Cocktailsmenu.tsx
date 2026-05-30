@@ -181,9 +181,9 @@ export default function CocktailsMenu() {
 },
 {
   name: 'ACHAKAR',
-  description: 'Tequila Fresa-Infusionado, Triple Sec, Zumo Lima',
+  description: 'Gin London Dry, Zumo de Sandía Fresca, Menta, Triple Sec',
   price: 120,
-  detailedDescription: 'Bautizado con el nombre de la playa salvaje a las puertas de Tánger, este cóctel vibrante captura la energía fresca del verano. El tequila premium infusionado con fresa fresca se une a la profundidad del Triple Sec en un equilibrio perfecto de acidez cítrica para un viaje sensorial inolvidable.'
+  detailedDescription: 'Bautizado con el nombre de la playa salvaje a las puertas de Tánger, este cóctel vibrante captura la energía fresca del verano. El Gin London Dry se une a la frescura dulce del zumo de sandía, la ligereza de la menta y la profundidad del Triple Sec en un equilibrio perfecto para un viaje sensorial inolvidable.'
 },
 {
   name: 'HAFA',
@@ -223,9 +223,9 @@ export default function CocktailsMenu() {
 },
 {
   name: 'MERKALA',
-  description: 'Remolacha, Miel y Jengibre, Nube de Vainilla, Polvo de Azúcar de Remolacha',
+  description: 'Remolacha Fresca, Cordial de Miel y Jengibre, Nube de Vainilla, Polvo de Azúcar de Remolacha',
   price: 90,
-  detailedDescription: 'La remolacha terrosa se encuentra con la miel y el jengibre, coronada por una nube de vainilla y un brillante polvo de azúcar de remolacha en el borde.'
+  detailedDescription: 'La remolacha fresca y terrosa se encuentra con el cordial de miel y jengibre, coronada por una nube de vainilla y un brillante polvo de azúcar de remolacha en el borde.'
 },
 {
   name: 'MEDIOUNA',
