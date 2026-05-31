@@ -180,9 +180,9 @@ const handleShotExpand = (index: number) => {
 },
 {
   name: 'ACHAKAR',
-  description: 'Gin London Dry, Jus de Pastèque Fraîche, Menthe, Triple Sec',
+  description: 'London Dry Gin, Fresh Watermelon Juice, Mint, Orange Liqueur',
   price: 120,
-  detailedDescription: 'Baptisé d\'après la plage sauvage aux portes de Tanger, ce cocktail vibrant capture l\'énergie franche de l\'été. Le Gin London Dry rencontre la fraîcheur sucrée du jus de pastèque, la légèreté de la menthe et la profondeur du Triple Sec dans un équilibre parfait pour un voyage sensoriel inoubliable.'
+  detailedDescription: 'Named after the wild beach at Tangier\'s doorstep, this vibrant cocktail captures the raw energy of summer. London Dry Gin meets the sweet freshness of watermelon juice, a hint of mint and the depth of orange liqueur in a perfect balance for an unforgettable sensory journey.'
 },
 {
   name: 'HAFA',
