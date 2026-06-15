@@ -193,9 +193,9 @@ export default function CocktailsMenu() {
 },
 {
   name: 'CAP SPARTEL',
-  description: 'Bourbon, Aperol, Oleo Saccharum Níspero Asado, Zumo Limón',
+  description: 'Bourbon, Aperol, Oleo Saccharum Melocotón Asado, Zumo Limón',
   price: 120,
-  detailedDescription: 'Inspirado en el legendario faro del Cabo Espartel donde el Atlántico se encuentra con el Mediterráneo, este cóctel combina el calor del bourbon con la vivacidad del Aperol. El oleo saccharum de níspero asado aporta una dulzura caramelizada y frutal única, perfectamente equilibrada por la frescura del limón.'
+  detailedDescription: 'Inspirado en el legendario faro del Cabo Espartel donde el Atlántico se encuentra con el Mediterráneo, este cóctel combina el calor del bourbon con la vivacidad del Aperol. El oleo saccharum de melocotón asado aporta una dulzura caramelizada y frutal única, perfectamente equilibrada por la frescura del limón.'
 }
 
       ]
@@ -226,12 +226,6 @@ export default function CocktailsMenu() {
   description: 'Remolacha Fresca, Cordial de Miel y Jengibre, Nube de Vainilla, Polvo de Azúcar de Remolacha',
   price: 90,
   detailedDescription: 'La remolacha fresca y terrosa se encuentra con el cordial de miel y jengibre, coronada por una nube de vainilla y un brillante polvo de azúcar de remolacha en el borde.'
-},
-{
-  name: 'MEDIOUNA',
-  description: 'Pepino Fresco, Cordial de Tomate Clarificado, Sirope Floral, Sal de Pepino',
-  price: 90,
-  detailedDescription: 'El fresco pepino y el cordial de tomate clarificado crean una profundidad inesperada, realzada por el sirope floral y rematada con un delicado borde de sal de pepino.'
 }
       ]
     },
@@ -258,7 +252,7 @@ export default function CocktailsMenu() {
     },
     {
       name: 'PERDICARIS',
-      description: 'Tequila Infusionada con Hibisco, Licor de Naranja, Naranja, Granadina',
+      description: 'Tequila Infusionada con Hibisco, Licor de Naranja, Naranja',
       price: null,
       detailedDescription: 'Inspirado en leyendas locales, este colorido shot combina tequila infusionada con hibisco y cítricos. Un equilibrio perfecto entre fuerza y sabores florales.'
     }

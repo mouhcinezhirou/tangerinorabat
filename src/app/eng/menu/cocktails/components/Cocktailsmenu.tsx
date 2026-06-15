@@ -192,9 +192,9 @@ const handleShotExpand = (index: number) => {
 },
 {
   name: 'CAP SPARTEL',
-  description: 'Bourbon, Aperol, Roasted Loquat Oleo Saccharum, Lemon Juice',
+  description: 'Bourbon, Aperol, Roasted Peach Oleo Saccharum, Lemon Juice',
   price: 120,
-  detailedDescription: 'Inspired by the legendary Cap Spartel lighthouse where the Atlantic meets the Mediterranean, this cocktail pairs the warmth of bourbon with the vivid brightness of Aperol. Roasted loquat oleo saccharum brings a uniquely caramelized, fruity sweetness perfectly balanced by fresh citrus.'
+  detailedDescription: 'Inspired by the legendary Cap Spartel lighthouse where the Atlantic meets the Mediterranean, this cocktail pairs the warmth of bourbon with the vivid brightness of Aperol. Roasted peach oleo saccharum brings a uniquely caramelized, fruity sweetness perfectly balanced by fresh citrus.'
 }
       ]
     },
@@ -224,12 +224,6 @@ const handleShotExpand = (index: number) => {
   description: 'Fresh Beetroot, Honey & Ginger Cordial, Vanilla Cloud, Beetroot Sugar Dust',
   price: 90,
   detailedDescription: 'Earthy fresh beetroot meets warming honey and ginger cordial, crowned with a vanilla cloud and a glittering beetroot sugar dust on the rim.'
-},
-{
-  name: 'MEDIOUNA',
-  description: 'Fresh Cucumber, Clarified Tomato Cordial, Floral Syrup, Cucumber Salt',
-  price: 90,
-  detailedDescription: 'Cool cucumber and clarified tomato cordial create unexpected depth, lifted by floral syrup and finished with a delicate cucumber salt rim.'
 }
       ]
     },
@@ -256,7 +250,7 @@ const handleShotExpand = (index: number) => {
     },
     {
       name: 'PERDICARIS',
-      description: 'Hibiscus Infused Tequila, Orange Liqueur, Orange, Grenadine',
+      description: 'Hibiscus Infused Tequila, Orange Liqueur, Orange',
       price: null,
       detailedDescription: 'Inspired by local legends, this colorful shot combines hibiscus-infused tequila with citrus. A perfect balance between strength and floral flavors.'
     }

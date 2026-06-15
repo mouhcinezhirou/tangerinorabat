@@ -181,18 +181,18 @@ export default function HuileMenuPage() {
       title: 'HUILE D\'OLIVE PREMIUM',
       gridCols: "grid-cols-1 md:grid-cols-2 lg:grid-cols-3",
       items: [
-        {
-          name: "DÉGUSTATION ORO VERDE",
-          description: "Une dose de notre huile d'olive extra vierge primée, accompagnée de pain artisanal",
-          price: 38,
-          detailedDescription: "Découvrez les saveurs exceptionnelles de notre huile d'olive 'Los Guardianes del Crisal' dans une dégustation guidée. Cette huile de récolte précoce révèle un goût fruité intense avec de délicates notes de tomate fraîche. Lauréate du prix Mezquita et classée parmi les 10 meilleures huiles au monde."
-        },
-        {
-          name: "BOUTEILLE ORO VERDE",
-          description: "Emportez chez vous notre huile d'olive exclusive en bouteille de 500ml",
-          price: 380,
-          detailedDescription: "Cette huile d'olive extra vierge de première pression à froid est exclusive au Maroc pour les restaurants Tangerino. Issue d'olives récoltées à maturité précoce, elle conserve tous ses arômes et bienfaits nutritionnels. Un trésor culinaire à découvrir et à partager."
-        }
+{
+  name: "DÉGUSTATION ORO VERDE",
+  description: "Une dose de notre huile d'olive extra vierge primée, accompagnée de pain artisanal",
+  price: 58,
+  detailedDescription: "Découvrez les saveurs exceptionnelles de notre huile d'olive 'Los Guardianes del Crisal' dans une dégustation guidée. Cette huile de récolte précoce révèle un goût fruité intense avec de délicates notes d'artichauts, herbes fraîches et bananes vertes. Lauréate du prix Mezquita et classée parmi les 10 meilleures huiles au monde."
+},
+{
+  name: "BOUTEILLE ORO VERDE",
+  description: "Emportez chez vous notre huile d'olive exclusive en bouteille de 500ml",
+  price: 755,
+  detailedDescription: "Cette huile d'olive extra vierge de première pression à froid est exclusive au Maroc pour les restaurants Tangerino. Issue d'olives récoltées à maturité précoce, elle conserve tous ses arômes et bienfaits nutritionnels. Cette année notre huile à gagner le prestige de premium GRAN MEZQUITA."
+}
       ]
     }
   ];

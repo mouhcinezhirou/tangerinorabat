@@ -192,9 +192,9 @@ export default function CocktailsMenu() {
 },
 {
   name: 'CAP SPARTEL',
-  description: 'Bourbon, Aperol, Oleo Saccharum Nèfle Rôtie, Jus de Citron',
+  description: 'Bourbon, Aperol, Oleo Saccharum Pêche Rôtie, Jus de Citron',
   price: 120,
-  detailedDescription: 'Inspiré par le légendaire phare du Cap Spartel où l\'Atlantique rencontre la Méditerranée, ce cocktail conjugue la chaleur du bourbon avec la vivacité de l\'Aperol. L\'oleo saccharum de nèfle rôtie apporte une douceur fruitée et caramélisée unique, parfaitement équilibrée par la fraîcheur du citron.'
+  detailedDescription: 'Inspiré par le légendaire phare du Cap Spartel où l\'Atlantique rencontre la Méditerranée, ce cocktail conjugue la chaleur du bourbon avec la vivacité de l\'Aperol. L\'oleo saccharum de pêche rôtie apporte une douceur fruitée et caramélisée unique, parfaitement équilibrée par la fraîcheur du citron.'
 }
       ]
     },
@@ -224,12 +224,6 @@ export default function CocktailsMenu() {
   description: 'Betterave Fraîche, Cordial Miel & Gingembre, Nuage de Vanille, Poudre de Sucre de Betterave',
   price: 90,
   detailedDescription: 'La betterave fraîche et terreuse rencontre le cordial de miel et gingembre, couronnée d\'un nuage de vanille et d\'une poudre de sucre de betterave scintillante sur le bord du verre.'
-},
-{
-  name: 'MEDIOUNA',
-  description: 'Concombre Frais, Cordial de Tomate Clarifié, Sirop Floral, Sel de Concombre',
-  price: 90,
-  detailedDescription: 'Le concombre frais et le cordial de tomate clarifié créent une profondeur inattendue, sublimée par le sirop floral et achevée d\'un délicat bord salé au concombre.'
 }
       ]
     },
@@ -256,7 +250,7 @@ export default function CocktailsMenu() {
     },
     {
       name: 'PERDICARIS',
-      description: 'Tequila Infusée Hibiscus, Licor Orange, Orange, Grenadine',
+      description: 'Tequila Infusée Hibiscus, Licor Orange, Orange',
       price: null,
       detailedDescription: 'Inspiré par les légendes locales, ce shot coloré marie la tequila infusée à l\'hibiscus avec les agrumes. Un équilibre parfait entre force et saveurs florales.'
     }

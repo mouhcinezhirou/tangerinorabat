@@ -181,18 +181,18 @@ export default function HuileMenuPage() {
       title: 'ACEITE DE OLIVA PREMIUM',
       gridCols: "grid-cols-1 md:grid-cols-2 lg:grid-cols-3",
       items: [
-        {
-          name: "DEGUSTACIÓN ORO VERDE",
-          description: "Una porción de nuestro aceite de oliva virgen extra galardonado, servido con pan artesanal",
-          price: 38,
-          detailedDescription: "Descubre los sabores excepcionales de nuestro aceite de oliva 'Los Guardianes del Crisal' en una degustación guiada. Este aceite de cosecha temprana revela un sabor afrutado intenso con delicadas notas de tomate fresco. Ganador del premio Mezquita y clasificado entre los 10 mejores aceites del mundo."
-        },
-        {
-          name: "BOTELLA ORO VERDE",
-          description: "Llévate a casa nuestro aceite de oliva exclusivo en botella de 500ml",
-          price: 380,
-          detailedDescription: "Este aceite de oliva virgen extra de primera prensada en frío es exclusivo de Marruecos para los restaurantes Tangerino. Elaborado con aceitunas cosechadas en madurez temprana, conserva todos sus aromas y beneficios nutricionales. Un tesoro culinario para descubrir y compartir."
-        }
+{
+  name: "DEGUSTACIÓN ORO VERDE",
+  description: "Una porción de nuestro aceite de oliva virgen extra galardonado, servido con pan artesanal",
+  price: 58,
+  detailedDescription: "Descubre los sabores excepcionales de nuestro aceite de oliva 'Los Guardianes del Crisal' en una degustación guiada. Este aceite de cosecha temprana revela un sabor afrutado intenso con delicadas notas de alcachofa, hierbas frescas y plátano verde. Ganador del premio Mezquita y clasificado entre los 10 mejores aceites del mundo."
+},
+{
+  name: "BOTELLA ORO VERDE",
+  description: "Llévate a casa nuestro aceite de oliva exclusivo en botella de 500ml",
+  price: 755,
+  detailedDescription: "Este aceite de oliva virgen extra de primera prensada en frío es exclusivo de Marruecos para los restaurantes Tangerino. Elaborado con aceitunas cosechadas en madurez temprana, conserva todos sus aromas y beneficios nutricionales. Este año nuestro aceite ha ganado el prestigioso premio premium GRAN MEZQUITA."
+}
       ]
     }
   ];

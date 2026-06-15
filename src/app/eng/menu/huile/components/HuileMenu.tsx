@@ -181,18 +181,18 @@ export default function HuileMenuPage() {
       title: 'PREMIUM OLIVE OIL',
       gridCols: "grid-cols-1 md:grid-cols-2 lg:grid-cols-3",
       items: [
-        {
-          name: "ORO VERDE TASTING",
-          description: "A portion of our award-winning extra virgin olive oil, served with artisanal bread",
-          price: 38,
-          detailedDescription: "Discover the exceptional flavors of our 'Los Guardianes del Crisal' olive oil in a guided tasting. This early harvest oil reveals an intense fruity taste with delicate notes of fresh tomato. Winner of the Mezquita award and ranked among the 10 best oils in the world."
-        },
-        {
-          name: "ORO VERDE BOTTLE",
-          description: "Take home our exclusive olive oil in a 500ml bottle",
-          price: 380,
-          detailedDescription: "This extra virgin olive oil from the first cold pressing is exclusive to Morocco for Tangerino restaurants. Made from olives harvested at early maturity, it preserves all its aromas and nutritional benefits. A culinary treasure to discover and share."
-        }
+{
+  name: "ORO VERDE TASTING",
+  description: "A portion of our award-winning extra virgin olive oil, served with artisanal bread",
+  price: 58,
+  detailedDescription: "Discover the exceptional flavors of our 'Los Guardianes del Crisal' olive oil in a guided tasting. This early harvest oil reveals an intense fruity taste with delicate notes of artichoke, fresh herbs and green banana. Winner of the Mezquita award and ranked among the 10 best oils in the world."
+},
+{
+  name: "ORO VERDE BOTTLE",
+  description: "Take home our exclusive olive oil in a 500ml bottle",
+  price: 755,
+  detailedDescription: "This extra virgin olive oil from the first cold pressing is exclusive to Morocco for Tangerino restaurants. Made from olives harvested at early maturity, it preserves all its aromas and nutritional benefits. This year our oil has earned the prestigious GRAN MEZQUITA premium award."
+}
       ]
     }
   ];
