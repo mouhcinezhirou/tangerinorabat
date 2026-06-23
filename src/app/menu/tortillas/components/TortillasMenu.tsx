@@ -258,10 +258,10 @@ export default function OeufsFrituresMenu() {
           detailedDescription: 'Notre interprétation du classique britannique associe un filet de cabillaud ultra-frais enrobé d\'une pâte tempura croustillante et aérienne, servi avec nos pommes de terre Hurricane en spirale à la texture incomparable. Le tout est accompagné d\'une sauce tartare maison aux câpres croquantes et cornichons finement hachés.'
         },
         {
-          name: 'FRITURE DE SAISON',
+          name: 'FRITURE DU JOUR',
           description: 'Petits rougets & éperlans croustillants',
-          price: 160,
-          detailedDescription: 'Une friture de saison composée de petits rougets et éperlans croustillants.',
+          price: 140,
+          detailedDescription: 'Une friture du jour composée de petits rougets et éperlans croustillants.',
           isNew: true
         },
         {

@@ -216,12 +216,6 @@ export default function TapasEntreesMenu() {
           price: 95,
           detailedDescription: 'Nuestra cremosa burrata de Apulia se sirve con tomates suavemente ahumados sobre brasas de madera de olivo durante varias horas, todo ello sublimado con nuestro aceite de oliva de primera presión en frío y albahaca fresca.'
         },
-{
-  name: 'ASADILLOS DE PIMIENTOS CON VENTRESCA',
-  description: 'Pimientos rojos asados al horno acompañados de ventresca de atún en aceite de oliva',
-  price: 90,
-  detailedDescription: 'Nuestros pimientos rojos son lentamente asados al horno hasta obtener una textura melosa y concentrar sus sabores. Se acompañan de ventresca de atún de primera calidad conservada en aceite de oliva infusionado con hierbas mediterráneas.'
-},
         {
           name: 'PARMIGIANA DE TERNERA CON CHORIZO HALAL',
           description: 'Deliciosa preparación de berenjenas, ternera y chorizo halal gratinada al horno',
@@ -247,18 +241,6 @@ export default function TapasEntreesMenu() {
           detailedDescription: 'Nuestro jamón ibérico proviene de cerdos criados en libertad y alimentados con bellotas. Curado durante 36 meses en las mejores condiciones, ofrece una textura fundente y aromas complejos a avellana con una ligera nota dulce.'
         },
         {
-          name: 'CHORIZO IBÉRICO',
-          description: 'Lonchas de chorizo artesanal de cerdo ibérico alimentado con bellotas',
-          price: 140,
-          detailedDescription: 'Este chorizo excepcional está elaborado con cerdo ibérico alimentado exclusivamente con bellotas durante la montanera. Su condimentación con pimentón ahumado le confiere sabores intensos y complejos revelados por una curación tradicional.'
-        },
-        {
-          name: 'SURTIDO DE JAMÓN Y MANCHEGO',
-          description: 'Selección de jamones ibéricos y quesos españoles con acompañamientos',
-          price: 200,
-          detailedDescription: 'Nuestra tabla de degustación incluye una refinada selección de jamones ibéricos y quesos españoles artesanales, acompañados de aceitunas marinadas, almendras tostadas al romero y pan crujiente.'
-        },
-        {
           name: 'SURTIDO DE BRESAOLA Y MANCHEGO',
           description: 'Finas lonchas de bresaola de pavo y de manchego curado',
           price: 90,
@@ -275,12 +257,6 @@ export default function TapasEntreesMenu() {
           description: 'Versión lujosa de nuestra ensaladilla rusa con trozos de langosta fresca',
           price: 180,
           detailedDescription: 'Esta versión gastronómica de la ensaladilla rusa se sublima con generosos trozos de langosta del Mediterráneo y una mayonesa delicadamente alimonada con cítricos confitados y cebollino fresco del huerto.'
-        },
-        {
-          name: 'ENSALADILLA DE PULPO',
-          description: 'Nuestra ensaladilla rusa revisitada con pulpo tierno y toques afrutados',
-          price: 90,
-          detailedDescription: 'Esta reinterpretación creativa combina nuestro pulpo cocinado a baja temperatura, dados de manzana verde Granny Smith para un toque ácido y cebollas rojas crujientes, todo ello ligado con una mayonesa de hierbas frescas.'
         },
 {
   name: 'PARRILLADA DE VERDURAS DE TEMPORADA',
@@ -323,12 +299,6 @@ export default function TapasEntreesMenu() {
     {
       title: 'ENSALADAS',
       items: [
-        {
-          name: 'ESCALIVADA CON ATÚN',
-          description: 'Pimientos, berenjenas y cebollas asados con atún a la parrilla y un toque de aceite de ajo',
-          price: 100,
-          detailedDescription: 'Nuestra escalivada tradicional compuesta de pimientos, berenjenas y cebollas lentamente asados al fuego de leña se sublima con trozos de atún asado a la brasa y un toque de aceite de ajo para una profundidad aromática única.'
-        },
         {
           name: 'ENSALADA DE SALMÓN AHUMADO Y AGUACATE',
           description: 'Mezcla fresca de salmón ahumado y aguacate con vinagreta de miel y mostaza',
@@ -375,17 +345,6 @@ export default function TapasEntreesMenu() {
           description: 'Finas lonchas de ternera cruda aliñadas con aceite de trufa y virutas de parmesano',
           price: 120,
           detailedDescription: 'Nuestro solomillo de ternera se sella ligeramente, se lamina finamente y se presenta con un hilo de aceite de trufa, virutas de parmesano curado 24 meses y algunas alcaparras.'
-        }
-      ]
-    },
-    {
-      title: 'SOPAS',
-      items: [
-        {
-          name: 'SOPA DE PESCADOS Y MARISCOS',
-          description: 'Rico caldo de pescados y crustáceos con picatostes y rouille',
-          price: 120,
-          detailedDescription: 'Nuestra sopa se prepara según la tradición mediterránea con un fumet intenso de pescados de roca y una selección de mariscos frescos, servida con picatostes al ajo, gruyere rallado y nuestro rouille casero al azafrán.'
         }
       ]
     }

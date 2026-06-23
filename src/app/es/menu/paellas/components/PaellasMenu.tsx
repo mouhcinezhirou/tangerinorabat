@@ -293,18 +293,6 @@ export default function PaellasMenu() {
     title: 'ARROZ Y PASTA',
     items: [
       {
-        name: 'ARROZ MELOSO A LA MARINERA CON LANGOSTINOS ROJOS',
-        description: 'Arroz cremoso estilo risotto con notas yodadas, coronado con langostinos rojos',
-        price: 260,
-        detailedDescription: 'Este arroz meloso inspirado en el "arroz meloso" español se prepara con un fumet de crustáceos intenso y se guarnece con langostinos rojos del Mediterráneo. Su textura, entre la paella y el risotto, ofrece una cremosidad que envuelve el paladar mientras los langostinos aportan su sabor delicado y su textura firme característica.'
-      },
-      {
-        name: 'FIDEUA DEL SEÑORITO',
-        description: 'Fideos fideua ricamente guarnecidos con mariscos',
-        price: 230,
-        detailedDescription: 'Esta especialidad de la costa valenciana utiliza fideos fideua finos. Dorados y luego guisados en fumet de pescado, estos fideos se enriquecen con sabores de mariscos para un confort de degustación óptimo.'
-      },
-      {
         name: 'LINGUINE CON PESCADO Y MARISCOS',
         description: 'Linguine con delicias del mar con aceite de oliva, ajo y mariscos y tomates triturados frescos',
         price: 180,

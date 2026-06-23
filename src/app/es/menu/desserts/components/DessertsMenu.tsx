@@ -197,12 +197,6 @@ export default function DessertsMenu() {
   price: 80,
   detailedDescription: 'Nuestra tarta de queso façon española está preparada con una mezcla aterciopelada de queso fresco y crema. Su textura sedosa y cremosa ofrece una experiencia gustativa rica y delicada, perfectamente equilibrada.'
 },
-{
-  name: 'TURRÓN HELADO',
-  description: 'Parfait helado con frutos secos y miel.',
-  price: 80,
-  detailedDescription: 'Este refinado postre provenzal presenta un parfait helado que incorpora almendras, pistachos y frutas confitadas, delicadamente perfumado con miel.'
-},
         {
           name: 'COULANT DE CHOCOLATE',
           description: 'Bizcocho de chocolate negro 70% con corazón fundente, servido con una bola de helado de vainilla',
@@ -214,12 +208,6 @@ export default function DessertsMenu() {
           description: 'Cookie casera con trozos de chocolate, helado de vainilla y caramelo de mantequilla salada',
           price: 80,
           detailedDescription: 'Nuestra cookie insignia combina la textura perfecta - crujiente en los bordes y tierna en el centro. Servida tibia con una bola de helado de vainilla y caramelo de mantequilla salada que se casa perfectamente con sus notas dulces.'
-        },
-        {
-          name: 'PLATO DE FRUTAS',
-          description: 'Selección de frutas frescas de temporada delicadamente preparadas',
-          price: 80,
-          detailedDescription: 'Una composición colorida y refrescante de frutas de temporada cuidadosamente seleccionadas en su perfecta madurez.'
         },
         {
           name: 'CAFÉ GOURMET',

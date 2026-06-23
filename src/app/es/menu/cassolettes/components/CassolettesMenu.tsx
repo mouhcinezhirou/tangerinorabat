@@ -178,19 +178,7 @@ export default function CassolettesMenu() {
         description: 'Gambas salvajes flameadas en aceite aromatizado con ajo y guindilla roja',
         price: 180,
         detailedDescription: 'Nuestras gambas salvajes pescadas en el Mediterráneo se saltean en una cazuelita ardiente con aceite de oliva infusionado con ajo fresco y guindilla roja. El jugo de cocción picante y aromático es ideal para ser saboreado con nuestro pan casero crujiente. Un plato emblemático que despierta las papilas y evoca instantáneamente las tabernas mediterráneas.'
-      },
-      {
-        name: 'PEZ ESPADA Y GAMBAS AL AJILLO',
-        description: 'Medallones de pez espada fresco y gambas salteados con ajo',
-        price: 160,
-        detailedDescription: 'Elegantes medallones de pez espada fresco se saltean rápidamente con gambas en aceite infusionado con ajo y tomillo fresco. Este dúo marino se sirve en una cazuelita burbujeante que preserva todos sus sabores. Una pizca de pimiento de Espelette perfecciona este plato a la vez refinado y generoso. La alianza perfecta de dos tesoros del Mediterráneo, que el servicio en cazuelita hace aún más sabroso.'
-      },
-{
-  name: 'PEZ ESPADA PIL-PIL',
-  description: 'Pez espada tierno al ajo, cocinado en cazuelita con aceite de oliva y guindilla',
-  price: 160,
-  detailedDescription: 'Esta cazuelita pone en valor la carne fundente del pez espada, cocinado en aceite de oliva aromatizado con ajo, guindilla y perejil. La cazuelita ardiente continúa la cocción en la mesa, concentrando los sabores y envolviendo el pez espada en una salsa untuosa y perfumada que realza la delicadeza de este noble pescado.'
-}
+      }
     ]
   },
   {

@@ -293,18 +293,6 @@ export default function PaellasMenu() {
       title: 'RIZ ET PÂTES',
       items: [
         {
-          name: 'RIZ MOELLEUX À LA MARINIÈRE AVEC GAMBAS ROUGE',
-          description: 'Riz crémeux façon risotto aux notes iodées, couronné de gambas rouges',
-          price: 260,
-          detailedDescription: 'Ce riz moelleux inspiré du "arroz meloso" espagnol est préparé avec un fumet de crustacés intense et garni de gambas rouges de Méditerranée. Sa texture, entre la paella et le risotto, offre une onctuosité qui enveloppe les papilles tandis que les gambas apportent leur saveur délicate et leur texture ferme caractéristique.'
-        },
-        {
-          name: 'FIDEUA DEL SEÑORITOS',
-          description: 'Vermicelle fideua richement garnis de fruits de mer',
-          price: 230,
-          detailedDescription: 'Cette spécialité de la côte valencienne utilise de fins vermicelles fideua. Dorés puis mijotés dans un fumet de poisson, ces vermicelles s\'enrichissent des saveurs des fruits de mer pour un confort de dégustation optimal.'
-        },
-        {
           name: 'LINGUINE AUX POISSONS ET FRUITS DE MER',
           description: 'Linguine aux délices de la mer avec huile d\'olive, ail et fruits de mer et tomates concassées fraîches',
           price: 180,

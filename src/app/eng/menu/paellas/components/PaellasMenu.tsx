@@ -293,18 +293,6 @@ export default function PaellasMenu() {
     title: 'RICE AND PASTA',
     items: [
       {
-        name: 'SOFT RICE MARINIÈRE WITH RED PRAWNS',
-        description: 'Creamy risotto-style rice with iodized notes, crowned with red prawns',
-        price: 260,
-        detailedDescription: 'This soft rice inspired by Spanish "arroz meloso" is prepared with an intense crustacean stock and garnished with red Mediterranean prawns. Its texture, between paella and risotto, offers a creaminess that envelops the palate while the prawns bring their delicate flavor and characteristic firm texture.'
-      },
-      {
-        name: 'FIDEUA DEL SEÑORITOS',
-        description: 'Fideua vermicelli richly garnished with seafood',
-        price: 230,
-        detailedDescription: 'This specialty from the Valencian coast uses thin fideua vermicelli. Golden then simmered in fish stock, these vermicelli are enriched with seafood flavors for optimal tasting comfort.'
-      },
-      {
         name: 'LINGUINE WITH FISH AND SEAFOOD',
         description: 'Linguine with sea delicacies with olive oil, garlic and seafood and fresh crushed tomatoes',
         price: 180,

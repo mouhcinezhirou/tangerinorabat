@@ -260,7 +260,7 @@ export default function MenuPescadoCarne() {
         {
           nombre: 'FILETE DE TERNERA LAMINADO SALTEADO CON AJO Y "PATATAS A LO POBRE"',
           descripcion: 'Laminado de filete de ternera salteado con ajo y perejil, patatas rústicas a la española',
-          precio: 280,
+          precio: 320,
           descripcionDetallada: 'Nuestro filete de ternera se lamina finamente y luego se sella rápidamente a fuego fuerte con ajo fresco y perejil para preservar su ternura y jugo. Se sirve con "patatas a lo pobre", estas patatas tradicionales españolas cocidas lentamente con cebollas dulces y pimientos, impregnadas de aceite de oliva aromatizado.'
         },
         {

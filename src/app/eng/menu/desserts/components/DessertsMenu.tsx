@@ -197,12 +197,6 @@ export default function DessertsMenu() {
   price: 80,
   detailedDescription: 'Our Spanish-style cheesecake is prepared with a velvety blend of fresh cheese and cream. Its silky and creamy texture offers a rich and delicate tasting experience, perfectly balanced.'
 },
-{
-  name: 'FROZEN NOUGAT',
-  description: 'Frozen parfait with dried fruits and honey.',
-  price: 80,
-  detailedDescription: 'This refined Provençal dessert features a frozen parfait incorporating almonds, pistachios, and candied fruits, delicately scented with honey.'
-},
         {
           name: 'CHOCOLATE FONDANT',
           description: 'Soft 70% dark chocolate cake with molten center, served with a scoop of vanilla ice cream',
@@ -214,12 +208,6 @@ export default function DessertsMenu() {
           description: 'Homemade cookie with chocolate chunks, vanilla ice cream and salted caramel',
           price: 80,
           detailedDescription: 'Our signature cookie combines the perfect texture - crispy on the edges and soft in the center. Served warm with a scoop of vanilla and salted butter caramel ice cream that pairs perfectly with its sweet notes.'
-        },
-        {
-          name: 'FRUIT PLATE',
-          description: 'Selection of delicately prepared fresh seasonal fruits',
-          price: 80,
-          detailedDescription: 'A colorful and refreshing composition of carefully selected seasonal fruits at their perfect ripeness.'
         },
         {
           name: 'GOURMET COFFEE',

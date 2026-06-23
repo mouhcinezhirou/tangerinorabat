@@ -197,12 +197,6 @@ export default function DessertsMenu() {
   price: 80,
   detailedDescription: 'Notre cheesecake façon espagnole est préparé avec un mélange velouté de fromage frais et crème. Sa texture soyeuse et onctueuse offre une expérience gustative riche et délicate, parfaitement équilibrée.'
 },
-{
-  name: 'NOUGAT GLACÉ',
-  description: 'Parfait glacé aux fruits secs et miel.',
-  price: 80,
-  detailedDescription: 'Ce dessert provençal raffiné présente un parfait glacé incorporant amandes, pistaches et fruits confits, délicatement parfumé au miel.'
-},
         {
           name: 'FONDANT AU CHOCOLAT',
           description: 'Moelleux au chocolat noir 70% au cœur coulant, servi avec une boule de glace vanille',
@@ -214,12 +208,6 @@ export default function DessertsMenu() {
           description: 'Cookie maison aux éclats de chocolat, glace à la vanille et caramel beurre salé',
           price: 80,
           detailedDescription: 'Notre cookie signature allie la texture parfaite - croustillant sur les bords et moelleux au centre. Servi tiède avec une boule de glace à la vanille et caramel beurre salé qui se marie parfaitement à ses notes sucrées.'
-        },
-        {
-          name: 'ASSIETTE DE FRUITS',
-          description: 'Sélection de fruits frais de saison délicatement préparés',
-          price: 80,
-          detailedDescription: 'Une composition colorée et rafraîchissante de fruits de saison soigneusement sélectionnés à leur parfaite maturité.'
         },
         {
           name: 'CAFÉ GOURMAND',

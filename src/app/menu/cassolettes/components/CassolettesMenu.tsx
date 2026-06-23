@@ -178,19 +178,7 @@ export default function CassolettesMenu() {
         description: 'Crevettes sauvages flambées dans une huile parfumée à l\'ail et au piment rouge',
         price: 180,
         detailedDescription: 'Nos crevettes sauvages pêchées en Méditerranée sont saisies dans une cassolette brûlante avec une huile d\'olive infusée à l\'ail frais et au piment rouge. Le jus de cuisson épicé et parfumé est idéal pour être savouré avec notre pain maison croustillant. Un plat emblématique qui réveille les papilles et évoque instantanément les tavernes méditerranéennes.'
-      },
-      {
-        name: 'ESPADON ET CREVETTES À L\'AIL',
-        description: 'Médaillons d\'espadon frais et crevettes sautés à l\'ail',
-        price: 160,
-        detailedDescription: 'D\'élégants médaillons d\'espadon frais sont sautés rapidement avec des crevettes dans une huile infusée à l\'ail et au thym frais. Ce duo marin est servi dans une cassolette bouillonnante qui préserve toutes leurs saveurs. Une pointe de piment d\'Espelette vient parfaire ce plat à la fois raffiné et généreux. L\'alliance parfaite de deux trésors de la Méditerranée, que le service en cassolette rend encore plus savoureux.'
-      },
-{
-  name: 'ESPADON PIL-PIL',
-  description: 'Espadon tendre à l\'ail, cuit en cassolette avec huile d\'olive et piment fort',
-  price: 160,
-  detailedDescription: 'Cette cassolette met à l\'honneur la chair fondante de l\'espadon, cuit dans une huile d\'olive parfumée à l\'ail, au piment fort et au persil. La cassolette brûlante continue la cuisson à table, concentrant les saveurs et enveloppant l\'espadon d\'une sauce onctueuse et parfumée qui sublime la délicatesse de ce poisson noble.'
-}
+      }
     ]
   },
   {

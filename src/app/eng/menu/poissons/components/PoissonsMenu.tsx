@@ -260,7 +260,7 @@ export default function FishMeatMenu() {
         {
           name: 'SLICED BEEF FILLET SAUTÉED WITH GARLIC & "PATATAS A LO POBRE"',
           description: 'Sliced beef fillet sautéed with garlic and parsley, rustic Spanish-style potatoes',
-          price: 280,
+          price: 320,
           detailedDescription: 'Our beef fillet is finely sliced then quickly seared over high heat with fresh garlic and parsley to preserve its tenderness and juice. It is served with "patatas a lo pobre", these traditional Spanish potatoes cooked slowly with sweet onions and peppers, infused with flavored olive oil.'
         },
         {

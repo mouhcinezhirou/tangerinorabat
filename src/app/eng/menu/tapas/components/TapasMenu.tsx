@@ -216,12 +216,6 @@ export default function TapasEntreesMenu() {
           price: 95,
           detailedDescription: 'Our creamy burrata from Puglia is served with tomatoes gently smoked over olive wood embers for several hours, all enhanced by our cold-pressed olive oil and fresh basil.'
         },
-{
-  name: 'RED PEPPERS IN THE OVEN WITH TUNA',
-  description: 'Red peppers baked in the oven accompanied by tuna in olive oil',
-  price: 90,
-  detailedDescription: 'Our red peppers are slowly baked in the oven until they achieve a tender texture and concentrated flavors. They are served with premium tuna preserved in our olive oil infused with Mediterranean herbs.'
-},
         {
           name: 'VEAL PARMIGIANA WITH HALAL CHORIZO',
           description: 'Delicious preparation of eggplant, veal, and halal chorizo baked au gratin',
@@ -247,18 +241,6 @@ export default function TapasEntreesMenu() {
           detailedDescription: 'Our Iberian ham comes from free-range pigs fed on acorns. Aged for 36 months in the best conditions, it offers a melt-in-your-mouth texture and complex hazelnut flavors with a slight sweet note.'
         },
         {
-          name: 'IBERIAN CHORIZO',
-          description: 'Slices of artisanal chorizo from acorn-fed Iberian pork',
-          price: 140,
-          detailedDescription: 'This exceptional chorizo is made from Iberian pork exclusively fed on acorns during the montanera. Its smoked paprika seasoning gives it intense and complex flavors revealed through traditional aging.'
-        },
-        {
-          name: 'HAM AND MANCHEGO ASSORTMENT',
-          description: 'Selection of Iberian hams and Spanish cheeses with accompaniments',
-          price: 200,
-          detailedDescription: 'Our tasting platter includes a refined selection of Iberian hams and artisanal Spanish cheeses, accompanied by marinated olives, rosemary-roasted almonds, and crispy bread.'
-        },
-        {
           name: 'BRESAOLA AND MANCHEGO ASSORTMENT',
           description: 'Thin slices of turkey bresaola and aged manchego',
           price: 90,
@@ -275,12 +257,6 @@ export default function TapasEntreesMenu() {
           description: 'Luxurious version of our Russian salad with pieces of fresh langoustine',
           price: 180,
           detailedDescription: 'This gourmet version of Russian salad is sublimed by generous pieces of Mediterranean langoustine and delicately lemony mayonnaise with candied citrus and fresh garden chives.'
-        },
-        {
-          name: 'OCTOPUS RUSSIAN SALAD',
-          description: 'Our revisited Russian salad with tender octopus and fruity touches',
-          price: 90,
-          detailedDescription: 'This creative reinterpretation combines our slow-cooked octopus, diced Granny Smith green apple for a tangy touch, and crunchy red onions, all bound with a fresh herb mayonnaise.'
         },
 {
   name: 'GRILLED SEASONAL VEGETABLES',
@@ -323,12 +299,6 @@ export default function TapasEntreesMenu() {
     {
       title: 'SALADS',
       items: [
-        {
-          name: 'ESCALIVADA WITH TUNA',
-          description: 'Roasted peppers, eggplant and onions with grilled tuna and a touch of garlic oil',
-          price: 100,
-          detailedDescription: 'Our traditional escalivada composed of peppers, eggplant and onions slowly roasted over wood fire is sublimed by pieces of ember-grilled tuna and a touch of garlic oil for unique aromatic depth.'
-        },
         {
           name: 'SMOKED SALMON AND AVOCADO SALAD',
           description: 'Fresh mix of smoked salmon and avocado with a honey-mustard vinaigrette sauce',
@@ -375,17 +345,6 @@ export default function TapasEntreesMenu() {
           description: 'Thin slices of raw beef seasoned with truffle oil and parmesan shavings',
           price: 120,
           detailedDescription: 'Our beef fillet is lightly seared then finely sliced and presented with a drizzle of truffle oil, 24-month aged parmesan shavings and some capers.'
-        }
-      ]
-    },
-    {
-      title: 'SOUPS',
-      items: [
-        {
-          name: 'FISH AND SEAFOOD SOUP',
-          description: 'Rich broth of fish and shellfish with croutons and rouille',
-          price: 120,
-          detailedDescription: 'Our soup is prepared according to Mediterranean tradition with an intense fumet of rocky fish and a selection of fresh seafood, served with garlic croutons, grated gruyère cheese, and our homemade saffron rouille.'
         }
       ]
     }

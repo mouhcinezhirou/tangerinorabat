@@ -179,18 +179,6 @@
         price: 180,
         detailedDescription: 'Our wild shrimp caught in the Mediterranean are seared in a burning casserole with olive oil infused with fresh garlic and red pepper. The spicy and fragrant cooking juice is ideal to be enjoyed with our crispy homemade bread. An emblematic dish that awakens the taste buds and instantly evokes Mediterranean taverns.'
       },
-      {
-        name: 'SWORDFISH AND SHRIMP WITH GARLIC',
-        description: 'Fresh swordfish medallions and shrimp sautéed with garlic',
-        price: 160,
-        detailedDescription: 'Elegant fresh swordfish medallions are quickly sautéed with shrimp in oil infused with garlic and fresh thyme. This marine duo is served in a bubbling casserole that preserves all their flavors. A touch of Espelette pepper perfects this dish that is both refined and generous. The perfect alliance of two Mediterranean treasures, which the casserole service makes even more flavorful.'
-      },
-{
-  name: 'SWORDFISH PIL-PIL',
-  description: 'Tender swordfish with garlic, cooked in a casserole with olive oil and hot pepper',
-  price: 160,
-  detailedDescription: 'This casserole showcases the melting flesh of swordfish, cooked in olive oil flavored with garlic, hot pepper and parsley. The burning casserole continues cooking at the table, concentrating the flavors and enveloping the swordfish in a smooth and fragrant sauce that enhances the delicacy of this noble fish.'
-}
     ]
   },
   {

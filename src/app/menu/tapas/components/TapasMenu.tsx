@@ -216,12 +216,6 @@ export default function TapasEntreesMenu() {
           price: 95,
           detailedDescription: 'Notre burrata crémeuse des Pouilles est servie avec des tomates doucement fumées sur braises de bois d\'olivier pendant plusieurs heures, le tout sublimé par notre huile d\'olive première pression à froid et basilic frais.'
         },
-{
-  name: 'POIVRONS ROUGE AU FOUR AVEC THON',
-  description: 'Poivrons rouges cuits au four accompagnés de thon à l\'huile d\'olive',
-  price: 90,
-  detailedDescription: 'Nos poivrons rouges sont lentement cuits au four jusqu\'à obtenir une texture fondante et concentrer leurs saveurs. Ils sont accompagnés de notre thon de qualité conservé dans l\'huile d\'olive infusée aux herbes méditerranéennes.'
-},
         {
           name: 'PARMIGIANA DE VEAU AU CHORIZO HALAL',
           description: 'Délicieuse préparation d\'aubergines, veau et chorizo halal gratinée au four',
@@ -241,24 +235,6 @@ export default function TapasEntreesMenu() {
           detailedDescription: 'Notre manchego Flor de Esgueva est affiné pendant 12 mois pour développer ses arômes complexes de noisette et de beurre.'
         },
         {
-          name: 'JAMBON IBÉRIQUE',
-          description: 'Fines tranches de jambon ibérique affiné 36 mois',
-          price: 220,
-          detailedDescription: 'Notre jambon ibérique provient de porcs élevés en liberté et nourris aux glands. Affiné pendant 36 mois dans les meilleures conditions, il offre une texture fondante et des arômes complexes de noisette avec une légère note sucrée.'
-        },
-        {
-          name: 'CHORIZO IBÉRIQUE',
-          description: 'Tranches de chorizo artisanal de porc ibérique nourri aux glands',
-          price: 140,
-          detailedDescription: 'Ce chorizo d\'exception est élaboré à partir de porc ibérique nourri exclusivement aux glands pendant la montanera. Son assaisonnement au paprika fumé lui confère des saveurs intenses et complexes révélées par un affinage traditionnel.'
-        },
-        {
-          name: 'ASSORTIMENT DE JAMBON ET MANCHEGO',
-          description: 'Sélection de jambons ibériques et fromages espagnols avec accompagnements',
-          price: 200,
-          detailedDescription: 'Notre plateau de dégustation comprend une sélection raffinée de jambons ibériques et de fromages espagnols artisanaux, accompagnés d\'olives marinées, d\'amandes grillées au romarin et de pain croustillant.'
-        },
-        {
           name: 'ASSORTIMENT DE BRESAOLA ET MANCHEGO',
           description: 'Fines tranches de bresaola de dinde et de manchego affiné',
           price: 90,
@@ -275,12 +251,6 @@ export default function TapasEntreesMenu() {
           description: 'Version luxueuse de notre salade russe avec des morceaux de langouste fraîche',
           price: 180,
           detailedDescription: 'Cette version gastronomique de la salade russe est sublimée par des morceaux généreux de langouste de Méditerranée et une mayonnaise délicatement citronnée aux agrumes confits et à la ciboulette fraîche du jardin.'
-        },
-        {
-          name: 'ENSALADILLA DE POULPE',
-          description: 'Notre salade russe revisitée avec poulpe tendre et touches fruitées',
-          price: 90,
-          detailedDescription: 'Cette réinterprétation créative associe notre poulpe cuit à basse température, des dés de pomme verte Granny Smith pour une touche acidulée et des oignons rouges croquants, le tout lié par une mayonnaise aux herbes fraîches.'
         },
 {
   name: 'GRILLADE DE LÉGUMES DE SAISON',
@@ -323,12 +293,6 @@ export default function TapasEntreesMenu() {
     {
       title: 'SALADES',
       items: [
-        {
-          name: 'ESCALIVADA AU THON',
-          description: 'Poivrons, aubergines et oignons rôtis avec thon grillé et une touche d\'huile d\'ail',
-          price: 100,
-          detailedDescription: 'Notre escalivada traditionnelle composée de poivrons, aubergines et oignons lentement rôtis au feu de bois est sublimée par des morceaux de thon grillé à la braise et une touche d\'huile d\'ail pour une profondeur aromatique unique.'
-        },
         {
           name: 'SALADE DE SAUMON FUMÉ ET AVOCAT',
           description: 'Mélange frais de saumon fumé et avocat avec une sauce vinaigrette miel-moutarde',
@@ -375,17 +339,6 @@ export default function TapasEntreesMenu() {
           description: 'Tranches fines de bœuf cru assaisonnées à l\'huile de truffes avec des copeaux de parmesan',
           price: 120,
           detailedDescription: 'Notre filet de bœuf est légèrement saisi puis finement tranché et présenté avec un filet d\'huile de truffes, des copeaux de parmesan affiné 24 mois et quelques câpres.'
-        }
-      ]
-    },
-    {
-      title: 'SOUPES',
-      items: [
-        {
-          name: 'SOUPE DE POISSONS ET FRUITS DE MER',
-          description: 'Riche bouillon de poissons et crustacés avec croûtons et rouille',
-          price: 120,
-          detailedDescription: 'Notre soupe est préparée selon la tradition méditerranéenne avec un fumet intense de poissons rocheux et une sélection de fruits de mer frais, servie avec des croûtons à l\'ail, du gruyère râpé et notre rouille maison au safran.'
         }
       ]
     }

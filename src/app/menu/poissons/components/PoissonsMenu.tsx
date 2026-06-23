@@ -260,7 +260,7 @@ export default function PoissonViandeMenu() {
         {
           name: 'FILET DE BŒUF ÉMINCÉ SAUTÉ AVEC AIL & "PATATAS A LO POBRE"',
           description: 'Émincé de filet de bœuf sauté à l\'ail et au persil, pommes de terre rustiques à l\'espagnole',
-          price: 280,
+          price: 320,
           detailedDescription: 'Notre filet de bœuf est finement émincé puis rapidement saisi à feu vif avec de l\'ail frais et du persil pour préserver sa tendreté et son jus. Il est servi avec des "patatas a lo pobre", ces pommes de terre traditionnelles espagnoles cuites lentement avec des oignons doux et des poivrons, imprégnées d\'huile d\'olive aromatisée.'
         },
         {
