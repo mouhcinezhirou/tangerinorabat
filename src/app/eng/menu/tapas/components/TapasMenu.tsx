@@ -241,6 +241,12 @@ export default function TapasEntreesMenu() {
           detailedDescription: 'Our Iberian ham comes from free-range pigs fed on acorns. Aged for 36 months in the best conditions, it offers a melt-in-your-mouth texture and complex hazelnut flavors with a slight sweet note.'
         },
         {
+          name: 'HAM AND MANCHEGO ASSORTMENT',
+          description: 'Selection of Iberian hams and Spanish cheeses with accompaniments',
+          price: 200,
+          detailedDescription: 'Our tasting platter includes a refined selection of Iberian hams and artisanal Spanish cheeses, accompanied by marinated olives, rosemary-roasted almonds, and crispy bread.'
+        },
+        {
           name: 'BRESAOLA AND MANCHEGO ASSORTMENT',
           description: 'Thin slices of turkey bresaola and aged manchego',
           price: 90,

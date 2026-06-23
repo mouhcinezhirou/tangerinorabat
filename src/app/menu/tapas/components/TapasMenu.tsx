@@ -235,6 +235,12 @@ export default function TapasEntreesMenu() {
           detailedDescription: 'Notre manchego Flor de Esgueva est affiné pendant 12 mois pour développer ses arômes complexes de noisette et de beurre.'
         },
         {
+          name: 'ASSORTIMENT DE JAMBON ET MANCHEGO',
+          description: 'Sélection de jambons ibériques et fromages espagnols avec accompagnements',
+          price: 200,
+          detailedDescription: 'Notre plateau de dégustation comprend une sélection raffinée de jambons ibériques et de fromages espagnols artisanaux, accompagnés d\'olives marinées, d\'amandes grillées au romarin et de pain croustillant.'
+        },
+        {
           name: 'ASSORTIMENT DE BRESAOLA ET MANCHEGO',
           description: 'Fines tranches de bresaola de dinde et de manchego affiné',
           price: 90,

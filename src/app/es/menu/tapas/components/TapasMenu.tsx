@@ -240,6 +240,12 @@ export default function TapasEntreesMenu() {
           price: 220,
           detailedDescription: 'Nuestro jamón ibérico proviene de cerdos criados en libertad y alimentados con bellotas. Curado durante 36 meses en las mejores condiciones, ofrece una textura fundente y aromas complejos a avellana con una ligera nota dulce.'
         },
+                {
+          name: 'SURTIDO DE JAMÓN Y MANCHEGO',
+          description: 'Selección de jamones ibéricos y quesos españoles con acompañamientos',
+          price: 200,
+          detailedDescription: 'Nuestra tabla de degustación incluye una refinada selección de jamones ibéricos y quesos españoles artesanales, acompañados de aceitunas marinadas, almendras tostadas al romero y pan crujiente.'
+        },
         {
           name: 'SURTIDO DE BRESAOLA Y MANCHEGO',
           description: 'Finas lonchas de bresaola de pavo y de manchego curado',
