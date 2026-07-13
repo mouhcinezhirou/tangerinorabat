@@ -46,6 +46,7 @@ export default function ChampagneWineMenuPage() {
       { name: 'Médaillon', bottle: 280, half: 150, glass: 70 },
       { name: 'S de Siroua', bottle: 300, half: '-', glass: '-' },
       { name: 'CB Signature', bottle: 310, half: '-', glass: '-' },
+      { name: 'Ait Souala', bottle: 320, half: '-', glass: '-' },
       { name: 'CB Initiales', bottle: 390, half: '-', glass: '-' },
       { name: 'Château Roslane AOC', bottle: 540, half: '-', glass: '-' }
     ],
