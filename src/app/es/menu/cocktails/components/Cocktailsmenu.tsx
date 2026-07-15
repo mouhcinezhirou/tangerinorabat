@@ -315,12 +315,12 @@ export default function CocktailsMenu() {
           price: 50,
           detailedDescription: 'Granos de Arábica de origen único tostados localmente y preparados según sus preferencias. Desde el intenso espresso hasta el cremoso café con leche, cada taza está elaborada con experiencia.'
         },
-        //{
-        //  name: 'TÉ DE MENTA',
-         // description: 'Té marroquí tradicional',
-         // price: 50,
-         // detailedDescription: 'Refrescante té de menta preparado a la manera tradicional.'
-       // },
+        {
+          name: 'TÉ A LA MENTA',
+          description: 'té marroquí tradicional',
+          price: 50,
+          detailedDescription: 'Té a la menta refrescante preparado de forma tradicional'
+        },
         {
           name: 'TÉ SAYRA',
           description: 'Diferentes aromas',

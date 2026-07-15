@@ -313,12 +313,12 @@ const handleShotExpand = (index: number) => {
           price: 50,
           detailedDescription: 'Single-origin Arabica beans locally roasted and prepared according to your preferences. From intense espresso to creamy latte, each cup is expertly crafted.'
         },
-       // {
-       //   name: 'MINT TEA',
-       //   description: 'Traditional Moroccan tea',
-       //   price: 50,
-       //   detailedDescription: 'Refreshing mint tea prepared in the traditional way.'
-       // },
+        {
+          name: 'MINT TEA',
+          description: 'traditional Moroccan tea',
+          price: 50,
+          detailedDescription: 'Refreshing mint tea prepared in the traditional way'
+        },
         {
           name: 'SAYRA TEA',
           description: 'Different flavors',

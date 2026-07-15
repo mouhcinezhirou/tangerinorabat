@@ -314,6 +314,12 @@ export default function CocktailsMenu() {
           detailedDescription: 'Des grains d\'Arabica d\'origine unique torréfiés localement et préparés selon vos préférences. De l\'expresso intense au café au lait crémeux, chaque tasse est élaborée avec expertise.'
         },
         {
+          name: 'THÉ À LA MENTHE',
+          description: 'thé marocain traditionnel',
+          price: 50,
+          detailedDescription: 'Thé à la menthe rafraîchissant préparé à la traditionnelle'
+        },
+        {
           name: 'THÉ SAYRA',
           description: 'Parfums différents',
           price: 50,
