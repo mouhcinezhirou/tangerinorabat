@@ -150,7 +150,7 @@ const PaellasMenuItem: React.FC<MenuItem & { onExpand: () => void, isExpanded: b
                   <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
                   <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
                 </svg>
-                mín {forMinPersons} pers
+                {forMinPersons} pers
               </div>
             )}
           </div>
@@ -182,9 +182,6 @@ const PaellasMenuSection: React.FC<MenuSection> = ({ title, items }) => {
         <h3 className="font-SweetSansProBold font-serif text-3xl tracking-wider text-amber-100">
           {title}
         </h3>
-        {title === 'PAELLAS' && (
-          <p className="text-amber-100/70 text-sm mt-2">Precio por Persona</p>
-        )}
       </div>
       
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -234,56 +231,56 @@ export default function PaellasMenu() {
         {
         name: 'PAELLA A BANDA',
         description: 'Arroz redondo con calamar pequeño y gamba pequeña, caldo de pescado y salsa alioli ligera sobre la paella',
-        price: 140,
+        price: 280,
         forMinPersons: 2,
         detailedDescription: 'Esta paella tradicional de la costa valenciana se prepara con arroz redondo cocido en un rico caldo de pescado. Servida con una salsa alioli ligera para realzar los delicados sabores marinos según su gusto.'
       },
       {
         name: 'PAELLA DE CALAMARES Y GAMBAS',
         description: 'Arroz dorado guarnecido con tiernos aros de calamar y gambas cocidas a la perfección',
-        price: 160,
+        price: 320,
         forMinPersons: 2,
         detailedDescription: 'Nuestra paella de mariscos combina un arroz sutilmente aromatizado con calamares frescos cortados en anillos y gambas. Todo se cuece lentamente en caldo de pescado casero.'
       },
       {
         name: 'PAELLA NEGRA',
         description: 'Arroz de paella con tinta de calamar y langostinos',
-        price: 170,
+        price: 340,
         forMinPersons: 2,
         detailedDescription: 'Esta paella espectacular obtiene su color negro ébano de la tinta de calamar que también aporta un sabor marino profundo. El arroz cremoso se casa perfectamente con los langostinos, todo realzado con un chorrito de aceite de oliva infusionado con limón y un toque de ajo.'
       },
       {
         name: 'PAELLA ESTILO HERGMA',
         description: 'Paella de pies de ternera y garbanzos estilo hergma. Fusión mediterránea que une la tradición española con los sabores norteafricanos del hergma.',
-        price: 170,
+        price: 340,
         forMinPersons: 2,
         detailedDescription: 'Esta creación original casa el arte de la paella española con los sabores del tradicional Hergma marroquí. Los pies de ternera, guisados durante horas hasta fundirse, se mezclan con garbanzos cremosos y arroz perfumado con especias suaves para una experiencia gustativa única entre dos orillas del Mediterráneo.'
       },
       {
         name: 'PAELLA DEL SEÑORITO',
         description: 'Generoso festín marino de mariscos y pescado sobre un lecho de arroz redondo',
-        price: 230,
+        price: 460,
         forMinPersons: 2,
         detailedDescription: 'Nuestra paella real de mariscos combina una selección variada de tesoros marinos completamente pelados para su comodidad: mariscos y pescado fresco. El arroz redondo captura todos los sabores de los mariscos para una experiencia gustativa yodada incomparable.'
       },
       {
         name: 'PAELLA DE BOGAVANTE',
         description: 'Lujosa paella adornada con bogavante entero, revelando la quintaesencia de los sabores marinos',
-        price: 380,
+        price: 760,
         forMinPersons: 2,
         detailedDescription: 'Esta paella excepcional pone en valor el bogavante en todo su esplendor, colocado en el centro de un lecho de arroz dorado aromatizado con su caldo. La carne delicada de este crustáceo noble se casa perfectamente con el arroz impregnado de sabores marinos. Una experiencia gastronómica mediterránea por excelencia.'
       },
       {
         name: 'PAELLA DE VERDURAS',
         description: 'Mosaico colorido de verduras de temporada sobre arroz, celebración de los sabores del huerto',
-        price: 140,
+        price: 280,
         forMinPersons: 2,
         detailedDescription: 'Nuestra paella vegetariana pone en valor una generosa selección de verduras de temporada. Cocidas en un caldo de hierbas aromáticas, estas verduras transmiten toda su frescura al arroz para un plato tan sabroso como colorido.'
       },
       {
         name: 'PAELLA VALENCIANA',
         description: 'La paella auténtica de Valencia que casa tiernos trozos de pollo con verduras de temporada',
-        price: 180,
+        price: 360,
         forMinPersons: 2,
         detailedDescription: 'Fiel a la auténtica receta valenciana, esta paella combina trozos de pollo dorados con una selección de verduras de temporada. El arroz redondo, cocido lentamente en caldo condimentado, absorbe todos los sabores para crear este plato emblemático de España en su versión más tradicional.'
       },

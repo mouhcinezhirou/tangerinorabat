@@ -150,7 +150,7 @@ const PaellasMenuItem: React.FC<MenuItem & { onExpand: () => void, isExpanded: b
                   <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
                   <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
                 </svg>
-                min {forMinPersons} people
+                {forMinPersons} people
               </div>
             )}
           </div>
@@ -182,9 +182,6 @@ const PaellasMenuSection: React.FC<MenuSection> = ({ title, items }) => {
         <h3 className="font-SweetSansProBold font-serif text-3xl tracking-wider text-amber-100">
           {title}
         </h3>
-        {title === 'PAELLAS' && (
-          <p className="text-amber-100/70 text-sm mt-2">Price per Person</p>
-        )}
       </div>
       
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -234,56 +231,56 @@ export default function PaellasMenu() {
         {
         name: 'PAELLA A BANDA',
         description: 'Round rice with small squid and small shrimp, fish stock and light aioli sauce on the paella',
-        price: 140,
+        price: 280,
         forMinPersons: 2,
         detailedDescription: 'This traditional paella from the Valencian coast is prepared with round rice cooked in a rich fish stock. Served with a light aioli sauce to enhance the delicate marine flavors according to your taste.'
       },
       {
         name: 'SQUID AND SHRIMP PAELLA',
         description: 'Golden rice garnished with tender squid rings and shrimp cooked to perfection',
-        price: 160,
+        price: 320,
         forMinPersons: 2,
         detailedDescription: 'Our seafood paella combines subtly flavored rice with fresh squid cut into rings and shrimp. Everything is slowly simmered in homemade fish stock.'
       },
       {
         name: 'PAELLA NEGRA',
         description: 'Paella rice with squid ink and prawns',
-        price: 170,
+        price: 340,
         forMinPersons: 2,
         detailedDescription: 'This spectacular paella gets its ebony black color from squid ink which also brings a deep marine flavor. The creamy rice pairs perfectly with prawns, all enhanced with a drizzle of lemon-infused olive oil and a touch of garlic.'
       },
       {
         name: 'HERGMA-STYLE PAELLA',
         description: 'Beef feet and chickpea paella, hergma style. Mediterranean fusion uniting Spanish tradition with North African hergma flavors.',
-        price: 170,
+        price: 340,
         forMinPersons: 2,
         detailedDescription: 'This original creation marries the art of Spanish paella with the flavors of traditional Moroccan Hergma. Beef feet, simmered for hours until tender, blend with creamy chickpeas and rice perfumed with mild spices for a unique taste experience between two Mediterranean shores.'
       },
       {
         name: 'PAELLA DEL SEÑORITOS',
         description: 'Generous marine feast of seafood and fish on a bed of round rice',
-        price: 230,
+        price: 460,
         forMinPersons: 2,
         detailedDescription: 'Our royal seafood paella combines a varied selection of marine treasures completely shelled for your comfort: fresh seafood and fish. The round rice captures all the seafood flavors for an incomparable iodized taste experience.'
       },
       {
         name: 'LOBSTER PAELLA',
         description: 'Luxurious paella adorned with whole lobster, revealing the quintessence of marine flavors',
-        price: 380,
+        price: 760,
         forMinPersons: 2,
         detailedDescription: 'This exceptional paella showcases lobster in all its splendor, placed at the center of a bed of golden rice flavored with its stock. The delicate flesh of this noble crustacean pairs perfectly with rice infused with marine flavors. A Mediterranean gastronomic experience par excellence.'
       },
       {
         name: 'VEGETABLE PAELLA',
         description: 'Colorful mosaic of seasonal vegetables on rice, celebration of garden flavors',
-        price: 140,
+        price: 280,
         forMinPersons: 2,
         detailedDescription: 'Our vegetarian paella highlights a generous selection of seasonal vegetables. Cooked in an aromatic herb stock, these vegetables transmit all their freshness to the rice for a dish as flavorful as it is colorful.'
       },
       {
         name: 'VALENCIAN PAELLA',
         description: 'The authentic paella from Valencia combining tender pieces of chicken and seasonal vegetables',
-        price: 180,
+        price: 360,
         forMinPersons: 2,
         detailedDescription: 'True to the authentic Valencian recipe, this paella combines golden chicken pieces with a selection of seasonal vegetables. The round rice, slowly cooked in seasoned stock, absorbs all the flavors to create this emblematic Spanish dish in its most traditional version.'
       },

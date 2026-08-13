@@ -150,7 +150,7 @@ const PaellasMenuItem: React.FC<MenuItem & { onExpand: () => void, isExpanded: b
                   <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
                   <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
                 </svg>
-                min {forMinPersons} pers
+                {forMinPersons} pers
               </div>
             )}
           </div>
@@ -182,9 +182,6 @@ const PaellasMenuSection: React.FC<MenuSection> = ({ title, items }) => {
         <h3 className="font-SweetSansProBold font-serif text-3xl tracking-wider text-amber-100">
           {title}
         </h3>
-        {title === 'PAELLAS' && (
-          <p className="text-amber-100/70 text-sm mt-2">Prix par Personne</p>
-        )}
       </div>
       
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -234,56 +231,56 @@ export default function PaellasMenu() {
         {
           name: 'PAELLA A BANDA',
           description: 'Riz rond avec petit calamar et petit crevette bouillon de poisson et sauce légère aïoli sur la paella',
-          price: 140,
+          price: 280,
           forMinPersons: 2,
           detailedDescription: 'Cette paella traditionnelle de la côte valencienne est préparée avec un riz rond cuit dans un riche bouillon de poisson. Servie avec une sauce aïoli légère pour rehausser les délicates saveurs marines selon votre goût.'
         },
         {
           name: 'PAELLA AUX CALAMARS ET CREVETTES',
           description: 'Riz doré garni de tendres rondelles de calamars et crevettes cuits à la perfection',
-          price: 160,
+          price: 320,
           forMinPersons: 2,
           detailedDescription: 'Notre paella aux fruits de mer associe un riz subtilement parfumé avec des calamars frais coupés en anneaux et des crevettes. Le tout est lentement mijoté dans un bouillon de poisson fait maison.'
         },
         {
           name: 'PAELLA NEGRA',
           description: 'Riz paella avec encre de seiche et gambas',
-          price: 170,
+          price: 340,
           forMinPersons: 2,
           detailedDescription: 'Cette paella spectaculaire tire sa couleur noir d\'ébène de l\'encre de seiche qui apporte également une saveur marine profonde. Le riz crémeux se marie parfaitement avec les gambas, le tout rehaussé d\'un filet d\'huile d\'olive infusée au citron et d\'un soupçon d\'ail.'
         },
         {
           name: 'PAELLA FAÇON HERGMA',
           description: 'Paella de pieds de boeuf et de pois chiches façon hergma. Fusion méditerranéenne unissant la tradition espagnole aux saveurs nord-africaines du hergma.',
-          price: 170,
+          price: 340,
           forMinPersons: 2,
           detailedDescription: 'Cette création originale marie l\'art de la paella espagnole avec les saveurs du traditionnel Hergma marocain. Les pieds de bœuf, mijotés pendant des heures jusqu\'à fondre, se mêlent aux pois chiches onctueux et au riz parfumé aux épices douces pour une expérience gustative unique entre deux rives de la Méditerranée.'
         },
         {
           name: 'PAELLA DEL SEÑORITOS',
           description: 'Généreux festin marin de fruits de mer et poisson sur un lit de riz rond',
-          price: 230,
+          price: 460,
           forMinPersons: 2,
           detailedDescription: 'Notre paella royale aux fruits de mer associe une sélection variée de trésors marins entièrement décortiqués pour votre confort : fruits de mer et poisson frais. Le riz rond capture toutes les saveurs des fruits de mer pour une expérience gustative iodée incomparable.'
         },
         {
           name: 'PAELLA AU LANGOUSTE',
           description: 'Luxueuse paella ornée de langouste entière, révélant la quintessence des saveurs marines',
-          price: 380,
+          price: 760,
           forMinPersons: 2,
           detailedDescription: 'Cette paella d\'exception met à l\'honneur la langouste dans toute sa splendeur, posée au centre d\'un lit de riz doré parfumé à son bouillon. La chair délicate de ce crustacé noble se marie parfaitement avec le riz imprégné des saveurs marines. Une expérience gastronomique méditerranéenne par excellence.'
         },
         {
           name: 'PAELLA DE LÉGUMES',
           description: 'Mosaïque colorée de légumes de saison sur du riz, célébration des saveurs du potager',
-          price: 140,
+          price: 280,
           forMinPersons: 2,
           detailedDescription: 'Notre paella végétarienne met en valeur une généreuse sélection de légumes de saison. Cuits dans un bouillon aux herbes aromatiques, ces légumes transmettent toute leur fraîcheur au riz pour un plat aussi savoureux que coloré.'
         },
         {
           name: 'PAELLA VALENCIANA',
           description: 'La paella authentique de Valence mariant tendres morceaux de poulet et légumes de saison',
-          price: 180,
+          price: 360,
           forMinPersons: 2,
           detailedDescription: 'Fidèle à l\'authentique recette valencienne, cette paella combine des morceaux de poulet dorés avec une sélection de légumes de saison. Le riz rond, cuit lentement dans un bouillon parfumé, absorbe toutes les saveurs pour créer ce plat emblématique de l\'Espagne dans sa version la plus traditionnelle.'
         },
