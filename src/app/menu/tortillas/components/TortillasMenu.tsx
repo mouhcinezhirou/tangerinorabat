@@ -215,6 +215,11 @@ export default function OeufsFrituresMenu() {
           description: 'Œufs cuits sur un lit de pommes de terre avec du chorizo grillé',
           price: 95,
           detailedDescription: 'Nos œufs aux jaunes oranges sont délicatement cuits sur un lit de pommes de terre tendres et accompagnés de chorizo halal légèrement grillé. Le jaune coulant se mêle aux pommes de terre et au chorizo pour créer une harmonie de saveurs rustiques et réconfortantes.'
+        },
+        {
+          name: 'TORTILLA ESPAGNOLE AU MANCHEGO GRAN CÉSAR',
+          description: 'Tortilla espagnole traditionnelle au fromage Manchego affiné.',
+          price: 90
         }
       ]
     },
@@ -258,18 +263,21 @@ export default function OeufsFrituresMenu() {
           detailedDescription: 'Notre interprétation du classique britannique associe un filet de cabillaud ultra-frais enrobé d\'une pâte tempura croustillante et aérienne, servi avec nos pommes de terre Hurricane en spirale à la texture incomparable. Le tout est accompagné d\'une sauce tartare maison aux câpres croquantes et cornichons finement hachés.'
         },
         {
-          name: 'FRITURE DU JOUR',
-          description: 'Petits rougets & éperlans croustillants',
-          price: 140,
-          detailedDescription: 'Une friture du jour composée de petits rougets et éperlans croustillants.',
-          isNew: true
-        },
-        {
           name: 'FRITURE DE POISSON',
           description: 'Généreuse sélection de poissons et fruits de mer frits à la perfection',
           price: 220,
           detailedDescription: 'Cette friture royale propose une sélection variée de poissons méditerranéens, calamars, crevettes et accras de morue, chacun enrobé d\'une panure spécifique qui sublime sa saveur naturelle. L\'assortiment est servi avec notre sauce tartare maison pour satisfaire toutes les envies.'
-        }
+        },
+        {
+          name: 'AUBERGINES FRITES AU MIEL',
+          description: 'Aubergines dorées et croustillantes, délicatement nappées de miel.',
+          price: 70
+        },
+        {
+          name: 'CAZÓN EN ADOBO',
+          description: 'Poisson mariné aux épices, puis délicatement frit selon la tradition andalouse.',
+          price: 80
+        },
       ]
     }
   ];

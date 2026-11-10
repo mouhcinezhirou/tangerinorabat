@@ -174,27 +174,27 @@ export default function CocktailsMenu() {
       items: [
 {
   name: 'TANGERINO',
-  description: 'Gin Bombay Sapphire, Cordial Tomate Clarifié, Jus de Citron, Vinaigre Romarin/Poivre',
+  description: 'Sherbet Cordial Mandarine, Liqueur Mandarine Napoléon, Prosecco',
   price: 120,
-  detailedDescription: 'Une réinterprétation audacieuse du martini classique révélant l\'inattendu mariage entre la botanique du Bombay Sapphire et la douceur umami du cordial tomate clarifié. Les gouttes de vinaigre au romarin et poivre apportent une finale aromatique saisissante, capturant l\'essence de Tanger entre Atlantique et Méditerranée.'
+  detailedDescription: 'La signature de la maison, une célébration pétillante des vergers d\'agrumes de Tanger. Un sherbet cordial à la mandarine rencontre la liqueur Mandarine Napoléon, couronné de Prosecco pour une finale vive et effervescente.'
 },
 {
   name: 'ACHAKAR',
-  description: 'Gin London Dry, Jus de Pastèque Fraîche, Menthe, Triple Sec',
+  description: 'Tequila Blanco, Jus de Betterave, Sirop Bourbon Vanille, Miel Infusé au Gingembre',
   price: 120,
-  detailedDescription: 'Baptisé d\'après la plage sauvage aux portes de Tanger, ce cocktail vibrant capture l\'énergie franche de l\'été. Le Gin London Dry rencontre la fraîcheur sucrée du jus de pastèque, la légèreté de la menthe et la profondeur du Triple Sec dans un équilibre parfait pour un voyage sensoriel inoubliable.'
+  detailedDescription: 'Baptisé d\'après la plage sauvage aux portes de Tanger, ce cocktail vibrant capture l\'énergie brute du littoral. La tequila blanco rencontre la douceur terreuse du jus de betterave, arrondie par un sirop bourbon vanille et la chaleur du miel infusé au gingembre.'
 },
 {
   name: 'HAFA',
-  description: 'Mezcal, Vermut Blanc, Cordial Vin Blanc, Liqueur Cacao, Bitter Cacao, Arôme Hydrosol Café',
+  description: 'Gin Infusé aux Figues Séchées et Dattes, Vermouth Dry/Bianco, Bitter Bianco',
   price: 120,
-  detailedDescription: 'Un hommage aux terrasses légendaires de Hafa surplombant le détroit de Gibraltar. Le mezcal fumé s\'unit au vermouth blanc et au cordial de vin blanc, tandis que la liqueur de cacao et le bitter apportent une profondeur envoûtante. L\'hydrosol de café vient couronner le tout d\'une touche aromatique mémorable.'
+  detailedDescription: 'Un hommage aux terrasses légendaires de Hafa surplombant le détroit de Gibraltar. Le gin infusé aux figues séchées et aux dattes apporte une profondeur miellée, adoucie par le vermouth dry bianco et relevée par une finale délicatement amère de bitter bianco.'
 },
 {
   name: 'CAP SPARTEL',
-  description: 'Bourbon, Aperol, Oleo Saccharum Pêche Rôtie, Jus de Citron',
+  description: 'Rhum Fat-Washed à la Noix de Coco, Oleo Saccharum Ananas Rôti, Liqueur de Coco, Liqueur de Cacao, Touche d\'Agrumes',
   price: 120,
-  detailedDescription: 'Inspiré par le légendaire phare du Cap Spartel où l\'Atlantique rencontre la Méditerranée, ce cocktail conjugue la chaleur du bourbon avec la vivacité de l\'Aperol. L\'oleo saccharum de pêche rôtie apporte une douceur fruitée et caramélisée unique, parfaitement équilibrée par la fraîcheur du citron.'
+  detailedDescription: 'Inspiré par le légendaire phare du Cap Spartel où l\'Atlantique rencontre la Méditerranée, ce cocktail associe un rhum fat-washed à la noix de coco à la douceur caramélisée de l\'oleo saccharum d\'ananas rôti. Les liqueurs de coco et de cacao apportent une profondeur tropicale et gourmande, avivée par une touche d\'agrumes.'
 }
       ]
     },

@@ -264,13 +264,6 @@ export default function PaellasMenu() {
           detailedDescription: 'Notre paella royale aux fruits de mer associe une sélection variée de trésors marins entièrement décortiqués pour votre confort : fruits de mer et poisson frais. Le riz rond capture toutes les saveurs des fruits de mer pour une expérience gustative iodée incomparable.'
         },
         {
-          name: 'PAELLA AU LANGOUSTE',
-          description: 'Luxueuse paella ornée de langouste entière, révélant la quintessence des saveurs marines',
-          price: 760,
-          forMinPersons: 2,
-          detailedDescription: 'Cette paella d\'exception met à l\'honneur la langouste dans toute sa splendeur, posée au centre d\'un lit de riz doré parfumé à son bouillon. La chair délicate de ce crustacé noble se marie parfaitement avec le riz imprégné des saveurs marines. Une expérience gastronomique méditerranéenne par excellence.'
-        },
-        {
           name: 'PAELLA DE LÉGUMES',
           description: 'Mosaïque colorée de légumes de saison sur du riz, célébration des saveurs du potager',
           price: 280,

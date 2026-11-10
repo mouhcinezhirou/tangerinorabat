@@ -167,18 +167,22 @@ export default function CassolettesMenu() {
     {
       title: 'CASSOLETTES DE LA MER',
       items: [
-        {
-        name: 'ANGULAS D\'ESPAGNE (100GR)',
-        description: 'Délicates civelles espagnoles cuites à l\'huile d\'olive, ail et piment fort',
-        price: 650,
-        detailedDescription: 'Ce mets d\'exception nous vient directement des côtes cantabriques d\'Espagne. Les angulas, ou civelles, sont préparées selon la tradition basque dans des cassolettes en terre cuite chauffées à haute température. Cuites avec une huile d\'olive extra vierge infusée à l\'ail et relevées d\'un piment fort, elles révèlent leur texture unique et leur saveur marine délicate. Servies fumantes pour en savourer chaque goutte.'
-      },
       {
         name: 'CREVETTES SAUVAGES À L\'AIL ET PIMENT FORT',
         description: 'Crevettes sauvages flambées dans une huile parfumée à l\'ail et au piment rouge',
         price: 180,
         detailedDescription: 'Nos crevettes sauvages pêchées en Méditerranée sont saisies dans une cassolette brûlante avec une huile d\'olive infusée à l\'ail frais et au piment rouge. Le jus de cuisson épicé et parfumé est idéal pour être savouré avec notre pain maison croustillant. Un plat emblématique qui réveille les papilles et évoque instantanément les tavernes méditerranéennes.'
-      }
+      },
+        {
+          name: 'CASSOLETTE DE POULPE, CREVETTES ET POMMES DE TERRE À L\'AIL',
+          description: 'Poulpe tendre, crevettes et pommes de terre délicatement relevés à l\'ail.',
+          price: 180
+        },
+        {
+          name: 'POMMES DE TERRE AUX CREVETTES ET CALAMARS, SAUCE TOMATE',
+          description: 'Pommes de terre mijotées avec crevettes et calamars dans une savoureuse sauce tomate.',
+          price: 180
+        }
     ]
   },
   {

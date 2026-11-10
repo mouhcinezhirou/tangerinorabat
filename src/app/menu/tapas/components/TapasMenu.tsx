@@ -199,12 +199,6 @@ export default function TapasEntreesMenu() {
           detailedDescription: 'Pommes de terre taillées en spirale puis frites à la perfection, accompagnées d\'une sauce bravas épicée, une sauce aïoli crémeuse et une sauce BBQ fumée.'
         },
         {
-          name: 'PIMIENTOS DEL PADRON',
-          description: 'Poivrons verts doux frits, accompagnés de fleur de sel',
-          price: 70,
-          detailedDescription: 'Un jeu de roulette espagnole où certains sont doux et d\'autres surprennent par leur chaleur, ces petits poivrons frits croustillants sont rehaussés par le craquant du gros sel de mer.'
-        },
-        {
           name: 'ANCHOIS AU VINAIGRE',
           description: 'Filets d\'anchois marinés à l\'huile d\'olive et au vinaigre de Xérès',
           price: 80,
@@ -213,7 +207,7 @@ export default function TapasEntreesMenu() {
         {
           name: 'LA BURRATA',
           description: 'Burrata fondante accompagnée de tomates lentement fumées au feu de bois',
-          price: 95,
+          price: 135,
           detailedDescription: 'Notre burrata crémeuse des Pouilles est servie avec des tomates doucement fumées sur braises de bois d\'olivier pendant plusieurs heures, le tout sublimé par notre huile d\'olive première pression à froid et basilic frais.'
         },
         {
@@ -235,28 +229,10 @@ export default function TapasEntreesMenu() {
           detailedDescription: 'Notre manchego Flor de Esgueva est affiné pendant 12 mois pour développer ses arômes complexes de noisette et de beurre.'
         },
         {
-          name: 'ASSORTIMENT DE JAMBON ET MANCHEGO',
-          description: 'Sélection de jambons ibériques et fromages espagnols avec accompagnements',
-          price: 200,
-          detailedDescription: 'Notre plateau de dégustation comprend une sélection raffinée de jambons ibériques et de fromages espagnols artisanaux, accompagnés d\'olives marinées, d\'amandes grillées au romarin et de pain croustillant.'
-        },
-        {
-          name: 'ASSORTIMENT DE BRESAOLA ET MANCHEGO',
-          description: 'Fines tranches de bresaola de dinde et de manchego affiné',
-          price: 90,
-          detailedDescription: 'La finesse de notre bresaola de dinde délicatement épicée se marie parfaitement avec la richesse du manchego affiné. Le tout est subtilement rehaussé d\'un filet d\'huile d\'olive vierge et de quelques gouttes de vinaigre balsamique réduit.'
-        },
-        {
           name: 'SALADE RUSSE',
           description: 'Version raffinée de la traditionnelle salade de légumes et mayonnaise',
           price: 70,
           detailedDescription: 'Notre interprétation élégante de la salade russe traditionnelle associe pommes de terre, carottes, le tout enrobé d\'une mayonnaise légère parfumée au citron et à l\'aneth frais.'
-        },
-        {
-          name: 'ENSALADILLA DE LANGOUSTE',
-          description: 'Version luxueuse de notre salade russe avec des morceaux de langouste fraîche',
-          price: 180,
-          detailedDescription: 'Cette version gastronomique de la salade russe est sublimée par des morceaux généreux de langouste de Méditerranée et une mayonnaise délicatement citronnée aux agrumes confits et à la ciboulette fraîche du jardin.'
         },
 {
   name: 'GRILLADE DE LÉGUMES DE SAISON',
@@ -282,18 +258,21 @@ export default function TapasEntreesMenu() {
   price: 140,
   detailedDescription: 'Nos cœurs d\'artichauts sont généreusement farcis d\'une délicate sélection de fruits de mer et gratinés au four pour une texture dorée et croustillante.'
 },
-{
-  name: 'ASPERGES DE TUDELA GRILLÉES SUR CRÈME DE TOMATE ET GRATINÉES AU PARMESAN',
-  description: 'Asperges de Tudela grillées servies sur une crème de tomate et gratinées au parmesan',
-  price: 140,
-  detailedDescription: 'Nos asperges de Tudela sont grillées à la perfection et servies sur un lit de crème de tomate maison, le tout gratiné avec du parmesan affiné.'
-},
-{
-  name: 'ASPERGES GRILLÉES À L\'HUILE D\'OLIVE ET AU CITRON',
-  description: 'Asperges grillées avec huile d\'olive et citron',
-  price: 140,
-  detailedDescription: 'Nos asperges sont grillées et simplement assaisonnées avec de l\'huile d\'olive extra vierge et un filet de citron frais.'
-}
+        {
+          name: 'SALPICÓN DE FRUITS DE MER',
+          description: 'Salade rafraîchissante de fruits de mer, subtilement assaisonnée.',
+          price: 90
+        },
+        {
+          name: 'ASADILLOS DE PIMIENTOS',
+          description: 'Poivrons rouges grillés, délicatement garnis de thon.',
+          price: 90
+        },
+        {
+          name: 'TARTARE DE THON',
+          description: 'Fines tranches de thon rouge et huile d\'olive aux accents méditerranéens.',
+          price: 140
+        }
       ]
     },
     {
@@ -316,7 +295,22 @@ export default function TapasEntreesMenu() {
           description: 'Composition fraîche de fruits de mer avec avocat et tomates cerises',
           price: 120,
           detailedDescription: 'Un festival marin associant crevettes, saumon fumé et calamars à des quartiers d\'avocat crémeux et des tomates cerises sur un lit de salade verte, le tout délicatement assaisonné d\'une vinaigrette aux agrumes et herbes fraîches.'
-        }
+        },
+        {
+          name: 'SALADE DU PÊCHEUR',
+          description: 'Laitue, tomates, avocat, calamars, crevettes et saumon fumé, accompagnés d\'une sauce cocktail.',
+          price: 140
+        },
+        {
+          name: 'SALADE MULTICOLORE',
+          description: 'Brocoli, thon, œufs, concombre, tomates cerises, tomates, oignons, haricots et carottes, vinaigrette maison.',
+          price: 80
+        },
+        {
+          name: 'SALADE AU FROMAGE DE CHÈVRE, FIGUES ET JAMBON',
+          description: 'Salade de fromage de chèvre, figues et jambon, une délicate alliance sucrée-salée.',
+          price: 120
+        },
       ]
     },
     {
@@ -327,12 +321,6 @@ export default function TapasEntreesMenu() {
           description: 'Fines tranches de tomate avec thon, câpres et huile d\'olive vierge extra',
           price: 120,
           detailedDescription: 'Un carpaccio raffiné de tomates Tangerino finement tranchées, offrant une fraîcheur acidulée équilibrée par la richesse du thon délicatement émietté. Agrémenté de câpres et sublimé par une généreuse huile d\'olive vierge extra. Une entrée légère et élégante qui célèbre la simplicité des saveurs méditerranéennes.'
-        },
-        {
-          name: 'CARPACCIO DE POULPE',
-          description: 'Fines tranches de poulpe tendre',
-          price: 120,
-          detailedDescription: 'Notre poulpe est d\'abord cuit lentement puis tranché finement. Chaque bouchée offre une tendre texture et un parfait équilibre des saveurs marines.'
         },
         {
           name: 'CARPACCIO DE THON ROUGE',

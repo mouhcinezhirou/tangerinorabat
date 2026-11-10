@@ -167,18 +167,22 @@ export default function CassolettesMenu() {
     {
       title: 'CAZUELITAS DEL MAR',
       items: [
-{
-        name: 'ANGULAS DE ESPAÑA (100GR)',
-        description: 'Delicadas angulas españolas cocidas en aceite de oliva con ajo y guindilla',
-        price: 650,
-        detailedDescription: 'Este manjar excepcional nos llega directamente de las costas cántabras de España. Las angulas se preparan según la tradición vasca en cazuelitas de barro calentadas a alta temperatura. Cocidas con aceite de oliva virgen extra infusionado con ajo y realzadas con guindilla, revelan su textura única y su delicado sabor marino. Se sirven humeantes para saborear cada gota.'
-      },
       {
         name: 'GAMBAS SALVAJES AL AJILLO Y GUINDILLA',
         description: 'Gambas salvajes flameadas en aceite aromatizado con ajo y guindilla roja',
         price: 180,
         detailedDescription: 'Nuestras gambas salvajes pescadas en el Mediterráneo se saltean en una cazuelita ardiente con aceite de oliva infusionado con ajo fresco y guindilla roja. El jugo de cocción picante y aromático es ideal para ser saboreado con nuestro pan casero crujiente. Un plato emblemático que despierta las papilas y evoca instantáneamente las tabernas mediterráneas.'
-      }
+      },
+        {
+          name: 'CAZUELITA DE PULPO, GAMBAS Y PATATAS AL AJO',
+          description: 'Pulpo tierno, gambas y patatas delicadamente realzados con ajo.',
+          price: 180
+        },
+        {
+          name: 'PATATAS CON GAMBAS Y CALAMARES EN SALSA DE TOMATE',
+          description: 'Patatas guisadas con gambas y calamares en una sabrosa salsa de tomate.',
+          price: 180
+        }
     ]
   },
   {

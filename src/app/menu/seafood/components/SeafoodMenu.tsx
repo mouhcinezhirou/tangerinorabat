@@ -211,7 +211,7 @@ export default function SeafoodMenuPage() {
     detailedDescription: 'Une trilogie vibrante de trésors marins "cuits" dans des leche de tigre, infusés de coriandre et d\'oignon rouge. Cette préparation authentique révèle toute la fraîcheur des produits de la mer dans un équilibre parfait de saveurs acidulées et d\'herbes aromatiques.'
   },
 {
-  name: 'CREVETTES ROUGES SAUVAGES',
+  name: 'BROCHETTES DE CREVETTES À LA MIBRASA',
   description: 'Succulentes crevettes rouges sauvages décortiquées, grillées au barbecue Mibrasa',
   price: 190,
   detailedDescription: 'Les précieuses crevettes rouges méditerranéennes, soigneusement décortiquées et grillées à la perfection. Une préparation raffinée qui met en valeur la chair tendre de ces crustacés d\'exception et leur saveur naturelle authentique.'

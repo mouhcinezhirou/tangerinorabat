@@ -44,13 +44,6 @@ export default function MenuCategorySection() {
 
   // Menu categories data with links
   const menuCategories: MenuCategory[] = [
-            {
-      id: 'huile',
-      title: 'Notre Huile',
-      description: 'Dégustation "ORO VERDE" - AOVE primé parmi les 10 meilleurs au monde',
-      image: '/huile.jpg',
-      link: '/menu/huile'
-    },
     {
       id: 'cocktails',
       title: 'Cocktails & Softs',

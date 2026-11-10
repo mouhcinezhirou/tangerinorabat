@@ -215,6 +215,11 @@ export default function HuevosFriturasMenu() {
           description: 'Huevos cocidos sobre un lecho de patatas con chorizo a la plancha',
           price: 95,
           detailedDescription: 'Nuestros huevos de yemas naranjas están delicadamente cocidos sobre un lecho de patatas tiernas y acompañados de chorizo halal ligeramente a la plancha. La yema líquida se mezcla con las patatas y el chorizo para crear una armonía de sabores rústicos y reconfortantes.'
+        },
+        {
+          name: 'TORTILLA ESPAÑOLA CON MANCHEGO GRAN CÉSAR',
+          description: 'Tortilla española tradicional con queso Manchego curado.',
+          price: 90
         }
       ]
     },
@@ -258,18 +263,21 @@ export default function HuevosFriturasMenu() {
           detailedDescription: 'Nuestra interpretación del clásico británico combina un filete de bacalao ultra-fresco rebozado en masa tempura crujiente y aireada, servido con nuestras patatas Hurricane en espiral de textura incomparable. Todo acompañado de salsa tártara casera con alcaparras crujientes y pepinillos finamente picados.'
         },
         {
-          name: 'FRITURA DE TEMPORADA',
-          description: 'Salmonetes pequeños y eperlano crujiente',
-          price: 160,
-          detailedDescription: 'Una fritura de temporada compuesta de salmonetes pequeños y eperlano crujiente.',
-          isNew: true
-        },
-        {
           name: 'FRITURA DE PESCADO',
           description: 'Generosa selección de pescados y mariscos fritos a la perfección',
           price: 220,
           detailedDescription: 'Esta fritura real propone una selección variada de pescados mediterráneos, calamares, gambas y buñuelos de bacalao, cada uno rebozado en un empanado específico que realza su sabor natural. El surtido se sirve con nuestra salsa tártara casera para satisfacer todos los gustos.'
-        }
+        },
+        {
+          name: 'BERENJENAS FRITAS CON MIEL',
+          description: 'Berenjenas doradas y crujientes, delicadamente bañadas en miel.',
+          price: 70
+        },
+        {
+          name: 'CAZÓN EN ADOBO',
+          description: 'Pescado marinado con especias y delicadamente frito según la tradición andaluza.',
+          price: 80
+        },
       ]
     }
   ];

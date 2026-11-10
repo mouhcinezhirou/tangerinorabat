@@ -211,7 +211,7 @@ export default function SeafoodMenuPage() {
     detailedDescription: 'Una trilogía vibrante de tesoros marinos "cocinados" en leche de tigre, infusionados con cilantro y cebolla roja. Esta preparación auténtica revela toda la frescura de los productos del mar en un equilibrio perfecto de sabores ácidos y hierbas aromáticas.'
   },
 {
-  name: 'CAMARONES ROJOS SALVAJES',
+  name: 'BROCHETAS DE CAMARONES A LA MIBRASA',
   description: 'Suculentos camarones rojos salvajes pelados, a la parrilla Mibrasa',
   price: 190,
   detailedDescription: 'Los preciados camarones rojos mediterráneos, cuidadosamente pelados y a la parrilla a la perfección. Una preparación refinada que destaca la carne tierna de estos crustáceos excepcionales y su auténtico sabor natural.'

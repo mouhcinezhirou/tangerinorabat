@@ -229,13 +229,13 @@ export default function FishMeatMenu() {
           detailedDescription: 'This noble fish is grilled with skin to develop all its flavors.'
         },
         {
-          name: 'GRILLED LINE-CAUGHT SEA BASS',
+          name: 'GRILLED SEA BASS',
           description: 'Sea bass fillet grilled over charcoal',
           price: 320,
           detailedDescription: 'Our sea bass fillet is grilled over charcoal to preserve its exceptional flavor.'
         },
         {
-          name: 'LINE-CAUGHT SEA BASS CASSEROLE',
+          name: 'SEA BASS CASSEROLE',
           description: 'Served with potatoes papas a lo pobre style',
           price: 320,
           detailedDescription: 'Our line-caught sea bass is served with potatoes papas a lo pobre style.'
@@ -245,7 +245,7 @@ export default function FishMeatMenu() {
           description: 'Sea bass cooked with coarse salt served with olive oil',
           price: 280,
           detailedDescription: 'Our sea bass is cooked with coarse salt and served with olive oil.'
-        }
+        },
       ]
     },
     {
@@ -282,7 +282,7 @@ export default function FishMeatMenu() {
           detailedDescription: 'Our keftas are prepared from minced meat seasoned with Moroccan spices.'
         },
         {
-          name: 'CHICKEN PAILLARD WITH SAUTÉED SPINACH',
+          name: 'CHICKEN PAILLARD',
           description: 'Flattened and grilled chicken breast, fresh spinach sautéed with garlic',
           price: 160,
           detailedDescription: 'Our chicken breast is delicately flattened then marinated with fresh herbs before being grilled to obtain tender and juicy meat. It is served with fresh spinach quickly sautéed with garlic and a drizzle of lemon olive oil that brings freshness and lightness.'

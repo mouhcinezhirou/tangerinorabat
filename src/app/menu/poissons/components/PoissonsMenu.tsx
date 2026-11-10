@@ -229,13 +229,13 @@ export default function PoissonViandeMenu() {
           detailedDescription: 'Ce poisson noble est grillé avec la peau pour développer toutes ses saveurs.'
         },
         {
-          name: 'BAR DE LIGNE GRILLÉ',
+          name: 'LOUP GRILLÉ',
           description: 'Filet de loup bar grillé au charbon',
           price: 320,
           detailedDescription: 'Notre filet de loup bar est grillé au charbon pour préserver sa saveur exceptionnelle.'
         },
         {
-          name: 'CASSOLETTE DE BAR DE LIGNE',
+          name: 'CASSOLETTE DE LOUP',
           description: 'Servi avec des pommes de terre façon papas a lo pobre',
           price: 320,
           detailedDescription: 'Notre bar de ligne est servi avec des pommes de terre façon papas a lo pobre.'
@@ -245,7 +245,7 @@ export default function PoissonViandeMenu() {
           description: 'Loup de mer cuit avec gros sel servi avec huile d\'olive',
           price: 280,
           detailedDescription: 'Notre loup de mer est cuit avec du gros sel et servi avec de l\'huile d\'olive.'
-        }
+        },
       ]
     },
     {
@@ -282,7 +282,7 @@ export default function PoissonViandeMenu() {
           detailedDescription: 'Nos keftas sont préparées à partir de viande hachée assaisonnée avec des épices marocaines.'
         },
         {
-          name: 'PAILLARDE DE POULET ACCOMPAGNÉE D\'ÉPINARDS SAUTÉS',
+          name: 'PAILLARDE DE POULET',
           description: 'Suprême de poulet aplati et grillé, épinards frais sautés à l\'ail',
           price: 160,
           detailedDescription: 'Notre suprême de poulet est délicatement aplati puis mariné aux herbes fraîches avant d\'être grillé pour obtenir une chair moelleuse et tendre. Il est accompagné d\'épinards frais rapidement sautés à l\'ail et d\'un filet d\'huile d\'olive citronnée qui apporte fraîcheur et légèreté.'

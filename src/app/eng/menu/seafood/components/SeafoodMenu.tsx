@@ -211,7 +211,7 @@ export default function SeafoodMenuPage() {
     detailedDescription: 'A vibrant trilogy of marine treasures "cooked" in zesty leche de tigre, infused with cilantro and red onion. This authentic preparation reveals all the freshness of the seafood in a perfect balance of tangy flavors and aromatic herbs.'
   },
 {
-  name: 'WILD RED SHRIMP',
+  name: 'MIBRASA SHRIMP SKEWERS',
   description: 'Succulent wild red shrimp peeled and grilled on the Mibrasa barbecue',
   price: 190,
   detailedDescription: 'Precious Mediterranean red prawns, carefully peeled and grilled to perfection. A refined preparation that showcases the tender flesh of these exceptional crustaceans and their authentic natural flavor.'

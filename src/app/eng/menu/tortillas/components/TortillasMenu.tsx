@@ -215,6 +215,11 @@ export default function EggsAndFriedFoodMenu() {
           description: 'Eggs cooked on a bed of potatoes with grilled chorizo',
           price: 95,
           detailedDescription: 'Our orange-yolked eggs are delicately cooked on a bed of tender potatoes and accompanied by lightly grilled halal chorizo. The runny yolk mixes with the potatoes and chorizo to create a harmony of rustic and comforting flavors.'
+        },
+        {
+          name: 'SPANISH TORTILLA WITH GRAN CÉSAR MANCHEGO',
+          description: 'Traditional Spanish tortilla with aged Manchego cheese.',
+          price: 90
         }
       ]
     },
@@ -258,18 +263,21 @@ export default function EggsAndFriedFoodMenu() {
           detailedDescription: 'Our interpretation of the British classic combines an ultra-fresh cod fillet coated in crispy and airy tempura batter, served with our Hurricane spiral potatoes with incomparable texture. The whole is accompanied by homemade tartare sauce with crunchy capers and finely chopped pickles.'
         },
         {
-          name: 'SEASONAL CRISPY FRY',
-          description: 'Baby red mullet & smelt',
-          price: 160,
-          detailedDescription: 'A seasonal crispy fry of baby red mullet and smelt.',
-          isNew: true
-        },
-        {
           name: 'MIXED FISH FRY',
           description: 'Generous selection of fish and seafood fried to perfection',
           price: 220,
           detailedDescription: 'This royal fry offers a varied selection of Mediterranean fish, squid, shrimp and cod fritters, each coated in a specific breading that enhances its natural flavor. The assortment is served with our homemade tartare sauce to satisfy all desires.'
-        }
+        },
+        {
+          name: 'FRIED EGGPLANT WITH HONEY',
+          description: 'Golden, crispy eggplant delicately drizzled with honey.',
+          price: 70
+        },
+        {
+          name: 'CAZÓN EN ADOBO',
+          description: 'Fish marinated in spices, then delicately fried in the Andalusian tradition.',
+          price: 80
+        },
       ]
     }
   ];

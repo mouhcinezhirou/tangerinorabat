@@ -264,13 +264,6 @@ export default function PaellasMenu() {
         detailedDescription: 'Our royal seafood paella combines a varied selection of marine treasures completely shelled for your comfort: fresh seafood and fish. The round rice captures all the seafood flavors for an incomparable iodized taste experience.'
       },
       {
-        name: 'LOBSTER PAELLA',
-        description: 'Luxurious paella adorned with whole lobster, revealing the quintessence of marine flavors',
-        price: 760,
-        forMinPersons: 2,
-        detailedDescription: 'This exceptional paella showcases lobster in all its splendor, placed at the center of a bed of golden rice flavored with its stock. The delicate flesh of this noble crustacean pairs perfectly with rice infused with marine flavors. A Mediterranean gastronomic experience par excellence.'
-      },
-      {
         name: 'VEGETABLE PAELLA',
         description: 'Colorful mosaic of seasonal vegetables on rice, celebration of garden flavors',
         price: 280,

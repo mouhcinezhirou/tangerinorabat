@@ -264,13 +264,6 @@ export default function PaellasMenu() {
         detailedDescription: 'Nuestra paella real de mariscos combina una selección variada de tesoros marinos completamente pelados para su comodidad: mariscos y pescado fresco. El arroz redondo captura todos los sabores de los mariscos para una experiencia gustativa yodada incomparable.'
       },
       {
-        name: 'PAELLA DE BOGAVANTE',
-        description: 'Lujosa paella adornada con bogavante entero, revelando la quintaesencia de los sabores marinos',
-        price: 760,
-        forMinPersons: 2,
-        detailedDescription: 'Esta paella excepcional pone en valor el bogavante en todo su esplendor, colocado en el centro de un lecho de arroz dorado aromatizado con su caldo. La carne delicada de este crustáceo noble se casa perfectamente con el arroz impregnado de sabores marinos. Una experiencia gastronómica mediterránea por excelencia.'
-      },
-      {
         name: 'PAELLA DE VERDURAS',
         description: 'Mosaico colorido de verduras de temporada sobre arroz, celebración de los sabores del huerto',
         price: 280,

@@ -229,13 +229,13 @@ export default function MenuPescadoCarne() {
           descripcionDetallada: 'Este pescado noble se asa con piel para desarrollar todos sus sabores.'
         },
         {
-          nombre: 'LUBINA DE LÍNEA A LA PARRILLA',
+          nombre: 'LUBINA A LA PARRILLA',
           descripcion: 'Filete de lubina asado al carbón',
           precio: 320,
           descripcionDetallada: 'Nuestro filete de lubina se asa al carbón para preservar su sabor excepcional.'
         },
         {
-          nombre: 'CAZUELA DE LUBINA DE LÍNEA',
+          nombre: 'CAZUELA DE LUBINA',
           descripcion: 'Servida con patatas estilo papas a lo pobre',
           precio: 320,
           descripcionDetallada: 'Nuestra lubina de línea se sirve con patatas estilo papas a lo pobre.'
@@ -245,7 +245,7 @@ export default function MenuPescadoCarne() {
           descripcion: 'Lubina cocida con sal gorda servida con aceite de oliva',
           precio: 280,
           descripcionDetallada: 'Nuestra lubina se cocina con sal gorda y se sirve con aceite de oliva.'
-        }
+        },
       ]
     },
     {
@@ -282,7 +282,7 @@ export default function MenuPescadoCarne() {
           descripcionDetallada: 'Nuestras keftas se preparan a partir de carne picada sazonada con especias marroquíes.'
         },
         {
-          nombre: 'PECHUGA DE POLLO APLASTADA CON ESPINACAS SALTEADAS',
+          nombre: 'PECHUGA DE POLLO APLASTADA',
           descripcion: 'Pechuga de pollo aplastada y asada, espinacas frescas salteadas con ajo',
           precio: 160,
           descripcionDetallada: 'Nuestra pechuga de pollo se aplasta delicadamente y luego se marina con hierbas frescas antes de asarse para obtener una carne tierna y jugosa. Se acompaña de espinacas frescas salteadas rápidamente con ajo y un chorrito de aceite de oliva al limón que aporta frescura y ligereza.'

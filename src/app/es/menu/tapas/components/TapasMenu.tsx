@@ -199,12 +199,6 @@ export default function TapasEntreesMenu() {
           detailedDescription: 'Patatas cortadas en espiral y fritas a la perfección, acompañadas de una salsa bravas picante, una salsa alioli cremosa y una salsa BBQ ahumada.'
         },
         {
-          name: 'PIMIENTOS DEL PADRÓN',
-          description: 'Pimientos verdes dulces fritos, acompañados de flor de sal',
-          price: 70,
-          detailedDescription: 'Un juego de ruleta española donde algunos son dulces y otros sorprenden por su calor, estos pequeños pimientos fritos crujientes se realzan con el crujido de la sal marina gruesa.'
-        },
-        {
           name: 'ANCHOAS EN VINAGRE',
           description: 'Filetes de anchoa marinados en aceite de oliva y vinagre de Jerez',
           price: 80,
@@ -213,7 +207,7 @@ export default function TapasEntreesMenu() {
         {
           name: 'LA BURRATA',
           description: 'Burrata cremosa acompañada de tomates lentamente ahumados a la leña',
-          price: 95,
+          price: 135,
           detailedDescription: 'Nuestra cremosa burrata de Apulia se sirve con tomates suavemente ahumados sobre brasas de madera de olivo durante varias horas, todo ello sublimado con nuestro aceite de oliva de primera presión en frío y albahaca fresca.'
         },
         {
@@ -240,29 +234,11 @@ export default function TapasEntreesMenu() {
           price: 220,
           detailedDescription: 'Nuestro jamón ibérico proviene de cerdos criados en libertad y alimentados con bellotas. Curado durante 36 meses en las mejores condiciones, ofrece una textura fundente y aromas complejos a avellana con una ligera nota dulce.'
         },
-                {
-          name: 'SURTIDO DE JAMÓN Y MANCHEGO',
-          description: 'Selección de jamones ibéricos y quesos españoles con acompañamientos',
-          price: 200,
-          detailedDescription: 'Nuestra tabla de degustación incluye una refinada selección de jamones ibéricos y quesos españoles artesanales, acompañados de aceitunas marinadas, almendras tostadas al romero y pan crujiente.'
-        },
-        {
-          name: 'SURTIDO DE BRESAOLA Y MANCHEGO',
-          description: 'Finas lonchas de bresaola de pavo y de manchego curado',
-          price: 90,
-          detailedDescription: 'La finura de nuestra bresaola de pavo delicadamente especiada se combina perfectamente con la riqueza del manchego curado. Todo ello está sutilmente realzado con un chorrito de aceite de oliva virgen y unas gotas de vinagre balsámico reducido.'
-        },
         {
           name: 'ENSALADILLA RUSA',
           description: 'Versión refinada de la tradicional ensaladilla de verduras y mayonesa',
           price: 70,
           detailedDescription: 'Nuestra elegante interpretación de la ensaladilla rusa tradicional combina patatas, zanahorias, todo ello envuelto en una ligera mayonesa perfumada con limón y eneldo fresco.'
-        },
-        {
-          name: 'ENSALADILLA DE LANGOSTA',
-          description: 'Versión lujosa de nuestra ensaladilla rusa con trozos de langosta fresca',
-          price: 180,
-          detailedDescription: 'Esta versión gastronómica de la ensaladilla rusa se sublima con generosos trozos de langosta del Mediterráneo y una mayonesa delicadamente alimonada con cítricos confitados y cebollino fresco del huerto.'
         },
 {
   name: 'PARRILLADA DE VERDURAS DE TEMPORADA',
@@ -288,18 +264,21 @@ export default function TapasEntreesMenu() {
   price: 140,
   detailedDescription: 'Nuestros corazones de alcachofas están generosamente rellenos de una delicada selección de mariscos y gratinados al horno para obtener una textura dorada y crujiente.'
 },
-{
-  name: 'ESPÁRRAGOS DE TUDELA A LA BRASA SOBRE CREMA DE TOMATE Y GRATINADOS CON PARMESANO',
-  description: 'Espárragos de Tudela a la brasa servidos sobre crema de tomate y gratinados con parmesano',
-  price: 140,
-  detailedDescription: 'Nuestros espárragos de Tudela se asan a la perfección y se sirven sobre un lecho de crema de tomate casera, todo ello gratinado con parmesano curado.'
-},
-{
-  name: 'ESPÁRRAGOS A LA BRASA CON ACEITE Y LIMÓN',
-  description: 'Espárragos a la brasa con aceite de oliva y limón',
-  price: 140,
-  detailedDescription: 'Nuestros espárragos se asan a la brasa y se condimentan simplemente con aceite de oliva virgen extra y un chorrito de limón fresco.'
-}
+        {
+          name: 'SALPICÓN DE MARISCOS',
+          description: 'Refrescante ensalada de mariscos, sutilmente aderezada.',
+          price: 90
+        },
+        {
+          name: 'ASADILLOS DE PIMIENTOS',
+          description: 'Pimientos rojos asados, delicadamente cubiertos de atún.',
+          price: 90
+        },
+        {
+          name: 'TARTAR DE ATÚN',
+          description: 'Finas láminas de atún rojo y aceite de oliva con acentos mediterráneos.',
+          price: 140
+        }
       ]
     },
     {
@@ -322,7 +301,22 @@ export default function TapasEntreesMenu() {
           description: 'Composición fresca de mariscos con aguacate y tomates cherry',
           price: 120,
           detailedDescription: 'Un festival marino que combina gambas, salmón ahumado y calamares con cuartos de aguacate cremoso y tomates cherry sobre un lecho de ensalada verde, todo delicadamente aliñado con vinagreta de cítricos y hierbas frescas.'
-        }
+        },
+        {
+          name: 'ENSALADA DEL PESCADOR',
+          description: 'Lechuga, tomates, aguacate, calamares, gambas y salmón ahumado, acompañados de salsa cocktail.',
+          price: 140
+        },
+        {
+          name: 'ENSALADA MULTICOLOR',
+          description: 'Brócoli, atún, huevos, pepino, tomates cherry, tomates, cebollas, judías y zanahorias, vinagreta de la casa.',
+          price: 80
+        },
+        {
+          name: 'ENSALADA DE QUESO DE CABRA, HIGOS Y JAMÓN',
+          description: 'Ensalada de queso de cabra, higos y jamón, una delicada alianza dulce-salada.',
+          price: 120
+        },
       ]
     },
     {
@@ -333,12 +327,6 @@ export default function TapasEntreesMenu() {
           description: 'Finas lonchas de tomate con atún, alcaparras y aceite de oliva virgen extra',
           price: 120,
           detailedDescription: 'Un carpaccio refinado de tomates Tangerino finamente laminados, ofreciendo una frescura ácida equilibrada por la riqueza del atún delicadamente desmenuzado. Adornado con alcaparras y sublimado por un generoso aceite de oliva virgen extra. Un entrante ligero y elegante que celebra la simplicidad de los sabores mediterráneos.'
-        },
-        {
-          name: 'CARPACCIO DE PULPO',
-          description: 'Finas lonchas de pulpo tierno',
-          price: 120,
-          detailedDescription: 'Nuestro pulpo se cuece primero lentamente y luego se lamina finamente. Cada bocado ofrece una textura tierna y un perfecto equilibrio de sabores marinos.'
         },
         {
           name: 'CARPACCIO DE ATÚN ROJO',

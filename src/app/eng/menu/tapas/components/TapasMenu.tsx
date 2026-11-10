@@ -199,12 +199,6 @@ export default function TapasEntreesMenu() {
           detailedDescription: 'Potatoes cut in a spiral pattern and fried to perfection, served with a spicy bravas sauce, a creamy aioli sauce, and a smoky BBQ sauce.'
         },
         {
-          name: 'PIMIENTOS DEL PADRON',
-          description: 'Fried sweet green peppers, accompanied by fleur de sel',
-          price: 70,
-          detailedDescription: 'A Spanish roulette game where some are mild and others surprise with their heat, these crispy fried little peppers are enhanced by the crunch of coarse sea salt.'
-        },
-        {
           name: 'VINEGAR ANCHOVIES',
           description: 'Anchovy fillets marinated in olive oil and sherry vinegar',
           price: 80,
@@ -213,7 +207,7 @@ export default function TapasEntreesMenu() {
         {
           name: 'BURRATA',
           description: 'Creamy burrata served with tomatoes slowly smoked over wood fire',
-          price: 95,
+          price: 135,
           detailedDescription: 'Our creamy burrata from Puglia is served with tomatoes gently smoked over olive wood embers for several hours, all enhanced by our cold-pressed olive oil and fresh basil.'
         },
         {
@@ -241,28 +235,10 @@ export default function TapasEntreesMenu() {
           detailedDescription: 'Our Iberian ham comes from free-range pigs fed on acorns. Aged for 36 months in the best conditions, it offers a melt-in-your-mouth texture and complex hazelnut flavors with a slight sweet note.'
         },
         {
-          name: 'HAM AND MANCHEGO ASSORTMENT',
-          description: 'Selection of Iberian hams and Spanish cheeses with accompaniments',
-          price: 200,
-          detailedDescription: 'Our tasting platter includes a refined selection of Iberian hams and artisanal Spanish cheeses, accompanied by marinated olives, rosemary-roasted almonds, and crispy bread.'
-        },
-        {
-          name: 'BRESAOLA AND MANCHEGO ASSORTMENT',
-          description: 'Thin slices of turkey bresaola and aged manchego',
-          price: 90,
-          detailedDescription: 'The finesse of our delicately spiced turkey bresaola pairs perfectly with the richness of aged manchego. The combination is subtly enhanced with a drizzle of virgin olive oil and a few drops of reduced balsamic vinegar.'
-        },
-        {
           name: 'RUSSIAN SALAD',
           description: 'Refined version of the traditional vegetable and mayonnaise salad',
           price: 70,
           detailedDescription: 'Our elegant interpretation of traditional Russian salad combines finely chopped potatoes, carrots, all coated in a light mayonnaise flavored with lemon and fresh dill.'
-        },
-        {
-          name: 'LANGOUSTINE ENSALADILLA',
-          description: 'Luxurious version of our Russian salad with pieces of fresh langoustine',
-          price: 180,
-          detailedDescription: 'This gourmet version of Russian salad is sublimed by generous pieces of Mediterranean langoustine and delicately lemony mayonnaise with candied citrus and fresh garden chives.'
         },
 {
   name: 'GRILLED SEASONAL VEGETABLES',
@@ -288,18 +264,21 @@ export default function TapasEntreesMenu() {
   price: 140,
   detailedDescription: 'Our artichoke hearts are generously stuffed with a delicate selection of seafood and oven-gratinated for a golden, crispy texture.'
 },
-{
-  name: 'GRILLED TUDELA ASPARAGUS ON TOMATO CREAM AND GRATINATED WITH PARMESAN',
-  description: 'Grilled Tudela asparagus served on tomato cream and gratinated with Parmesan cheese',
-  price: 140,
-  detailedDescription: 'Our Tudela asparagus are grilled to perfection and served on a bed of homemade tomato cream, all gratinated with aged Parmesan.'
-},
-{
-  name: 'GRILLED ASPARAGUS WITH OLIVE OIL AND LEMON',
-  description: 'Grilled asparagus with olive oil and lemon',
-  price: 140,
-  detailedDescription: 'Our asparagus are grilled and simply seasoned with extra virgin olive oil and a drizzle of fresh lemon.'
-}
+        {
+          name: 'SEAFOOD SALPICÓN',
+          description: 'Refreshing seafood salad, subtly seasoned.',
+          price: 90
+        },
+        {
+          name: 'ASADILLOS DE PIMIENTOS',
+          description: 'Grilled red peppers, delicately topped with tuna.',
+          price: 90
+        },
+        {
+          name: 'TUNA TARTARE',
+          description: 'Thin slices of bluefin tuna and olive oil with Mediterranean accents.',
+          price: 140
+        }
       ]
     },
     {
@@ -322,7 +301,22 @@ export default function TapasEntreesMenu() {
           description: 'Fresh composition of seafood with avocado and cherry tomatoes',
           price: 120,
           detailedDescription: 'A marine festival combining shrimp, smoked salmon and calamari with creamy avocado quarters and cherry tomatoes on a bed of green salad, all delicately seasoned with citrus and fresh herb vinaigrette.'
-        }
+        },
+        {
+          name: 'FISHERMAN\'S SALAD',
+          description: 'Lettuce, tomatoes, avocado, squid, shrimp and smoked salmon, served with cocktail sauce.',
+          price: 140
+        },
+        {
+          name: 'MULTICOLOR SALAD',
+          description: 'Broccoli, tuna, eggs, cucumber, cherry tomatoes, tomatoes, onions, beans and carrots, house vinaigrette.',
+          price: 80
+        },
+        {
+          name: 'GOAT CHEESE, FIG AND HAM SALAD',
+          description: 'Salad of goat cheese, figs and ham, a delicate sweet-and-savory combination.',
+          price: 120
+        },
       ]
     },
     {
@@ -333,12 +327,6 @@ export default function TapasEntreesMenu() {
           description: 'Thin slices of tomato with tuna, capers and extra virgin olive oil',
           price: 120,
           detailedDescription: 'A refined carpaccio of finely sliced Tangerino tomatoes, offering acidic freshness balanced by the richness of delicately crumbled tuna. Garnished with capers and sublimed by generous extra virgin olive oil. A light and elegant starter that celebrates the simplicity of Mediterranean flavors.'
-        },
-        {
-          name: 'OCTOPUS CARPACCIO',
-          description: 'Thin slices of tender octopus',
-          price: 120,
-          detailedDescription: 'Our octopus is first slowly cooked then finely sliced. Each bite offers tender texture and perfect balance of marine flavors.'
         },
         {
           name: 'RED TUNA CARPACCIO',

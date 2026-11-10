@@ -175,27 +175,27 @@ export default function CocktailsMenu() {
       items: [
 {
   name: 'TANGERINO',
-  description: 'Ginebra Bombay Sapphire, Cordial Tomate Clarificado, Zumo Limón, Vinagre Romero/Pimienta',
+  description: 'Sorbete Cordial de Mandarina, Licor Mandarine Napoléon, Prosecco',
   price: 120,
-  detailedDescription: 'Una reinterpretación atrevida del martini clásico que revela la inesperada unión entre la botánica del Bombay Sapphire y la dulzura umami del cordial de tomate clarificado. Un toque de vinagre de romero y pimienta aporta un final aromático impactante, capturando la esencia de Tánger entre dos océanos.'
+  detailedDescription: 'La firma de la casa, una celebración burbujeante de los cítricos de Tánger. Un sherbet cordial de mandarina se une al licor Mandarine Napoléon, coronado con Prosecco para un final fresco y efervescente.'
 },
 {
   name: 'ACHAKAR',
-  description: 'Gin London Dry, Zumo de Sandía Fresca, Menta, Triple Sec',
+  description: 'Tequila Blanco, Zumo de Remolacha, Sirope Bourbon Vainilla, Miel Infusionada con Jengibre',
   price: 120,
-  detailedDescription: 'Bautizado con el nombre de la playa salvaje a las puertas de Tánger, este cóctel vibrante captura la energía fresca del verano. El Gin London Dry se une a la frescura dulce del zumo de sandía, la ligereza de la menta y la profundidad del Triple Sec en un equilibrio perfecto para un viaje sensorial inolvidable.'
+  detailedDescription: 'Bautizado con el nombre de la playa salvaje a las puertas de Tánger, este cóctel vibrante captura la energía bruta de la costa. El tequila blanco se une a la dulzura terrosa del zumo de remolacha, redondeada por un sirope de bourbon y vainilla y el calor de la miel infusionada con jengibre.'
 },
 {
   name: 'HAFA',
-  description: 'Mezcal, Vermut Blanco, Cordial Vino Blanco, Licor Cacao, Bitter Cacao, Aroma: Hidrosol Café',
+  description: 'Ginebra Infusionada con Higos Secos y Dátiles, Vermut Dry/Bianco, Bitter Bianco',
   price: 120,
-  detailedDescription: 'Un homenaje a las legendarias terrazas de Hafa con vistas al Estrecho de Gibraltar. El mezcal ahumado se une al vermut blanco y al cordial de vino blanco, mientras que el licor de cacao y los bitters añaden una profundidad hipnótica. El hidrosol de café corona la experiencia con un toque aromático inolvidable.'
+  detailedDescription: 'Un homenaje a las legendarias terrazas de Hafa con vistas al Estrecho de Gibraltar. La ginebra infusionada con higos secos y dátiles aporta una profundidad melosa, suavizada por el vermut dry bianco y realzada por un delicado final amargo de bitter bianco.'
 },
 {
   name: 'CAP SPARTEL',
-  description: 'Bourbon, Aperol, Oleo Saccharum Melocotón Asado, Zumo Limón',
+  description: 'Ron Fat-Washed de Coco, Oleo Saccharum de Piña Asada, Licor de Coco, Licor de Cacao, Toque Cítrico',
   price: 120,
-  detailedDescription: 'Inspirado en el legendario faro del Cabo Espartel donde el Atlántico se encuentra con el Mediterráneo, este cóctel combina el calor del bourbon con la vivacidad del Aperol. El oleo saccharum de melocotón asado aporta una dulzura caramelizada y frutal única, perfectamente equilibrada por la frescura del limón.'
+  detailedDescription: 'Inspirado en el legendario faro del Cabo Espartel donde el Atlántico se encuentra con el Mediterráneo, este cóctel combina un ron fat-washed de coco con la dulzura caramelizada del oleo saccharum de piña asada. Los licores de coco y cacao aportan una profundidad tropical y golosa, avivada por un toque cítrico.'
 }
 
       ]

@@ -34,9 +34,9 @@ export default function BeerSpiritsMenuPage() {
       { name: 'San Miguel 33cl', price: 45 },
       { name: 'Mahou Original 33cl', price: 50 },
       { name: 'San Miguel Non-Alcoholic', price: 50 },
-      { name: 'Smirnoff Ice', price: 60 },
-      { name: 'Budweiser', price: 60 },
-      { name: 'Leffe Blonde 33cl', price: 60 },
+      { name: 'Smirnoff Ice', price: 75 },
+      { name: 'Budweiser', price: 75 },
+      { name: 'Leffe Blonde 33cl', price: 85 },
       { name: 'Corona', price: 80 }
     ],
     aperitifs: [

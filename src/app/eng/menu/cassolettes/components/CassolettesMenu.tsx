@@ -167,18 +167,22 @@
       {
         title: 'SEAFOOD CASSOLETTES',
         items: [
- {
-        name: 'SPANISH ANGULAS (100GR)',
-        description: 'Delicate Spanish baby eels cooked in olive oil with garlic and hot pepper',
-        price: 650,
-        detailedDescription: 'This exceptional delicacy comes directly from the Cantabrian coast of Spain. The angulas, or baby eels, are prepared according to Basque tradition in clay casseroles heated to high temperature. Cooked with extra virgin olive oil infused with garlic and enhanced with hot pepper, they reveal their unique texture and delicate marine flavor. Served steaming hot to savor every drop.'
-      },
       {
         name: 'WILD SHRIMP WITH GARLIC AND HOT PEPPER',
         description: 'Wild shrimp flambéed in oil flavored with garlic and red pepper',
         price: 180,
         detailedDescription: 'Our wild shrimp caught in the Mediterranean are seared in a burning casserole with olive oil infused with fresh garlic and red pepper. The spicy and fragrant cooking juice is ideal to be enjoyed with our crispy homemade bread. An emblematic dish that awakens the taste buds and instantly evokes Mediterranean taverns.'
       },
+        {
+          name: 'OCTOPUS, SHRIMP AND GARLIC POTATO CASSOLETTE',
+          description: 'Tender octopus, shrimp and potatoes delicately seasoned with garlic.',
+          price: 180
+        },
+        {
+          name: 'POTATOES WITH SHRIMP AND SQUID, TOMATO SAUCE',
+          description: 'Potatoes simmered with shrimp and squid in a flavorful tomato sauce.',
+          price: 180
+        }
     ]
   },
   {

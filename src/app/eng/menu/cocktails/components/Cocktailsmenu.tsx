@@ -174,27 +174,27 @@ const handleShotExpand = (index: number) => {
   items: [
 {
   name: 'TANGERINO',
-  description: 'Bombay Sapphire Gin, Clarified Tomato Cordial, Lemon Juice, Rosemary/Pepper Vinegar',
+  description: 'Mandarin Cordial Sherbet, Mandarine Napoléon Liqueur, Prosecco',
   price: 120,
-  detailedDescription: 'A bold reimagining of the classic martini, unveiling an unexpected harmony between Bombay Sapphire\'s botanicals and the umami sweetness of clarified tomato cordial. A touch of rosemary and pepper vinegar delivers a striking aromatic finish, capturing the essence of Tangier where two oceans meet.'
+  detailedDescription: 'The house signature, a sparkling celebration of Tangier\'s citrus groves. A silky mandarin cordial sherbet meets Mandarine Napoléon liqueur, topped with Prosecco for a bright, effervescent finish.'
 },
 {
   name: 'ACHAKAR',
-  description: 'London Dry Gin, Fresh Watermelon Juice, Mint, Orange Liqueur',
+  description: 'Blanco Tequila, Beetroot Juice, Vanilla Bourbon Syrup, Ginger-Infused Honey',
   price: 120,
-  detailedDescription: 'Named after the wild beach at Tangier\'s doorstep, this vibrant cocktail captures the raw energy of summer. London Dry Gin meets the sweet freshness of watermelon juice, a hint of mint and the depth of orange liqueur in a perfect balance for an unforgettable sensory journey.'
+  detailedDescription: 'Named after the wild beach at Tangier\'s doorstep, this vibrant cocktail captures the raw energy of the coast. Blanco tequila meets the earthy sweetness of beetroot juice, rounded by vanilla bourbon syrup and a warm kick of ginger-infused honey.'
 },
 {
   name: 'HAFA',
-  description: 'Mezcal, Dry Vermouth, White Wine Cordial, Cacao Liqueur, Cacao Bitters, Coffee Hydrosol Aroma',
+  description: 'Dried Fig and Date-Infused Gin, Dry/Bianco Vermouth, Bitter Bianco',
   price: 120,
-  detailedDescription: 'A tribute to the legendary Hafa terraces overlooking the Strait of Gibraltar. Smoky mezcal unites with dry vermouth and white wine cordial, while cacao liqueur and bitters add a haunting depth. Coffee hydrosol crowns the experience with an unforgettable aromatic touch.'
+  detailedDescription: 'A tribute to the legendary Hafa terraces overlooking the Strait of Gibraltar. Gin infused with dried figs and dates brings a rich, honeyed depth, softened by dry bianco vermouth and lifted by a delicate bitter bianco finish.'
 },
 {
   name: 'CAP SPARTEL',
-  description: 'Bourbon, Aperol, Roasted Peach Oleo Saccharum, Lemon Juice',
+  description: 'Coconut Fat-Washed Rum, Roasted Pineapple Oleo Saccharum, Coconut Liqueur, Cacao Liqueur, Citrus Touch',
   price: 120,
-  detailedDescription: 'Inspired by the legendary Cap Spartel lighthouse where the Atlantic meets the Mediterranean, this cocktail pairs the warmth of bourbon with the vivid brightness of Aperol. Roasted peach oleo saccharum brings a uniquely caramelized, fruity sweetness perfectly balanced by fresh citrus.'
+  detailedDescription: 'Inspired by the legendary Cap Spartel lighthouse where the Atlantic meets the Mediterranean, this cocktail pairs silky coconut fat-washed rum with the caramelized sweetness of roasted pineapple oleo saccharum. Coconut and cacao liqueurs add a tropical, indulgent depth, brightened by a touch of citrus.'
 }
       ]
     },
